@@ -325,6 +325,8 @@ gaerhf:gudimallam-lingam a gaerhf:human-figure ;
    gaerhf:earliest-date -200 ;
    gaerhf:latest-date 100 .
 
+
+
 gaerhf:descent-of-the-ganges a gaerhf:human-figure ;
    gaerhf:described-by <https://en.wikipedia.org/wiki/Descent_of_the_Ganges_(Mahabalipuram)> ;
    gaerhf:period-note "Pallava Dynasty (India)" ;
