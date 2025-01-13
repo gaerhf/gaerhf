@@ -139,6 +139,7 @@ gaerhf:tyara-maskette a gaerhf:human-figure ;
    gaerhf:latest-date 500 .
 
 gaerhf:egyptian-predynastic-female-figurine a gaerhf:representation-of-human-figure ;
+   rdfs:label "Egyptian Predynastic Female Figurine" ;
    gaerhf:described-by <https://www.brooklynmuseum.org/opencollection/objects/4223> ;
    gaerhf:earliest-date -3650 ;
    gaerhf:latest-date -3300 ;
