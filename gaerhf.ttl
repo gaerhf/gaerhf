@@ -325,13 +325,18 @@ gaerhf:gudimallam-lingam a gaerhf:human-figure ;
    gaerhf:earliest-date -200 ;
    gaerhf:latest-date 100 .
 
-
-
 gaerhf:descent-of-the-ganges a gaerhf:human-figure ;
    gaerhf:described-by <https://en.wikipedia.org/wiki/Descent_of_the_Ganges_(Mahabalipuram)> ;
    gaerhf:period-note "Pallava Dynasty (India)" ;
    gaerhf:earliest-date 600 ;
    gaerhf:latest-date 700 .
+
+gaerhf:ceramic-whistle-in-the-form-of-a-standing-figure a gaerhf:human-figure ;
+   gaerhf:described-by <https://www.metmuseum.org/art/collection/search/313554> ;
+   gaerhf:period-note "Chorrera or Bahia (Ecuador)" ;
+   gaerhf:earliest-date -200 ;
+   gaerhf:latest-date 300 .
+
 
 
 
