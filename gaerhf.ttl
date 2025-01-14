@@ -338,6 +338,26 @@ gaerhf:ceramic-whistle-in-the-form-of-a-standing-figure a gaerhf:human-figure ;
    gaerhf:earliest-date -200 ;
    gaerhf:latest-date 300 .
 
+gaerhf:gobeklitepe-sculpture-A2 a gaerhf:human-figure ;
+   gaerhf:described-by <https://arachne.dainst.org/entity/2003368?fq=facet_kategorie:%22Bilder%22&offset=200&fl=20&q=gobekli%20tepe&resultIndex=211> , <https://arachne.dainst.org/entity/2003369?fq=facet_kategorie:%22Bilder%22&offset=200&fl=20&q=gobekli%20tepe&resultIndex=212> ;
+   gaerhf:period-note "Gobekli Tepe (Turkey)" ;
+   gaerhf:earliest-date -9500 ;
+   gaerhf:latest-date -8000 .
+
+gaerhf:cahokia-resting-warrior-figurine a gaerhf:human-figure ;
+   gaerhf:described-by <https://archeology.uark.edu/restingwarrior3d/> ;
+   gaerhf:period-note "Cahokia (Illinois)" ;
+   gaerhf:earliest-date 1100 ;
+   gaerhf:latest-date 1200 .
+
+gaerhf:keller-figurine a gaerhf:human-figure ;
+   gaerhf:described-by <https://commons.wikimedia.org/wiki/File:Keller_figurine.jpg> ;
+   gaerhf:period-note "Cahokia (Illinois)" ;
+   gaerhf:earliest-date 1050 ;
+   gaerhf:latest-date 1200 .
+
+
+
 
 
 
