@@ -159,6 +159,8 @@ gaerhf:ballplayer-figure a gaerhf:human-figure ;
 
 gaerhf:neolithic-stone-mask a gaerhf:human-figure ;
    gaerhf:described-by <https://www.imj.org.il/en/collections/197936-0> .
+   gaerhf:earliest-date -7000 ;
+   gaerhf:latest-date -6000 .
 
 gaerhf:olmec-standing-male-statuette a gaerhf:human-figure ;
    gaerhf:described-by <https://www.doaks.org/resources/olmec-art/catalogue/08-standing-male-statuette> ;
@@ -239,7 +241,7 @@ gaerhf:orim-dong-megalith-petroglyph a gaerhf:human-figure ;
    gaerhf:described-by <https://en.m.wikipedia.org/wiki/File:Orim-dongmegalithpetroglyph.jpg> ;
    gaerhf:period-note "Middle Mumun Pottery Period (Korea)" ;
    gaerhf:earliest-date -700 ;
-   gearhd:latest-date -550 .
+   gaerhf:latest-date -550 .
 
 gaerhf:maitreya-in-meditation a gaerhf:human-figure ;
    gaerhf:described-by <https://www.metmuseum.org/perspectives/pensive-treasure>, <https://www.museum.go.kr/site/eng/relic/represent/view?relicId=1256> ;
