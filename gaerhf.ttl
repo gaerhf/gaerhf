@@ -102,8 +102,8 @@ gaerhf:indus-valley-civilization a gaerhf:culture ;
 gaerhf:venus-hohle-fels a gaerhf:human-figure ;
    rdfs:label "Venus of Hohle Fels" ;
    gaerhf:described-by <https://en.wikipedia.org/wiki/Venus_of_Hohle_Fels> ;
-   gaerhf:earliest-date 40000 ;
-   gaerhf:latest-date 35000 .
+   gaerhf:earliest-date -40000 ;
+   gaerhf:latest-date -35000 .
 
 gaerhf:venus-willendorf a gaerhf:human-figure ;
    rdfs:label "Venus of Willendorf" ;
@@ -178,7 +178,7 @@ gaerhf:olmec-fragmentary-figure a gaerhf:human-figure ;
    gaerhf:latest-date -300 ;
    gaerhf:art-historical-culture-or-tradition gaerhf:olmec .
 
-gaerhf:olmec:seated-old-man a gaerhf:human-figure ;
+gaerhf:olmec-seated-old-man a gaerhf:human-figure ;
    rdfs:label "Olmec seated old man" ;
    gaerhf:described-by <https://www.doaks.org/resources/olmec-art/catalogue/17-seated-old-man> ;
    gaerhf:earliest-date -900 ;
@@ -245,7 +245,7 @@ gaerhf:maitreya-in-meditation a gaerhf:human-figure ;
    gaerhf:described-by <https://www.metmuseum.org/perspectives/pensive-treasure>, <https://www.museum.go.kr/site/eng/relic/represent/view?relicId=1256> ;
    gaerhf:period-note "Three Kingdoms Period (Korea)" ;
    gaerhf:earliest-date 550 ;
-   gaerhd:latest-date 650 .
+   gaerhf:latest-date 650 .
 
 gaerhf:biamsa-temple-buddhist-stele a gaerhf:human-figure ;
    gaerhf:described-by <https://www.worldhistory.org/image/6051/buddhist-stele-unified-silla-kingdom/> , <https://www.museum.go.kr/site/eng/relic/recommend/view?relicRecommendId=1818791> ;
@@ -311,7 +311,7 @@ gaerhf:mudgarpani-yaksha a gaerhf:human-figure ;
    gaerhf:described-by <https://commons.wikimedia.org/wiki/File:Mudgarpani_Yaksha,_Mathura,_100_BCE.jpg> ;
    gaerhf:period-note "Mathura (India)" ;
    gaerhf:earliest-date -110 ;
-   gaerhd:latest-date -90 .
+   gaerhf:latest-date -90 .
 
 gaerhf:terracotta-ganges-and-attendant a gaerhf:human-figure ;
    gaerhf:described-by <https://en.wikipedia.org/wiki/Sculpture_in_the_Indian_subcontinent#/media/File:GangaTerracottaAhichchhatra.JPG> ;
