@@ -158,7 +158,7 @@ gaerhf:ballplayer-figure a gaerhf:human-figure ;
    gaerhf:art-historical-culture-or-tradition gaerhf:olmec .
 
 gaerhf:neolithic-stone-mask a gaerhf:human-figure ;
-   gaerhf:described-by <https://www.imj.org.il/en/collections/197936-0> .
+   gaerhf:described-by <https://www.imj.org.il/en/collections/197936-0> ;
    gaerhf:earliest-date -7000 ;
    gaerhf:latest-date -6000 .
 
