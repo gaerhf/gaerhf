@@ -138,7 +138,7 @@ gaerhf:tyara-maskette a gaerhf:human-figure ;
    gaerhf:earliest-date 1 ;
    gaerhf:latest-date 500 .
 
-gaerhf:egyptian-predynastic-female-figurine a gaerhf:representation-of-human-figure ;
+gaerhf:egyptian-predynastic-female-figurine a gaerhf:human-figure ;
    rdfs:label "Egyptian Predynastic Female Figurine" ;
    gaerhf:described-by <https://www.brooklynmuseum.org/opencollection/objects/4223> ;
    gaerhf:earliest-date -3650 ;
@@ -146,21 +146,25 @@ gaerhf:egyptian-predynastic-female-figurine a gaerhf:representation-of-human-fig
    gaerhf:art-historical-culture-or-tradition gaerhf:predynastic-egypt .
 
 gaerhf:olmec-standing-figure a gaerhf:human-figure ;
+   rdfs:label "Jadeite Standing Figure" ;
    gaerhf:described-by <https://www.doaks.org/resources/olmec-art/catalogue/14-standing-figure> ;
    gaerhf:earliest-date -900 ;
    gaerhf:latest-date -300 ;
    gaerhf:art-historical-culture-or-tradition gaerhf:olmec .
 
 gaerhf:ballplayer-figure a gaerhf:human-figure ;
+   rdfs:label "Jadeite Ballplayer" ;
    gaerhf:described-by <https://art.thewalters.org/detail/80383/ballplayer-figure/> ;
    gaerhf:earliest-date -900 ;
    gaerhf:latest-date -600 ;
    gaerhf:art-historical-culture-or-tradition gaerhf:olmec .
 
 gaerhf:neolithic-stone-mask a gaerhf:human-figure ;
+   rdfs:label "Neolithic Stone Mask" ;
    gaerhf:described-by <https://www.imj.org.il/en/collections/197936-0> ;
    gaerhf:earliest-date -7000 ;
-   gaerhf:latest-date -6000 .
+   gaerhf:latest-date -6000 ;
+   gaerhf:thumbnail-image <https://www.imj.org.il/sites/default/files/collections/IAA~Mask_%20Nahal%20Hemar%20Neolithic_%207th%20century%20BCE2.jpg> .
 
 gaerhf:olmec-standing-male-statuette a gaerhf:human-figure ;
    gaerhf:described-by <https://www.doaks.org/resources/olmec-art/catalogue/08-standing-male-statuette> ;
