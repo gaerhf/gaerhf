@@ -61,41 +61,41 @@
 
 :arctic-first-peoples a :culture ;
  rdfs:label "Arctic First Peoples" ;
- gaerhf:region gaerhf:arctic ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Circumpolar_peoples> .
+   :region :arctic ;
+   :described-by <https://en.wikipedia.org/wiki/Circumpolar_peoples> .
 
 :australian-first-nations a :culture ;
    rdfs:label "Australian First Nations" ;
-   :region gaerhf:australia ;
+   :region :australia ;
    :described-by <https://en.wikipedia.org/wiki/Indigenous_Australians> .
 
 :dorset-culture a :culture ;
- rdfs:label "Dorset Culture" ;
- rdfs:seeAlso <http://vocab.getty.edu/aat/300016734> ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Dorset_culture> .
+   rdfs:label "Dorset Culture" ;
+   rdfs:seeAlso <http://vocab.getty.edu/aat/300016734> ;
+   :described-by <https://en.wikipedia.org/wiki/Dorset_culture> .
 
 :olmec a :culture ;
- rdfs:label "Olmec" ;
- gaerhf:region gaerhf:central-america ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Olmecs> .
+   rdfs:label "Olmec" ;
+   :region :central-america ;
+   :described-by <https://en.wikipedia.org/wiki/Olmecs> .
 
 :predynastic-egypt a :culture ;
  rdfs:label "Predynastic Egypt" ;
- gaerhf:region gaerhf:egypt ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Prehistoric_Egypt> .
+   :region :egypt ;
+   :described-by <https://en.wikipedia.org/wiki/Prehistoric_Egypt> .
 
 :pharaonic-egypt a :culture ;
  rdfs:label "Pharaonic Egypt" .
 
 :chorrera a :culture ;
  rdfs:label "Chorrera" ;
- gaerhf:region gaerhf:south-america ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Chorrera_culture> .
+   :region :south-america ;
+   :described-by <https://en.wikipedia.org/wiki/Chorrera_culture> .
 
 :indus-valley-civilization a :culture ;
  rdfs:label "Indus Valley Civilization" ;
- gaerhf:region gaerhf:indian-subcontinent ;
- gaerhf:described-by <https://en.wikipedia.org/wiki/Indus_Valley_Civilisation> .
+   :region :indian-subcontinent ;
+   :described-by <https://en.wikipedia.org/wiki/Indus_Valley_Civilisation> .
 
 
 # human figures
@@ -109,7 +109,7 @@
 :kimberley-rock-art-figures a :group-of-human-figures ;
    rdfs:label "Kimberly Rock Art Figures" ;
    :described-by <https://japingkaaboriginalart.com/articles/kimberley-rock-art-overview/> ;
-   :art-historical-culture-or-tradition gaerhf:australian-first-nations ;
+   :art-historical-culture-or-tradition :australian-first-nations ;
    :earliest-date -38000 ;
    :latest-date -37000 .
 
@@ -144,12 +144,27 @@
    :earliest-date -7500 ;
    :latest-date -6500 .
 
+:neolithic-stone-mask a :human-figure ;
+   rdfs:label "Neolithic Stone Mask" ;
+   :described-by <https://www.imj.org.il/en/collections/197936-0> ;
+   :earliest-date -7000 ;
+   :latest-date -6000 ;
+   :thumbnail-image <https://www.imj.org.il/sites/default/files/collections/IAA~Mask_%20Nahal%20Hemar%20Neolithic_%207th%20century%20BCE2.jpg> .
+
 :egyptian-predynastic-female-figurine a :human-figure ;
    rdfs:label "Egyptian Predynastic Female Figurine" ;
    :described-by <https://www.brooklynmuseum.org/opencollection/objects/4223> ;
    :earliest-date -3650 ;
    :latest-date -3300 ;
-   :art-historical-culture-or-tradition gaerhf:predynastic-egypt .
+   :art-historical-culture-or-tradition :predynastic-egypt .
+
+:seated-female-figure a :human-figure ;
+   rdfs:label "Seated Female Figure" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/61085?ft=indus+goddess+figurine&amp;offset=0&amp;rpp=40&amp;pos=10> ;
+   :art-historical-or-tradition :indus-valley-civilization ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :material-note "Ceramic" .
 
 :arctic-first-peoples-masket a :human-figure ;
    rdfs:label "Arctic First Peoples Maskette" ;
@@ -157,17 +172,105 @@
    :earliest-date -1900 ;
    :latest-date -1600 .
 
+:mycenaean-funerary-mask-grave-circle-b a :human-figure ;
+   rdfs:label "Mycenaean Gold Mask from Grave Circle B" ;
+   :earliest-date -1700 ;
+   :latest-date -1600 ;
+   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Funeral_mask_from_Mycenae_NAMA_080841.jpg> .
+
+:mycenaean-funeraryld-mask-grave-circle-a a :human-figure ;
+   rdfs:label "Mycenaean Gold Mask from Grave Circle A";
+   :earliest-date -1550 ;
+   :latest-date -1500 ;
+   :wikpedia-image-page <https://commons.wikimedia.org/wiki/File:594px-MaskeAgamemnon-MOD.jpg> .
+
 :jomon-doju-statuette a :human-figure ;
    rdfs:label "Jōmon dogū statuette" ;
    :earliest-date -1000 ;
    :latest-date -400 ;
-   :art-historical-culture-or-tradition gaerhf:jomon ;
+   :art-historical-culture-or-tradition :jomon ;
    :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Stone_statue,_late_Jomon_period.JPG> .
+
+:olmec-standing-figure a :human-figure ;
+   rdfs:label "Jadeite Standing Figure" ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/14-standing-figure> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:ballplayer-figure a :human-figure ;
+   rdfs:label "Jadeite Ballplayer" ;
+   :described-by <https://art.thewalters.org/detail/80383/ballplayer-figure/> ;
+   :earliest-date -900 ;
+   :latest-date -600 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-standing-male-statuette a :human-figure ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/08-standing-male-statuette> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-transformation-figure-in-combat-stance a :human-figure ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/06-transformation-figure-in-combat-stance> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-fragmentary-figure a :human-figure ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/15-fragmentary-figure> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-seated-old-man a :human-figure ;
+   rdfs:label "Olmec seated old man" ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/17-seated-old-man> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-seated-figure a :human-figure ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/18-seated-figure> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:olmec-jade-mask a :human-figure ;
+   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/30-jade-mask> ;
+   :earliest-date -900 ;
+   :latest-date -300 ;
+   :art-historical-culture-or-tradition :olmec .
+
+:prince-of-glauberg a :human-figure ;
+   rdfs:label "So-called Prince of Glauberg" ;
+   :described-by <https://www.worldhistory.org/image/9799/prince-of-glauberg/> ;
+   :earliest-date -550 ;
+   :latest-date -450 ;
+   :art-historical-culture-or-tradition :la-tene .
+
+:nok-head-and-torso-of-a-female-figure a :human-figure ;
+   :described-by <https://emuseum.mfah.org/objects/31704/head-and-torso-of-a-female-figure> ;
+   :period-note "Nok (Nigeria)" ;
+   :earliest-date -500 ;
+   :latest-date 200 .
+
+:nok-male-head a :human-figure ;
+   :described-by <https://www.slam.org/collection/objects/28893/> ;
+   :period-note "Nok (Nigeria)" ;
+   :earliest-date -500 ;
+   :latest-date -50 .
+
+:nazca-standing-figure a :human-figure ;
+   rdfs:label "Nazca Standing Figure" ;
+   :earliest-date -200 ;
+   :latest-date 500 ;
+   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_46.JPG> .
 
 :tyara-maskette a :human-figure ;
    rdfs:label "Tyara Maskette" ;
    :described-by <https://collections.historymuseum.ca/public/pages/cmccpublic/alt-emupublic/Display.php?irn=387394&QueryPage=Query.php&lang=0> ;
-   :art-historical-culture-or-tradition gaerhf:dorset-culture ;
+   :art-historical-culture-or-tradition :dorset-culture ;
    :earliest-date 1 ;
    :latest-date 500 .
 
@@ -179,76 +282,11 @@
    :earliest-date 350 ;
    :latest-date 450 .
 
-:olmec-standing-figure a :human-figure ;
-   rdfs:label "Jadeite Standing Figure" ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/14-standing-figure> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:ballplayer-figure a :human-figure ;
-   rdfs:label "Jadeite Ballplayer" ;
-   :described-by <https://art.thewalters.org/detail/80383/ballplayer-figure/> ;
-   :earliest-date -900 ;
-   :latest-date -600 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:prince-of-glauberg a :human-figure ;
-   rdfs:label "So-called Prince of Glauberg" ;
-   :described-by <https://www.worldhistory.org/image/9799/prince-of-glauberg/> ;
-   :earliest-date -550 ;
-   :latest-date -450 ;
-   :art-historical-culture-or-tradition gaerhf:la-tene .
-
-:neolithic-stone-mask a :human-figure ;
-   rdfs:label "Neolithic Stone Mask" ;
-   :described-by <https://www.imj.org.il/en/collections/197936-0> ;
-   :earliest-date -7000 ;
-   :latest-date -6000 ;
-   :thumbnail-image <https://www.imj.org.il/sites/default/files/collections/IAA~Mask_%20Nahal%20Hemar%20Neolithic_%207th%20century%20BCE2.jpg> .
-
-:olmec-standing-male-statuette a :human-figure ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/08-standing-male-statuette> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:olmec-transformation-figure-in-combat-stance a :human-figure ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/06-transformation-figure-in-combat-stance> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:olmec-fragmentary-figure a :human-figure ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/15-fragmentary-figure> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:olmec-seated-old-man a :human-figure ;
-   rdfs:label "Olmec seated old man" ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/17-seated-old-man> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:olmec-seated-figure a :human-figure ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/18-seated-figure> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
-:olmec-jade-mask a :human-figure ;
-   :described-by <https://www.doaks.org/resources/olmec-art/catalogue/30-jade-mask> ;
-   :earliest-date -900 ;
-   :latest-date -300 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
-
 :olmec-stone-yuguito a :human-figure ;
    :described-by <https://www.doaks.org/resources/olmec-art/catalogue/02-stone-yuguito> ;
    :earliest-date -1200 ;
    :latest-date -900 ;
-   :art-historical-culture-or-tradition gaerhf:olmec .
+   :art-historical-culture-or-tradition :olmec .
 
 :maliwawa-figures a :group-of-human-figures ;
    rdfs:label "Maliwawa Figures" ;
@@ -256,23 +294,23 @@
     <https://www.tandfonline.com/doi/figure/10.1080/03122417.2020.1818361?scroll=top&needAccess=true> ;
    :earliest-date -7400 ;
    :latest-date -4000 ;
-   :art-historical-culture-or-tradition gaerhf:australian-first-nations .
+   :art-historical-culture-or-tradition :australian-first-nations .
 
 :wandjina-rock-art-mount-elizabeth-station a :human-figure ;
    :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Aboriginal_rock_art_on_the_Barnett_River,_Mount_Elizabeth_Station.jpg> ;
-   :art-historical-culture-or-tradition gaerhf:australian-first-nations ;
+   :art-historical-culture-or-tradition :australian-first-nations ;
    :earliest-date -2000 ;
    :latest-date -1800 .
 
 :chorrera-standing-figure a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/316443> ;
-   :art-historical-culture-or-tradition gaerhf:chorrera ;
+   :art-historical-culture-or-tradition :chorrera ;
    :earliest-date -1000 ;
    :latest-date -100 .
 
 :chorrera-ceramic-figure-pendant a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/314168> ;
-   :art-historical-culture-or-tradition gaerhf:chorrera ;
+   :art-historical-culture-or-tradition :chorrera ;
    :earliest-date -1000 ;
    :latest-date -200 .
 
@@ -312,12 +350,6 @@
    :earliest-date 675 ;
    :latest-date 685 .
 
-:seated-mother-goddess a :human-figure ;
-   :described-by <https://www.metmuseum.org/art/collection/search/61085?ft=indus+goddess+figurine&amp;offset=0&amp;rpp=40&amp;pos=10> ;
-   :art-historical-or-tradition gaerhf:indus-valley-civilization ;
-   :earliest-date -3000 ;
-   :latest-date -2500 .
-
 :gandhara-standing-buddha a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/38820> ;
    :period-note "Gandhara Region (Pakistan)" ;
@@ -332,7 +364,7 @@
 
 :pashupati-seal a :human-figure ;
    :described-by <https://en.wikipedia.org/wiki/Pashupati_seal> ;
-   :art-historical-culture-or-tradition gaerhf:indus-valley-civilization ;
+   :art-historical-culture-or-tradition :indus-valley-civilization ;
    :earliest-date -2350 ;
    :latest-date -2200 .
 
@@ -401,17 +433,17 @@
    :described-by <https://www.metmuseum.org/art/collection/search/317723> ;
    :period-note "Esteros or Bahia (Ecuador)" ;
    :earliest-date -400 ;
-   :latest-date 0 .
+   :latest-date -1 .
 
 :esteros-standing-figure a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/317724> ;
    :period-note "Esteros or Bahia (Ecuador)" ;
    :earliest-date -400 ;
-   :latest-date 0 .
+   :latest-date -1 .
 
 :chorrera-figure-vessel a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/315062> ;
-   :art-historical-culture-or-tradition gaerhf:chorrera ;
+   :art-historical-culture-or-tradition :chorrera ;
    :earliest-date -900 ;
    :latest-date -200 .
 
@@ -426,18 +458,6 @@
    :period-note "Tolita-Tumaco (Ecuador or Colombia)" ;
    :earliest-date -200 ;
    :latest-date 400 .
-
-:nok-head-and-torso-of-a-female-figure a :human-figure ;
-   :described-by <https://emuseum.mfah.org/objects/31704/head-and-torso-of-a-female-figure> ;
-   :period-note "Nok (Nigeria)" ;
-   :earliest-date -500 ;
-   :latest-date 200 .
-
-:nok-male-head a :human-figure ;
-   :described-by <https://www.slam.org/collection/objects/28893/> ;
-   :period-note "Nok (Nigeria)" ;
-   :earliest-date -500 ;
-   :latest-date -50 .
 
 :han-pottery-storyteller-beating-a-drum a :human-figure ;
    :described-by <https://en.chnmuseum.cn/collections_577/collection_highlights_608/archaeological_discoveries_609/202008/t20200831_247541.html> ;
