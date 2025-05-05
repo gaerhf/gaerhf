@@ -27,8 +27,8 @@
 :latest-date a rdf:Property ;
    rdfs:label "latest date" .
 
-:wikipedia-image-page a rdf:Property ;
-   rdfs:label "wikipedia image page" .
+:wikimedia-commons-image-page a rdf:Property ;
+   rdfs:label "wikimedia commons image page" .
 
 
 # contexts
@@ -104,32 +104,36 @@
    rdfs:label "Venus of Hohle Fels" ;
    :described-by <https://en.wikipedia.org/wiki/Venus_of_Hohle_Fels> ;
    :earliest-date -40000 ;
-   :latest-date -35000 .
+   :latest-date -35000 ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:VenusHohlefels2.jpg> .
 
-:kimberley-rock-art-figures a :group-of-human-figures ;
-   rdfs:label "Kimberly Rock Art Figures" ;
-   :described-by <https://japingkaaboriginalart.com/articles/kimberley-rock-art-overview/> ;
-   :art-historical-culture-or-tradition :australian-first-nations ;
-   :earliest-date -38000 ;
-   :latest-date -37000 .
+# :kimberley-rock-art-figures a :group-of-human-figures ;
+#    rdfs:label "Kimberly Rock Art Figures" ;
+#    :described-by <https://japingkaaboriginalart.com/articles/kimberley-rock-art-overview/> ;
+#    :art-historical-culture-or-tradition :australian-first-nations ;
+#    :earliest-date -38000 ;
+#    :latest-date -37000 .
 
 :venus-willendorf a :human-figure ;
    rdfs:label "Venus of Willendorf" ;
    :described-by <https://en.wikipedia.org/wiki/Venus_of_Willendorf> ;
    :earliest-date -29000 ;
-   :latest-date -27000 .
+   :latest-date -27000 ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_von_Willendorf_01.jpg> .
 
 :venus-of-mal-ta a :human-figure ;
    rdfs:label "Venus of Mal'ta" ;
    :described-by <http://malta.artemiris.org/find/view/35> ;
    :period-note "Mal'ta-Buret' Culture (Siberia)" ;
    :earliest-date -21000 ;
-   :latest-date -20500 .
+   :latest-date -20500 ;
+   :thumbnail-image <http://malta.artemiris.org/storage/find/73109e670eac203b8775a9aafe310dbc.jpg> .
 
 :figure-on-bench-sayburc a :human-figure ;
    rdfs:label "Neolithic Figure carved in Bench" ;
    :approximate-date -11000 ;
-   :described-by <https://www.theartnewspaper.com/2022/12/08/oldest-known-depiction-of-narrative-scene-found-in-turkey> .
+   :described-by <https://www.livescience.com/oldest-narrative-scene-neolithic-turkey> ;
+   :thumbnail-image <https://cdn.mos.cms.futurecdn.net/D4xTVuuwTUMF6NGQRNXuse-1200-80.jpg> .
 
 :gobeklitepe-figure-A2 a :human-figure ;
    rdfs:label "Gobeklitepe Figure A2" ;
@@ -140,7 +144,7 @@
 
 :ppnb-stone-mask a :human-figure ;
    rdfs:label "Pre-pottery Neolithic B Stone Mask" ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Stone_mask_from_Hebron_Hills.JPG> ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_mask_from_Hebron_Hills.JPG> ;
    :earliest-date -7500 ;
    :latest-date -6500 .
 
@@ -156,7 +160,8 @@
    :described-by <https://www.brooklynmuseum.org/opencollection/objects/4223> ;
    :earliest-date -3650 ;
    :latest-date -3300 ;
-   :art-historical-culture-or-tradition :predynastic-egypt .
+   :art-historical-culture-or-tradition :predynastic-egypt ;
+   :thumbnail-image <https://imgsrv.brooklynmuseum.org/collections/objects/07.447.502_SL1.jpg?width=256&quality=75> .
 
 :seated-female-figure a :human-figure ;
    rdfs:label "Seated Female Figure" ;
@@ -164,32 +169,34 @@
    :art-historical-or-tradition :indus-valley-civilization ;
    :earliest-date -3000 ;
    :latest-date -2500 ;
-   :material-note "Ceramic" .
+   :material-note "Ceramic" ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/61085/95936/main-image> .
 
-:arctic-first-peoples-masket a :human-figure ;
+:arctic-first-peoples-maskette a :human-figure ;
    rdfs:label "Arctic First Peoples Maskette" ;
    :described-by <https://www.historymuseum.ca/collections/artifact/1295533/?q=QkHn-13%3A489%20&page_num=1&item_num=0&media_irn=5394933> ;
    :earliest-date -1900 ;
-   :latest-date -1600 .
+   :latest-date -1600 ;
+   :thumbnail-image <https://www.historymuseum.ca/ke/_resources/120798/5050-1613-0243-094-base-cmhsize-small.jpg> .
 
 :mycenaean-funerary-mask-grave-circle-b a :human-figure ;
    rdfs:label "Mycenaean Gold Mask from Grave Circle B" ;
    :earliest-date -1700 ;
    :latest-date -1600 ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Funeral_mask_from_Mycenae_NAMA_080841.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Funeral_mask_from_Mycenae_NAMA_080841.jpg> .
 
-:mycenaean-funeraryld-mask-grave-circle-a a :human-figure ;
+:mycenaean-funerary-mask-grave-circle-a a :human-figure ;
    rdfs:label "Mycenaean Gold Mask from Grave Circle A";
    :earliest-date -1550 ;
    :latest-date -1500 ;
-   :wikpedia-image-page <https://commons.wikimedia.org/wiki/File:594px-MaskeAgamemnon-MOD.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:594px-MaskeAgamemnon-MOD.jpg> .
 
 :jomon-doju-statuette a :human-figure ;
    rdfs:label "Jōmon dogū statuette" ;
    :earliest-date -1000 ;
    :latest-date -400 ;
    :art-historical-culture-or-tradition :jomon ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Stone_statue,_late_Jomon_period.JPG> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_statue,_late_Jomon_period.JPG> .
 
 :olmec-standing-figure a :human-figure ;
    rdfs:label "Jadeite Standing Figure" ;
@@ -265,7 +272,7 @@
    rdfs:label "Nazca Standing Figure" ;
    :earliest-date -200 ;
    :latest-date 500 ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_46.JPG> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_46.JPG> .
 
 :tyara-maskette a :human-figure ;
    rdfs:label "Tyara Maskette" ;
@@ -294,10 +301,11 @@
     <https://www.tandfonline.com/doi/figure/10.1080/03122417.2020.1818361?scroll=top&needAccess=true> ;
    :earliest-date -7400 ;
    :latest-date -4000 ;
-   :art-historical-culture-or-tradition :australian-first-nations .
+   :art-historical-culture-or-tradition :australian-first-nations ;
+   :thumbnail-image <https://th-thumbnailer.cdn-si-edu.com/EdiLRvytYRYjtQGSL7yf9I68uWM=/fit-in/1072x0/filters:focal(931x560:932x561)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b8/65/b865d6a9-bbc1-44ec-9f4b-8b885aa6c83b/rock_art_3a.jpeg> .
 
 :wandjina-rock-art-mount-elizabeth-station a :human-figure ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Aboriginal_rock_art_on_the_Barnett_River,_Mount_Elizabeth_Station.jpg> ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Aboriginal_rock_art_on_the_Barnett_River,_Mount_Elizabeth_Station.jpg> ;
    :art-historical-culture-or-tradition :australian-first-nations ;
    :earliest-date -2000 ;
    :latest-date -1800 .
@@ -366,7 +374,8 @@
    :described-by <https://en.wikipedia.org/wiki/Pashupati_seal> ;
    :art-historical-culture-or-tradition :indus-valley-civilization ;
    :earliest-date -2350 ;
-   :latest-date -2200 .
+   :latest-date -2200 ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Shiva_Pashupati.jpg> .
 
 :patna-yakshas a :human-figure ;
    :described-by <https://commons.wikimedia.org/wiki/File:Patna_Yakshas_and_inscriptions.jpg> ;
