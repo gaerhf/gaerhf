@@ -861,7 +861,7 @@
    :earliest-date -1800 ;
    :latest-date -1600 ;
    :in-modern-country-note "Israel" ;
-   :wikimedi-commons-image-page <https://en.wikipedia.org/wiki/File:Thinker_from_Yehud.jpeg> .
+   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Thinker_from_Yehud.jpeg> .
 
 :mycenaean-funerary-mask-grave-circle-b a :human-figure ;
    rdfs:label "Mycenaean Gold Mask from Grave Circle B" ;
