@@ -1302,7 +1302,7 @@
    :latest-date 100 ;
    :in-modern-country-note "Iraq" ;
    :art-historical-culture-or-tradition :parthian ;
-   :wikipedia-image-page <https://commons.wikimedia.org/wiki/File:Statuette_Goddess_Louvre_AO20127.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statuette_Goddess_Louvre_AO20127.jpg> .
 
 :terracotta-male-figure-from-kalchayan a :human-figure ;
    rdfs:label "Terracotta Male figure from Kalchayan" ;
