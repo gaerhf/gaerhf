@@ -148,6 +148,11 @@
    :region :japan ;
    :described-by <https://en.wikipedia.org/wiki/Kofun_period> .
 
+:lapita-culture a :culture ;
+   rdfs:label "Lapita Culture" ;
+   :region :oceania ;
+   :described-by <https://en.wikipedia.org/wiki/Lapita_culture> .
+
 :magdalenian a :culture ;
    rdfs:label "Magdalenian" ;
    :described-by <https://en.wikipedia.org/wiki/Magdalenian> .
@@ -224,6 +229,11 @@
    :described-by <https://africanrockart.britishmuseum.org/regional_introduction/rock-art-in-northern-africa/>,
     <https://en.wikipedia.org/wiki/Saharan_rock_art> .
 
+:sogdian-art a :culture ;
+   rdfs:label "Sogdian Art" ;
+   :region :central-asia ;
+   :described-by <https://en.wikipedia.org/wiki/Sogdian_art> .
+
 :shu-kingdom a :culture ;
    rdfs:label "Shu Kingdom" ;
    :region :china ;
@@ -261,6 +271,7 @@
    :earliest-date -45000 ;
    :latest-date -35000 ;
    :in-modern-country-note "Indonesia" ;
+   :representative-latlong-point (-5.003056 119.694444) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Maros_hunting_scene.png> .
 
 :hohle-fels-figurine a :human-figure ;
@@ -270,6 +281,7 @@
    :latest-date -35000 ;
    :in-modern-country-note "Germany" ;
    :art-historical-culture-or-tradition :aurignacian ;
+   :representative-latlong-point (48.379167 9.755556) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:VenusHohlefels2.jpg> .
 
 :galgenberg-figurine a :human-figure ;
@@ -278,6 +290,7 @@
    :approximate-date -36000 ;
    :in-modern-country-note "Austria" ;
    :art-historical-culture-or-tradition :aurignacian ;
+   :representative-latlong-point (48.45 15.6) ; # ll for Stratzing, Austria
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_vom_Galgenberg.JPG> .
 
 :figure-carved-in-mammoth-tusk a :human-figure ;
@@ -286,6 +299,7 @@
    :earliest-date -35000 ;
    :latest-date -30000 ;
    :in-modern-country-note "Germany" ;
+   :representative-latlong-point (48.398333 9.772222) ; # ll for cave
    :art-historical-culture-or-tradition :aurignacian ;
    :note "So-called “adorant” from the Geißenklösterle cave" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Adorant,_Geisenklösterle,_Blaubeuren-Weiler,_Alb-Donau-Kreis,_Aurignacian_culture,_35,000_to_45,000_years_old,_ivory_-_Landesmuseum_Württemberg_-_Stuttgart,_Germany_-_DSC02709.jpg> .
@@ -297,6 +311,7 @@
    :latest-date -27000 ;
    :in-modern-country-note "Czech Republic" ;
    :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (48.877778 16.652222) ; # ll for Dolní Věstonice
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Vestonicka_venuse_edit.jpg> .
 
 :willendorf-figurine a :human-figure ;
@@ -306,6 +321,7 @@
    :latest-date -27000 ;
    :in-modern-country-note "Austria" ;
    :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (48.3225 15.404722) ; # ll for Willendorf, Austria
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_von_Willendorf_01.jpg> .
 
 :brno-figurine a :human-figure ;
@@ -316,6 +332,7 @@
    :material-note "Mammoth ivory" ;
    :in-modern-country-note "Czech Republic" ;
    :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (49.1925 16.608333) ; # ll for Brno, Czech Republic
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Male_figurine,_mammoth_ivory,_Anthropos,_Brno,_187999.jpg> .
 
 :brassempouy-gravettian-head a :human-figure ;
@@ -324,6 +341,7 @@
    :approximate-date -25000 ;
    :in-modern-country-note "France" ;
    :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (43.6328 -0.6936) ; # ll for Brassempouy, France
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_de_Brassempouy.jpg> .
 
 # -25000 - -20000 https://en.wikipedia.org/wiki/Venus_figurines_of_Kostyonki
@@ -335,7 +353,18 @@
    :latest-date -20000 ;
    :in-modern-country-note "Russia" ;
    :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (51.385833 39.051667) ; # ll for Kostyonki, Russia
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kostenki_I_Venus.jpg> .
+
+:female-figurine-from-laussel a :human-figure ;
+   rdfs:label "Carved Female Figure from Laussel" ;
+   :described-by <https://en.wikipedia.org/wiki/Venus_of_Laussel> ;
+   :earliest-date -23000 ;
+   :latest-date -22000 ;
+   :in-modern-country-note "France" ;
+   :art-historical-culture-or-tradition :gravettian ;
+   :representative-latlong-point (44.9447 1.1347) ; # ll for Marquay, Dordogne
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_de_Laussel_expo_Art_et_Prehistoire.jpg> .
 
 :mal-ta-female-figurine a :group-of-human-figures ;
    rdfs:label "Figurines from Mal'ta (Siberia)" ;
@@ -396,7 +425,7 @@
    :earliest-date -11000 ;
    :latest-date -9000 ;
    :in-modern-country-note "Russia" ;
-   :representative-point 57.3809, 60.1407 ;
+   :representative-latlong-point (57.3809 60.1407) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Большой_шигирский_идол.jpg> .
 
 :male-figure-on-bench-sayburc a :human-figure ;
@@ -512,6 +541,7 @@
    :latest-date -8000 ;
    :in-modern-country-note "Algeria" ;
    :art-historical-culture-or-tradition :saharan-rock-art ;
+   :representative-latlong-point (25.5 9) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Fondazione_Passaré_V1_056.jpg> .
 
 :pastoral-period-hunter-tin-aboteka a :human-figure ;
@@ -567,6 +597,7 @@
    :latest-date -1000 ;
    :in-modern-country-note "South Korea" ;
    :art-historical-culture-or-tradition :neolithic-korea ;
+   :representative-latlong-point (35.5991 129.185) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bangudae3.jpg> .
 
 :sesklo-female-figurine-torso a :human-figure ;
@@ -677,6 +708,7 @@
    :latest-date -2500 ;
    :in-modern-country-note "Scotland" ;
    :art-historical-culture-or-tradition :neolithic-europe ;
+   :representative-latlong-point (59.322778 -3) ; 
    :thumbnail-image <https://vernonbrowser.historicenvironment.scot/records/images/xlarge/4886/6a20d0f81f14281c217fad52372a45859d6937ac.jpg> .
 
 :egyptian-predynastic-female-figurine a :human-figure ;
@@ -694,6 +726,8 @@
    :earliest-date -3500 ;
    :latest-date -3200 ;
    :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (26.185 31.918889) ; # ll for Gebel el-Arak, Egypt
+   :note "Probably from Abydos, not Gebel el-Arak." ;
    :art-historical-culture-or-tradition :predynastic-egypt ; # can be more specific
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gebel_el-Arak_Knife_ivory_handle_(front_top_part_detail).jpg> .
 
@@ -817,6 +851,7 @@
    :latest-date -1900 ;
    :in-modern-country-note "Mongolia" ;
    :art-historical-culture-or-tradition :chemurchek-culture ;
+   :representative-latlong-point (47.780636 87.860069) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_Statue_0.jpg> .
 
 :valdiva-culture-female-figurine a :human-figure ;
@@ -844,6 +879,7 @@
    :approximate-date -2500 ;
    :in-modern-country-note "Japan" ;
    :art-historical-culture-or-tradition :jomon ;
+   :representative-latlong-point (35.995528 138.158806) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tanabatake_Venus._Middle_Jōmon.JPG> .
 
 :mohenjo-daro-female-figurine a :human-figure ;
@@ -861,9 +897,28 @@
    rdfs:label "Dagenham Idol" ;
    :described-by <https://en.wikipedia.org/wiki/Dagenham_idol> ;
    :approximate-date -2250 ;
-   :in-modern-country-note "United Kingdom" ;
+   :in-modern-country-note "England" ;
    :art-historical-culture-or-tradition :neolithic-britain ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_Dagenham_Idol.jpg> .
+
+:victory-stele-naram-sin a :group-of-human-figures ;
+   rdfs:label "Victory Stele of Naram-Sin" ;
+   :described-by <https://en.wikipedia.org/wiki/Victory_Stele_of_Naram-Sin> ;
+   :earliest-date -2250 ;
+   :latest-date -2200 ;
+   :in-modern-country-note "Iraq" ;
+   :art-historical-culture-or-tradition :akkadian-empire ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Victory_stele_of_Naram-Suen_(31064823690)_(cropped).jpg> .
+
+:bassetki-statue a :human-figure ;
+   rdfs:label "Bassetki Statue" ;
+   :described-by <https://en.wikipedia.org/wiki/Bashetki_Statue> ;
+   :earliest-date -2250 ;
+   :latest-date -2220 ;
+   :in-modern-country-note "Iraq" ;
+   :art-historical-culture-or-tradition :akkadian-empire ;
+   :representative-latlong-point (36.958778 42.7215) ; # Bassetki, Iraq
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bassetki_Statue,_Akkadian_period,_23rd_century_BCE,_from_Bassetki,_Iraq._Iraq_Museum.jpg> .
 
 :bmac-seated-female a :human-figure ;
    rdfs:label "BMAC Seated Female" ;
@@ -1009,6 +1064,7 @@
    :latest-date -800 ;
    :in-modern-country-note "Mexico" ;
    :art-historical-culture-or-tradition :tlatico-culture ;
+   :representative-latlong-point (19.5 -99.25) ; # Tlatilco, Mexico
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Acróbata_de_Tlatilco.JPG> .
 
 :bust-of-nefertiti a :human-figure ;
@@ -1069,6 +1125,16 @@
    :latest-date -900 ;
    :in-modern-country-note "Ireland" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figura_antropomorfa_probabilmente_segnacolo_di_confine,_da_una_torbiera_presso_ralaghan,_co._di_cavan,_1100-1000_ac_ca.jpg> .
+
+:lapita-sherd-face a :human-figure ;
+   rdfs:label "Lapita Sherd with Face" ;
+   :described-by <https://smarthistory.org/lapita/>,
+    <https://doi.org/10.1080/15564894.2012.726941>,
+    <https://www.jstor.org/stable/j.ctt24h9sg.17> ;
+   :approximate-date -1000 ;
+   :in-modern-country-note "Solomon Islands" ;
+   :art-historical-culture-or-tradition :lapita-culture ;
+   :thumbnail-image <https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg> .
 
 :tlatico-figurines a :group-of-human-figures ;
    rdfs:label "Tlatilco Figurines" ;
@@ -1312,6 +1378,7 @@
    :latest-date -100 ;
    :in-modern-country-note "India" ;
    :art-historical-culture-or-tradition :maurya-empire ;
+   :representative-latlong-point (25.606366 85.154401) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Patna_Museum_Lohanipur_torso.jpg> .
 
 # -150 - -1 https://en.wikipedia.org/wiki/Gundestrup_cauldron
@@ -1333,6 +1400,8 @@
    :in-modern-country-note "Italy" ;
    :art-historical-culture-or-tradition :late-hellenistic ;
    :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Laocoön_and_his_sons_group.jpg> .
+
+# -100 - -1 https://www.metmuseum.org/art/collection/search/38518 (Indian Goddess dispensing Riches)
 
 :gudimallam-lingam a :human-figure ;
    :described-by <https://en.wikipedia.org/wiki/Gudimallam_Lingam> ;
@@ -1545,7 +1614,7 @@
    :material-note "Ceramic" ;
    :art-historical-culture-or-tradition :mauryan-empire ;
    :in-modern-country-note "India" ;
-   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/38075/2176388/restricted> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:MauryanStatuette2ndCenturyBCE.jpg> .
 
 :mudgarpani-yaksha a :human-figure ;
    :described-by <https://commons.wikimedia.org/wiki/File:Mudgarpani_Yaksha,_Mathura,_100_BCE.jpg> ;
@@ -1608,11 +1677,30 @@
    :in-modern-country-note "Pakistan" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gandhara_Buddha_(tnm).jpeg> .
 
+:birthing-scene-from-ostia a :group-of-human-figures ;
+   rdfs:label "Birthing Scene from Ostia" ;
+   :described-by <http://www.ostia-antica.org/museums/london-science-museum.htm> ;
+   :earliest-date 100 ;
+   :latest-date 300 ;
+   :in-modern-country-note "Italy" ;
+   :art-historical-culture-or-tradition :roman-empire ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Marble_plaque_showing_parturition_scene,_Ostia,_Italy,_400_B_Wellcome_L0065025.jpg> . 
+
 :tolita-tumaco-bench-figure a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/316449> ;
    :period-note "Tolita-Tumaco (Ecuador or Colombia)" ;
    :earliest-date 100 ;
    :latest-date 400 .
+
+:doll-tomb-crepereia-tryphaena a :human-figure ;
+   rdfs:label "Doll from the Tomb of Crepereia Tryphaena" ;
+   :described-by <https://en.wikipedia.org/wiki/Crepereia_Tryphaena>,
+      <https://www.centralemontemartini.org/en/percorso/crepereia-tryphaena> ;
+   :earliest-date 120 ;
+   :latest-date 160 ;
+   :in-modern-country-note "Italy" ;
+   :art-historical-culture-or-tradition :roman-empire ;
+   :thumbnail-image <https://www.centralemontemartini.org/sites/default/files/styles/large/public/storage/images/musei/centrale_montemartini/collezioni/percorsi_per_sale/sala_colonne/crepereia_tryphaena/corredo_di_crepereia_tryphaena_bambola/745590-1-ita-IT/corredo_di_crepereia_tryphaena_bambola.jpg> .
 
 :kushan-plaque-with-two-figures a :group-of-human-figures ;
    rdfs:label "Kushan Plaque with Two Figures" ;
@@ -1622,6 +1710,33 @@
    :in-modern-country-note "Afghanistan and neighboring." ;
    :art-historical-culture-or-tradition :kushan-empire ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/327830/711829/main-image> .
+
+:balalyk-tepe-murals a :group-of-human-figures ;
+   rdfs:label "Balalyk Tepe Murals" ;
+   :described-by <https://en.wikipedia.org/wiki/Balalyk_Tepe> ;
+   :earliest-date 200 ;
+   :latest-date 400 ;
+   :in-modern-country-note "Turkmenistan" ;
+   :art-historical-culture-or-tradition :kushan-empire ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Balalyk_Tepe_mural.jpg> .
+
+:mayan-wooden-kneeling-figure a :human-figure ;
+   rdfs:label "Mayan Wooden Kneeling Figure" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/313256> ;
+   :earliest-date 410 ;
+   :latest-date 650 ;
+   :in-modern-country-note "Mexico or Guatemala" ;
+   :art-historical-culture-or-tradition :mayan-culture ;
+   :thumbnail-image <https://images.metmuseum.org/CRDImages/ao/web-additional/DP-24340-001.jpg> .
+
+:penjikent-murals a :group-of-human-figures ;
+   rdfs:label "Penjikent Murals" ;
+   :described-by <https://en.wikipedia.org/wiki/Penjikent_murals> ;
+   :earliest-date 480 ;
+   :latest-date 722 ;
+   :in-modern-country-note "Tajikistan" ;
+   :art-historical-culture-or-tradition :sogdian-art ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Balalyk_Tepe_painting,_1st_half_of_7th_century_CE.jpg> .
 
 :terracotta-ganges-and-attendant a :human-figure ;
    :described-by <https://en.wikipedia.org/wiki/Sculpture_in_the_Indian_subcontinent#/media/File:GangaTerracottaAhichchhatra.JPG> ;
@@ -1680,6 +1795,7 @@
    :earliest-date 500 ;
    :latest-date 1100 ;
    :in-modern-country-note "Bolivia" ;
+   :representative-latlong-point (-16.554722 -68.673333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Antonio_Portugal_y_el_Monolito_Bennett.jpg> .
 
 :so-called-ponce-monolith a :human-figure ;
@@ -1706,6 +1822,15 @@
    :latest-date 700 ;
    :in-modern-country-note "India" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Descent_of_the_Ganges_01.jpg> .
+
+:afrasiab-murals a :group-of-human-figures ;
+   rdfs:label "Afrasiab Murals" ;
+   :described-by <https://en.wikipedia.org/wiki/Afrasiab_murals> ;
+   :earliest-date 640 ;
+   :latest-date 660 ;
+   :in-modern-country-note "Uzbekistan" ;
+   :art-historical-culture-or-tradition :sogdian-art ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ambassadors_from_Chaganian_(central_figure,_inscription_of_the_neck),_and_Chach_(modern_Tashkent)_to_king_Varkhuman_of_Samarkand._648-651_CE,_Afrasiyab,_Samarkand.jpg> .
 
 :wari-head-shaped-vessel a :human-figure ;
    rdfs:label "Wari Head-shaped Vessel" ;
@@ -1822,3 +1947,14 @@
    :in-modern-country-note "Cambodia" ;
    :art-historical-culture-or-tradition :khmer-empire ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:JayavarmanVII.jpg> .
+
+:etowah-mound-marble-figures a :group-of-human-figures ;
+   rdfs:label "Etowah Mound Marble Figures" ;
+   :described-by <https://en.wikipedia.org/wiki/Etowah_mounds>,
+   <http://www.lithiccastinglab.com/gallery-pages/2005juneetowahstatuespage1.htm> ;
+   :earliest-date 1250 ;
+   :latest-date 1375 ;
+   :in-modern-country-note "United States" ;
+   :art-historical-culture-or-tradition :mississippian ;
+   :representative-latlong-point (34.125131 -84.807664) ;
+   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .  
