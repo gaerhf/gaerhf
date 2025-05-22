@@ -919,7 +919,7 @@
    :described-by <https://en.wikipedia.org/wiki/Chemurchek_culture#Gallery> ;
    :earliest-date -2750 ;
    :latest-date -1900 ;
-   :in-modern-country-note "Mongolia" ;
+   :in-modern-country-note "China" ;
    :art-historical-culture-or-tradition :chemurchek-culture ;
    :representative-latlong-point (47.780636 87.860069) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_Statue_0.jpg> .
@@ -997,15 +997,17 @@
    :earliest-date -2200 ;
    :latest-date -1700 ;
    :in-modern-country-note "Turkmenistan or Neighboring" ;
+   :representative-latlong-point (37.30111 64.15531) ;
    :art-historical-culture-or-tradition :bactria-margiana-archaeological-complex ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Seated_female_MET_DT867.jpg> . 
 
-:bamc-standing-male a :human-figure ;
-   rdfs:label "BMAC Stanging Male" ;
+:bmac-standing-male a :human-figure ;
+   rdfs:label "BMAC Standing Male" ;
    :described-by <https://www.metmuseum.org/art/collection/search/328593> ;
    :earliest-date -2200 ;
    :latest-date -1700 ;
    :in-modern-country-note "Turkmenistan or Neighboring" ;
+   :representative-latlong-point (37.3028 64.153) ;
    :art-historical-culture-or-tradition :bactria-margiana-archaeological-complex ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Monstrous_male_figure_MET_dp22227.jpg> .
 
@@ -1033,8 +1035,9 @@
    :earliest-date -2000 ;
    :latest-date -1800 ;
    :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (31.287459 46.094633) ;
    :art-historical-culture-or-tradition :elamite-culture ;
-   :note "The date of this piece is uncertain and the findspot is unknown." ;
+   :note "The date of this piece is uncertain and the findspot is unknown. Mapped to ‘southern Iraq’." ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/19d9f995_395f_4e0f_b9f7_a3b7006cfa12/mid_00032589_001.jpg> .
 
 :cypriot-red-polished-ware-plank-figure a :human-figure ;
@@ -1043,7 +1046,9 @@
    :earliest-date -2000 ;
    :latest-date -1900 ;
    :in-modern-country-note "Cyprus" ;
+   :representative-latlong-point (35.163819 33.666232) ;
    :art-historical-culture-or-tradition :philia-culture ;
+   :note "Specific findspot not known." ;
    :thumbnail-image <https://media.getty.edu/iiif/image/74715ced-ad1d-4f96-84b5-8070567edcd8/0,0,3249,4096/204,/0/default.jpg> .   
 
 :mohenjo-daro-priest-king a :human-figure ;
@@ -1109,10 +1114,21 @@
 
 :pylos-combat-agate a :group-of-human-figures ;
    rdfs:label "Pylos Combat Agate" ;
+   :described-by <https://en.wikipedia.org/wiki/Pylos_Combat_Agate> ;
    :approximate-date -1450 ;
    :in-modern-country-note "Greece" ;
-   :described-by <https://en.wikipedia.org/wiki/Pylos_Combat_Agate> ;
+   :representative-latlong-point (37.028222 21.695944) ;
    :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pylos_Combat_Agate.jpg/330px-Pylos_Combat_Agate.jpg> .
+
+:hittite-god-mace a :human-figure ;
+   rdfs:label "Hittite God holding Mace" ;
+   :described-by <https://www.britishmuseum.org/collection/object/W_1939-0610-1> ;
+   :earliest-date -1400 ;
+   :latest-date -1200 ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (40.019722 34.615278) ;
+   :note "Findspot unknown." ;
+   :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/b034bae1_724a_4131_855b_a3b700668aa8/mid_00030758_001.jpg> .
 
 :jade-statuette-standing-dignitary a :human-figure ;
    rdfs:label "Jade Statuette of a Standing Dignitary" ;
@@ -1120,8 +1136,10 @@
    :earliest-date -1200 ;
    :latest-date -1000 ;
    :in-modern-country-note "China" ;
+   :representative-latlong-point (36.099 114.392) ;
+   :note "Findspot not known. Mapped at generic point." ;
    :art-historical-culture-or-tradition :shang-dynasty ;
-   :thumbnail-images <https://ids.hvrd.art/ids/view/17386315?width=250&height=250> .
+   :thumbnail-image <https://ids.hvrd.art/ids/view/17386315?width=250&height=250> .
 
 :deer-stones-funerary-marker a :human-figure ;
    rdfs:label "Deer Stones Culture Funerary Marker" ;
@@ -1158,6 +1176,7 @@
    :art-historical-culture-or-tradition :pharaonic-egypt ;
    :approximate-date -1323 ;
    :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (25.740389 32.601417) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:CairoEgMuseumTaaMaskMostlyPhotographed.jpg> .
 
 :sanxingdui-standing-figure a :human-figure ;
@@ -1227,6 +1246,8 @@
    :art-historical-culture-or-tradition :tlatico-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tlatilco_culture_figurines.jpg> .
 
+# https://collections.louvre.fr/en/ark:/53355/cl010132589
+
 :jinsha-figurine a :human-figure ;
    rdfs:label "Jinsha Figurine" ;
    :described-by <https://en.wikipedia.org/wiki/Jinsha_site> ;
@@ -1289,8 +1310,19 @@
    :earliest-date -900 ;
    :latest-date -700 ;
    :in-modern-country-note "Italy" ;
+   :representative-latlong-point (39.965778 8.448278) ;
    :art-historical-culture-or-tradition :nuragic-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Età_nuragica,_giganti_di_monte_prama,_xiii-ix_secolo_ac_ca.,_da_cabras,_guerriero_05,_01.jpg> .
+
+:neo-babylonian-woman-infant-figurine a :group-of-human-figures ;
+   rdfs:label "Neo-Babylonian Woman Nursing Infant" ;
+   :described-by <https://collections.louvre.fr/en/ark:/53355/cl010132589> ;
+   :earliest-date -900 ;
+   :latest-date -540 ;
+   :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (32.4795 44.431689) ;
+   :thumbnail-image <https://collections.louvre.fr/media/cache/small/0000000021/0000132589/0000225642_OG.JPG> .
+
 
 :olmec-standing-figure a :human-figure ;
    rdfs:label "Jadeite Standing Figure" ;
@@ -1348,6 +1380,14 @@
    :art-historical-culture-or-tradition :chorrera ;
    :earliest-date -900 ;
    :latest-date -200 .
+
+:balawat-gates a :group-of-human-figures ;
+   rdfs:label "Balawat Gates" ;
+   :described-by <https://en.wikipedia.org/wiki/Balawat_Gates> ;
+   :approximate-date -860 ;
+   :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (36.229444 43.403333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Detail_of_an_embossed_scene_on_bronze_plate_showing_Shalmaneser_III_in_a_chariot_and_Assyrian_archers._From_a_Balawat_gate,_Iraq,_859-824_BCE._Ancient_Orient_Museum,_Istanbul.jpg> .
 
 :statue-of-neo-hittite-ruler-suppiluliuma a :human-figure ;
    rdfs:label "Statue of Neo-Hittite Ruler Suppiluliuma" ;
@@ -1505,6 +1545,15 @@
    :latest-date -1 ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/317723/671375/main-image> .
 
+:deposit-figurines-san-isidro a :group-of-human-figures ;
+   rdfs:label "Deposit of Figurines from San Isidro" ;
+   :described-by <https://doi.org/10.15184/aqy.2025.37> ;
+   :earliest-date -410 ;
+   :latest-date -380 ;
+   :in-modern-country-note "El Salvador" ;
+   :representative-latlong-point (13.833882 -88.720227) ;
+   :thumbnail-image <https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0003598X25000377/resource/name/S0003598X25000377_figAb.png?pub-status=live> .
+
 :esteros-standing-figure a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/317724> ;
    :period-note "Esteros or Bahia (Ecuador)" ;
@@ -1604,7 +1653,10 @@
    :described-by <https://en.wikipedia.org/wiki/Gudimallam_Lingam> ;
    :period-note "Satavahanas ? (India)" ;
    :earliest-date -200 ;
-   :latest-date 100 .
+   :latest-date 500 ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (13.603425 79.576767) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gudimallam_Lingam_in-situ_photograph.jpg> .
 
 :ceramic-whistle-in-the-form-of-a-standing-figure a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/313554> ;
@@ -1643,6 +1695,8 @@
    :described-by <https://www.ohiohistory.org/hopewell-headhunters/> ;
    :earliest-date -200 ;
    :latest-date 500 ;
+   :in-modern-country-note "United States" ;
+   :representative-latlong-point (40.042167 -82.430111) ;
    :thumbnail-image <https://www.ohiohistory.org/wp-content/uploads/blog-images/shaman-of-newark-color.jpg> .
 
 :han-female-dancer a :human-figure ;
@@ -1687,6 +1741,7 @@
    :earliest-date -100 ;
    :latest-date 100 ;
    :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (32.4775 44.431389) ;
    :art-historical-culture-or-tradition :parthian ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statuette_Goddess_Louvre_AO20127.jpg> .
 
@@ -1937,6 +1992,7 @@
    :earliest-date 100 ;
    :latest-date 300 ;
    :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.733244 12.278939) ;
    :art-historical-culture-or-tradition :roman-empire ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Marble_plaque_showing_parturition_scene,_Ostia,_Italy,_400_B_Wellcome_L0065025.jpg> . 
 
@@ -1953,6 +2009,7 @@
    :earliest-date 120 ;
    :latest-date 160 ;
    :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.9041 12.4704) ;
    :art-historical-culture-or-tradition :roman-empire ;
    :thumbnail-image <https://www.centralemontemartini.org/sites/default/files/styles/large/public/storage/images/musei/centrale_montemartini/collezioni/percorsi_per_sale/sala_colonne/crepereia_tryphaena/corredo_di_crepereia_tryphaena_bambola/745590-1-ita-IT/corredo_di_crepereia_tryphaena_bambola.jpg> .
 
@@ -1980,6 +2037,15 @@
 # :female-figure-holding-cornucopia 200 - 200 https://www.britishmuseum.org/collection/object/W_2012-6029-1
 
 # https://en.wikipedia.org/wiki/Cheng-Han (figurines of e4th)
+
+:cheng-han-figurine a :human-figure ;
+   rdfs:label "Cheng-Han Figurine" ;
+   :described-by <https://en.wikipedia.org/wiki/Cheng-Han#Cheng_(304–338)> ;
+   :earliest-date 304 ;
+   :latest-date 338 ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (30.66 104.063333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Cheng-Han_Human_Figurine.png> .
 
 :battle-scene-aberlemno-2 a :group-of-human-figures ;
    rdfs:label "Battle Scene on Stone Aberlemno 2" ;
@@ -2176,6 +2242,15 @@
 # 1000 - 1100 https://commons.wikimedia.org/wiki/File:Avalokiteshvara,_the_Bodhisattva_of_Compassion,_Guge_kingdom,_1000-1050_AD,_Ngari,_west_Tibet,_brass_alloy,_copper_%26_tin_inlay,_colored_wax,_traces_of_gilding,_and_pigment_-_Freer_Gallery_of_Art_-_DSC04534.jpg
 
 # 1000 - 1100 https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F2001.2a-d/ https://commons.wikimedia.org/wiki/File:Avalokiteshvara,_the_Bodhisattva_of_Compassion,_Guge_kingdom,_1000-1050_AD,_Ngari,_west_Tibet,_brass_alloy,_copper_%26_tin_inlay,_colored_wax,_traces_of_gilding,_and_pigment_-_Freer_Gallery_of_Art_-_DSC04534.jpg
+
+:taino-stand-human-form a :human-figure ;
+   rdfs:label "Taino Stand in Human Form" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/312602> ;
+   :approximate-date 1000 ;
+   :in-modern-country-note "Dominican Republic" ;
+   :representative-latlong-point (19 -70.666667) ;
+   :note "Findspot unknown" ;
+   :thumbnail-image <https://images.metmuseum.org/CRDImages/ao/web-additional/DP-17678-001.jpg> .
 
 :chaco-clay-figurines a :group-of-human-figures ;
    rdfs:label "Chaco Clay Figurines" ;
