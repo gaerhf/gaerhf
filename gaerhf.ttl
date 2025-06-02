@@ -268,6 +268,7 @@
 # stelae of Tutu Fella https://www.theguardian.com/science/punctuated-equilibrium/2011/sep/03/2
    # https://www.britishmuseum.org/collection/object/E_2013-2034-16206
 
+# ?? https://en.wikipedia.org/wiki/Carpentras_Stele
 
 :sulawesi-cave-hunting-scene a :group-of-human-figures ;
    rdfs:label "Sulawesi Cave Hunting Scene" ;
@@ -1006,6 +1007,14 @@
    :representative-latlong-point (47.780636 87.860069) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_Statue_0.jpg> .
 
+:panel-1426-mastaba-hesy-re a :human-figure ;
+   rdfs:label "Panel 1426 from Mastaba of Hesy-Re" ;
+   :described-by <https://en.wikipedia.org/wiki/Mastaba_of_Hesy-Re#CG_1426> ;
+   :approximate-date -2650 ;
+   :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (29.8685 31.218633) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Hesy-Ra_CG1426.jpg> .
+
 :valdiva-culture-female-figurine a :human-figure ;
    rdfs:label "Valdiva Culture Female Figurine" ;
    :described-by <https://www.brooklynmuseum.org/en-GB/objects/102869> ;
@@ -1193,6 +1202,8 @@
    :described-by <https://en.wikipedia.org/wiki/Grave_Circle_B,_Mycenae> ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Funeral_mask_from_Mycenae_NAMA_080841.jpg> .
 
+# -2000 - -1500 https://www.antiquities.org.il/t/item_en.aspx?CurrentPageKey=49&q=human
+
 :akrotiri-woman-gathering-saffron a :human-figure ;
    rdfs:label "Akrotiri Woman Gathering Plant" ;
    :described-by <https://en.wikipedia.org/wiki/Wall_Paintings_of_Thera> ;
@@ -1212,6 +1223,23 @@
    :representative-latlong-point (37.730278 22.756111) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:594px-MaskeAgamemnon-MOD.jpg> .
 
+:paired-petroglyphs-valcamonica a :group-of-human-figures ;
+   rdfs:label "Paired Petroglyphs from Valcamonica" ;
+   :described-by <https://en.wikipedia.org/wiki/Rock_Drawings_in_Valcamonica> ;
+   :earliest-date -1500 ;
+   :latest-date -500 ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.957056 10.297333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Antropomorfi_detti_astronauti_(a)_-_R_1_-_Area_di_Zurla_-_Nadro_(ph_Luca_Giarelli).jpg> .
+
+:dogu-hands-together a :human-figure ;
+   rdfs:label "Dogū with palms pressed together" ;
+   :described-by <https://en.wikipedia.org/wiki/Dogū_with_palms_pressed_together> ;
+   :approximate-date -1500 ;
+   :in-modern-country-note "Japan" ;
+   :representative-latlong-point (40.512278 141.488389) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Late_Jomon_clay_statue_Kazahari_I_Aomoriken_1500BCE_-_1000BCE.jpg> .
+
 :pylos-combat-agate a :group-of-human-figures ;
    rdfs:label "Pylos Combat Agate" ;
    :described-by <https://en.wikipedia.org/wiki/Pylos_Combat_Agate> ;
@@ -1227,6 +1255,14 @@
    :in-modern-country-note "Greece" ;
    :representative-latlong-point (35.298056 25.163056) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Knossos_bull_leaping_fresco.jpg> .
+
+:hollow-dogu a :human-figure ;
+   rdfs:label "Hollow Dogū" ;
+   :described-by <https://en.wikipedia.org/wiki/Hollow_Dogū> ;
+   :approximate-date -1400 ;
+   :in-modern-country-note "Japan" ;
+   :representative-latlong-point (41.768611 140.728889) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:中空土偶.jpg> .
 
 :hittite-god-mace a :human-figure ;
    rdfs:label "Hittite God holding Mace" ;
@@ -1305,6 +1341,8 @@
    :representative-latlong-point (30.993 104.2) ; # ll for Sanxingdui, China
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%98%9F%E5%A0%86%E5%87%BA%E5%9C%9F%E9%9D%92%E9%93%9C%E5%A4%A7%E7%AB%8B%E4%BA%BA%E5%83%8F,_2017-09-17.jpg> .
 
+# -1208 https://en.wikipedia.org/wiki/Merneptah_Stele
+
 :sanxingdui-bronze-head-protuding-eyes a :human-figure ;
    rdfs:label "Sanxingdui Bronze Head with Protuding Eyes" ;
    :described-by <https://en.wikipedia.org/wiki/Sanxingdui> ;
@@ -1347,6 +1385,15 @@
 
 # -1000 ???? https://en.wikipedia.org/wiki/Tanbaly petroglyphs
 
+:sarcophagus-ahiram a :group-of-human-figures ;
+   rdfs:label "Ahiram Sarcophagus" ;
+   :described-by <https://en.wikipedia.org/wiki/Ahiram_sarcophagus> ,
+    <https://www.worldhistory.org/image/174/sarcophagus-of-ahiram/> ;
+   :approximate-date -1000 ;
+   :in-modern-country-note "Lebanon" ;
+   :representative-latlong-point (34.119444 35.645278) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ahiram_sarcophag_from_Biblos_XIII-XBC.jpg> .
+
 :lapita-sherd-face a :human-figure ;
    rdfs:label "Lapita Sherd with Face" ;
    :described-by <https://smarthistory.org/lapita/>,
@@ -1366,6 +1413,15 @@
    :in-modern-country-note "Mexico" ;
    :art-historical-culture-or-tradition :tlatico-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tlatilco_culture_figurines.jpg> .
+
+:female-figurine-tel-akhziv a :human-figure ;
+   rdfs:label "Female Figure from Tel Akhziv" ;
+   :described-by <https://www.antiquities.org.il/t/item_en.aspx?CurrentPageKey=3307_1> ;
+   :earliest-date -1000 ;
+   :latest-date -856 ;
+   :in-modern-country-note "Israel" ;
+   :representative-latlong-point (33.048286 35.102234) ;
+   :thumbnail-image <https://www.antiquities.org.il/t/images/125/1142282.jpg> .
 
 # https://collections.louvre.fr/en/ark:/53355/cl010132589
 
@@ -1446,7 +1502,6 @@
    :representative-latlong-point (32.4795 44.431689) ;
    :thumbnail-image <https://collections.louvre.fr/media/cache/small/0000000021/0000132589/0000225642_OG.JPG> .
 
-
 :olmec-standing-figure a :human-figure ;
    rdfs:label "Jadeite Standing Figure" ;
    :described-by <https://www.doaks.org/resources/olmec-art/catalogue/14-standing-figure> ;
@@ -1521,6 +1576,14 @@
    :representative-latlong-point (36.2475 36.376389) ; # ll for Turkey
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:SUPPILULIUMA.jpg> .
 
+# approx -850 https://en.wikipedia.org/wiki/Stele_of_Ördek-Burnu
+
+# approx -824 https://en.wikipedia.org/wiki/Black_Obelisk_of_Shalmaneser_III
+
+# approx -800 https://en.wikipedia.org/wiki/Saba%27a_Stele
+
+# -800 - -700 https://en.wikipedia.org/wiki/Melqart_stele
+
 :grevensvænge-figurines a :group-of-human-figures ;
    rdfs:label "Grevensvænge figurines" ;
    :described-by <https://en.wikipedia.org/wiki/Grevensvænge_figurines> ;
@@ -1556,6 +1619,14 @@
    :representative-latlong-point (38.5 22.5) ; # ll for Thebes, Greece
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ancient_Collection_MfA_Boston_0198-2.jpg> .
 
+:victory-stele-esarhaddon a :group-of-human-figures ;
+   rdfs:label "Victory stele of Esarhaddon" ;
+   :described-by <https://en.wikipedia.org/wiki/Victory_stele_of_Esarhaddon> ;
+   :approximate-date -670 ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.103611 36.678611) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Victory_stele_of_Esarhaddon.jpg> .
+
 :hawtar-athat-statue a :human-figure ;
    rdfs:label "Hawtar'athat Statue" ;
    :described-by <https://www.researchgate.net/figure/The-Hawtarathat-statue-discovered-in-Nashqum-present-day-al-Bayda-end-of-the_fig1_340635269> ;
@@ -1580,6 +1651,16 @@
    :representative-latlong-point (13.866667 39.733333) ;
    :note "Location of Addi Galamo unclear. And it would be useful to have a better landing page for the figure itself." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ancient_Figurine,_National_Museum,_Addis_Ababa,_Ethiopia_(2130296832).jpg> .
+
+:ushabti-neferibresaneith a :human-figure ;
+   rdfs:label "Ushabti for Neferibresaneith" ;
+   :described-by <https://www.getty.edu/art/collection/object/1143JJ> ,
+   <https://smarthistory.org/ushabti-ancient-egyptian-afterlife/> ;
+   :earliest-date -570 ;
+   :latest-date -526 ;
+   :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (29.871111 31.216389) ;
+   :thumbnail-image <https://media.getty.edu/iiif/image/afdc1e79-9284-4756-958d-2e3f61377f07/full/400,/0/default.jpg> .
 
 :capestrano-warrior a :human-figure ;
    rdfs:label "Capestrano Warrior" ;
@@ -2721,6 +2802,8 @@
    :art-historical-culture-or-tradition :maya-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Palenque_-_Maske_des_Pakal.jpg> .
 
+# 694 https://en.wikipedia.org/wiki/Takamatsuzuka_Tomb
+
 :leshan-giant-buddha a :human-figure ;
    rdfs:label "Leshan Giant Buddha" ;
    :described-by <https://en.wikipedia.org/wiki/Leshan_Giant_Buddha> ;
@@ -2948,6 +3031,8 @@
    :art-historical-culture-or-tradition :mopti-culture ;
    :representative-latlong-point (13.890556 -4.540278) ; # Mali
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Seated_figure_grom_Mali,_13th_century,_Djenné_peoples,_Metropolitan_Museum_of_Art,_1981.218.JPG> .
+
+# 1221 https://en.wikipedia.org/wiki/Emperor_Go-Toba
 
 :etowah-mound-marble-figures a :group-of-human-figures ;
    rdfs:label "Etowah Mound Marble Figures" ;
