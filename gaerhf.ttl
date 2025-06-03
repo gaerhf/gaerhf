@@ -560,6 +560,8 @@
    :art-historical-culture-or-tradition :pre-pottery-neolithic ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ain_Ghazal_Statue_Jordan_Archaeological_Museum_Amman_Jordan0821.jpg> .
 
+# https://www.antiquities.org.il/t/item_en.aspx?CurrentPageKey=112&q=human
+
 :ppnb-stone-mask a :human-figure ;
    rdfs:label "Pre-pottery Neolithic B Stone Mask" ;
    :in-modern-country-note "West Bank, Palestinian Territories" ;
@@ -591,6 +593,16 @@
    :art-historical-culture-or-tradition :saharan-rock-art ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_11/10_21/eeb44702_ca7b_451c_ba84_a3df015a47d5/mid_01548817_001.jpg> .
 
+:tell-aswad-plastered-skulls a :group-of-human-figures ;
+   rdfs:label "Tell Aswad Plastered Skulls" ;
+   :described-by <https://whitelevy.fas.harvard.edu/publication-neolithic-site-tell-aswad-damascus-region-syria> ,
+    <https://en.wikipedia.org/wiki/Tell_Aswad#Culture> ,
+    <https://youtu.be/taoczmLPC6U> ;
+    :approximate-date -7500 ;
+    :in-modern-country-note "Syria" ;
+    :representative-latlong-point (33.4 36.55) ;
+    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PPNB_Plastered_Skulls_from_the_Levant.jpg> .
+
 :maliwawa-figures a :group-of-human-figures ;
    rdfs:label "Maliwawa Figures" ;
    :described-by <https://www.smithsonianmag.com/smart-news/ancient-australian-aboriginal-art-unlike-anything-seen-180975984/> ,
@@ -600,6 +612,16 @@
    :in-modern-country-note "Australia" ;
    :art-historical-culture-or-tradition :australian-first-nations ;
    :thumbnail-image <https://th-thumbnailer.cdn-si-edu.com/EdiLRvytYRYjtQGSL7yf9I68uWM=/fit-in/1072x0/filters:focal(931x560:932x561)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b8/65/b865d6a9-bbc1-44ec-9f4b-8b885aa6c83b/rock_art_3a.jpeg> .
+
+:plaster-head-jericho a :human-figure ;
+   rdfs:label "Plaster Head from Jericho" ;
+   :described-by <https://www.antiquities.org.il/t/item_en.aspx?CurrentPageKey=126&q=jericho>,
+   <https://en.wikipedia.org/wiki/Pre-Pottery_Neolithic_B>;
+   :approximate-date -7000 ;
+   :in-modern-country-note "West Bank, Palestinian Territories" ;
+   :representative-latlong-point (31.856111 35.46) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jericho_Statue.png> ;
+   :note "The images of the head on the IAA and Wiki Commons pages are horizontally flipped." .
 
 :neolithic-stone-mask a :human-figure ;
    rdfs:label "Pre-pottery Neolithic Stone Mask from Nahel Hemer" ;
@@ -670,6 +692,23 @@
    :art-historical-culture-or-tradition :halaf-culture ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/327066/711765/main-image> .
 
+:male-figurine-cerje a :human-figure ;
+   rdfs:label "Male Figurine from Cerje" ;
+   :described-by <https://en.wikipedia.org/wiki/Adam_of_Macedonia> ;
+   :approximate-date -5500 ;
+   :in-modern-country-note "Macedonia" ;
+   :representative-latlong-point (41.991 21.4289) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Adam_of_macedonia_-_1.jpg> .
+
+:thessalian-neolithic-figurine a :human-figure ;
+   rdfs:label "Neolithic Figurine from Thessaly" ;
+   :described-by <https://en.wikipedia.org/wiki/Neolithic_Greece#Middle_Neolithic_(MN)_5800–5300_BC> ;
+   :earliest-date -5300 ;
+   :latest-date -3300 ;
+   :in-modern-country-note "Greece" ;
+   :art-historical-culture-or-tradition :neolithic-greece ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Female_figurine_marble_Thessaly_5300-3300_BC,_NAMA_8772_080802x.jpg> .  
+
 :halaf-culture-painted-female-figurine a :human-figure ;
    rdfs:label "Halaf Culture Painted Female Figurine" ;
    :described-by <https://art.thewalters.org/object/48.2741/> ;
@@ -706,15 +745,6 @@
    :representative-latlong-point (27.655561 -112.91611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figura_en_el_techo_de_la_cueva_%22El_Ratón%22.JPG> .
 
-:thessalian-neolithic-figurine a :human-figure ;
-   rdfs:label "Neolithic Figurine from Thessaly" ;
-   :described-by <https://en.wikipedia.org/wiki/Neolithic_Greece#Middle_Neolithic_(MN)_5800–5300_BC> ;
-   :earliest-date -5300 ;
-   :latest-date -3300 ;
-   :in-modern-country-note "Greece" ;
-   :art-historical-culture-or-tradition :neolithic-greece ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Female_figurine_marble_Thessaly_5300-3300_BC,_NAMA_8772_080802x.jpg> .  
-
 :mestikawi-cave-group-scenes a :group-of-human-figures ;
    rdfs:label "Mestikawi Cave Group Scenes" ;
    :described-by <https://en.wikipedia.org/wiki/Cave_of_Beasts> ;
@@ -741,6 +771,15 @@
 #    rdfs:label "Female Figure from Langenzersdorf" ;
 #    :described-by <https://en.wikipedia.org/wiki/Venus_of_Langenzersdorf> ;
 #    :approximate-date -4825 .
+
+:seated-female-pazardzik a :human-figure ;
+   rdfs:label "Seated Female Figurine from Pazardzik" ;
+   :described-by <https://artsandculture.google.com/asset/seated-idol-of-pazarzhik/1AHnWfBp7WALdg> ,
+    <https://en.wikipedia.org/wiki/Karanovo_culture> ;
+   :approximate-date -4500 ;
+   :in-modern-country-note "Bulgaria" ;
+   :representative-latlong-point (42.2 24.333333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:NHM_-_Pazardzik_Sitzidol.jpg> .
 
 :rock-art-alta a :group-of-human-figures ;
    rdfs:label "Rock Art at Alta" ;
@@ -1699,6 +1738,15 @@
    :representative-latlong-point (44.554887 80.882147) ;
    :thumbnail-image <https://english.news.cn/20250527/78f909d4820b47f28a2a0b32406af62d/3d866704c5804302a5e316daeba63eac.jpg> .
 
+:tomb-diver a :group-of-human-figures ;
+   rdfs:label "Tomb of the Diver" ;
+   :described-by <https://en.wikipedia.org/wiki/Tomb_of_the_Diver> ;
+   :earliest-date -500 ;
+   :latest-date -475 ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (40.422222 15.005278) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PaestumTaucher.jpg> .
+
 :phoenecian-apotropaic-mask a :human-figure ;
    rdfs:label "Phoenician Apotropaic Mask" ;
    :described-by <https://www.britishmuseum.org/collection/object/W_1856-1223-456> ;
@@ -2065,7 +2113,8 @@
 
 :alabaster-female-figurine-with-ruby-eyes a :human-figure ;
    rdfs:label "Alabaster Female Figurine with Ruby Eyes" ;
-   :Described-by <https://collections.louvre.fr/en/ark:/53355/cl010144841> ;
+   :Described-by <https://collections.louvre.fr/en/ark:/53355/cl010144841> ,
+   <https://doi.org/10.1086/723488> ;
    :earliest-date -100 ;
    :latest-date 100 ;
    :in-modern-country-note "Iraq" ;
@@ -2189,6 +2238,15 @@
    :in-modern-country-note "Pakistan" ;
    :representative-latlong-point (34.286111 71.946667) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PharroAndArdoxsho.jpg> .
+
+:kushan-ruler-surkh-kotal a :human-figure ;
+   rdfs:label "Kushan Ruler from Surkh Kotal" ;
+   :described-by <https://en.wikipedia.org/wiki/Surkh_Kotal#The_ancient_name_of_the_site> ;
+   :note "Frequently identified as Kanishka" ;
+   :approximate-date 125 ;
+   :in-modern-country-note "Afghanistan" ;
+   :representative-latlong-point (36.036083 68.58905) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Probable_statue_of_Kanishka,_Surkh_Kotal._Kabul_Museum_(2nd_century_CE).jpg> .
 
 :seated-buddha-mathura-132 a :group-of-human-figures ;
    rdfs:label "Seated Buddha from Mathura of 132 CE" ;
@@ -2529,7 +2587,7 @@
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (41.9041 12.4704) ;
    :art-historical-culture-or-tradition :roman-empire ;
-   :thumbnail-image <https://www.centralemontemartini.org/sites/default/files/styles/large/public/storage/images/musei/centrale_montemartini/collezioni/percorsi_per_sale/sala_colonne/crepereia_tryphaena/corredo_di_crepereia_tryphaena_bambola/745590-1-ita-IT/corredo_di_crepereia_tryphaena_bambola.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Crepereia_Tryphaena_2.jpg> .
 
 :kushan-plaque-with-two-figures a :group-of-human-figures ;
    rdfs:label "Kushan Plaque with Two Figures" ;
@@ -2824,6 +2882,15 @@
    :art-historical-culture-or-tradition :sailendra-dynasty ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Reliëf_O_89_op_de_verborgen_voet_van_de_Borobudur_TMnr_10015826.jpg> . # https://www.bbc.co.uk/ahistoryoftheworld/objects/CPbWMMoFSnmUlSHF3dkf5A
 
+:colossal-toltec-warriors a :group-of-human-figures ;
+   rdfs:label "Colossal Toltec Warriors" ;
+   :described-by <https://en.wikipedia.org/wiki/Atlantean_figures#Tula> ;
+   :earliest-date 750 ;
+   :latest-date 950 ;
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (20.064156 -99.340803) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Telamones_Tula.jpg> .
+
 :musician-bomampak-murals a :group-of-human-figures ;
    rdfs:label "Procession from the Bonampak Murals" ;
    :described-by <https://en.wikipedia.org/wiki/Bonampak#Temple_of_the_Murals> ;
@@ -2970,7 +3037,7 @@
    :representative-latlong-point (27.666314 85.353615) ;
    :thumbnail-image <https://images.metmuseum.org/CRDImages/as/web-additional/DP-30181-001.jpg> .
 
-:cahokiam-resting-warrior-figurine a :human-figure ;
+:cahokian-resting-warrior-figurine a :human-figure ;
    rdfs:label "Cahokian Resting Warrior Figurine" ;
    :described-by <https://archeology.uark.edu/restingwarrior3d/> ;
    :period-note "Cahokia (Illinois)" ;
@@ -3000,6 +3067,15 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Lewis_chessmen_23.JPG> .
 
 # 1150 - 1250 https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1968.75/
+
+:mary-seated-christ a :group-of-human-figures ;
+   rdfs:label "Mary Seated with Christ Child" ;
+   :described-by <https://www.metmuseum.org/collection/the-collection-online/search/463795> ;
+   :earliest-date 1175 ;
+   :latest-date 1200 ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (45.333333 3) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/463795/953347/main-image> .
 
 :bust-of-jayavarman-vii a :human-figure ;
    rdfs:label "Bust of Jayavarman VII" ;
