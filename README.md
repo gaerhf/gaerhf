@@ -1,1 +1,1 @@
-gaerhf data
+Data for “Global Approaches to Early Representations of the Human Figure". The public website is at https://gaerhf.org .
