@@ -1737,9 +1737,10 @@
 
 :giants-of-mont-e-prama a :group-of-human-figures ;
    rdfs:label "Giants of Mont'e Prama, Sardinia" ;
-   :described-by <https://en.wikipedia.org/wiki/Giants_of_Mont%27e_Prama> ;
+   :described-by <https://en.wikipedia.org/wiki/Giants_of_Mont%27e_Prama>,
+      <https://www.metmuseum.org/perspectives/sardinian-giants> ;
    :earliest-date -900 ;
-   :latest-date -700 ;
+   :latest-date -750 ;
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (39.965778 8.448278) ;
    :art-historical-culture-or-tradition :nuragic-culture ;
@@ -2793,13 +2794,13 @@
    :latest-date 272 ;
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (29.988889 52.874722) ;
-   :wikimedia-commons-image-pate <https://en.wikipedia.org/wiki/File:Naghsh-e_rostam,_Irán,_2016-09-24,_DD_12.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Naghsh-e_rostam,_Irán,_2016-09-24,_DD_12.jpg> .
 
-:gandhara-standing-buddha a :human-figure ;
-   :described-by <https://www.metmuseum.org/art/collection/search/38820> ;
-   :period-note "Gandhara Region (Pakistan)" ;
-   :earliest-date 300 ;
-   :latest-date 400 .
+# :gandhara-standing-buddha a :human-figure ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/38820> ;
+#    :period-note "Gandhara Region (Pakistan)" ;
+#    :earliest-date 300 ;
+#    :latest-date 400 .
 
 :standing-warrior-costa-veraguis a :human-figure ;
    rdfs:label "Standing Warrior of the Veraquis Culture" ;
@@ -2821,13 +2822,13 @@
    :note "The image is of a replica on site. And I am not sure of the chronology of this and the associated statues." ;
    :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/Barriles#/media/File:Sitio_Barriles_Statue.png> .
 
-:tombstone-of-ertola a :human-figure ;
-   rdfs:label "Tombstone of Ertola" ;
-   :described-by
-   <https://blog.english-heritage.org.uk/role-women-hadrians-wall/> ,
-   <https://romaninscriptionsofbritain.org/inscriptions/1181> ;
-   :earliest-date 350 ;
-   :latest-date 450 .
+# :tombstone-of-ertola a :human-figure ;
+#    rdfs:label "Tombstone of Ertola" ;
+#    :described-by
+#    <https://blog.english-heritage.org.uk/role-women-hadrians-wall/> ,
+#    <https://romaninscriptionsofbritain.org/inscriptions/1181> ;
+#    :earliest-date 350 ;
+#    :latest-date 450 .
 
 :coronation-ardashir-ii-relief a :group-of-human-figures ;
    rdfs:label "Coronation of Ardashir II Relief" ;
@@ -3638,7 +3639,7 @@
    :representative-latlong-point (16.763889 -89.1175) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/Category:Altar_13_of_Caracol#/media/File:Altar_13_Mesoamerican_Gallery.JPG> .
 
-:bowl--figure-vessel a :human-figure ;
+:bowl-figure-vessel a :human-figure ;
    rdfs:label "Bowl with Figure holding Vessel" ;
    :described-by <https://www.metmuseum.org/art/collection/search/449495> , 
    <https://commons.wikimedia.org/wiki/File:Two_Bowls_with_Figures_and_a_Footed_Plate_with_Birds_MET_DP258911.jpg> ;
