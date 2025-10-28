@@ -295,6 +295,7 @@
 :sulawesi-leang-bulu-sipong-4-hunting-scene a :group-of-human-figures ;
    rdfs:label "Leang Bulu’ Sipong 4 Hunting Scene" ;
    :described-by <https://doi.org/10.1038/s41586-024-07541-7>,
+      <https://www.sciencenews.org/article/nearly-44000-year-old-hunting-scene-is-oldest-storytelling-art> ,
       <https://en.wikipedia.org/wiki/Caves_in_the_Maros-Pangkep_karst> ,
       <https://smarthistory.org/earliest-hunting-scene-in-sulawesi-indonesia/> ;
    :approximate-date -46000 ;
@@ -305,7 +306,9 @@
 
 :hohle-fels-figurine a :human-figure ;
    rdfs:label "Female Figurine from Hohle Fels" ;
-   :described-by <https://en.wikipedia.org/wiki/Venus_of_Hohle_Fels> ;
+   :described-by <https://en.wikipedia.org/wiki/Venus_of_Hohle_Fels>  ,
+      <https://www.urmu.de/digitale-sammlung/objekt/frauenstatuette-1977-0119-0030-9000> ,
+      <https://www.nature.com/articles/nature07995> ;
    :earliest-date -40000 ;
    :latest-date -35000 ;
    :in-modern-country-note "Germany" ;
@@ -411,6 +414,16 @@
    :representative-latlong-point (44.9447 1.1347) ; # ll for Marquay, Dordogne
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_de_Laussel_expo_Art_et_Prehistoire.jpg> .
 
+:female-figure-1-zaraysk a :human-figure ;
+   rdfs:label "Female Figureine No. 1 from Zaraysk" ;
+   :described-by <https://en.wikipedia.org/wiki/Venus_figurines_of_Zaraysk> ,
+      <https://donsmaps.com/zarayskvenus.html> ;
+   :earliest-date -22000 ;
+   :latest-date -16000 ;
+   :in-modern-country-note "Russia" ;
+   :representative-latlong-point (54.766667 38.883333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Палеолитическая_Венера_Зарайская_стоянка_верхний_палеолит_(2).jpg> .
+
 :mal-ta-female-figurines a :group-of-human-figures ;
    rdfs:label "Figurines from Mal'ta (Siberia)" ;
    :described-by <http://malta.artemiris.org/category/view/9> ;
@@ -443,16 +456,6 @@
    :art-historical-culture-or-tradition :magdalenian ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Lascaux_01.jpg> .
 
-:female-figure-1-zaraysk a :human-figure ;
-   rdfs:label "Female Figureine No. 1 from Zaraysk" ;
-   :described-by <https://en.wikipedia.org/wiki/Venus_figurines_of_Zaraysk> ,
-      <https://donsmaps.com/zarayskvenus.html> ;
-   :earliest-date -22000 ;
-   :latest-date -16000 ;
-   :in-modern-country-note "Russia" ;
-   :representative-latlong-point (54.766667 38.883333) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Палеолитическая_Венера_Зарайская_стоянка_верхний_палеолит_(2).jpg> .
-
 :lubang-jeriji-saleh-cave-hunting-group a :group-of-human-figures ;
    rdfs:label "Lubang Jeriji Saleh Cave Hunting Group" ;
    :described-by <https://www.smithsonianmag.com/science-nature/worlds-oldest-known-figurative-paintings-discovered-borneo-cave-180970747/>,
@@ -462,6 +465,16 @@
    :in-modern-country-note "Indonesia" ;
    :representative-latlong-point (1.241472 117.329111) ;
    :thumbnail-image <https://th-thumbnailer.cdn-si-edu.com/z-zenrrnbTxRMap28ZLM2TeAF60=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d3/70/d370e4f4-292a-4ca6-8010-f1f27a15b433/humans-3.jpg> .
+
+:female-figurine-laugerie-basse a :human-figure ;
+   rdfs:label "Female Figurines from Laugeri-Basse" ;
+   :described-by <https://en.wikipedia.org/wiki/Vénus_impudique> ,
+    <https://en.wikipedia.org/wiki/Laugerie-Basse> ;
+   :earliest-date -17000 ;
+   :latest-date -14000 ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (44.570278 0.595556) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_of_Impudique_-_1.jpg> .
 
 :ignatievka-cave-paintings a :group-of-human-figures ;
    rdfs:label "Ignatievka Cave Paintings" ;
@@ -493,15 +506,14 @@
    :note "Location is approximate, as the exact location is not readily available to protect the site." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bradshaw_rock_paintings.jpg> .
 
-:female-figurine-laugerie-basse a :human-figure ;
-   rdfs:label "Female Figurines from Laugeri-Basse" ;
-   :described-by <https://en.wikipedia.org/wiki/Vénus_impudique> ,
-    <https://en.wikipedia.org/wiki/Laugerie-Basse> ;
-   :earliest-date -17000 ;
-   :latest-date -14000 ;
-   :in-modern-country-note "France" ;
-   :representative-latlong-point (44.570278 0.595556) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Venus_of_Impudique_-_1.jpg> .
+:toca-do-baixao-perna-i a :group-of-human-figures ;
+   rdfs:label "Toca do Baixao do Perna I Pictograms" ;
+   :described-by <https://www.mdpi.com/2076-0752/3/2/190> ;
+   :earliest-date -13500 ;
+   :latest-date -7500 ;
+   :in-modern-country-note "Brazil" ;
+   :representative-latlong-point (-8.666667 -42.55) ;
+   :thumbnail-image <https://www.mdpi.com/arts/arts-03-00190/article_deploy/html/images/arts-03-00190-g007-1024.png> .
 
 :qurta-rock-art-figures a :group-of-human-figures ;
    rdfs:label "Qurta Rock Art Figures" ;
@@ -511,15 +523,6 @@
    :representative-latlong-point (24.638719 32.960759) ;
    :note "Mapped point very approximate. I have not found a linkable image." ;
    :art-historical-culture-or-tradition :saharan-rock-art .
-
-:toca-do-baixao-perna-i a :group-of-human-figures ;
-   rdfs:label "Toca do Baixao do Perna I Pictograms" ;
-   :described-by <https://www.mdpi.com/2076-0752/3/2/190> ;
-   :earliest-date -13500 ;
-   :latest-date -7500 ;
-   :in-modern-country-note "Brazil" ;
-   :representative-latlong-point (-8.666667 -42.55) ;
-   :thumbnail-image <https://www.mdpi.com/arts/arts-03-00190/article_deploy/html/images/arts-03-00190-g007-1024.png> .
 
 :grotta-dell-addaura-inscribed-petroglyphs a :group-of-human-figures ;
    rdfs:label "Grotta dell'Addaura Inscribed Petroglyphs" ;
@@ -665,6 +668,15 @@
    :representative-latlong-point (37.0925 39.303611) ;
    :thumbnail-image <https://cdn.sanity.io/images/cxgd3urn/production/33e2eda96598f74fbaa720f7b745548860be3aa0-2048x1376.jpg?w=300&h=201&q=85&fit=crop&auto=format> .
 
+:stylized-female-figurine-monruz a :human-figure ;
+   rdfs:label "Stylized Female Figurine from Monruz" ;
+   :described-by <https://en.wikipedia.org/wiki/Venus_of_Monruz> ;
+   :approximate-date -9000 ;
+   :note "Very imprecise location." ;
+   :in-modern-country-note "Switzerland" ;
+   :representative-latlong-point (47.003677 6.956833) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Laténium-dame-Monruz.jpg> .
+
 :balikligol-life-size-figure a :human-figure ;
    rdfs:label "Balıklıgöl Life-Size Figure" ;
    :described-by <https://en.wikipedia.org/wiki/Urfa_Man> ;
@@ -674,15 +686,6 @@
    :representative-latlong-point (37.158333 38.791667) ;
    :art-historical-culture-or-tradition :pre-pottery-neolithic ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Urfa_man.jpg> .
-
-:male-figure-on-bench-sayburc a :human-figure ;
-   rdfs:label "Neolithic Male Figure carved in Bench" ;
-   :described-by <https://doi.org/10.15184/aqy.2022.125> ;
-   :approximate-date -8500 ;
-   :material-note "Limestone" ;
-   :in-modern-country-note "Turkey" ;
-   :representative-latlong-point (37.110047 38.621842) ; # Sayburc, Turkey
-   :thumbnail-image <https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20221201181421541-0856:S0003598X22001259:S0003598X22001259_fig6.png?pub-status=live> .
 
 :inscribed-figure-pinhole-cave a :human-figure ;
    rdfs:label "Inscribed Figure from Pinhole Cave" ;
@@ -718,6 +721,15 @@
    :representative-latlong-point (36.84 40.068611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figurine_from_Fakhariyah_(male),_Tell_Fakhariyah,_Pre-pottery_Neolithic_B,_9000-7000_BC,_gypsum_with_bitumen_and_stone_inlays_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07636.JPG> .
 
+:male-figure-on-bench-sayburc a :human-figure ;
+   rdfs:label "Neolithic Male Figure carved in Bench" ;
+   :described-by <https://doi.org/10.15184/aqy.2022.125> ;
+   :approximate-date -8500 ;
+   :material-note "Limestone" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.110047 38.621842) ; # Sayburc, Turkey
+   :thumbnail-image <https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20221201181421541-0856:S0003598X22001259:S0003598X22001259_fig6.png?pub-status=live> .
+
 :flint-anthropoid-figurines-kharaysin a :group-of-human-figures ;
    rdfs:label "Flint Anthropoid Figurines from Kharaysin" ;
    :described-by <https://www.cambridge.org/core/journals/antiquity/article/flint-figurines-from-the-early-neolithic-site-of-kharaysin-jordan/FFEB57291718AF9FF216F1113844C61B> ;
@@ -746,7 +758,7 @@
    :earliest-date -8400 ;
    :latest-date -8100 ;
    :in-modern-country-note "Turkey" ;
-   :representative-latlong-point (37.518333 38.605556) ;
+   :representative-latlong-point (37.518433 38.605756) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Urfa_museum_Fragment_of_stone_vessel_Nevalı_Çori_-_Neolithic_age_4795.jpg> .
 
 :totem-pole-nevali-cori a :group-of-human-figures ;
@@ -764,7 +776,7 @@
    :earliest-date -8400 ;
    :latest-date -8100 ;
    :in-modern-country-note "Turkey" ;
-   :representative-latlong-point (37.518333 38.605556) ;
+   :representative-latlong-point (37.518233 38.605656) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Nevalı_Çori_portrait,_Neolithic_age_(8400-8100_BCE),_Urfa_Museum.jpg> .
 
 :tell-mureybet-female-figurine a :human-figure ;
@@ -844,6 +856,15 @@
    :representative-latlong-point (4.602 101.1305) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gua_Tambun5.jpg> .
 
+:kilisik-sculpture a :human-figure ;
+   rdfs:label "Kilisik Sculpture" ;
+   :described-by <https://en.wikipedia.org/wiki/Kilisik_sculpture> ;
+   :earliest-date -7500 ;
+   :latest-date -7000 ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.804 38.541) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Adiyaman-Kilisik_sculpture.jpg> .
+
 :pastoral-period-hunter-tin-aboteka a :human-figure ;
    rdfs:label "Pastoral Period Hunter from Tin Aboteka" ;
    :described-by <https://www.britishmuseum.org/collection/object/E_2013-2034-4191> ;
@@ -857,13 +878,14 @@
 :tell-aswad-plastered-skulls a :group-of-human-figures ;
    rdfs:label "Tell Aswad Plastered Skulls" ;
    :described-by <https://whitelevy.fas.harvard.edu/publication-neolithic-site-tell-aswad-damascus-region-syria> ,
+   <https://virtual-museum-syria.org/damascus/plastered-skull-from-tell-aswad/> ,
     <https://en.wikipedia.org/wiki/Tell_Aswad#Culture> ,
     <https://youtu.be/taoczmLPC6U> ;
     :approximate-date -7500 ;
     :material-note "Human skull modeled with lime plaster, paint " ;
     :in-modern-country-note "Syria" ;
     :representative-latlong-point (33.4 36.55) ;
-    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PPNB_Plastered_Skulls_from_the_Levant.jpg> .
+    :thumbnail-image <https://virtual-museum-syria.org/damascus/wp-content/uploads/sites/13/2021/05/241555304_361314845686225_7848441567817823173_n.jpg> .
 
 :maliwawa-figures a :group-of-human-figures ;
    rdfs:label "Maliwawa Figures" ;
@@ -905,6 +927,16 @@
    :representative-latlong-point (31.1392 35.2939) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_Mask_Nahal_Hemar_Cave.JPG> .
 
+:marble-figurines-knossos a :human-figure ;
+   rdfs:label "Neolithic Marble Figurine from Knossos" ;
+   :described-by <https://fr.wikipedia.org/wiki/Préhistoire_de_la_Crète#Céramique_et_autres_objets_mobiliers> ;
+   :earliest-date -6500 ;
+   :latest-date -5900 ;
+   :note "Possibly a Cycladic product. Found at Knossos." ;
+   :in-modern-country-note "Greece" ;
+   :representative-latlong-point (35.298056 25.163056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Neolithic_male_figurine_from_Knossos.jpg> .
+
 :anthropoid-object-engraved-hair-damjili-cave a :human-figure ;
    rdfs:label "Anthropoid Object with Engraved Hair from Damjili Cave" ;
    :described-by <https://doi.org/10.1016/j.ara.2025.100611> ;
@@ -937,6 +969,25 @@
    :thumbnail-image <https://www.science.org/cms/10.1126/sciadv.adk4415/asset/c816897b-7a60-4e2f-865f-afdf49480a97/assets/images/large/sciadv.adk4415-f5.jpg> .
 
 # -6000 https://www.bradshawfoundation.com/africa/gilf_kebir_cave_of_swimmers/index.php
+
+:sha-ar-hagolan-seated-female-figure a :human-figure ;
+   rdfs:label "Sha'ar HaGolan Seated Female Figure" ;
+   :described-by <https://en.wikipedia.org/wiki/Sha%27ar_HaGolan_(archaeological_site)> ,
+      <https://arkeonews.net/8000-year-old-yarmukian-mother-goddess-figurine-discovered-in-israel/> ;
+   :earliest-date -6400 ;
+   :latest-date -6000 ;
+   :in-modern-country-note "Israel" ;
+   :representative-latlong-point (32.686389 35.603333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Shaar_Hagolan_Mother_Goddess_clay_figurine.jpg> .
+
+:sha-ar-hagolan-pebble-figurines a :human-figure ;
+   rdfs:label "Sha'ar HaGolan Pebble Figurine" ;
+   :described-by <https://en.wikipedia.org/wiki/Sha%27ar_HaGolan_(archaeological_site)> ;
+   :earliest-date -6400 ;
+   :latest-date -6000 ;
+   :in-modern-country-note "Israel" ;
+   :representative-latlong-point (32.686389 35.603333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Yarmukian_Culture_-Sha%27ar_HaGolan,_pebble_Figurine.jpg> .
 
 :bangudae-petroglyphs a :group-of-human-figures ;
    rdfs:label "Bangudae Petroglyphs" ;
@@ -1009,7 +1060,7 @@
    :thumbnail-image <https://art.thewalters.org/images/art/PS1_48.2741_3Qtr_DD_T09.jpg> .
 
 :female-figurine-saliagos a :human-figure ;
-   rdfs:label "Female Figureine from Saliagos" ;
+   rdfs:label "Female Figurine from Saliagos" ;
    :described-by <https://en.wikipedia.org/wiki/Fat_Lady_of_Saliagos> ;
    :earliest-date -5000 ;
    :latest-date -4000 ;
@@ -1134,6 +1185,17 @@
    :representative-latlong-point (42.2 24.333333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:NHM_-_Pazardzik_Sitzidol.jpg> .
 
+:figurine-slatino a :human-figure ;
+   rdfs:label "Figurine from Slatino" ;
+   rdfs:described-by <https://en.wikipedia.org/wiki/Karanovo_culture> ,
+      <https://commons.wikimedia.org/wiki/File:Керамични_антропоморфни_и_зооморфни_фигурки_-_с._Слатино,_ранен_халколит_004.jpg> ;
+   :approximate-date -4500 ;
+   :note "The date is an estimate and may even be incorrect." ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Bulgaria" ;
+   :representative-latlong-point (42.166667 23.05) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Керамични_антропоморфни_и_зооморфни_фигурки_-_с._Слатино,_ранен_халколит_004.jpg> .
+   
 :bonu-ighinu-statuette a :human-figure ;
    rdfs:label "Bonu Ighinu Statuette" ;
    :described-by <https://en.wikipedia.org/wiki/Bonu_Ighinu_culture> ;
@@ -1240,6 +1302,7 @@
 :female-figurine-kolobrzeg a :human-figure ;
    rdfs:label "Female Figurine from Kołobrzeg" ;
    :described-by <https://archaeology.org/news/2025/06/20/6000-year-old-polish-venus-figurine-studied/> ,
+      <https://archaeology.org/news/2025/06/20/6000-year-old-polish-venus-figurine-studied/> ,
    <https://www.theartnewspaper.com/2025/06/19/archaeologists-confirm-that-limestone-venus-found-by-a-farmer-in-poland-is-6000-years-old> ;
    :approximate-date -4000 ;
    :in-modern-country-note "Poland" ;
@@ -1339,7 +1402,7 @@
    :in-modern-country-note "Namibia" ;
    :representative-latlong-point (-20.590556 14.372222) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rock_painting_in_Twyfelfontein3.jpg> .
-
+  
 :neolithic-figurine-karditsa a :human-figure ;
    rdfs:label "Neolithic Figurine from Karditsa" ;
    :described-by <https://en.wikipedia.org/wiki/Karditsa_Thinker> ;
@@ -1532,16 +1595,13 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Narmer_Palette_smiting_side.jpg> ;
    :art-historical-culture-or-tradition :pharaonic-egypt .
 
-:two-figures-oryxes-al-ain a :group-of-human-figures ;
-   rdfs:label "Two figures flanked by Oryxes from Al Ain" ;
-   :described-by <https://de.wikivoyage.org/wiki/Al-Ain> ,
-      <https://en.wikipedia.org/wiki/Hili_Archaeological_Park> ,
-      <https://web.archive.org/web/20091203154509/http://www.aam.gov.ae/related_sites/hili_grand_tomb.htm> ;
-   :approximate-date -2500 ;
-   :in-modern-country-note "United Arab Emirates" ;
-   :note "The ‘Grand Tomb’ is reconstructed but I don't think the relief is a modern creation." ;
-   :representative-latlong-point (24.291689 55.793066) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Al-ain-rundgrab.jpg> .
+:cross-shaped-figure-pomos a :human-figure ;
+   rdfs:label "Cross-shaped Figure from Pomos" ;
+   :desribed-by <https://en.wikipedia.org/wiki/Idol_of_Pomos> ;
+   :approximate-date -3000 ;
+   :in-modern-country-note "Cyprus" ;
+   :representative-latlong-point (35.159722 32.545) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Idol_of_Pomos,_Cyprus_Archaeological_Museum.jpg> .
 
 :stele-vado-all-arancio a :human-figure ;
    rdfs:label "Stele from Vado all'Arancio" ;
@@ -1694,12 +1754,12 @@
 
 :cycladic-figurine-spedos-type a :human-figure ;
    rdfs:label "Cycladic Figurine (Spedos Type)" ;
+   :described-by <https://en.wikipedia.org/wiki/Cycladic_art> ;
    :earliest-date -2800 ;
    :latest-date -2300 ;
    :material-note "Marble" ;
    :in-modern-country-note "Greece" ;
-   :described-by <https://en.wikipedia.org/wiki/Cycladic_art> ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/Cycladic_art#/media/File:Cycladic_female_figurine_2.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Cycladic_female_figurine_2.jpg> .
 
 :chemurchek-funerary-marker a :human-figure ;
    rdfs:label "Chemurchek Funerary Marker" ;
@@ -1727,8 +1787,9 @@
    :earliest-date -2600 ;
    :latest-date -1500 ;
    :in-modern-country-note "Ecuador" ;
+   :representative-latlong-point ( -2.2267 -80.8583 ) ;
    :art-historical-culture-or-tradition :valdiva-culture ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/Valdivia_culture#/media/File:Valdivia_Female_Figurine_2600-1500_BCE_Brooklyn_Museum.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Valdivia_Female_Figurine_2600-1500_BCE_Brooklyn_Museum.jpg> .
 
 # -2250 - -2000 https://commons.wikimedia.org/wiki/File:Elam_cool.jpg
 
@@ -1757,6 +1818,17 @@
    :thumbnail-image <https://www.harappa.com/sites/default/files/styles/galleryformatter_slide/public/chanhudaro-dancer-spear-thrower.jpg> ;
    :alt-thumbnail-image <https://collections.mfa.org/internal/media/dispatcher/1009998/preview> .
 
+:two-figures-oryxes-al-ain a :group-of-human-figures ;
+   rdfs:label "Two figures flanked by Oryxes from Al Ain" ;
+   :described-by <https://de.wikivoyage.org/wiki/Al-Ain> ,
+      <https://en.wikipedia.org/wiki/Hili_Archaeological_Park> ,
+      <https://web.archive.org/web/20091203154509/http://www.aam.gov.ae/related_sites/hili_grand_tomb.htm> ;
+   :approximate-date -2500 ;
+   :in-modern-country-note "United Arab Emirates" ;
+   :note "The ‘Grand Tomb’ is reconstructed but I don't think the relief is a modern creation." ;
+   :representative-latlong-point (24.291689 55.793066) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Al-ain-rundgrab.jpg> .
+
 :kernosivsky-idol a :human-figure ;
    rdfs:label "Kernosivsky Idol" ;
    :described-by <https://en.wikipedia.org/wiki/Kernosivsky_idol> ;
@@ -1765,9 +1837,9 @@
    :in-modern-country-note "Ukraine" ;
    :representative-latlong-point (48.954315 35.632818) ;
    :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Керносовский_идол.png> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Керносовский_идол.png> .
 
-:joman-female-figurine a :human-figure ;
+:jomon-female-figurine a :human-figure ;
    rdfs:label "Jōmon Female Figurine" ;
    :described-by <https://en.wikipedia.org/wiki/Jōmon_Venus> ;
    :approximate-date -2500 ;
@@ -1937,7 +2009,7 @@
    :in-modern-country-note "Pakistan" ;
    :art-historical-culture-or-tradition :indus-valley-civilization ;
    :representative-latlong-point (27.335167 68.143889) ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Mohenjo-daro_Priesterkönig.jpeg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mohenjo-daro_Priesterkönig.jpeg> .
 
 :figure-riding-animal a :human-figure ;
    rdfs:label "Figure Riding Animal" ;
@@ -1999,7 +2071,7 @@
    :latest-date 500 ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (39.123611 -110.693611) ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/Buckhorn_Draw_Pictograph_Panel#/media/File:Buckhorn_02_2008.JPG> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Buckhorn_02_2008.JPG> .
 
 :kangjiashimenzi-petroglyphs a :group-of-human-figures ;
    rdfs:label "Kangjiashimenzi Petroglyphs" ;
@@ -2201,7 +2273,7 @@
    :latest-date -1335 ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (27.661667 30.905556) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Akhenaton_et_Nefertiti_-_Musée_du_Louvre_Antiquités_égyptiennes_E_15593_;_E_22746.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ancient_Egypt_Painted_Statue_(28314649872).jpg> .
 
 :bust-of-nefertiti a :human-figure ;
    rdfs:label "Bust of Nefertiti" ;
@@ -2211,7 +2283,7 @@
    :in-modern-country-note "Egypt" ;
    :described-by <https://en.wikipedia.org/wiki/Nefertiti_Bust> ;
    :representative-latlong-point (27.645278 30.896389) ; # ll for Amarna, Egypt
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Nofretete_Neues_Museum.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg> .
 
 :mask-of-tutankhamun a :human-figure ;
    rdfs:label "Mask of Tutankhamun" ;
@@ -2243,6 +2315,15 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%98%9F%E5%A0%86%E5%87%BA%E5%9C%9F%E9%9D%92%E9%93%9C%E5%A4%A7%E7%AB%8B%E4%BA%BA%E5%83%8F,_2017-09-17.jpg> .
 
 # -1208 https://en.wikipedia.org/wiki/Merneptah_Stele
+
+:jade-figure-fu-hao a :human-figure ;
+   rdfs:label "Jade Figure from Tomb of Fu Hao" ;
+   :described-by <https://en.wikipedia.org/wiki/Tomb_of_Fu_Hao> ,
+      <https://commons.wikimedia.org/wiki/Category:Jade_figures_from_the_Tomb_of_Fu_Hao> ;
+   :approximate-date -1200 ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (36.121031 114.316206) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Shang_Jade_Figure_cropped,_highlighted.jpg> .
 
 :sanxingdui-bronze-head-protuding-eyes a :human-figure ;
    rdfs:label "Sanxingdui Bronze Head with Protuding Eyes" ;
@@ -2569,7 +2650,7 @@
    :representative-latlong-point (37.103611 36.678611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_Weather_God_Haddad.jpg> .
 
-:grevensvænge-figurines a :group-of-human-figures ;
+:grevensvaenge-figurines a :group-of-human-figures ;
    rdfs:label "Grevensvænge figurines" ;
    :described-by <https://en.wikipedia.org/wiki/Grevensvænge_figurines> ;
    :earliest-date -800 ;
@@ -2614,7 +2695,7 @@
    :earliest-date -770 ;
    :latest-date -409 ;
    :material-note "Wood" ;
-   :in-modern-country-note "United Kingdom" ;
+   :in-modern-country-note "England" ;
    :representative-latlong-point (53.7285 0.0382) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Roos_Carr_figures_and_boat.jpg> .
 
@@ -2655,6 +2736,15 @@
    :in-modern-country-note "Turkey" ;
    :representative-latlong-point (37.103611 36.678611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Victory_stele_of_Esarhaddon.jpg> .
+
+:statue-pharaoh-tantamani a :human-figure ;
+   rdfs:label "Statue of Pharaoh Tantamani from near Kerma" ;
+   :described-by <https://en.wikipedia.org/wiki/Tantamani> ;
+   :earliest-date -664 ;
+   :latest-date -656 ;
+   :in-modern-country-note "Sudan" ;
+   :representative-latlong-point (19.600803 30.409731 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tanotamun_statue_in_Kerma_Museum.jpg> .
 
 :female-flanked-sphinxes a :human-figure ;
    rdfs:label "Seated Female Figure Flanked by Sphinxes" ;
@@ -2816,7 +2906,7 @@
    :latest-date -486 ;
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (34.390556 47.435833) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/Category:Behistun_Inscription#/media/File:39_Bistoun.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:39_Bistoun.jpg> .
 
 :euphronios-krater a :group-of-human-figures ;
    rdfs:label "Euphronios Krater" ;
@@ -3079,6 +3169,15 @@
    :art-historical-culture-or-tradition :iberian-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Escultura_ibérica_%22Dama_de_Elche%22._Museo_Arqueológico_Nacional_(España)._Spain.jpg> .
 
+:seated-figure-roquepertuse a :human-figure ;
+   rdfs:label "Seated Figure from Roquepertuse" ;
+   :described-by <https://en.wikipedia.org/wiki/Roquepertuse> ;
+   :earliest-date -400 ;
+   :latest-date -200 ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.5328 5.2715) ;
+   :wikimedia-commons-image-page <4https://commons.wikimedia.org/wiki/File:Seated_warrior_8270_from_Roquepertuse_-_front_(Marseille,_Mus_d%27arch_med).jpg> .
+
 # -300 -- https://commons.wikimedia.org/wiki/File:Majiayuan_tomb_figurines.jpg
 
 :scultpures-tel-abrak a :group-of-human-figures ;
@@ -3112,15 +3211,6 @@
    :note "See museum label in the linked Wikimedia Commons page." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa_(cropped).jpg> .
 
-:seated-figure-roquepertuse a :human-figure ;
-   rdfs:label "Seated Figure from Roquepertuse" ;
-   :described-by <https://en.wikipedia.org/wiki/Roquepertuse> ;
-   :earliest-date -400 ;
-   :latest-date -200 ;
-   :in-modern-country-note "France" ;
-   :representative-latlong-point (43.5328 5.2715) ;
-   :wikimedia-commons-image-page <4https://commons.wikimedia.org/wiki/File:Seated_warrior_8270_from_Roquepertuse_-_front_(Marseille,_Mus_d%27arch_med).jpg> .
-
 :lohanipur-torso a :human-figure ;
    rdfs:label "Lohanipur Torso" ;
    :described-by <https://en.wikipedia.org/wiki/Lohanipur_torso> ;
@@ -3142,6 +3232,17 @@
    :note "Mapped point is generic as findspot not known." ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_20/3a34aa24_ef47_4703_ace4_a3b5014f47de/mid_00164013_001.jpg> .
 
+:parthian-lute-player a :human-figure ;
+   rdfs:label "Parthian Lute Player" ;
+   :described-by <https://www.rmo.nl/collectie/topstukken/beeld-muzikant-muziek-luitspeler-met-instrument/> ,
+      <https://en.wikipedia.org/wiki/Parthian_music> ;
+   :earliest-date -250 ;
+   :latest-date 224 ;
+   :note "Arbitrarily mapped to Ecbatana" ;
+   :in-modern-country-note "Iran" ;
+   :representative-latlong-point (34.806389 48.516111) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Parthian_lute_player.jpg> .
+
 :ai-khanoum-disk a :group-of-human-figures ;
    rdfs:label "Ai-Khanoum Disk" ;
    :described-by <https://en.wikipedia.org/wiki/Ai-Khanoum_plaque> ;
@@ -3159,6 +3260,16 @@
    :in-modern-country-note "France" ;
    :representative-latlong-point (43.552222 5.439167) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Entremont_severed_heads_1-03_(Musée_Granet,_Aix).jpg> .
+
+:standing-female-cerro-santos a :human-figure ;
+   rdfs:label "Standing Female Figure from Cerros de los Santos" ;
+   :described-by <https://en.wikipedia.org/wiki/Lady_of_Cerro_de_los_Santos> , 
+      <https://en.wikipedia.org/wiki/Cerro_de_los_Santos> ;
+   :earliest-date -200 ;
+   :latest-date -100 ;
+   :in-modern-country-note "Spain" ;
+   :representative-latlong-point (38.733347 -1.269394) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dama_oferente_del_Cerro_de_los_Santos.jpg> .
 
 # -150 - -1 https://en.wikipedia.org/wiki/Gundestrup_cauldron
 
@@ -3184,15 +3295,15 @@
    :note "It is not certain that the figure and insription were carved at the same time. The approximate dates given here are based on an association, however." ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2015_3/9_15/2b5a5160_6b45_4613_9c5f_a4560105058a/mid_NIGEAM0040013.jpg> .
 
-:standing-female-cerro-santos a :human-figure ;
-   rdfs:label "Standing Female Figure from Cerros de los Santos" ;
-   :described-by <https://en.wikipedia.org/wiki/Lady_of_Cerro_de_los_Santos> , 
-      <https://en.wikipedia.org/wiki/Cerro_de_los_Santos> ;
+:pregnant-female-colima a :human-figure ;
+   rdfs:label "Pregnant Female Figurine from Colima" ;
+   :described-by <https://collections.lacma.org/node/253605> ;
    :earliest-date -200 ;
-   :latest-date -100 ;
-   :in-modern-country-note "Spain" ;
-   :representative-latlong-point (38.733347 -1.269394) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dama_oferente_del_Cerro_de_los_Santos.jpg> .
+   :latest-date 500 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (19.239864 -103.712762) ;
+   :thumbnail-image <https://collections-images.lacma.org/remote_images/ma-47618-WEB.jpg> .
 
 :lakshmi-stupa-2-sanchi a :human-figure ;
    rdfs:label "Lakshmi from Stupa 2 at Sanchi" ;
@@ -3268,7 +3379,7 @@
    :in-modern-country-note "Italy" ;
    :art-historical-culture-or-tradition :late-hellenistic ;
    :representative-latlong-point (41.895393 12.495459) ; # between the Colosseum and Santa Maria Maggiore
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Laocoön_and_his_sons_group.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg> .
 
 :pair-of-erotes-lions a :group-of-human-figures ;
    rdfs:label "Pair of Erotes on Lions" ;
@@ -3592,13 +3703,15 @@
    :representative-latlong-point (16.933333 33.726389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bronze_head_from_an_over-life-sized_statue_of_Augustus.jpg> .
 
-:emesa-helmet a :human-figure ;
-   rdfs:label "Emesa Helmet" ;
-   :described-by <https://en.wikipedia.org/wiki/Emesa_helmet> ;
-   :approximate-date 25 ;
-   :in-modern-country-note "Syria" ;
-   :representative-latlong-point (34.73 36.697778) ;
-   :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/a/a5/Emesa_helmet.png?20180213011333> .
+:small-skeleton-bronze a :human-figure ;
+   rdfs:label "Small Skeleton in Bronze" ;
+   :described-by <https://www.getty.edu/art/collection/object/103TJM> ;
+   :earliest-date -25 ;
+   :latestdate 100 ;
+   :material-note "Bronze" ;
+   :note "Findspot not known. Mapped to Rome as unfortunate default." ;
+   :representative-latlong-point (41.8967 12.4822) ;
+   :thumbnail-image <https://media.getty.edu/iiif/image/d507b387-4bb5-4c42-b03d-317d2713e880/full/500,/0/default.jpg> .
 
 :copper-alloy-figurine-holding-torque a :human-figure ;
    rdfs:label "Copper Alloy Figurine holding Torque" ;
@@ -3609,6 +3722,26 @@
    :in-modern-country-note "United Kingdom" ;
    :representative-latlong-point (52.142689 -0.050156) ;
    :thumbnail-image <https://archaeology.org/wp-content/uploads/2021/04/Digs-England-Cernunno-Silo-Doubled.jpg> .
+
+:emesa-helmet a :human-figure ;
+   rdfs:label "Emesa Helmet" ;
+   :described-by <https://en.wikipedia.org/wiki/Emesa_helmet> ;
+   :approximate-date 25 ;
+   :in-modern-country-note "Syria" ;
+   :representative-latlong-point (34.73 36.697778) ;
+   :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/a/a5/Emesa_helmet.png?20180213011333> .
+
+:indian-ivory-statuette-pompeii a :human-figure ;
+   rdfs:label "Indian Ivory Statue from Pompeii" ;
+   :described-by <https://en.wikipedia.org/wiki/Pompeii_Lakshmi> ,
+      <https://smarthistory.org/indian-ivory-statuette-pompeii/> ,
+      <https://palp.art/browse/r1-i8-p17> ;
+   :earliest-date 1 ;
+   :latest-date 50 ;
+   :material-note "Ivory" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (40.75036 14.4904 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statuetta_indiana_di_Lakshmi,_avorio,_da_pompei,_1-50_dc_ca.,_149425,_01.JPG> .
 
 :funerary-mask-thaj a :human-figure ;
    rdfs:label "Funerary Mask from Thaj" ;
@@ -3696,6 +3829,16 @@
    :in-modern-country-note "Sudan" ;
    :representative-latlong-point (16.269444 33.275) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Naga_Löwentempel.jpg> .
+
+:atlas-figures-garni-temple a :group-of-human-figures ;
+   rdfs:label "Atlas Figures on the Garni Temple" ;
+   :described-by <https://en.wikipedia.org/wiki/Garni_Temple> ;
+   :earliest-date 75 ;
+   :latest-date 125 ;
+   :note "The Atlas figures are on the front face of the projecting portions of the podium that flank the stairway." ;
+   :in-modern-country-note "Armenia" ;
+   :representative-latlong-point (40.112421 44.730277) ; 
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Գառնիի_Տաճար_31.jpg> .
 
 :fugoppe-cave-petroglyphs a :group-of-human-figures ;
    rdfs:label "Fugoppe Cave Petroglyphs" ;
@@ -3856,7 +3999,7 @@
    :in-modern-country-note "Panama" ;
    :representative-latlong-point (8.8 -82.7) ;
    :note "The image is of a replica on site. And I am not sure of the chronology of this and the associated statues." ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/Barriles#/media/File:Sitio_Barriles_Statue.png> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sitio_Barriles_Statue.png> .
 
 # :tombstone-of-ertola a :human-figure ;
 #    rdfs:label "Tombstone of Ertola" ;
@@ -4352,6 +4495,15 @@
 # 200 - 400 https://en.wikipedia.org/wiki/Miran_(Xinjiang)
 # https://en.wikipedia.org/wiki/Loulan_Kingdom
 
+:apollo-cyrene a :human-figure ;
+   rdfs:label "Statue of Apollo from Cyrene" ;
+   :defined-by <https://en.wikipedia.org/wiki/Apollo_of_Cyrene> ;
+   :approximate-date 200 ;
+   :material-note "Marble" ;
+   :in-modern-country-note "Libya" ;
+   :representative-latlong-point (32.825 21.858056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Apollo_Kitharoidos_BM_1380.jpg> . 
+
 :buddha-disciples-miran a :group-of-human-figures ;
    rdfs:label "Buddha with Disciples from Miran" ;
    :described-by <https://en.wikipedia.org/wiki/Miran_(Xinjiang)#History> ;
@@ -4461,7 +4613,7 @@
    :latest-date 800 ;
    :in-modern-country-note "Northern Ireland" ;
    :representative-latlong-point (54.516667 -7.833333) ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:JanusFigureBoaIsland.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:JanusFigureBoaIsland.jpg> .
 
 :mayan-wooden-kneeling-figure a :human-figure ;
    rdfs:label "Mayan Wooden Kneeling Figure" ;
@@ -4550,7 +4702,7 @@
    :in-modern-country-note "Japan" ;
    :representative-latlong-point (35.561389 139.716111) ;
    :art-historical-culture-or-tradition :kofun-period ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:岩戸山古墳出土_石人_(J-831).JPG> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:岩戸山古墳出土_石人_(J-831).JPG> .
 
 :figure-carved-bone-orkney a :human-figure ;
    rdfs:label "Figure Carved on Cattle Bone from Orkney" ;
@@ -4601,7 +4753,7 @@
    :latest-date 1100 ;
    :material-note "Andesite" ;
    :in-modern-country-note "Bolivia" ;
-   :representative-latlong-point (16.55479 -68.67312) ;
+   :representative-latlong-point (-16.55479 -68.67312) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bol-tihuanaco-el-fr.jpg> .
 
 :qajartalik-petroglyphs a :group-of-human-figures ;
@@ -4764,7 +4916,17 @@
    :material-note "Gold" ;
    :in-modern-country-note "Sweden" ;
    :representative-latlong-point (58.4502349 14.9766312) ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Aska_in_Hagebyh%C3%B6ga_gold_foil_figure_2020-12_photo_Bj%C3%B6rn_Falkevik.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Aska_in_Hagebyhöga_gold_foil_figure_2020-12_photo_Björn_Falkevik.jpg> .
+
+:bewcastle-cross a :human-figure ;
+   rdfs:label "Bewcastle Cross" ;
+   :described-by <https://en.wikipedia.org/wiki/Bewcastle_Cross> ,
+      <https://commons.wikimedia.org/wiki/Category:Bewcastle_Cross> ;
+   :earliest-date 700 ;
+   :latest-date 750 ;
+   :in-modern-country-note "England" ;
+   :representative-latlong-point (55.063611 -2.681944) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_7th_C_Bewcastle_Cross_-_geograph.org.uk_-_1833413.jpg> .
 
 :leshan-giant-buddha a :human-figure ;
    rdfs:label "Leshan Giant Buddha" ;
@@ -4817,6 +4979,33 @@
    :representative-latlong-point (16.704 -91.065) ; # Site
    :art-historical-culture-or-tradition :maya-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bonampak_painting.jpg> .
+
+:panels-somapura-mahavihara a :group-of-human-figures ;
+   rdfs:label "Panels at Somapura Mahavihara Monastery" ;
+   :described-by <https://en.wikipedia.org/wiki/Somapura_Mahavihara#Gallery> ;
+   :earliest-date 781 ;
+   :latest-date 1043 ;
+   :in-modern-country-note "Bangladesh" ;
+   :representative-latlong-point (25.031111 88.976944) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sompura_Mahavihara_2024_17.jpg> .
+
+:female-sword-bearer-harby a :human-figure ;
+   rdfs:label "Female Sword Bearer from Hårby" ;
+   :described-by <https://en.wikipedia.org/wiki/Valkyrie_from_Hårby> ;
+   :approximate-date 800 ;
+   :in-modern-country-note "Denmark" ;
+   :representative-latlong-point (55.221667 10.1225) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Valkyrie_fra_Hårby.png> .
+
+:bread-image-christ a :human-figure ;
+   rdfs:label "Circular Bread Loaf with Image of Christ" ;
+   :described-by <https://www.anatolianarchaeology.net/1300-year-old-communion-bread-unearthed-in-karaman-inscribed-with-gratitude-to-blessed-jesus/> ,
+      <https://www.facebook.com/helen.nguyen.725414/photos/archaeologists-have-uncovered-a-1200-year-old-loaf-of-bread-unlike-anything-seen/24782222468136927/> ;
+   :approximate-date 800 ;
+   :note "The find was announced on FaceBook, though I can't find original post and welcome a better long-term landing page. The mapped point is near the Karaman Museum." ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.182959 33.211578) ;
+   :thumbnail-image <https://www.anatolianarchaeology.net/wp-content/uploads/2025/10/1300-Year-Old-Communion-Bread-Unearthed-in-Karaman-Inscribed-With-Gratitude-to-Blessed-Jesus-1.webp> .
 
 :four-evangelists-aachen-gospel a :group-of-human-figures ;
    rdfs:label "Four Evangelists, Aachen Gospel" ;
@@ -4889,7 +5078,7 @@
    :material-note "Stone" ;
    :in-modern-country-note "Belize" ;
    :representative-latlong-point (16.763889 -89.1175) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/Category:Altar_13_of_Caracol#/media/File:Altar_13_Mesoamerican_Gallery.JPG> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Altar_13_Mesoamerican_Gallery.JPG> .
 
 :cross-legged-figure-bucket a :human-figure ;
    rdfs:label "Cross-legged Figure Bucket Ornament" ;
@@ -4908,6 +5097,18 @@
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (36.206111 58.793333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Two_Bowls_with_Figures_and_a_Footed_Plate_with_Birds_MET_DP258911.jpg> .
+
+:female-bodhisattva-dong-duong a :human-figure ;
+   rdfs:label "Female Bodhisattva from " ;
+   :described-by <https://smarthistory.org/dong-duong-buddhist-temple-complex-vietnam/> ,
+      <https://en.wikipedia.org/wiki/History_of_Vietnam#Golden_Age_of_Cham_Civilization_and_wars_with_Angkor_Empire_(7th_century–1203)> ,
+      <https://fr.wikipedia.org/wiki/Art_du_Champa#Métaux_et_bijoux> ;
+   :earliest-date 875 ;
+   :latest-date 925 ;
+   :material-note "Bronze" ;
+   :in-modern-country-note "Vietnam" ;
+   :representative-latlong-point (15.666944 108.383056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:DaNang_Tara.jpg> .
 
 :intricately-carved-panel-box a :group-of-human-figures ;
    rdfs:label "Intricately Carved Panel from Box" ;
@@ -4962,7 +5163,7 @@
    :latest-date 1400 ;
    :in-modern-country-note "Canada" ;
    :representative-latlong-point (44.615225 -78.04076) ;
-   :thumbnail-image <https://www.pc.gc.ca/apps/dfhd/Resources/Images/Image.aspx?id=83668> .
+   :thumbnail-image <https://www.pc.gc.ca/apps/dfhd/Resources/Images/Image.aspx?id=92664> .
 
 :great-hunt-panel-nine-mile-canyon a :group-of-human-figures ;
    rdfs:label "Great Hunt Panel at Nine Mile Canyon" ;
@@ -4976,7 +5177,7 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:HuntSceneNMC.JPG> .
 
 :horned-figures-capitol-reef a :group-of-human-figures ;
-   rdfs:label "" ;
+   rdfs:label "Horned Anthropomorphic Figures from Captiol Reef" ;
    :described-by <https://www.nps.gov/places/petroglyph-panel.htm> ,
     <https://en.wikipedia.org/wiki/Capitol_Reef_National_Park#Native_Americans_and_Mormons> ,
     <https://www.nps.gov/care/learn/historyculture/fremont-culture-petroglyphs.htm> ;
@@ -5014,6 +5215,33 @@
    :note "Findspot unknown" ;
    :thumbnail-image <https://images.metmuseum.org/CRDImages/ao/web-additional/DP-17678-001.jpg> .
 
+:seated-figure-lejre a :human-figure ;
+   rdfs:label "Seated Figure from Lejre" ;
+   :described-by <https://en.wikipedia.org/wiki/Odin_from_Lejre> ;
+   :approximate-date 900 ;
+   :material-note "Silver" ;
+   :in-modern-country-note "Denmark" ;
+   :representative-latlong-point (55.604444 11.975) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Odin_fra_Lejre_(8423840948).jpg> .
+
+:rallinge-statuette a :human-figure ;
+   rdfs:label "Rällinge Statuette" ;
+   :described-by <https://en.wikipedia.org/wiki/Rällinge_statuette> ;
+   :approximate-date 1000 ;
+   :note "Mapped point is an approximation." ;
+   :in-modern-country-note "Sweden" ;
+   :representative-latlong-point (58.741402 16.738715) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Frejstatyett_från_Rällinge_SHM_14232-1.jpg> .
+
+:eyrarland-statue a :human-figure ;
+   rdfs:label "Eyrarland Statue " ;
+   :described-by <https://en.wikipedia.org/wiki/Eyrarland_Statue> ;
+   :approximate-date 1000 ;
+   :note "Mapped point is an approximation." ;
+   :in-modern-country-note "Iceland" ;
+   :representative-latlong-point (65.683333 -18.1);
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bronzestatue_„Christ_or_Thor“_aus_dem_isländischen_Nationalmuseum_(cropped).jpg> .
+
 :dresden-codex a :group-of-human-figures ;
    rdfs:label "Dresden Codex" ;
    :described-by <https://en.wikipedia.org/wiki/Dresden_Codex> ;
@@ -5035,7 +5263,7 @@
    :material-note "Basalt stone" ;
    :in-modern-country-note "Chile" ;
    :representative-latlong-point (-27.12 -109.35) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Basalt_statue,_Hoa_Hakananai%27a_(hidden_or_stolen_friend)._Moai;_an_ancestor_figure,_made_by_the_Rapanui_people._1000-1200_CE._From_Orongo_(Polynesia,_Easter_Island);_probably_made_in_Rano_Kao._British_Museum.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:British_Museum_(6424973639).jpg> .
 
 :chaco-clay-figurines a :group-of-human-figures ;
    rdfs:label "Chaco Clay Figurines" ;
@@ -5213,4 +5441,4 @@
    :material-note "Marble" ;
    :art-historical-culture-or-tradition :mississippian ;
    :representative-latlong-point (34.125131 -84.807664) ;
-   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .
