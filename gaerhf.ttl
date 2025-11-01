@@ -2956,6 +2956,17 @@
    :art-historical-culture-or-tradition :achaemenid-empire ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Achaemenid_prince%27s_head_2.jpg> .
 
+:silver-statuette-youth-oxus-treasure a :human-figure ;
+   rdfs:label "Silver and Gold Statuate of Standing Youth from Oxus Treasure" ;
+   :described-by <https://www.britishmuseum.org/collection/object/W_1897-1231-4> ,
+      <https://en.wikipedia.org/wiki/Oxus_Treasure> ;
+   :earliest-date -500 ;
+   :latest-date -400 ;
+   :material-note "Silver, gold." ;
+   :in-modern-country-note "Tajikistan" ;
+   :representative-latlong-point ( 37.054553 68.281994 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Oxus_treasure_statuette.jpg> .
+
 :pfalzfeld-obelisk a :group-of-human-figures ;
    rdfs:label "Pfalzfeld Obelisk" ;
    :described-by <https://en.wikipedia.org/wiki/Pfalzfeld_obelisk> ,
@@ -2976,6 +2987,17 @@
    :representative-latlong-point (38.875556 -0.753056) ; # ll for Mogente, Spain
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Guerrero_de_Mogente.jpg> .
 
+:barsom-bearer-plaque-oxus-treasure a :human-figure ;
+   rdfs:label "Barsom Bearer Plaque from Oxus Treasure" ;
+   :described-by <https://www.britishmuseum.org/collection/object/W_1897-1231-48> ,
+      <https://en.wikipedia.org/wiki/Oxus_Treasure> ;
+   :earliest-date -500 ;
+   :latest-date -300 ;
+   :materia-note "Gold" ;
+   :in-modern-country-note "Tajikistant" ;
+   :representative-latlong-point (37.054553 68.281994) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Chopped_gold_pieces_from_the_Oxus_Treasure_by_Nickmard_Khoey213.jpg> .
+
 :lihyanite-colossal-statue a :human-figure ;
    rdfs:label "Lihyanite Colossal Statue" ;
    :described-by <https://www.afalula.com/en/a-monumental-lihyanite-statue-from-saudi-arabia-deposited-from-the-royal-commission-for-alula-rcu-to-the-musee-du-louvre/>,
@@ -2985,17 +3007,6 @@
    :in-modern-country-note "Saudi Arabia" ;
    :representative-latlong-point (26.646980 37.916142) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_a_man_at_National_Museum_of_Korea_01.jpg> .
-
-:nok-head-and-torso-of-a-female-figure a :human-figure ;
-   :described-by <https://emuseum.mfah.org/objects/31704/head-and-torso-of-a-female-figure> ;
-   :period-note "Nok (Nigeria)" ;
-   :earliest-date -500 ;
-   :latest-date 200 ;
-   :in-modern-country-note "Nigeria" ;
-   :art-historical-culture-or-tradition :nok-culture ;
-   :representative-latlong-point (9.5 8) ; # ll for Nigeria
-   :note "Mapped location is general for Nigeria, not specific for this figure." ;
-   :thumbnail-image <https://emuseum.mfah.org/internal/media/dispatcher/294946/postagestamp> .
 
 :nok-male-head a :human-figure ;
    :described-by <https://www.slam.org/collection/objects/28893/> ;
@@ -3034,6 +3045,29 @@
    :representative-latlong-point (-2 121) ;
    :note "Mapped to approximate location." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/38484/2290747/main-image> .
+
+:seip-mounds-effigy-head a :human-figure ;
+   rdfs:label "Seip Mounds Effigy Head" ;
+   :described-by <https://ohiomemory.org/digital/collection/p267401coll7/id/1084/> ,
+      <https://www.nps.gov/hocu/learn/historyculture/seip-earthworks.htm> ,
+      <https://hopewellearthworks.org/site/seip-earthworks/> ;
+   :earliest-date -500 ;
+   :latest-date 100 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "United States" ;
+   :representative-latlong-point (39.238393 -83.221035) ;
+   :thumbnail-image <https://www.nps.gov/hocu/learn/historyculture/images/SeipEx-450.jpg?maxwidth=650&autorotate=false&quality=78&format=webp> .
+
+:nok-head-and-torso-of-a-female-figure a :human-figure ;
+   :described-by <https://emuseum.mfah.org/objects/31704/head-and-torso-of-a-female-figure> ;
+   :period-note "Nok (Nigeria)" ;
+   :earliest-date -500 ;
+   :latest-date 200 ;
+   :in-modern-country-note "Nigeria" ;
+   :art-historical-culture-or-tradition :nok-culture ;
+   :representative-latlong-point (9.5 8) ; # ll for Nigeria
+   :note "Mapped location is general for Nigeria, not specific for this figure." ;
+   :thumbnail-image <https://emuseum.mfah.org/internal/media/dispatcher/294946/postagestamp> .
 
 :tomb-darius-i a :group-of-human-figures ;
    rdfs:label "Tomb of Darius I" ;
@@ -3211,6 +3245,17 @@
    :note "See museum label in the linked Wikimedia Commons page." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa_(cropped).jpg> .
 
+:painted-beardedhead-takht-i-sangin a :human-figure ;
+   rdfs:label "Painted Bearded Head from Takht-i Sangin" ;
+   :described-by <https://en.wikipedia.org/wiki/Takht-i_Sangin#Seleucid_and_Greco-Bactrian_periods_(4th-2nd_century_BC)> ;
+   :earliest-date -250 ;
+   :latest-date -130 ;
+   :note "Site also known as ‘The Oxus Temple’." ;
+   :in-modern-country-note "Tajikistan" ;
+   :representative-latlong-point (37.098889 68.285) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Head_of_Bactrian_ruler_(Satrap),_Temple_of_the_Oxus,_Takht-i-Sangin,_3rd-2nd_century_BC.jpg> .
+
+
 :lohanipur-torso a :human-figure ;
    rdfs:label "Lohanipur Torso" ;
    :described-by <https://en.wikipedia.org/wiki/Lohanipur_torso> ;
@@ -3371,6 +3416,18 @@
    :representative-latlong-point (36.694444 65.789444) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Applique,_Tillia_tepe,_tombeVI,_Musée_national_d%27Afghanistan.jpg> .
 
+:kulu-vase a :group-of-human-figures ;
+   rdfs:label "Kulu Vase" ;
+   :described-by <https://www.britishmuseum.org/collection/object/A_1880-22> ,
+      <https://en.wikipedia.org/wiki/Kulu_Vase>  ,
+      <https://artsandculture.google.com/asset/the-kulu-vase/mQGT9UKJEOHFiQ> ;
+   :earliest-date -100 ;
+   :latest-date -1 ;
+   :material-note "Bronze" ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (32.509444 77.019444) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kulu_Vase-BM-2.JPG> .
+
 :laocoon-and-sons a :human-figure ;
    rdfs:label "Laocoön and His Sons" ;
    :described-by <https://en.wikipedia.org/wiki/Laocoön_and_His_Sons> ;
@@ -3404,18 +3461,6 @@
    :in-modern-country-note "Wales" ;
    :representative-latlong-point (53.127731 -4.280277) ;
    :thumbnail-image <https://www.peoplescollection.wales/sites/default/files/images/2014/February/GTJ75768_2.jpg?itok=OopNNKRx> .
-
-:seip-mounds-effigy-head a :human-figure ;
-   rdfs:label "Seip Mounds Effigy Head" ;
-   :described-by <https://ohiomemory.org/digital/collection/p267401coll7/id/1084/> ,
-      <https://www.nps.gov/hocu/learn/historyculture/seip-earthworks.htm> ,
-      <https://hopewellearthworks.org/site/seip-earthworks/> ;
-   :earliest-date -500 ;
-   :latest-date 100 ;
-   :material-note "Ceramic" ;
-   :in-modern-country-note "United States" ;
-   :representative-latlong-point (39.238393 -83.221035) ;
-   :thumbnail-image <https://www.nps.gov/hocu/learn/historyculture/images/SeipEx-450.jpg?maxwidth=650&autorotate=false&quality=78&format=webp> .
 
 :gudimallam-lingam a :human-figure ;
    :described-by <https://en.wikipedia.org/wiki/Gudimallam_Lingam> ;
@@ -3723,14 +3768,6 @@
    :representative-latlong-point (52.142689 -0.050156) ;
    :thumbnail-image <https://archaeology.org/wp-content/uploads/2021/04/Digs-England-Cernunno-Silo-Doubled.jpg> .
 
-:emesa-helmet a :human-figure ;
-   rdfs:label "Emesa Helmet" ;
-   :described-by <https://en.wikipedia.org/wiki/Emesa_helmet> ;
-   :approximate-date 25 ;
-   :in-modern-country-note "Syria" ;
-   :representative-latlong-point (34.73 36.697778) ;
-   :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/a/a5/Emesa_helmet.png?20180213011333> .
-
 :indian-ivory-statuette-pompeii a :human-figure ;
    rdfs:label "Indian Ivory Statue from Pompeii" ;
    :described-by <https://en.wikipedia.org/wiki/Pompeii_Lakshmi> ,
@@ -3762,6 +3799,25 @@
    :representative-latlong-point (34.458544 70.349792) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:BimaranCasket2.JPG> .
 
+:orlat-plaques a :group-of-human-figures ;
+   rdfs:label "Orlat Plaques" ;
+   :described-by <https://en.wikipedia.org/wiki/Orlat_plaques> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :in-modern-country-note "Uzbekistan" ;
+   :representative-latlong-point (39.654722 66.975833) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Orlat_plaques_(vertical_layout).jpg> .
+
+:ivory-female-statuette-begram a :human-figure ;
+   rdfs:label "Ivory Female Statuette from Begream" ;
+   :described-by <https://en.wikipedia.org/wiki/Begram_ivories> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :material-note "Ivory" ;
+   :in-modern-country-note "Afghanistan" ;
+   :representative-latlong-point (34.966667 69.3) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Indian_ivory_furniture_support_from_Begram,_1st_century_AD.jpg> .
+
 :corleck-head a :human-figure ;
    rdfs:label "Corleck Head" ;
    :described-by <https://en.wikipedia.org/wiki/Corleck_Head> ;
@@ -3780,6 +3836,23 @@
    :in-modern-country-note "Oman" ;
    :representative-latlong-point (17.039339 54.430478) ;
    :thumbnail-image <https://isaw.nyu.edu/research/io-figures/sessions/march-4/info/leadImage> .
+
+:panel-buddha-nude-jamal-garhi a :group-of-human-figures ;
+   rdfs:label "Panel with Buddha and Nude Figure from Jamal Garhi" ;
+   :described-by <https://en.wikipedia.org/wiki/Jamal_Garhi#Sculptural_remains> ;
+   :earliest-date 1 ;
+   :latest-date 400 ;
+   :in-modern-country-note "Pakistan" ;
+   :representative-latlong-point (34.316667 72.066667) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_Buddha_and_nude_Vajrapani_at_Jamal_Garhi.jpg> .
+
+:kahaum-pillar a :human-figure ;
+   rdfs:label "Kahaum Pillar" ;
+   :defined-by <https://en.wikipedia.org/wiki/Kahaum_pillar> ;
+   :approximate-date 460 ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (26.394639 83.838056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kakandi.jpg> .
 
 :figurine-temple-foret-halatte-belly a :human-figure ;
    rdfs:label "Figurine from Temple of forêt d’Halatte with Prominent Belly" ;
@@ -3811,6 +3884,14 @@
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (42.002081 12.493619) ; # Villa of Livia, Prima Porta, Italy
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta.jpg> .
+
+:emesa-helmet a :human-figure ;
+   rdfs:label "Emesa Helmet" ;
+   :described-by <https://en.wikipedia.org/wiki/Emesa_helmet> ;
+   :approximate-date 25 ;
+   :in-modern-country-note "Syria" ;
+   :representative-latlong-point (34.73 36.697778) ;
+   :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/a/a5/Emesa_helmet.png?20180213011333> .
 
 :couple-from-pompeii a :group-of-human-figures ;
    rdfs:label "Couple from Pompeii" ;
