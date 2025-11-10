@@ -629,6 +629,15 @@
    :representative-latlong-point (32.032778 35.475556) ;
    :thumbnail-image <https://www.imj.org.il/sites/default/files/collections/Human%20Statue,%20Gilgal,%20PPNA~K10343_2.jpg> .
 
+:petroglyphs-grotta-del-genovese a :group-of-human-figures ;
+   rdfs:label "Petroglyphys from the Grotta del Genovese" ;
+   :described-by <https://en.wikipedia.org/wiki/Grotta_del_Genovese> ,
+      <https://www.grottadelgenovese.it/> ;
+   :approximate-date -9500 ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (38.001689 12.321625) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Grotta_de_Levanzo.jpg> .
+
 :gobekli-tepe-figure-A2 a :human-figure ;
    rdfs:label "Göbekli Tepe Male Figure A2" ;
    :described-by <https://arachne.dainst.org/entity/2003368?fq=facet_kategorie:%22Bilder%22&offset=200&fl=20&q=gobekli%20tepe&resultIndex=211> ,
@@ -948,15 +957,6 @@
    :note "From the linked publication, “The supposed head is decorated with several vertical lines from the top, likely representing hair.”" ;
    :thumbnail-image <https://ars.els-cdn.com/content/image/1-s2.0-S2352226725000212-gr2.jpg> .
 
-:catalhoyuk-seated-female-figurine a :human-figure ;
-   rdfs:label "Catalhoyuk Seated Female Figurine" ;
-   :described-by <https://en.wikipedia.org/wiki/Catalhoyuk> ;
-   :approximate-date -6000 ;
-   :material-note "Ceramic" ;
-   :in-modern-country-note "Turkey" ;
-   :representative-latlong-point (37.666667 32.828056) ;
-   :art-historical-culture-or-tradition :pre-pottery-neolithic ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Seated_Woman_of_Çatalhöyük_on_black_background.jpg> .
 
 :cueva-huenul-1-rock-art a :group-of-human-figures ;
    rdfs:label "Cueva Huenul 1 Rock Art" ;
@@ -988,6 +988,25 @@
    :in-modern-country-note "Israel" ;
    :representative-latlong-point (32.686389 35.603333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Yarmukian_Culture_-Sha%27ar_HaGolan,_pebble_Figurine.jpg> .
+
+:catalhoyuk-seated-female-figurine a :human-figure ;
+   rdfs:label "Catalhoyuk Seated Female Figurine" ;
+   :described-by <https://en.wikipedia.org/wiki/Catalhoyuk> ;
+   :approximate-date -6000 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.666667 32.828056) ;
+   :art-historical-culture-or-tradition :pre-pottery-neolithic ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Seated_Woman_of_Çatalhöyük_on_black_background.jpg> .
+
+:kayseri-rock-paintings a :group-of-human-figures ;
+   rdfs:label "Kayseri Rock Paintings" ;
+   :described-by <https://www.anatolianarchaeology.net/before-the-hittites-8000-year-old-rock-art-discovered-in-central-anatolia/> ;
+   :approximate-date -6000 ;
+   :in-modern-country-note "Turkey" ;
+   :note "Approximate location." ;
+   :representative-latlong-point (38.304952 35.554091) ;
+   :thumbnail-image <https://www.anatolianarchaeology.net/wp-content/uploads/2025/11/Before-the-Hittites-8000-Year-Old-Rock-Art-Discovered-in-Central-Anatolia.webp> .
 
 :bangudae-petroglyphs a :group-of-human-figures ;
    rdfs:label "Bangudae Petroglyphs" ;
@@ -1367,6 +1386,7 @@
    :described-by <https://en.wikipedia.org/wiki/Merimde_culture> ;
    :earliest-date -4000 ;
    :latest-date -3000 ;
+   :material-note "Ceramic" ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (30.316 30.85) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Merimde_clay_head,_Predynastic_Period,_Maadi_Era,_4th_millennium_BCE.jpg> .
@@ -1761,6 +1781,17 @@
    :in-modern-country-note "Greece" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Cycladic_female_figurine_2.jpg> .
 
+:anthropomorphic-copper-plate-bisauli a :group-of-human-figures ;
+   rdfs:label "Anthropomorphic Copper Plates fro Bisauli" ;
+   :described-by <https://en.wikipedia.org/wiki/Copper_Hoard_culture> ;
+   :earliest-date -2800 ;
+   :latest-date -1500 ;
+   :material-note "Copper" ;
+   :note "Not necessarily ‘human’." ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (28.32 78.93) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Anthropomorphic_figures,_chalcolithic,Yamuna-Ganga.BKB.jpg> .
+
 :chemurchek-funerary-marker a :human-figure ;
    rdfs:label "Chemurchek Funerary Marker" ;
    :described-by <https://en.wikipedia.org/wiki/Chemurchek_culture#Gallery> ;
@@ -2095,7 +2126,8 @@
 
 :seated-figure-on-vessel a :human-figure ;
    rdfs:label "Seated Figure on Vessel" ;
-   :described-by <https://en.wikipedia.org/wiki/Thinker_from_Yehud> ;
+   :described-by <https://en.wikipedia.org/wiki/Thinker_from_Yehud> ,
+      <https://archaeology.org/issues/march-april-2017/artifacts/israel-bronze-age-jug/> ;
    :earliest-date -1800 ;
    :latest-date -1600 ;
    :material-note "Ceramic" ;
@@ -2104,6 +2136,15 @@
    :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/d/d6/Thinker_from_Yehud.jpeg?20230912000419> .
 
 # -1750 https://en.wikipedia.org/wiki/Haft_Tepe
+
+:elamite-funerary-mask-haft-tepe a :human-figure ;
+   rdfs:label "Elamite Funerary Mask from Haft Tepe" ;
+   :described-by <https://en.wikipedia.org/wiki/Haft_Tepe#Archaeology> ;
+   :approximte-date -1750 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Iran" ;
+   :representative-latlong-point (32.078889 48.326389) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Keramik_aus_Iran,_Elamisches_Totenportrait,_Haft_Tappe,_um_1750_v.C.jpg> .
 
 :phaistos-disk a :group-of-human-figures ;
    rdfs:label "Phaistos Disk" ;
@@ -2635,6 +2676,7 @@
    rdfs:label "Gold Cup from Hasanlu" ;
    :described-by <https://en.wikipedia.org/wiki/Golden_bowl_of_Hasanlu> ;
    :approximate-date -800 ;
+   :material-note "Gold" ;
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (37.004566 45.45825) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Hasanlu-gold-cup.jpg> .
@@ -2706,6 +2748,19 @@
    :in-modern-country-note "Spain" ;
    :representative-latlong-point (36.535 -6.2975) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sacerdote_de_Cádiz_-_M.A.N._02.jpg> .
+
+:nordic-figure-tollense-valley a :human-figure ;
+   rdfs:label "Nordic Figure from Tollense Valley" ;
+   :described-by <https://doi.org/10.1515/pz-2022-2035> ,
+      <https://archaeology.org/issues/september-october-2022/artifacts/artifact-germany-bronze-age-figurine/> ,
+      <https://arkeonews.net/2700-year-old-bronze-figurine-found-in-germanys-torrence-river-goddess-or-weight/> ;
+   :earliest-date -750 ;
+   :latest-date -450 ;
+   :material-note "Bronze" ;
+   :in-modern-country-note "Germany" ;
+   :representative-latlong-point ( 54.024095 13.296299 ) ;
+   :thumbnail-image <https://archaeology.org/wp-content/uploads/2022/08/SO22-Artifact-Germany-Bronze-Figurine.jpg> .
+
 
 :figurine-xanab-chak a :human-figure ;
    rdfs:label "Figurine from Xanab Chak" ;
@@ -2994,7 +3049,7 @@
    :earliest-date -500 ;
    :latest-date -300 ;
    :materia-note "Gold" ;
-   :in-modern-country-note "Tajikistant" ;
+   :in-modern-country-note "Tajikistan" ;
    :representative-latlong-point (37.054553 68.281994) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Chopped_gold_pieces_from_the_Oxus_Treasure_by_Nickmard_Khoey213.jpg> .
 
@@ -3921,6 +3976,18 @@
    :representative-latlong-point (40.112421 44.730277) ; 
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Գառնիի_Տաճար_31.jpg> .
 
+:roman-bust-polychromy a :human-figure ;
+   rdfs:label "Roman-period Bust with Well Preserved Polychromy" ;
+   :described-by <https://en.wikipedia.org/wiki/Bolu_Museum> ,
+      <https://arkeonews.net/the-surprising-fact-about-the-roman-era-female-bust/> ;
+   :earliest-date 100 ;
+   :latest-date 200 ;
+   :material-note "Marble, beeswax." ;
+   :in-modern-country-note "Turkey" ;
+   :note "Approximate findsport." ;
+   :representative-latlong-point (40.728078 31.601947) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bolu_museum_Cult_statue_head_june_2019_2979.jpg> .
+
 :fugoppe-cave-petroglyphs a :group-of-human-figures ;
    rdfs:label "Fugoppe Cave Petroglyphs" ;
    :described-by <https://en.wikipedia.org/wiki/Fugoppe_Cave> ;
@@ -3950,7 +4017,7 @@
    :thumbnail-image <https://images.metmuseum.org/CRDImages/as/original/DT8660.jpg> .
 
 :paired-male-female-figures-takht-i-bahi a :group-of-human-figures ;
-   rdfs:label "Paired Male and Femlae Figures from Takht-i-Bahi" ;
+   rdfs:label "Paired Male and Female Figures from Takht-i-Bahi" ;
    :described-by <https://www.britishmuseum.org/collection/object/A_1950-0726-2> ,
       <https://en.wikipedia.org/wiki/Takht-i-Bahi> ;
    :earliest-date 100 ;
@@ -4109,6 +4176,16 @@
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (34.3874 47.1323) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:اهورا_مزدا_-_کرمانشاه.jpg> .
+
+:figure-inscribed-cerro-patlachique a :human-figure ;
+   rdfs:label "Figure inscribed on Stone from Cerro Patlachique" ;
+   :described-by <https://doi.org/10.15184/aqy.2025.10221> ;
+   :earliest-date 350 ;
+   :latest-date 650 ;
+   :material-note "Stone" ;
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (19.606910 -98.861352) ;
+   :thumbnail-image <https://static.cambridge.org//content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0003598X25102214/resource/name/optimisedImage-png-S0003598X25102214_figAb.jpg?pub-status=live> .
 
 :smiss-stone-figure-snakes a :human-figure ;
    rdfs:label "Carved Stone with Figure Holding Snakes from Smiss" ;
@@ -4303,11 +4380,20 @@
    :note "Specific findspot not known." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312882/666902/main-image> .
 
+:hercules-behistun a :human-figure ;
+   rdfs:label "Hercules in High Relief at Behistun" ;
+   :described-by <https://en.wikipedia.org/wiki/Statue_of_Hercules_in_Behistun> ;
+   :approximate-date -148 ;
+   :in-modern-country-note "Iran" ;
+   :representative-latlong-point (34.3833 47.4333) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bistoon_Kermanshah.jpg> .
+
 :jade-burial-suit-liu-sheng a :human-figure ;
    rdfs:label "Jade Burial Suit of Liu Sheng" ;
    :described-by <https://en.wikipedia.org/wiki/Liu_Sheng,_Prince_of_Zhongshan> ;
    :earliest-date -110 ;
    :latest-date -113 ;
+   :material-note "Jade, Gold" ;
    :in-modern-country-note "China" ;
    :representative-latlong-point (38.949 115.322) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jin_Lv_Yu_Yi_of_Liusheng,_Han_Dynasty,China_(Hebei_Museum).jpg> .
@@ -4325,6 +4411,17 @@
 # https://en.wikipedia.org/wiki/Jayavarman_VII
 
 # -62 https://en.wikipedia.org/wiki/Mount_Nemrut
+
+:youth-flowers-haddad a :human-figure ;
+   rdfs:label "Youth with Flowers from Hadda" ;
+   :described-by <https://www.guimet.fr/en/our-collections/afghanistan-pakistan/flower-genie> ,
+      <https://en.wikipedia.org/wiki/Hadda,_Afghanistan> ;
+   :earliest-date -50 ;
+   :latest-date 300 ;
+   :note "Frequently dated within the first two centures CE." ;
+   :in-modern-country-note "Afghanistan" ;
+   :representative-latlong-point (34.361685 70.470752) ;
+   :thumbnail-image <https://www.guimet.fr/sites/default/files/styles/width_1220px/public/2023-09/genie-aux-fleurs_0.jpg> .
 
 :kankali-tila-tablet a :group-of-human-figures ;
    rdfs:label "Kankali Tila tablet of Sodasa" ;
@@ -4624,6 +4721,15 @@
    :representative-latlong-point (33.756 72.8291) ;
    :note "No specific findspot." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/38119/146374/main-image> .
+
+:hoxne-hoard-pepper-pot a :human-figure ;
+   rdfs:label "Hoxne Hoard Pepper Pot" ;
+   :described-by <https://en.wikipedia.org/wiki/Empress_pepper_pot> ;
+   :earliest-date 300 ;
+   :latest-date 400 ;
+   :in-modern-country-note "England" ;
+   :representative-latlong-point (52.3425 1.1875) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:British_Museum_Hoxne_Hoard_Empress_Pepper_Pot.png> .
 
 :bura-funerary-figure a :human-figure ;
    rdfs:label "Bura Funerary Figure" ;
@@ -5237,8 +5343,7 @@
 
 :figures-petroglyph-national-park-ontario a :group-of-human-figures ;
    rdfs:label "Figures at Petroglyph Park Ontario" ;
-   :described-by <> ,
-      <https://en.wikipedia.org/wiki/Petroglyphs_Provincial_Park> ,
+   :described-by <https://en.wikipedia.org/wiki/Petroglyphs_Provincial_Park> ,
       <https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=487> ;
    :earliest-date 900 ;
    :latest-date 1400 ;
@@ -5281,6 +5386,15 @@
    :art-historical-culture-or-tradition :khmer-empire ;
    :representative-latlong-point (13.598889 103.962778) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Fronton_Cambodge_Musée_Guimet_9972.jpg> .
+
+:gommateshwara-statue a :human-figure ;
+   rdfs:label "Gommateshwara statue" ;
+   :described-by <https://en.wikipedia.org/wiki/Gommateshwara_statue> ;
+   :approximate-date 983 ;
+   :material-note "Granite" ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (12.854026 76.484677) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gommateshwara,_Shravanabelagola.jpg> .
 
 # 1000 - 1100 https://commons.wikimedia.org/wiki/File:Avalokiteshvara,_the_Bodhisattva_of_Compassion,_Guge_kingdom,_1000-1050_AD,_Ngari,_west_Tibet,_brass_alloy,_copper_%26_tin_inlay,_colored_wax,_traces_of_gilding,_and_pigment_-_Freer_Gallery_of_Art_-_DSC04534.jpg
 
