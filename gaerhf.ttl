@@ -630,7 +630,7 @@
    :thumbnail-image <https://www.imj.org.il/sites/default/files/collections/Human%20Statue,%20Gilgal,%20PPNA~K10343_2.jpg> .
 
 :petroglyphs-grotta-del-genovese a :group-of-human-figures ;
-   rdfs:label "Petroglyphys from the Grotta del Genovese" ;
+   rdfs:label "Petroglyphs from the Grotta del Genovese" ;
    :described-by <https://en.wikipedia.org/wiki/Grotta_del_Genovese> ,
       <https://www.grottadelgenovese.it/> ;
    :approximate-date -9500 ;
@@ -1281,7 +1281,7 @@
    :described-by <https://www.britishmuseum.org/collection/object/G_1886-0310-1> ;
    :earliest-date -4500 ;
    :latest-date -3200 ;
-   :in-modernp-country-note "Greece" ;
+   :in-modern-country-note "Greece" ;
    :note "Mapped generically to the Island of Karpathos for now." ;
    :representative-latlong-point (35.764416 27.180286) ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_7/f3b0083f_2e76_490b_9fa3_a3b70074cb10/mid_00034725_001.jpg> .
@@ -1628,7 +1628,7 @@
    :described-by <https://it.wikipedia.org/wiki/Stele_di_Vado_all%27Arancio> ;
    :earliest-date -3000 ;
    :latest-date -2000 ;
-   :in-modernp-country-note "Italy" ;
+   :in-modern-country-note "Italy" ;
    :representative-latlong-point (43.051036 10.893427) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stele_di_vado_all%27arancio,_III_millennio_a.c._circa_02.JPG> .
 
@@ -2140,7 +2140,7 @@
 :elamite-funerary-mask-haft-tepe a :human-figure ;
    rdfs:label "Elamite Funerary Mask from Haft Tepe" ;
    :described-by <https://en.wikipedia.org/wiki/Haft_Tepe#Archaeology> ;
-   :approximte-date -1750 ;
+   :approximate-date -1750 ;
    :material-note "Ceramic" ;
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (32.078889 48.326389) ;
@@ -2271,7 +2271,7 @@
    rdfs:label "Cypriote Female Statuette" ;
    :described-by <https://www.metmuseum.org/art/collection/search/241099> ;
    :earliest-date -1450 ;
-   :latest-date 1200 ;
+   :latest-date -1200 ;
    :in-modern-country-note "Cyprus" ;
    :representative-latlong-point (35.1725 33.365) ;
    :thumbnail-image <https://images.metmuseum.org/CRDImages/gr/web-additional/DP105447.jpg> .
@@ -2702,6 +2702,17 @@
    :art-historical-culture-or-tradition :nordic-bronze-age ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:DO-10044-Figurer_Grevensvænge.jpg> .
 
+:vessel-elderly-person a :human-figure ;
+   rdfs:label "Vessel with Fave of Elderly Person" ;
+   :described-by <https://coleccion.museolarco.org/detail/43718> ;
+   :earliest-date -800 ;
+   :latest-date -200 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Peru" ;
+   :note "Findspot not specific. Figure usually identified as female." ;
+   :representative-latlong-point (-7.773488 -78.967438) ;
+   :thumbnail-image <https://coleccion.museolarco.org/public/uploads/ML040338/ML040338_SF3_1734121607.webp> .
+
 :tagar-structure-petroglyphs a :group-of-human-figures ;
    rdfs:label "Figures between Structures at Boyarskaya Pisanitsa" ;
    :described-by <https://en.wikipedia.org/wiki/Tagar_culture> ,
@@ -2749,6 +2760,15 @@
    :representative-latlong-point (36.535 -6.2975) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sacerdote_de_Cádiz_-_M.A.N._02.jpg> .
 
+:man-centaur a :group-of-human-figures ;
+   rdfs:label "Man and Centaur" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/249228> ;
+   :approximate-date -750 ;
+   :material-note "Bronze" ;
+   :in-modern-country-note "Greece" ;
+   :representative-latlong-point (37.638889 21.629722) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/249228/2063150/main-image> .
+
 :nordic-figure-tollense-valley a :human-figure ;
    rdfs:label "Nordic Figure from Tollense Valley" ;
    :described-by <https://doi.org/10.1515/pz-2022-2035> ,
@@ -2760,7 +2780,6 @@
    :in-modern-country-note "Germany" ;
    :representative-latlong-point ( 54.024095 13.296299 ) ;
    :thumbnail-image <https://archaeology.org/wp-content/uploads/2022/08/SO22-Artifact-Germany-Bronze-Figurine.jpg> .
-
 
 :figurine-xanab-chak a :human-figure ;
    rdfs:label "Figurine from Xanab Chak" ;
@@ -2921,17 +2940,6 @@
    :representative-latlong-point (42.269444 13.766667) ; # ll for Capestrano, Italy
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Guerriero_di_Capestrano_-_Museo_Archeologico_Nazionale_d%27Abruzzo_Villa_Frigerj_-_Chieti_-_Italy_-_6_Feb._2013.jpg> .
 
-:horseriders-frieze-bin-tepe a :group-of-human-figures ;
-   rdfs:label "Horseriders on Frieze from Bin Tepe" ;
-   :described-by <https://sardisexpedition.org/en/artifacts/r2-231> ,
-      <https://en.wikipedia.org/wiki/Bin_Tepe> ;
-   :earliest-date -500 ;
-   :latest-date -450 ;
-   :material-note "Marble" ;
-   :in-modern-country-note "Turkey" ;
-   :representative-latlong-point (38.58 28.0072) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Britishmuseumbintepehorserelief_(cropped).jpg> .
-
 :prince-of-glauberg a :human-figure ;
    rdfs:label "So-called Prince of Glauberg" ;
    :described-by <https://www.worldhistory.org/image/9799/prince-of-glauberg/> ;
@@ -2988,6 +2996,17 @@
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (40.422222 15.005278) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PaestumTaucher.jpg> .
+
+:horseriders-frieze-bin-tepe a :group-of-human-figures ;
+   rdfs:label "Horseriders on Frieze from Bin Tepe" ;
+   :described-by <https://sardisexpedition.org/en/artifacts/r2-231> ,
+      <https://en.wikipedia.org/wiki/Bin_Tepe> ;
+   :earliest-date -500 ;
+   :latest-date -450 ;
+   :material-note "Marble" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (38.58 28.0072) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Britishmuseumbintepehorserelief_(cropped).jpg> .
 
 :phoenecian-apotropaic-mask a :human-figure ;
    rdfs:label "Phoenician Apotropaic Mask" ;
@@ -3083,7 +3102,8 @@
 
 :esteros-female-figurine a :human-figure ;
    :described-by <https://www.metmuseum.org/art/collection/search/317723> ;
-   :period-note "Esteros or Bahia (Ecuador)" ;
+   :note "Esteros or Bahia (Ecuador)" ;
+   :in-modern-country-note "Ecuador" ;
    :earliest-date -500 ;
    :latest-date -1 ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/317723/671375/main-image> .
@@ -3124,6 +3144,17 @@
    :note "Mapped location is general for Nigeria, not specific for this figure." ;
    :thumbnail-image <https://emuseum.mfah.org/internal/media/dispatcher/294946/postagestamp> .
 
+:doe-shaman-effigy a :human-figure ;
+   rdfs:label "Doe Shaman Effigy" ;
+   :described-by <https://smarthistory.org/doe-shaman/> ,
+      <https://collections.carlos.emory.edu/objects/17428/female-deerhuman-effigy-vessel>;
+   :earliest-date -500 ;
+   :latest-date 300 ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "Nicaragua or Costa Rica" ;
+   :representative-latlong-point (10.899020 -85.414379) ;
+   :thumbnail-image <https://ka-perseus-images.s3.amazonaws.com/72dd66a8ce1bee581bec8c170f858185d8e25fc6.jpg> .
+
 :tomb-darius-i a :group-of-human-figures ;
    rdfs:label "Tomb of Darius I" ;
    :described-by <https://en.wikipedia.org/wiki/Tomb_of_Darius_the_Great> ;
@@ -3139,8 +3170,6 @@
    :in-modern-country-note "Spain" ;
    :representative-latlong-point (36.5359 -6.29755) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sarcófago_femenino_(21887254049).jpg> .
-
-# and "The Heidelberg head." https://de.wikipedia.org/wiki/Heidelberger_Kopf
 
 :heidelberg-head a :human-figure ;
    rdfs:label "Heidelberg Head" ;
@@ -3322,15 +3351,25 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Patna_Museum_Lohanipur_torso.jpg> .
 
 :calcite-alabaster-head-yemen a :human-figure ;
-   rdfs:label "Calcite-Alabaster Headh from Yemen" ;
+   rdfs:label "Calcite-Alabaster Head from Yemen" ;
    :described-by <https://www.britishmuseum.org/collection/object/W_2001-0401-1> ;
    :earliest-date -300 ;
    :latest-date -1 ;
    :art-historical-culture-or-tradition :ancient-arabia ;
-   :in-modern-country "Yemen" ;
+   :in-modern-country-note "Yemen" ;
    :representative-latlong-point (13.039552 43.865330) ;
    :note "Mapped point is generic as findspot not known." ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_20/3a34aa24_ef47_4703_ace4_a3b5014f47de/mid_00164013_001.jpg> .
+
+:bone-figurine-articulated-limbs a :human-figure ;
+   rdfs:label "Bone figurine with Articulated Limbs" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/248624> ;
+   :earliest-date -325 ;
+   :latest-date -200 ;
+   :material-note "Bone" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (40.473750 17.233083) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/248624/531687/main-image> .
 
 :parthian-lute-player a :human-figure ;
    rdfs:label "Parthian Lute Player" ;
@@ -3601,6 +3640,7 @@
    :earliest-date -200 ;
    :latest-date 500 ;
    :described-by <https://en.wikipedia.org/wiki/Nazca_lines> ;
+   :in-modern-country-note "Peru" ;
    :representative-latlong-point (-14.6975 -75.135) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_46.JPG> .
 
@@ -3809,6 +3849,7 @@
    :earliest-date -25 ;
    :latestdate 100 ;
    :material-note "Bronze" ;
+   :in-modern-country-note "Italy, by default." ;
    :note "Findspot not known. Mapped to Rome as unfortunate default." ;
    :representative-latlong-point (41.8967 12.4822) ;
    :thumbnail-image <https://media.getty.edu/iiif/image/d507b387-4bb5-4c42-b03d-317d2713e880/full/500,/0/default.jpg> .
@@ -3850,6 +3891,7 @@
    :described-by <https://en.wikipedia.org/wiki/Bimaran_casket> ;
    :earliest-date 1 ;
    :latest-date 100 ;
+   :material-note "Gold" ;
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (34.458544 70.349792) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:BimaranCasket2.JPG> .
@@ -3864,7 +3906,7 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Orlat_plaques_(vertical_layout).jpg> .
 
 :ivory-female-statuette-begram a :human-figure ;
-   rdfs:label "Ivory Female Statuette from Begream" ;
+   rdfs:label "Ivory Female Statuette from Begram" ;
    :described-by <https://en.wikipedia.org/wiki/Begram_ivories> ;
    :earliest-date 1 ;
    :latest-date 100 ;
@@ -3966,6 +4008,17 @@
    :representative-latlong-point (16.269444 33.275) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Naga_Löwentempel.jpg> .
 
+:sulis-minerva-bath a :human-figure ;
+   rdfs:label "Sulis Minerva from Bath" ;
+   :desribed-by <https://www.romanbaths.co.uk/minervas-head> ,
+      <https://en.wikipedia.org/wiki/Sulis> ;
+   :earliest-date 75 ;
+   :latest-date 100 ;
+   :material-note "Bronze, Gold gilt" ;
+   :in-modern-country-note "England" ;
+   :representative-latlong-point (51.3809 -2.3595) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bath_England_0400_139.jpg> .
+
 :atlas-figures-garni-temple a :group-of-human-figures ;
    rdfs:label "Atlas Figures on the Garni Temple" ;
    :described-by <https://en.wikipedia.org/wiki/Garni_Temple> ;
@@ -4066,7 +4119,7 @@
    :thumbnail-image <https://www.worldhistory.org/uploads/images/10852.jpg> .
 
 :gold-bust-marcus-aurelius a :human-figure ;
-   rdfs:label "Gold Bust of Marchus Aurelius" ;
+   rdfs:label "Gold Bust of Marcus Aurelius" ;
    :described-by <https://en.wikipedia.org/wiki/Golden_Bust_of_Marcus_Aurelius> ,
    <https://www.getty.edu/art/exhibitions/aurelius/> ;
    :earliest-date 176 ;
@@ -4327,7 +4380,7 @@
    :earliest-date -300 ;
    :latest-date -200 ;
    :material-note "Stone" ;
-   :modern-country-note "India" ;
+   :in-modern-country-note "India" ;
    :representative-latlong-point (25.594034 85.137553) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Patna_Yakshas_and_inscriptions.jpg> .
 
@@ -5214,6 +5267,16 @@
    :representative-latlong-point (25.13662 85.442608) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Khasarpana_Lokesvara.jpg> .
 
+:gilded-silver-pendant-revninge a :human-figure ;
+   rdfs:label "Gilded Silver Pendant from Revninge" ;
+   :described-by <https://archaeology.org/issues/september-october-2014/artifacts/denmark-viking-figurine/> ;
+   :earliest-date 800 ;
+   :latest-date 900 ;
+   :material-note "Gold gilt, silver" ;
+   :in-modern-country-note "Denmark" ;
+   :representative-latlong-point (55.419375 10.652358) ;
+   :thumbnail-image <https://archaeology.org/wp-content/uploads/2014/08/SO14-Artifact-Viking-Silver-Figurine-2.jpg> .
+
 :redhorn-panel-picture-cave a :group-of-human-figures ;
    rdfs:label "“Redhorn” Panel Picture Cave" ;
    :described-by <https://en.wikipedia.org/wiki/Red_Horn#Picture_Cave>,
@@ -5350,6 +5413,16 @@
    :in-modern-country-note "Canada" ;
    :representative-latlong-point (44.615225 -78.04076) ;
    :thumbnail-image <https://www.pc.gc.ca/apps/dfhd/Resources/Images/Image.aspx?id=92664> .
+
+:viking-gaming-piece a :human-figure ;
+   rdfs:label "Viking Gaming Piece" ;
+   :described-by <https://archaeology.org/issues/november-december-2025/artifacts/viking-chess-piece/> ;
+   :earliest-date 950 ;
+   :latest-date 1000 ;
+   :mateial-note "Walrus Ivory" ;
+   :in-modern-country-note "Norway" ;
+   :representative-latlong-point (59.785901 10.478906) ;
+   :thumbnail-image <https://archaeology.org/wp-content/uploads/2025/09/ND25-Artifact-Norway-Viking-Chess-Piece-1.jpg> .
 
 :great-hunt-panel-nine-mile-canyon a :group-of-human-figures ;
    rdfs:label "Great Hunt Panel at Nine Mile Canyon" ;
@@ -5534,7 +5607,7 @@
    :earliest-date 1100 ;
    :latest-date 1200 ;
    :material-note "Stone" ;
-   :modern-country-note "Sri Lanka" ;
+   :in-modern-country-note "Sri Lanka" ;
    :representative-latlong-point (7.92627 80.99484) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Relief_of_Parakramabahu_in_Polonnaruwa.jpg> .
 
