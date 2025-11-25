@@ -287,7 +287,7 @@
    rdfs:label "Leang Karampuang Hunting Scene" ;
    :described-by <https://doi.org/10.1038/s41586-024-07541-7> ;
    :approximate-date -49000 ;
-   :note "See H1-H3 in image, which are taken to be anthropomorphic figures engaged with the oversized pig. Approximate location." ;
+   :note "See H1-H3 in image, which are taken to be anthropomorphic figures engaged with the oversized pig. Approximate location. From linked article abstract: “... we also assign a minimum age of 53.5 ± 2.3 ka to a newly described cave art scene at Leang Karampuang. Painted at least 51,200 years ago, this narrative composition, which depicts human-like figures interacting with a pig, is now the earliest known surviving example of representational art, and visual storytelling, in the world. Our findings show that figurative portrayals of anthropomorphic figures and animals have a deeper origin in the history of modern human (Homo sapiens) image-making than recognized to date, as does their representation in composed scenes.”" ;
    :in-modern-country-note "Indonesia" ;
    :representative-latlong-point (-5.028238 119.758602) ;
    :thumbnail-image <https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-024-07541-7/MediaObjects/41586_2024_7541_Fig3_HTML.png?as=webp> .
@@ -299,7 +299,7 @@
       <https://en.wikipedia.org/wiki/Caves_in_the_Maros-Pangkep_karst> ,
       <https://smarthistory.org/earliest-hunting-scene-in-sulawesi-indonesia/> ;
    :approximate-date -46000 ;
-   :note "Approximate location. There are human figures to the left of the large bovine animal." ;
+   :note "Approximate location. There are human figures to the left of the large bovine animal. From linked article abstract: “We show that a hunting scene from Leang Bulu’ Sipong 4, which was originally dated using the previous approach to a minimum of 43,900 thousand years ago (ka)3, has a minimum age of 50.2 ± 2.2 ka, and so is at least 4,040 years older than thought.”" ;
    :in-modern-country-note "Indonesia" ;
    :representative-latlong-point (-4.796537 119.548710) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Maros_hunting_scene.png> .
@@ -312,6 +312,7 @@
    :earliest-date -40000 ;
    :latest-date -35000 ;
    :in-modern-country-note "Germany" ;
+   :note "Translated from the Museum Blaubeuren site: “The statuette is 40,000 years old and was carved from a mammoth tusk. It broke apart over time in the ground. Six fragments were pieced together to form an almost complete figure. Instead of a head, there is a loop in the neck area. The female figure was once worn as an amulet or piece of jewelry.”" ;
    :material-note "Mammoth ivory" ;
    :art-historical-culture-or-tradition :aurignacian ;
    :representative-latlong-point (48.379167 9.755556) ;
@@ -319,7 +320,8 @@
 
 :galgenberg-figurine a :human-figure ;
    rdfs:label "Galgenberg Female Figurine" ;
-   :described-by <https://en.wikipedia.org/wiki/Venus_of_Galgenberg> ;
+   :described-by <https://en.wikipedia.org/wiki/Venus_of_Galgenberg>  ,
+      <https://www.oeaw.ac.at/en/oeai/research/prehistory-wana-archaeology/quaternary-archaeology/stratzing> ;
    :approximate-date -36000 ;
    :in-modern-country-note "Austria" ;
    :art-historical-culture-or-tradition :aurignacian ;
@@ -336,7 +338,7 @@
    :in-modern-country-note "Germany" ;
    :representative-latlong-point (48.398333 9.772222) ; # ll for cave
    :art-historical-culture-or-tradition :aurignacian ;
-   :note "So-called “adorant” from the Geißenklösterle cave" ;
+   :note "From Wikipedia: “a 35,000–32,000 year-old carved section of mammoth ivory, with a depiction of a human figure. It was discovered in the Geißenklösterle cave in the Swabian Jura near Blaubeuren, Germany.”" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Adorant,_Geisenklösterle,_Blaubeuren-Weiler,_Alb-Donau-Kreis,_Aurignacian_culture,_35,000_to_45,000_years_old,_ivory_-_Landesmuseum_Württemberg_-_Stuttgart,_Germany_-_DSC02709.jpg> .
 
 :anthropomorph-toca-da-bastiana a :human-figure ;
@@ -366,6 +368,7 @@
    :earliest-date -29000 ;
    :latest-date -27000 ;
    :material-note "Oolitic limestone" ;
+   :note "Adapted from Wikipedia: ” ... an 11.1-centimetre-tall (4.4 in) [female] figurine estimated to have been made c. 30,000 years ago. It was recovered on 7 August 1908 from an archaeological dig conducted by Josef Szombathy, Hugo Obermaier, and Josef Bayer at a Paleolithic site near Willendorf, a village in Lower Austria. [It] is carved from an oolitic limestone that is not local to the area, and tinted with red ochre.”" ;
    :in-modern-country-note "Austria" ;
    :art-historical-culture-or-tradition :gravettian ;
    :representative-latlong-point (48.3225 15.404722) ; # ll for Willendorf, Austria
@@ -377,6 +380,7 @@
    :earliest-date -29000 ;
    :latest-date -25000 ;
    :material-note "Mammoth ivory" ;
+   :note "The site Don's Maps has extensive information on the figure and also quotes other works, as here: “A man's head and body carved from mammoth ivory was found at Brno in Moravia. A portion of the neck is missing, and the legs are broken off. There once were arms and part of one survives, but whether the legs were ever complete is not known. If they were, and were long in proportion, then the figure would have stood some 17 inches (42 cm) tall. In spite of the ravaged condition of the face, enough survives to show that it was no caricature: the hair was cropped, the brow rather low but straight, the eyes deep-sunk. The body is too damaged to judge its degree of naturalism but it seems more schematic than the head. Both head and body are pierced lengthwise. The figure was found with the burial of a man who wore, in his prepared grave, a headdress or necklace made up of some 600 slivers of Dentalia shells, roundels cut from bone, and cut and polished beads of mammoth tooth, and finally a stone disc with a central hole, probably used in drilling and possibly connected with fire making”." ;
    :in-modern-country-note "Czech Republic" ;
    :art-historical-culture-or-tradition :gravettian ;
    :representative-latlong-point (49.1925 16.608333) ; # ll for Brno, Czech Republic
@@ -503,7 +507,7 @@
    :latest-date -3000 ;
    :in-modern-country-note "Australia" ;
    :representative-latlong-point (-17.49145 124.53265) ;
-   :note "Location is approximate, as the exact location is not readily available to protect the site." ;
+   :note "Location is approximate, as the exact location is not readily available to protect the site. Adapted from Wikipedia: “The Gwion Gwion rock paintings, Gwion figures, Kiro Kiro or Kujon (also known as the Bradshaw rock paintings, Bradshaw rock art, Bradshaw figures and the Bradshaws) are one of the two major regional traditions of rock art found in the north-west Kimberley region of Western Australia. Key traditional owners have published their own account of the meaning of the images.”" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bradshaw_rock_paintings.jpg> .
 
 :toca-do-baixao-perna-i a :group-of-human-figures ;
@@ -519,9 +523,9 @@
    rdfs:label "Qurta Rock Art Figures" ;
    :described-by <https://doi.org/10.1017/S0003598X00061998> , <https://archeonil.com/images/revue%202008%202010/AN2009-08-Huyge.pdf> ;
    :approximate-date -13000 ;
+   :note "Image here is Fig. 3 in archeonil.com article. It is difficult to see a human figure. From Wikipedia: “Qurta's petroglyphs, incised in Nubian Sandstone formations along the Nile, were discovered by modern archaeologists in 2005. Using luminescence dating via optically stimulated luminescence (OSL), researchers at Ghent University in Belgium determined the petroglyphs to be a minimum of 15,000 years old, and possibly between 17,000 and 19,000 years old. / The Qurta petroglyphs depict aurochs, birds, hippopotamids, gazelle, hartebeest, fish, “some indeterminate creatures ('monsters' or hybrids)”, and stylised human figures. A total of 185 individual figures have been identified." ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (24.638719 32.960759) ;
-   :note "Mapped point very approximate. I have not found a linkable image." ;
    :art-historical-culture-or-tradition :saharan-rock-art .
 
 :grotta-dell-addaura-inscribed-petroglyphs a :group-of-human-figures ;
@@ -540,7 +544,7 @@
    <https://en.wikipedia.org/wiki/Bhimbetka_rock_shelters#Rock_art_and_paintings> ;
    :earliest-date -12000 ;
    :latest-date -8000 ;
-   :note "The dates are approximate and the scene could be earlier." ;
+   :note "The dates are approximate and the selected scene could be earlier. From Smarthistory: “Widely acknowledged to be the earliest evidence of art in South Asia, the Bhimbetka cave paintings are Prehistoric paintings found on the Bhimbetka rock shelters in the Raisen district of present-day Madhya Pradesh. Bhimbetka comprises over 750 rock shelters, of which over a hundred have paintings depicting animal and human figures in shades of green, red, white, brown and black. / The earliest of these illustrate scenes from the lives of hunter-gatherers of the Upper Paleolithic and Mesolithic periods—a time when many animals were yet to be domesticated, humans were nomadic, and collective civilizations were not yet in existence.”" ;
    :in-modern-country-note "India" ;
    :representative-latlong-point (22.938415 77.613085) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bhimbetka_war_scene.jpg> .
@@ -549,7 +553,7 @@
    rdfs:label "‘Datu Saman’ Style Figures from the Sangkulirang–Mangkalihat Peninsula" ;
    :described-by <https://doi.org/10.1038/s41586-018-0679-9> ;
    :approximate-date -11000 ;
-   :note "The chronology is uncertain and the date here is for a single example. See article." ;
+   :note "The depiction could be earlier. From article abstract: “... rare Pleistocene depiction of a human figure—also coloured dark purple—has a minimum date of 13.6 ka.”" ;
    :in-modern-country-note "Indonesia" ;
    :representative-latlong-point (0.943212 118.872765) ;
    :thumbnail-image <https://media.springernature.com/full/springer-static/esm/art%3A10.1038%2Fs41586-018-0679-9/MediaObjects/41586_2018_679_Fig6_ESM.jpg?as=webp> .
@@ -571,6 +575,7 @@
    :earliest-date -11000 ;
    :latest-date -9000 ;
    :material-note "Wood" ;
+   :note "From Wikipedia: “The sculpture is carved from larch. As identified from the annual rings, the tree was at least 159 years old when felled. Stone tools were used for carving the markings. The top portion is a head with a face with eyes, nose, and mouth. The body is flat and rectangular. Geometrical motifs decorate its surface, including zigzag lines and depictions of human faces and hands. Horizontal lines at the level of the thorax may represent ribs, and lines broken in chevrons cover the rest of what often is described as the body; however, along with the face at the top, several faces are visible at various points along the sculpture”" ;
    :in-modern-country-note "Russia" ;
    :representative-latlong-point (57.3809 60.1407) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Большой_шигирский_идол.jpg> .
@@ -586,6 +591,39 @@
    :in-modern-country-note "Turkey" ;
    :representative-latlong-point (37.814417 40.983894) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_vessel_with_symbols_and_human_figure._Körtik_Tepe,_10,400-9250_BCE,_Diyarbakır_Archaeology_Museum.jpg> .
+
+:figure-goose a :human-figure ;
+   rdfs:label "Figurine of Female with Bird" ;
+   :described-by <https://www.sciencenews.org/article/figurine-goose-woman-storytelling-shift> ,
+      <https://www.pnas.org/doi/abs/10.1073/pnas.2517509122> ;
+   :approximate-date -10000 ;
+   :material-note "Ceramic" ;
+   :note "From PNAS article summary: “This paper introduces a 12,000-year-old clay figurine from Southwest Asia that pushes back the emergence of several fundamental innovations in human symbolic expression. This object is both the earliest naturalistic representation of a woman in Southwest Asia and the earliest figurine to depict a human–animal interaction. Notably, the depicted interaction is not related to hunting but presents a mythological scene between a human and a bird that is consistent with an animistic belief system. Finally, the figurine attests to artistic innovations including and manipulating clay volume and light to create perspective, foreshadowing techniques that become popular in the Early Neolithic that follows.”" ;
+   :in-modern-country-note "Israel" ;
+   :representative-latlong-point (32.779709 35.667810) ;
+   :thumbnail-image <https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2025/11/111725_BB_figurine_inlinedesktop.jpg?w=680&ssl=1> .
+
+:kel-essuf-style-group a :group-of-human-figures ;
+   rdfs:label "Kel Essuf style Group of Figures in region of Algerian Tadrart" ;
+   :defined-by <https://en.wikipedia.org/wiki/Kel_Essuf_Period> ,
+      <https://journals.openedition.org/aaa/4036> ;
+   :earliest-date -10000 ;
+   :latest-date -7800 ;
+   :note "No clear indication of location is given in *L’art rupestre africain* article. There is only a brief description of the group: “Human figures are often grouped together, some of these groupings perhaps representing social relations as a family (see figure 4) or, more evidently, a couple.”" ;
+   :in-modern-country-note "Algeria or Libya" ;
+   :representative-latlong-point (23.599340 11.538526) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gravures_de_Kel_Essuf_représentant_peut-être_une_famille.jpg> . 
+
+:kel-essuf-style-pair a :group-of-human-figures ;
+   rdfs:label "Kel Essuf style Pair of Figures in region of Algerian Tadrart" ;
+   :defined-by <https://en.wikipedia.org/wiki/Kel_Essuf_Period> ,
+      <https://journals.openedition.org/aaa/4036> ;
+   :earliest-date -10000 ;
+   :latest-date -7800 ;
+   :note "No clear indication of location is given in *L’art rupestre africain* article. There is only a brief description of the pair: “Human figures are often grouped together, some of these groupings perhaps representing social relations as a family (see figure 4) or, more evidently, a couple.”" ;
+   :in-modern-country-note "Algeria or Libya" ;
+   :representative-latlong-point (23.599340 11.538526) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gravures_de_Kel_Essuf_représentant_un_couple,_peut-être_la_plus_ancienne_figuration_de_couple_connue_à_ce_jour.jpg> . 
 
 :lapa-do-santo-petroglyph a :human-figure ;
    rdfs:label "Lapa do Santo Petroglyph" ;
@@ -638,6 +676,15 @@
    :representative-latlong-point (38.001689 12.321625) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Grotta_de_Levanzo.jpg> .
 
+:monolith-human-arms a :human-figure ;
+   rdfs:label "Monolith with Human Arms from Göbekli Tepe" ;
+   :described-by <https://en.wikipedia.org/wiki/Göbekli_Tepe#Pillars> ;
+   :earliest-date -9500 ;
+   :latest-date -8000 ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.223611 38.921667) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Göbeklitepe_Building_D_5311.jpg> .
+
 :gobekli-tepe-figure-A2 a :human-figure ;
    rdfs:label "Göbekli Tepe Male Figure A2" ;
    :described-by <https://arachne.dainst.org/entity/2003368?fq=facet_kategorie:%22Bilder%22&offset=200&fl=20&q=gobekli%20tepe&resultIndex=211> ,
@@ -674,6 +721,7 @@
    :described-by <https://www.theartnewspaper.com/2025/10/09/discovery-of-11000-year-old-carved-face-in-turkey-offers-new-insight-into-early-human-expression> ;
    :approximate-date -9000 ;
    :in-modern-country-note "Turkey" ;
+   :note "From Art Newspaper coverage: “The discovery in southeast Turkey of an 11,000-year-old pillar carved with a face could reframe our understanding of how early humans expressed themselves. / The face staring out from a 135 cm-tall standing stone—featuring a prominent nose, deep-set eyes and a sharp, angular jawline—was unearthed last week by archaeologists at the Neolithic site of Karahan Tepe near the Syrian border, according to excavation director Necmi Karul of Istanbul University. / It is the first finding of a human face on a T-shaped pillar—a type of monolith found en masse within a constellation of prehistoric sanctuaries known as Taş Tepeler, or the Stone Mounds. This area includes Karahan Tepe as well as the World Heritage List-inscribed site of Göbekli Tepe, the world’s oldest known temple complex.”" ;
    :representative-latlong-point (37.0925 39.303611) ;
    :thumbnail-image <https://cdn.sanity.io/images/cxgd3urn/production/33e2eda96598f74fbaa720f7b745548860be3aa0-2048x1376.jpg?w=300&h=201&q=85&fit=crop&auto=format> .
 
@@ -681,7 +729,7 @@
    rdfs:label "Stylized Female Figurine from Monruz" ;
    :described-by <https://en.wikipedia.org/wiki/Venus_of_Monruz> ;
    :approximate-date -9000 ;
-   :note "Very imprecise location." ;
+   :note "From Wikipedia page: “The Venus of Monruz (also Venus of Neuchâtel, Venus of Neuchâtel-Monruz) is a Venus figurine of the late Upper Paleolithic, or the beginning Epipaleolithic, dating to the end of the Magdalenian, some 11,000 years ago. It is a black jet pendant in the shape of a stylized human body, measuring 18 mm in height. It was discovered in 1991, at the construction of the N5 highway, at Monruz in the municipality of Neuchâtel, Switzerland.” Very imprecise location." ;
    :in-modern-country-note "Switzerland" ;
    :representative-latlong-point (47.003677 6.956833) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Laténium-dame-Monruz.jpg> .
@@ -692,6 +740,7 @@
    :approximate-date -9000 ;
    :in-modern-country-note "Turkey" ;
    :materia-note "Sandstone, obsidian (eyes)" ;
+   :note "From Wikipedia: ”The Urfa man, also known as the Balıklıgöl statue, is an ancient human shaped statue found during excavations in Balıklıgöl near Urfa, in the geographical area of Upper Mesopotamia, in the southeast of modern Turkey. It is dated c. 9000 BC to the period of the Pre-Pottery Neolithic... / The statue is nearly 1.90 meters tall.[9] The eyes form deep holes, in which are set segments of black obsidian.[3] It features a V-shaped collar or necklace. The hands are clasped in front, covering the genitals.”" ;
    :representative-latlong-point (37.158333 38.791667) ;
    :art-historical-culture-or-tradition :pre-pottery-neolithic ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Urfa_man.jpg> .
@@ -701,6 +750,7 @@
    :described-by <https://en.wikipedia.org/wiki/Pinhole_Cave_Man> ;
    :approximate-date -9000 ;
    :material-note "Wooly rhinoceros rib bone" ;
+   :note "From Wikipedia: “The Pinhole Cave Man or Pin Hole Cave Man is the common name for an engraving of a human figure on a woolly rhinoceros rib bone dating to the Upper Paleolithic that is now in the British Museum (cataloged as Palart 854). In 1926, a woolly rhinoceros rib (Coelodonta antiquitatis) that was broken at both ends was found in Pin Hole Cave, Creswell Crags, Derbyshire, England. / The bone is dated to the Late Upper Paleolithic, around 12,000 years old. Near one of the broken ends is engraved a male human figure. The drawing, 5 centimetres (2.0 in) tall, faces to the right; the whole bone is 20.8 centimetres (8.2 in) long. It is clearly a man as he has a penis – this may have been an earlier feature of the bone that was enhanced. His thin arm stretches out from his body. His head may be wearing a mask – or he is just drawn with a protruding nose and jaw. He has legs that appear incomplete, a crooked back, and a long engraved line across his upper body. The surface of the bone is scratched all over; on the reverse side of the bone there are two parallel engraved lines.”" ;
    :in-modern-country-note "England" ;
    :representative-latlong-point (53.263611 -1.193889) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Pinhole_Cave_Man-1.jpg> .
@@ -713,7 +763,7 @@
    <https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=Anthropomorphic+Statuettes+from+Tell+Fakhariyah%3A+Arguments+for+Their+Possible+PPNB+Origin+Bernd+Müller-Neuhof&btnG=> ;
    :earliest-date -9000 ;
    :latest-date -7000 ;
-   :note "The article by B. Müller-Neuhof in ‘Neo-Lithics’ is not individually downloadablle other than via Academia.edu." ;
+   :note "The article by B. Müller-Neuhof in ‘Neo-Lithics’ is not individually downloadablle other than via Academia.edu. From the conclusion: “Finally I would like to repeat my initial proposal for a PPNB date for the crafting of the statuettes from Tell Fakhariyah. In my opinion such a date is supported by stratigraphic evidence, especially the abundant amount of typical PPNB lithic artefacts, referring to a PPNB phase in the occupational sequence of Tell Fakhariyah. Additionally, a hiatus of occupation between the PPNB and the Late Bronze Age can most probably be assumed, according to the earliest pottery finds, which date into the Late Bronze Age (Mittani period). Connecting this stratigraphic information with the iconography of the two statuettes, the time frame in which both items can be dated becomes very narrow.”" ;
    :in-modern-country-note "Syria" ;
    :representative-latlong-point (36.84 40.068611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figurine_from_Fakhariyah_(female),_Tell_Fakhariyah,_Pre-pottery_Neolithic_B,_9000-7000_BC,_gypsum_with_bitumen_and_stone_inlays_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07633.JPG> .
@@ -725,7 +775,7 @@
    <https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=Anthropomorphic+Statuettes+from+Tell+Fakhariyah%3A+Arguments+for+Their+Possible+PPNB+Origin+Bernd+Müller-Neuhof&btnG=> ;
    :earliest-date -9000 ;
    :latest-date -7000 ;
-   :note "The article by B. Müller-Neuhof in ‘Neo-Lithics’ is not individually downloadablle other than via Academia.edu." ;
+   :note "The article by B. Müller-Neuhof in ‘Neo-Lithics’ is not individually downloadablle other than via Academia.edu. From the conclusion: “Finally I would like to repeat my initial proposal for a PPNB date for the crafting of the statuettes from Tell Fakhariyah. In my opinion such a date is supported by stratigraphic evidence, especially the abundant amount of typical PPNB lithic artefacts, referring to a PPNB phase in the occupational sequence of Tell Fakhariyah. Additionally, a hiatus of occupation between the PPNB and the Late Bronze Age can most probably be assumed, according to the earliest pottery finds, which date into the Late Bronze Age (Mittani period). Connecting this stratigraphic information with the iconography of the two statuettes, the time frame in which both items can be dated becomes very narrow.”" ;
    :in-modern-country-note "Syria" ;
    :representative-latlong-point (36.84 40.068611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figurine_from_Fakhariyah_(male),_Tell_Fakhariyah,_Pre-pottery_Neolithic_B,_9000-7000_BC,_gypsum_with_bitumen_and_stone_inlays_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07636.JPG> .
@@ -745,6 +795,7 @@
    :earliest-date -8500 ;
    :latest-date -6500 ;
    :materia-note "Flint" ;
+   :note "From article abstract: “This article presents a unique assemblage of flint artefacts from the Middle Pre-Pottery Neolithic B (eighth millennium BC) site of Kharaysin in Jordan. Contextual, morphological, statistical and use-wear analyses of these artefacts suggest that they are not tools but rather human figurines. Their close association with burial contexts suggests that they were manufactured and discarded during mortuary rituals and remembrance ceremonies that included the extraction, manipulation and redeposition of human remains.”" ;
    :in-modern-country-note "Jordan" ;
    :art-historical-culture-or-tradition :pre-pottery-neolithic ;
    :representative-latlong-point (32.203889 36.008889) ;
@@ -766,6 +817,7 @@
    :described-by <https://en.wikipedia.org/wiki/Nevalı_Çori#Sculpture_and_clay_figurines> ;
    :earliest-date -8400 ;
    :latest-date -8100 ;
+   :note "The human figures have been interpreted as dancers." ;
    :in-modern-country-note "Turkey" ;
    :representative-latlong-point (37.518433 38.605756) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Urfa_museum_Fragment_of_stone_vessel_Nevalı_Çori_-_Neolithic_age_4795.jpg> .
@@ -805,6 +857,7 @@
    :earliest-date -8000 ;
    :latest-date -7000 ;
    :material-note "Rib bone, likely from an auroch." ;
+   :note "From article abstract: “New light is thrown on the social context of these changes by the discovery of a bone wand displaying two engraved human faces from the Early Neolithic site of Tell Qarassa in Syria, dating from the late ninth millennium BC.”" ;
    :in-modern-country-note "Syria" ;
    :representative-latlong-point (36.822300 41.461109) ;
    :art-historical-culture-or-tradition :pre-pottery-neolithic ;
@@ -848,9 +901,10 @@
 :round-head-figures-of-tassili-n-ajjer a :group-of-human-figures ;
    rdfs:label "Round Head Figures of Tassili n'Ajjer" ;
    :described-by <https://en.wikipedia.org/wiki/Round_Head_Period> ;
-   :earliest-date -10000 ;
-   :latest-date -8000 ;
+   :earliest-date -9500 ;
+   :latest-date -7500 ;
    :in-modern-country-note "Algeria" ;
+   :note "From Wikipedia: “Round Head rock art is the earliest painted, monumental form of Central Saharan rock art, which was largely created from 9500 BP to 7500 BP and ceased being created by 3000 BP. The Round Head Period is preceded by the Kel Essuf Period and followed by the Pastoral Period. Round Head rock art number up to several thousand depictions in the Central Sahara. Human and undomesticated animal (e.g., Barbary sheep, antelope) artforms are usually portrayed, with a variety of details (e.g., dancing, ceremonies, masks, spiritual animal forms), in painted Round Head rock art.“" ;
    :art-historical-culture-or-tradition :saharan-rock-art ;
    :representative-latlong-point (25.5 9) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Fondazione_Passaré_V1_056.jpg> .
@@ -954,7 +1008,7 @@
    :material-note "Stone" ;
    :in-modern-country-note "Azerbaijan" ;
    :representative-latlong-point (41.148056 45.241111) ;
-   :note "From the linked publication, “The supposed head is decorated with several vertical lines from the top, likely representing hair.”" ;
+   :note "From the linked article, “The overall pattern suggests that the artifact represents a human figure. One of the wider surfaces with the most complicated engravings appears to be the front side (Fig. 2: 1b, 2b). The supposed head is decorated with several vertical lines from the top, likely representing hair. The vertical lines are rather short in the middle and depict short hair bangs. Interestingly, the ends of these lines are explicitly delineated by horizontal lines. Further, the face does not show any depiction of facial features such as the eyes and nose (Figs. 2: 2b; 3: 5). Moreover, the top of the head is unprocessed in an area approximately 4.7 mm in diameter. This area is encircled by 2–3 circular lines, which may represent a hairband or the edge of a cap. The top of the head is not decorated.”" ;
    :thumbnail-image <https://ars.els-cdn.com/content/image/1-s2.0-S2352226725000212-gr2.jpg> .
 
 
@@ -982,9 +1036,11 @@
 
 :sha-ar-hagolan-pebble-figurines a :human-figure ;
    rdfs:label "Sha'ar HaGolan Pebble Figurine" ;
-   :described-by <https://en.wikipedia.org/wiki/Sha%27ar_HaGolan_(archaeological_site)> ;
+   :described-by <https://en.wikipedia.org/wiki/Sha%27ar_HaGolan_(archaeological_site)> ,
+      <https://www.myc.org.il/en/the-museum-of-yarmukian-culture/> ;
    :earliest-date -6400 ;
    :latest-date -6000 ;
+   :note "From the Museum of Yarmukian Culture (MYC) website: “About a hundred figurines incised on limestone pebbles were found in the Yarmukian village at Shaar Hagolan. These are stylized human figures which may be divided into three groups: detailed figurines, face figurines and eye figurines. The difficulties of carving the hard pebbles led to increased schematization of garments and body features, the most common and important of which were the eyes.”" ;
    :in-modern-country-note "Israel" ;
    :representative-latlong-point (32.686389 35.603333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Yarmukian_Culture_-Sha%27ar_HaGolan,_pebble_Figurine.jpg> .
@@ -1154,10 +1210,11 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bestias2.JPG> .
 
 :hamangia-seated-figures a :group-of-human-figures ;
-   rdfs:label "Hamangia Seated Figures" ;
+   rdfs:label "Hamangia Female and Male Seated Figures" ;
    :described-by <https://en.wikipedia.org/wiki/Thinker_of_Hamangia> ;
    :approximate-date -5000 ;
-   :materia-note "Ceramic" ;
+   :material-note "Ceramic" ;
+   :note "From Wikipedia: “UUnearthed in 1956 near Cernavodă, in southeastern Romania, these ceramic figures were discovered within a vast cemetery belonging to the Hamangia culture. This culture had a tradition of burying their deceased in designated areas known as necropolises, often accompanied by funerary items ... figurines like The Thinker. The Thinker and its companion, The Sitting Woman, were found within a necropolis containing approximately 400 graves." ;
    :in-modern-country-note "Romania" ;
    :representative-latlong-point (44.338056 28.033611) ; # ll for Cernavoda, Romania
    :art-historical-culture-or-tradition :hamangia-culture ;
@@ -1402,6 +1459,16 @@
    :note "Generic point within Dornod Province" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Neolithic_stone_amulet,_Dornod,_Mongolia,_4000-3000_BCE.jpg> .
 
+:sydney-area-rock-art a :group-of-human-figures ;
+   rdfs:label "Paired Male and Female from Syndey-area Petroglyphs" ;
+   :described-by <https://en.wikipedia.org/wiki/Sydney_rock_engravings> ;
+   :earliest-date -4000 ;
+   :latest-date -3000 ;
+   :note "From Wikipedia: “The engravings cannot be dated straightforwardly with contemporary archaeological methods, necessitating the use of indirect dating. The Sydney engravings are of a style known as “simple figurative”, which formulaic archaeology dates to around 3,000 BC and 4,000 BC, which is contemporaneous to the Neolithic period in Eurasia. Other engravings show European sailing ships, and so those cannot be more than about 200 years old. It is likely that some of the freshest engravings represent the later part of that time range, whilst the most worn represent the earliest part. However, the situation is complicated by the fact that the engravings were sometimes “re-grooved” during ceremonies.”" ;
+   :in-modern-country-note "Australia" ;
+   :representative-latlong-point (-33.630948 151.227760) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Petroglyphmanandwoman.jpg> .
+
 :reclining-figure-hal-saflieni a :human-figure ;
    rdfs:label "Reclining Figure from Hal Saflieni Hypogeum" ;
    :described-by <https://www.worldhistory.org/image/245/the-sleeping-lady/> ,
@@ -1409,6 +1476,7 @@
    <https://artsandculture.google.com/story/the-sleeping-lady-a-unique-maltese-icon-national-museum-of-archaeology/VAWR7KPNk-UDKw> ;
    :earliest-date -4000 ;
    :latest-date -2000 ;
+   :note "From World History Encyclopedia: “Temple Period, 4000 - 2500 BCE. This clay figure of a reclining lady was found in one of the pits of the Hypogeum in Hal Saflieni in Malta. It has traces of red ochre paint and is thought to represent a “mother goddess”, even though she may equally be a representation of death or eternal sleep." ;
    :in-modern-country-note "Malta" ;
    :representative-latlong-point (35.869583 14.506806) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:The_Sleeping_Lady,_2009.jpg> .
@@ -1418,7 +1486,7 @@
    :described-by <https://en.wikipedia.org/wiki/Twyfelfontein> ;
    :earliest-date -4000 ;
    :latest-date -1 ;
-   :note "The site has mostly petroglyphs. The paintings seem to have more clear chronology? All to be confirmed" ;
+   :note "From Wikipedia: “Twyfelfontein valley has been inhabited by Stone-age hunter-gatherers of the Wilton stone age culture group since approximately 6,000 years ago. They made most of the engravings and probably all the paintings.”" ;
    :in-modern-country-note "Namibia" ;
    :representative-latlong-point (-20.590556 14.372222) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rock_painting_in_Twyfelfontein3.jpg> .
@@ -1444,7 +1512,7 @@
       <https://sketchfab.com/3d-models/orkney-venus-links-of-noltland-dadacf3f95ad41a4ae0278a06ab12499>;
    :earliest-date -3800 ;
    :latest-date -2500 ;
-   :note "Wikimedia Commons image is dark. See other sites." ;
+   :note "Wikimedia Commons image is dark. See other sites. From Historic Environment Scotland site: “Known both as the ‘Orkney Venus’ and the ‘Westray Wifie’, this Neolithic figurine is just 4cm tall. Made of stone, its rounded head has two eyeholes, a brow line and markings to suggest a nose and mouth. The long, lozenge-shaped torso looks a little like the exaggerated form of a woman, with wide hips.  The figurine was found in 2009 during a Historic Scotland dig at Links of Noltland. It’s the earliest depiction of a human form found in Scotland – and the earliest portrayal of a face found in the United Kingdom. The figurine is on loan from the Crown and is currently on display at Westray Heritage Centre.”" ;
    :material-note "Sandstone" ;
    :in-modern-country-note "Scotland" ;
    :art-historical-culture-or-tradition :neolithic-europe ;
@@ -1467,7 +1535,7 @@
    :described-by <https://commons.wikimedia.org/wiki/File:Male_head_from_Hierakonpolis._Probably_originating_from_Tomb_16_complex_(found_in_the_vicinity),_Naqada_IC-Naqada_IIA_(circa_3600-3500_BCE)._Egyptian_Museum,_Cairo.jpg> ;
    :earliest-date -3600 ;
    :latest-date -3500 ;
-   :note "The Wiki Commons page quotes a description of findspot." ;
+   :note "From the Wikimedia Commons page, itself quoting a fuller description: “Tomb 16 is a large tomb of the Naqada IC–IIA period into which a bricklined tomb of the Naqada IIIA2 period had later been inserted in what now appears to be an act of respectful renovation rather than usurpation (Hendrickx 2008: fig. 5). (...) In all probability, the two famous ceramic masks also originate from this tomb (Fig. 2). Some fragments were found in the tomb fill, although the majority were collected in surface and subsurface levels to the west and especially to the south, where the beard to the smaller mask was recovered in 2010.”" ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (25.097222 32.779444) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Male_head_from_Hierakonpolis._Probably_originating_from_Tomb_16_complex_(found_in_the_vicinity),_Naqada_IC-Naqada_IIA_(circa_3600-3500_BCE)._Egyptian_Museum,_Cairo.jpg> . 
@@ -1491,10 +1559,11 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG> .
 
 :predynastic-figurine-nubt a :human-figure ;
-   rdfs:label "Predynastic Female Figurines possibly from Naqada" ;
+   rdfs:label "Predynastic Female Figurines, possibly from Naqada" ;
    :described-by <https://www.metmuseum.org/art/collection/search/547202> ;
    :earliest-date -3500 ;
    :latest-date -3300 ;
+   :note "From Met Museum website: “This limestone figurine is the finest preserved of unusual group of Predynastic statuettes. These seated women display beak-like noses and missing or schematized arms. The hair, narrow waist and wide hips are clearly shown to emphasize female sexuality. The light colored surface created an ideal canvas for painted details, including jewelry and animal figures that scholars now believe are associated with a ritual activity.”." ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (25.9 32.716667) ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/547202/1218864/main-image> .
@@ -1532,6 +1601,18 @@
    :art-historical-culture-or-tradition :sumerian ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Warka_vase_(background_retouched).jpg> .
 
+:niuheliang-figure-jade-eyes a :human-figure ;
+   rdfs:label "Niuheliang Temple figure with Jade Eyes" ;
+   :described-by <https://www.ancient-origins.net/ancient-places-asia/relics-niuheliang-goddess-temple-most-mysterious-site-ancient-hongshan-002594> ,
+      <https://en.wikipedia.org/wiki/Niuheliang> ;
+   :earliest-date -3500 ;
+   :latest-date -3000 ;
+   :materia-note "Jade, ceramic" ;
+   :note "I have not found a good, discrete page for this object The *Ancient Origins* has many adds." ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (41.322015 119.51319) ;
+   :thumbnail-image <https://www.ancient-origins.net/sites/default/files/styles/article_image/public/field/image/Painted-clay-Niuheliang.jpg?itok=LGS_MNqe> .
+
 :statue-min-koptos a :human-figure ;
    rdfs:label "Statue of Min from Koptos" ;
    :described-by <https://www.ashmolean.org/collections-online#/item/ash-object-487742> ;
@@ -1557,6 +1638,7 @@
    :earliest-date -3200 ;
    :latest-date -2200 ;
    :material-note "Stone" ;
+   :note "Translated and adapted from Spanish Wikipedia; “The Idol of Garrovillas de Alconetar is a Chalcolithic, anthropomorphic with prominent eyes plaque idol... roughly rectangular, flat stone slab measuring 16.30 x 7.90 cm and 1.40 cm thick. On the obverse, a face is visible, formed by two perforations for eyes, eyebrows, and a nose created by indentations representing the eye sockets and cheeks. The lines on what would be the cheeks have been interpreted as facial tattoos. Below, two arms and what has been interpreted as the pubic triangle are visible. The reverse has zigzag lines, possibly representing a hairstyle.”" ;
    :in-modern-country-note "Spain" ;
    :representative-latlong-point (39.7131229 -6.5494671) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Garrovillas_de_Alconétar-Idolo_oculado_de_arenisca.jpg> .
@@ -1702,7 +1784,7 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Afgh02-02-02.jpg> .
 
 :dogu-female-abstract-figurine a :human-figure ;
-   rdfs:label "Dōgu Female Abstract Figurine" ;
+   rdfs:label "Dogū Female Abstract Figurine" ;
    :described-by <https://commons.wikimedia.org/wiki/File:Nishi-no-mae_Iseki_dogu-2.JPG> ;
    :earliest-date -3000 ;
    :latest-date -2000 ;
@@ -1843,7 +1925,7 @@
    :earliest-date -2600 ;
    :latest-date -1900 ;
    :material-note "Copper" ;
-   :note "MFA restricts access to images so thumbnail coming from harrapa.com." ;
+   :note "Described by MFA as “Male spear thrower or dancer.” MFA restricts access to images so thumbnail coming from harrapa.com." ;
    :in-modern-country-note "Pakistan" ;
    :representative-latlong-point (26.173611 68.323055) ;
    :thumbnail-image <https://www.harappa.com/sites/default/files/styles/galleryformatter_slide/public/chanhudaro-dancer-spear-thrower.jpg> ;
@@ -1871,7 +1953,7 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Керносовский_идол.png> .
 
 :jomon-female-figurine a :human-figure ;
-   rdfs:label "Jōmon Female Figurine" ;
+   rdfs:label "Jōmon Female Figurine (Dogū)" ;
    :described-by <https://en.wikipedia.org/wiki/Jōmon_Venus> ;
    :approximate-date -2500 ;
    :material-note "Ceramic" ;
@@ -1920,6 +2002,7 @@
    :earliest-date -2300 ;
    :latest-date -1750 ;
    :material-note "Bronze" ;
+   :note "From SmartHistory: “This small bronze statuette (only 4 inches in height), depicts a nude young woman, with a coiled hairstyle and bangles adorning her arms. The figure stands with her feet apart and her weight distributed unevenly (often referred to by art historians as contrapposto). She props one arm at her waist and her other arm hangs by her side. The title of the sculpture, *Dancing Girl*, comes from the archaeologist who unearthed it in 1926 who thought the ancient figure recalled images of dancing nautch girls (female dancers who often performed at royal courts and in salons, especially in colonial India).‘" ;
    :in-modern-country-note "Pakistan" ;
    :representative-latlong-point (27.329167 68.138889) ;
    :art-historical-culture-or-tradition :indus-valley-civilization ;
@@ -2090,6 +2173,7 @@
    :described-by <https://archeology.uark.edu/artifacts/stone-figurine/> ;
    :earliest-date -2000 ;
    :latest-date -700 ;
+   :note "From U. of Arkansas website: “... 72mm in length with a maximum width of 42mm and average thickness of about 11mm. It has a rectangular cross section. The object is made of a dark grey shale or slate with a reddish-brown patina on its surface from weathering.”" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (34.262373 -92.025230) ;
    :note "Findspot is approximate: near Pine Bluff, Arkansas." ;
@@ -2312,6 +2396,7 @@
       <https://egypt-museum.com/statue-of-akhenaten-and-nefertiti/> ;
    :earliest-date -1352 ;
    :latest-date -1335 ;
+   :gender-note "Female" ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (27.661667 30.905556) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ancient_Egypt_Painted_Statue_(28314649872).jpg> .
@@ -2514,7 +2599,7 @@
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:金沙遺址博物館_Jinsha_Site_Museum_-_51131523226.jpg> .
 
 :jomon-doju-statuette a :human-figure ;
-   rdfs:label "Jōmon dogū statuette" ;
+   rdfs:label "Jōmon Dogū Statuette" ;
    :described-by <https://en.wikipedia.org/wiki/Dogū#Shakōkidogū> ;
    :earliest-date -1000 ;
    :latest-date -400 ;
@@ -2709,7 +2794,7 @@
    :latest-date -200 ;
    :material-note "Ceramic" ;
    :in-modern-country-note "Peru" ;
-   :note "Findspot not specific. Figure usually identified as female." ;
+   :note "Map of findspot not precise. From Museo Larco website (translated): “Sculptural pitcher depicting a wrinkled woman's head with pierced ears. The woman's face is on the front of the vessel, and the wrinkles are represented by incisions. This piece was excavated by Rafael Larco Hoyle from Tomb 19 of the Barbacoa A Cemetery in the Chicama Valley (Los Cupisnique, 1941).”" ;
    :representative-latlong-point (-7.773488 -78.967438) ;
    :thumbnail-image <https://coleccion.museolarco.org/public/uploads/ML040338/ML040338_SF3_1734121607.webp> .
 
@@ -3067,7 +3152,8 @@
       <https://en.wikipedia.org/wiki/Oxus_Treasure> ;
    :earliest-date -500 ;
    :latest-date -300 ;
-   :materia-note "Gold" ;
+   :material-note "Gold" ;
+   :note "From British Museum website: “Rectangular gold plaque: with embossed and chased decoration showing a male figure facing right, in so-called “Median dress”, wearing a belted tunic with two vertical stripes with similar bands along the bottom and at the shoulders, hood (from which his hair projects above and below), trousers, long boots and a soft cap with neck-guard. His chin is covered. He wears, from his belt, an 'akinakes' with a lateral projection at the upper end, and a cinquefoil chape. The lower part of the scabbard is secured by a cord running around his leg. He carries a 'barsom' in his right hand.”" ;
    :in-modern-country-note "Tajikistan" ;
    :representative-latlong-point (37.054553 68.281994) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Chopped_gold_pieces_from_the_Oxus_Treasure_by_Nickmard_Khoey213.jpg> .
@@ -3217,12 +3303,15 @@
 
 :deposit-figurines-san-isidro a :group-of-human-figures ;
    rdfs:label "Deposit of Figurines from San Isidro" ;
-   :described-by <https://doi.org/10.15184/aqy.2025.37> ;
+   :described-by <https://doi.org/10.15184/aqy.2025.37> ,
+      <https://archaeology.org/news/2025/03/07/mysterious-2400-year-old-puppets-unearthed-in-el-salvador/> ,
+      <https://www.livescience.com/archaeology/2-400-year-old-puppets-with-dramatic-facial-expression-discovered-atop-pyramid-in-el-salvador> ;
    :earliest-date -410 ;
    :latest-date -380 ;
+   :note "From Antiquity article abstract: “The discovery of a rare tableau of ‘Bolinas’-type clay figurines dating to 410–380 BC at San Isidro, El Salvador, now permits the theoretical reconstruction of a less stratified Preclassic society in south-east Mesoamerica and the exploration of its spheres of interaction, which may have stretched along the coast from Guatemala to Costa Rica.”" ;
    :in-modern-country-note "El Salvador" ;
    :representative-latlong-point (13.833882 -88.720227) ;
-   :thumbnail-image <https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0003598X25000377/resource/name/S0003598X25000377_figAb.png?pub-status=live> .
+   :thumbnail-image <https://cdn.mos.cms.futurecdn.net/X3h5mJYSR8usRL3D76Yu28-1200-80.jpg.webp> .
 
 :seated-femaale-figure-baza a :human-figure ;
    rdfs:label "Seated Female Figure from Baza" ;
@@ -3247,6 +3336,7 @@
    :earliest-date -400 ;
    :latest-date 500 ;
    :in-modern-country-note "Argentina" ;
+   :note "From Met Museum website (first link): “This stone mask features an anthropomorphic face with pronounced brow ridge, angular nose, and drilled perforations with raised carved ridges indicating the eyes and mouth. Additional drill holes line the outer edge of the mask, presumably to affix it with fibers to an armature. The mask was most likely attached to a funerary bundle.”" ;
    :representative-latlong-point (-27.978864 -66.543650) ;
    :note "Specific findspot not known." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/708743/1696927/main-image> .  
@@ -3387,6 +3477,7 @@
    :described-by <https://en.wikipedia.org/wiki/Ai-Khanoum_plaque> ;
    :earliest-date -200 ;
    :latest-date -145 ;
+   :note "From Wikipedia: “The Ay-Khanoum plaque is an ancient Greco-Bactrian disk discovered at the archaeological site of Ay-Khanoum in Takhar Province, Afghanistan. This Hellenistic city served as a military and economic center for the rulers of the Greco-Bactrian Kingdom until its destruction c. 145 BC. Rediscovered in 1961, the ruins of the city were excavated by the French Archaeological Delegation in Afghanistan (DAFA) until an outbreak of conflict in Afghanistan during the late 1970s. Among the structures excavated by the archaeologists was a sanctuary called the 'Temple of Indented Niches', (French: “temple à niches indentées”; alternatively “temple à redans”, meaning 'Stepped Temple')[1] in which the disk was found. The disk is held in the collection of the National Museum of Afghanistan in Kabul.”" ;
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (37.164722 69.408611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:AiKhanoumPlateSharp.jpg> .
@@ -3396,6 +3487,7 @@
    :described-by <https://en.wikipedia.org/wiki/Entremont_(oppidum)#Sculpture> ;
    :earliest-date -200 ;
    :latest-date -123 ;
+   :note "From Wikipedia: “Excavations at Entremont in the 1940s produced a large collection of fragmentary pre-Roman sculpture, most of which is now in the Musée Granet in Aix-en-Provence. The largest group of fragments consists of the heads and torsos of several male figures, usually interpreted as heroized warriors, depicted in a seated position with their legs folded beneath them and one hand resting on the severed head of an enemy. Heads and other pieces of a smaller number of female figures are also preserved, as are fragments of horses. Blocks from the architectural setting in which the figures were displayed are decorated with reliefs of additional severed heads and skull-shaped recesses, as well as horsemen and other figures. The sculptures were all carved from a fine-grained local limestone, and some of the fragments preserve traces of the original paint.”" ;
    :in-modern-country-note "France" ;
    :representative-latlong-point (43.552222 5.439167) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Entremont_severed_heads_1-03_(Musée_Granet,_Aix).jpg> .
@@ -3627,7 +3719,7 @@
    :latest-date 200 ;
    :in-modern-country-note "Iraq" ;
    :representative-latlong-point (33.093611 44.580556) ;
-   :thumbnail-image <https://images.metmuseum.org/CRDImages/an/web-additional/DP-15732-009.jpg> .
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/322114/1825368/main-image> .
 
 # :tolita-tumaco-seated-elder a :human-figure ;
 #    :described-by <https://www.metmuseum.org/art/collection/search/314299> ;
@@ -3888,10 +3980,12 @@
 
 :bimaran-casket a :group-of-human-figures ;
    rdfs:label "Bimaran Casket" ;
-   :described-by <https://en.wikipedia.org/wiki/Bimaran_casket> ;
+   :described-by <https://en.wikipedia.org/wiki/Bimaran_casket> ,
+      <https://www.britishmuseum.org/collection/object/A_1900-0209-1> ;
    :earliest-date 1 ;
    :latest-date 100 ;
    :material-note "Gold" ;
+   :note "From British Museum: “The casket tapers slightly towards the rim and lacks a lid. The arcading round the side consists of eight pointed caitya-arches resting on pilasters. Each arch has a plain recessed face and the pilaster capitals consist of a plain fillet above a torus and a fillet. The pilaster shafts have each a recessed oblong panel with an outlined border curved at the top and the base mouldings repeat those of the capitals in a contrary sequence. The compartments form two groups (A and B) of three at opposite sides to each other, each group having an almost identical central Buddha flanked by closely similar, worshipping deities in profile, and the three are separated at both ends by a single similar compartment containing the same frontal worshipping figure.”" ;
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (34.458544 70.349792) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:BimaranCasket2.JPG> .
@@ -3901,6 +3995,8 @@
    :described-by <https://en.wikipedia.org/wiki/Orlat_plaques> ;
    :earliest-date 1 ;
    :latest-date 100 ;
+   :material-note "Bone" ;
+   :note "From the Wikipedia page: “The Orlat plaques are a series of bone plaques that were discovered in the mid-1980s in Uzbekistan. They were found during excavations led by Galina Pugachenkova at the cemetery of Orlat, by the bank of the Saganak River (a tributary of the Zeravshan), immediately north of Samarkand. Pugachenkova published her finds in 1989. The left half is decorated with an elaborated battle scene, while on the other side is depicted a hunting scene." ;
    :in-modern-country-note "Uzbekistan" ;
    :representative-latlong-point (39.654722 66.975833) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Orlat_plaques_(vertical_layout).jpg> .
@@ -3914,6 +4010,17 @@
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (34.966667 69.3) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Indian_ivory_furniture_support_from_Begram,_1st_century_AD.jpg> .
+
+:isis-temple-200-naga a :human-figure ;
+   rdfs:label "Isis statue from Temple 200 at Naqa" ;
+   :described-by <https://naga-projekt.de/funde-befunde/statue-der-goettin-isis/> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :material-note "Faience" ;
+   :note "Translated from German text on the Naqa Projekt website: “Numerous iconographic parallels place this Isis statue within the context of Ptolemaic-Roman sculpture, in which Egyptian formal principles are clothed in Hellenistic garb. While it might initially appear that this statue could be an import from Roman Egypt, the stylistic rendering of the figure leaves no doubt that it is the work of Meroitic artists. A comparison with late Ptolemaic and Roman female figures reveals that the statue's thick arms, short legs, and powerfully developed thighs and hips represent the ideal of female beauty that also characterizes the female figures on the temple reliefs and stelae of Naga. Thus, aspects of Egyptian, Hellenistic-Roman, and Meroitic art combine in this statue to form an artistically autonomous work.”" ;
+   :in-modern-country-note "Sudan" ;
+   :representative-latlong-point (16.269444 33.275) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Aegyptisches_Museum_Berlin_InvNrKA_20080313_Goettin_Isis_aus_Naga.jpg> .
 
 :corleck-head a :human-figure ;
    rdfs:label "Corleck Head" ;
@@ -3929,6 +4036,7 @@
    :described-by <https://isaw.nyu.edu/research/io-figures/sessions/march-4/info> ;
    :earliest-date 1 ;
    :latest-date 400 ;
+   :note "From ISAW Website: “The bronze is a fragmented female figure, but enough remains to identify her with a well-known iconographic type in Indian art—the salabhanjika (alt. salabhanjika), a divine or semi-divine female holding a tree branch. It was found at the port city of Khor Rori in Oman during an excavation sponsored by the American Foundation for the Study of Man. The Khor Rori bronze is part of a wider discourse on iconographic elements from South Asia visible in South Arabian art. It is important to acknowledge that South Arabian art has maintained a very strong autochthonous and original character over time, and that the external contributions are but evidence of its multicultural nature through the years. / The dating of the figure ranges from the 2nd to the 4th Centuries CE, based on its stylistic elements and comparisons with salabhanjika figures from the Indian subcontinent.”" ;
    :material-note "Bronze" ;
    :in-modern-country-note "Oman" ;
    :representative-latlong-point (17.039339 54.430478) ;
@@ -3994,7 +4102,8 @@
    rdfs:label "Couple from Pompeii" ;
    :described-by <https://en.wikipedia.org/wiki/Portrait_of_Terentius_Neo> ,
    <https://palp.art/browse/ARC_059708> ;
-   :approximate-date 30 ;
+   :approximate-date 50 ;
+   :note "Adapted from Wikipedia: ”The Portrait of Terentius Neo and his wife is a Roman fresco, created circa 50 CE, depicting a couple holding objects important to literacy. It was found in Pompeii in the House of Terentius Neo in Regio 7, Insula 2, 6, and is now in the National Archaeological Museum, Naples.”" ;
    :in-modern-country-note "Italy" ;
    :art-historical-culture-or-tradition :roman-empire ;
    :representative-latlong-point (40.75 14.486111) ; # update with house ll
@@ -4056,6 +4165,7 @@
    :described-by <https://en.wikipedia.org/wiki/Berenike_Buddha> ;
    :earliest-date 100 ;
    :latest-date 200 ;
+   :note "From Wikipedia: “The Berenike Buddha is a statue of the Buddha, parts of which were discovered in January 2018 and January 2022 in an archaeological excavation in the ancient harbour of Berenike, Egypt, by an American-Polish archaeological mission. The statue was discovered in the forecourt of an early Roman period temple dedicated to the Goddess Isis. ... It was made from a stone that was extracted south of Istanbul, and may also have been carved in Berenike itself. The statue has a halo around the head of the Buddha, decorated with the rays of the sun, and has a lotus flower by his side. It is 71cm tall.”" ;
    :in-modern-country-note "Egypt" ;
    :representative-latlong-point (23.908611 35.4725) ;
    :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Berenike_Buddha.jpg/500px-Berenike_Buddha.jpg> .
@@ -4087,6 +4197,17 @@
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (36.036083 68.58905) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Probable_statue_of_Kanishka,_Surkh_Kotal._Kabul_Museum_(2nd_century_CE).jpg> .
+
+:coin-kanushka-boddo a :group-of-human-figures ;
+   rdfs:label "Coin of Kanushka with Buddha on Reverse" ;
+   :described-by <https://commons.wikimedia.org/wiki/File:Coin_of_Kanishka_I.jpg> ;
+   :earliest-date 127 ;
+   :latest-date 150 ;
+   :material-note "Gold" ;
+   :note "Found at the Ahin Posh Monastery. From Wikipedia: “Gold coin of Kanishka I with a representation of the Buddha (c. 120 AD).Obv: Kanishka standing.., clad in heavy Kushan coat and long boots, flames emanating from shoulders, holding standard in his left hand, and making a sacrifice over an altar. Kushan-language legend in Greek script (with the addition of the Kushan Ϸ “sh” letter): ϷΑΟΝΑΝΟϷΑΟ ΚΑΝΗϷΚΙ ΚΟϷΑΝΟ (“Shaonanoshao Kanishki Koshano”): “King of Kings, Kanishka the Kushan”. Rev: Standing Buddha in Hellenistic style, forming the gesture of “no fear” (abhaya mudra) with his right hand, and holding a pleat of his robe in his left hand. Legend in Greek script: ΒΟΔΔΟ “Boddo”, for the Buddha. Kanishka monogram (tamgha) to the right.”" ;
+   :in-modern-country-note "Afghanistan" ;
+   :representative-latlong-point (34.412045 70.45213) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Coin_of_Kanishka_I.jpg> .
 
 :seated-buddha-mathura-132 a :group-of-human-figures ;
    rdfs:label "Seated Buddha from Mathura of 132 CE" ;
@@ -4143,7 +4264,7 @@
    rdfs:label "White Elephant Cave Human Figure" ;
    :described-by <https://www.sahumanities.org/index.php/sah/article/view/158> ;
    :note "Figure 6 in the linked publication shows a portion of a ‘human figure’ dated to approximately 200 CE. Mapped point is very approximate." ;
-   :approximate-date 200 ;
+   :approximate-date 100 ;
    :in-modern-country-note "South Africa" ;
    :representative-latlong-point (-29.380719 29.527825) .
 
@@ -4272,6 +4393,11 @@
    :described-by <https://en.wikipedia.org/wiki/Gupta_art#Sarnath_school> ;
    :date 448 ;
    :in-modern-country-note "India" ;
+   :note """A translation of the inscription is availabel on the Wikemedia Commons page: “Om! Reverence to the Buddhas! This image of the Divine One, who thoroughly
+attained perfect knowledge, (and) who was never refuted in respect of his tenets, has been
+installed by the Bhikshu Buddhamitra, (in) the year 100 (and) 20 (and) 9; in the reign
+of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day 10
+(and) 8, — with the object of averting all Unhappiness.”""" ;
    :representative-latlong-point (25.435833 81.846389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mankuwar_Buddha_with_background.jpg> .
 
@@ -4308,6 +4434,7 @@
    :earliest-date 500 ;
    :latest-date 600 ;
    :material-note "Bronze" ;
+   :note "From Wikipedia: “The island is perhaps best known for a major archaeological area. The old trading town on Helgö began to emerge around the year 200 AD, 500 years before Birka at Björkö. The first archaeological dig in 1954 uncovered the remains of the early settlement, including a workshop area which attracted international interest. The most notable finds included a small Buddha statuette from North India and a christening scoop from Egypt, both dating from the 6th century. The Indian Buddha statuette, the Irish crozier and the Egyptian Coptic scoop which were found on Helgö, are presently on display in the Swedish History Museum in Stockholm.”" ;
    :in-modern-country-note "Sweden" ;
    :representative-latlong-point (59.278511 17.680435) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Helgö_Buddha_18194.jpg> .
@@ -4428,6 +4555,7 @@
    :described-by <https://www.metmuseum.org/art/collection/search/312882> ;
    :earliest-date -150 ;
    :latest-date 100 ;
+   :material-note "Walrus ivory" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (63.362222 -170.267222) ;
    :note "Specific findspot not known." ;
@@ -4864,7 +4992,7 @@
    :art-historical-culture-or-tradition :mayan-culture ;
    :representative-latlong-point (16.75 -89.15) ;
    :note "The mapped location is only a general indication of possilbe origin. See discussion on Met Museum page." ;
-   :thumbnail-image <https://images.metmuseum.org/CRDImages/ao/web-additional/DP-24340-001.jpg> .
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/313256/2104028/main-image> .
 
 :huqoq-mosaics a :group-of-human-figures ;
    rdfs:label "Huqoq Mosaics" ;
@@ -5002,6 +5130,7 @@
       <https://en.wikipedia.org/wiki/Qajartalik> ;
    :earliest-date 500 ;
    :latest-date 1250 ;
+   :note "From Wikipedia: “Qajartalik (Inuktitut for “where there is a kayak”) is a petroglyph site located on the Qajartalik peninsula of Qikertaaluk Island, Nunavut, approximately 40 km southeast of Kangiqsujuaq, Quebec. The site consists of over 150 carvings of faces in soapstone. It was created by the Dorset people, the culture who inhabited the Canadian eastern Arctic and Greenland beginning approximately 2,200 years ago before disappearing approximately 1,000 years ago, and who inhabited the region prior to the Thule Inuit who arrived approximately 800 years ago. It is believed to be the northernmost rock art site in North America...”." ;
    :in-modern-country-note "Canada" ;
    :representative-latlong-point (61.331574 -71.499644) ;
    :thumbnail-image <https://www.historymuseum.ca/wp-content/uploads/2022/09/Blog-KRyan-09-2022_Fig567-1024x512.png>  .
@@ -5017,15 +5146,6 @@
    :note "Dispersed on art market after discovery. Said to be from Anyang." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Anyang_funerary_bed,_Museum_of_Fine_Arts,_Boston,_1.jpg> .
 
-:sutton-hoo-helmet a :human-figure ;
-   rdfs:label "Sutton Hoo Helmet" ;
-   :described-by <https://en.wikipedia.org/wiki/Sutton_Hoo_helmet> ;
-   :earliest-date 600 ;
-   :latest-date 700 ;
-   :in-modern-country-note "England" ;
-   :representative-latlong-point (52.089167 1.338056) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png> .
-
 :el-peru-waka-burial-39-funerary-ritual-scene a :group-of-human-figures ;
    rdfs:label "El Perú-Waka Burial 39 Funerary Ritual Scence" ;
    :described-by <https://unframed.lacma.org/2017/09/21/archaeology-el-%c3%ba-waka%e2%80%99-maya-ritual-resurrection-scene-broader-perspective> ,
@@ -5037,6 +5157,15 @@
    :in-modern-country-note "Guatemala" ;
    :representative-latlong-point (17.2783 -90.3806) ;
    :thumbnail-image <https://unframed.lacma.org/sites/default/files/attachments/AncientBodies_Grouping1.png> .
+
+:sutton-hoo-helmet a :human-figure ;
+   rdfs:label "Sutton Hoo Helmet" ;
+   :described-by <https://en.wikipedia.org/wiki/Sutton_Hoo_helmet> ;
+   :earliest-date 600 ;
+   :latest-date 700 ;
+   :in-modern-country-note "England" ;
+   :representative-latlong-point (52.089167 1.338056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png> .
 
 # 600 https://en.wikipedia.org/wiki/Mahlac_Pictograph_Cave (see PDF report)
 
@@ -5059,6 +5188,7 @@
    :period-note "Pallava Dynasty (India)" ;
    :earliest-date 600 ;
    :latest-date 700 ;
+   :note "From Wikipedia: “Descent of the Ganges, known locally as Arjuna's Penance, is a monument at Mamallapuram, on the Coromandel Coast of the Bay of Bengal, in the Chengalpattu district of the state of Tamil Nadu, India. Measuring 96 by 43 feet (29 m × 13 m), it is a giant open-air rock relief carved on two monolithic rock boulders. The legend depicted in the relief is the story of the descent of the sacred river Ganges to earth from the heavens led by Bhagiratha. The waters of the Ganges are believed to possess supernatural powers. The descent of the Ganges and Arjuna's Penance are portrayed in stone at the Pallava heritage site. The relief is more of a canvas of Indian rock cut sculpture at its best not seen anywhere else in India. It is one of the Group of Monuments at Mamallapuram that was designated as a UNESCO World Heritage Site since 1984.”" ;
    :material-note "Stone" ;
    :in-modern-country-note "India" ;
    :representative-latlong-point (12.6175 80.198889) ; # Mahabalipuram, India
@@ -5074,6 +5204,15 @@
    :art-historical-culture-or-tradition :pictish-art ;
    :representative-latlong-point (56.689167 -2.781389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Pictish_Stone_at_Aberlemno_Church_Yard_-_Battle_Scene_Detail.jpg> .
+
+:palm-sunday-qocho a :group-of-human-figures ;
+   rdfs:label "Palm Sunday Mural from Qocho" ;
+   :described-by <https://en.wikipedia.org/wiki/Murals_from_the_Christian_temple_at_Qocho> ;
+   :earliest-date 600 ;
+   :latest-date 900 ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (42.852778 89.529167) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Nestorian_Temple_-_Palm_Sunday.jpg> .
 
 :nazca-tunic-panel-three-figures a :group-of-human-figures ;
    rdfs:label "Nazca Culture Tunic Panel with Three Figures" ;
@@ -5117,7 +5256,7 @@
    :earliest-date 650 ;
    :latest-date 800 ;
    :material-note "Ceramic" ;
-   :in-modern-country-note "Mexixo" ;
+   :in-modern-country-note "Mexico" ;
    :representative-latlong-point (20.208333 -90.485833) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jaina_Island_type_figure,_Art_Institute.jpg> .
 
@@ -5145,7 +5284,7 @@
    :described-by <https://en.wikipedia.org/wiki/Takamatsuzuka_Tomb> ;
    :earliest-date 694 ;
    :latest-date 710 ;
-   :in-modern-country-note "Japen" ;
+   :in-modern-country-note "Japan" ;
    :representative-latlong-point (34.462222 135.806472) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Takamat1.jpg> .
 
@@ -5174,6 +5313,7 @@
    :earliest-date 713 ;
    :latest-date 803 ;
    :material-note "Sandstone" ;
+   :note "From Wikipedia: “The Leshan Giant Buddha (Chinese: 樂山大佛) is a 71-meter (233 ft) tall stone statue, built between 713 and 803 (during the Tang dynasty). It is carved out of a cliff face of Cretaceous red bed sandstones that lies at the confluence of the Min River and Dadu River in the southern part of Sichuan Province in China, near the city of Leshan.[1] The stone sculpture faces Mount Emei, with the rivers flowing below its feet.”" ;
    :in-modern-country-note "China" ;
    :representative-latlong-point (29.544722 103.773333) ; # Leshan, China
    :art-historical-culture-or-tradition :tang-dynasty ;
@@ -5332,8 +5472,10 @@
 
 :cross-legged-figure-bucket a :human-figure ;
    rdfs:label "Cross-legged Figure Bucket Ornament" ;
-   :described-by <https://en.wikipedia.org/wiki/Oseberg_Ship#Grave_goods> ;
+   :described-by <https://en.wikipedia.org/wiki/Oseberg_Ship#Grave_goods> ,
+   <https://no.wikipedia.org/wiki/Buddha-bøtta>;
    :approximate-date 830 ;
+   :note "Translated from the Norwegian Wikipedia page using Google Translate: “The “Buddha Bucket”, often more neutrally referred to as the “Celtic Bucket’, is a bucket from the Oseberg find with two small male figures that superficially resemble traditional representations of Buddha. The bucket was found aboard the “Oseberg Ship”, a Viking ship that was excavated from the Oseberg Mound near Tønsberg in 1904. The mound was a ship grave from the Viking Age where two unknown female bodies were placed in the ship along with many animals and very rich grave goods in the year 834. The craftsmanship on the bucket is different from the Oseberg style on much of the other grave goods, and it was probably made in Ireland in the 7th–8th centuries, like other magnificent buckets in the find.”" ;
    :in-modern-country-note "Norway" ;
    :representative-latlong-point (59.905 10.6844) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Buckle_from_Oseberg_Vikingship_Buddha.JPG> .
@@ -5432,7 +5574,7 @@
    :material-note "Stone" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (39.816659 -110.319498) ;
-   :note "Approximate locatoin" ;
+   :note "Approximate location" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:HuntSceneNMC.JPG> .
 
 :horned-figures-capitol-reef a :group-of-human-figures ;
@@ -5445,7 +5587,7 @@
    :material-note "Sandstone" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (38.087321 -111.135686) ;
-   :note "Approximate locatoin" ;
+   :note "Approximate location" ;
    :thumbnail-image <https://www.nps.gov/common/uploads/cropped_image/primary/07C490B0-C60A-35DD-40E539E66DDF3F6F.jpg?width=400&quality=90&mode=crop> .
 
 :banteay-srei-fight-between-sunda-upasunda a :group-of-human-figures ;
@@ -5528,6 +5670,7 @@
       <https://en.wikipedia.org/wiki/Hoa_Hakananai%27a> ;
    :earliest-date 1000 ;
    :latest-date 1200 ;
+   :note "From British Museum website: “Ancestor figure 'moai', called Hoa Hakananaiʻa (lost, hidden or stolen friend) made of basalt. The back of the figure features intricate petroglyphs associated with the bird man religion (tangata manu): birds, vulvas, dance paddles in the form of stylised human figures, a ring and a girdle design.”" ;
    :material-note "Basalt stone" ;
    :in-modern-country-note "Chile" ;
    :representative-latlong-point (-27.12 -109.35) ;
@@ -5535,14 +5678,15 @@
 
 :chaco-clay-figurines a :group-of-human-figures ;
    rdfs:label "Chaco Clay Figurines" ;
-   :described-by <https://www.nps.gov/museum/exhibits/chcu/obj/fullres/effigy_figures_chcu30600_full.html> ;
+   :described-by <https://museum.nps.gov/ParkObjdet.aspx?rID=CHCU%20%20%2030600&db=objects&dir=CR%20AAWEB&page=2> ;
    :earliest-date 1020 ;
    :latest-date 1140 ;
    :material-note "Ceramic" ;
+   :note "From the NPS website: “Two unfired clay anthropomorphic figurines, one male, one female. Roughly modelled bodies and facial features. Inset charcoal for eyes. Black paint for hair. The female's hair is in whorls. Both of the female's arms and one of the male's arms have broken off. Representation of human figures among Anasazi was most uncommon. These are the only such figures in the Chaco Culture collection" ;
    :in-modern-country-note "United States" ;
    :art-historical-culture-or-tradition :anasazi ;
    :representative-latlong-point (36.0698 -107.9574) ;
-   :thumbnail-image <https://www.nps.gov/museum/exhibits/chcu/obj/fullres/effigy_figures_chcu30600.jpg> .
+   :thumbnail-image <https://museum.nps.gov/FullImages/CHCU//effigy_figures_chcu30600-jpg631653534960000000.jpg> .
 
 :maya-codex-of-mexico a :group-of-human-figures ;
    rdfs:label "Maya Codex of Mexico" ;
@@ -5574,6 +5718,7 @@
    <https://eastern.usu.edu/prehistoric-museum/exhibits/archaeology/pilling-figurines> ,
    <https://traffickingculture.org/encyclopedia/case-studies/pilling-collection-of-fremont-culture-figurines/> ;
    :approximate-date 1050 ;
+   :note "From Wikipedia: “The Pilling Figurines are all around 4 to 6 inches (roughly 10 to 15 cm) in height. They are constructed of unbaked clay and are decorated with applied clay ornaments. The figurines also show evidence of red, buff, and black paint. These markings and colors have offered insight and revealed how ancient Fremont people dressed and adorned themselves. Each one is distinctive in both appearance and gender. The female figurines have breasts, wider hips, and wear aprons while the male figurines wear loincloths (except for one which has a kilt of sorts). They appear to have been made in matching male and female pairs leaving an unmatched female figurine. They are considered to be among the most important pieces of ancient portable art that have been discovered in the Southwest.[3] All eleven figurines, can now be viewed at the USU Eastern Prehistoric Museum.”" ;
    :material-note "Unfired Clay" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (39.3075 -110.057222) ;
@@ -5613,9 +5758,11 @@
 
 :lewis-chessmen a :group-of-human-figures ;
    rdfs:label "Lewis Chessmen" ;
-   :described-by <https://en.wikipedia.org/wiki/Lewis_chessmen> ;
+   :described-by <https://en.wikipedia.org/wiki/Lewis_chessmen> ,
+   <https://www.nms.ac.uk/discover-catalogue/the-story-of-the-lewis-chess-pieces> ;
    :earliest-date 1100 ;
    :latest-date 1200 ;
+   :note "From Wikipedia: “The Lewis chessmen (Scottish Gaelic: Fir-thàilisg Leòdhais [fiɾʲˈhaːlɪʃkʲ loː.ɪʃ]) or Uig chessmen, named after the island or the bay where they were found, are a group of distinctive 12th-century chess pieces, along with other game pieces, most of which are carved from walrus ivory. Discovered in 1831 on the Isle of Lewis in the Outer Hebrides of Scotland, they may constitute some of the few complete, surviving medieval chess sets, although it is not clear if a single complete period-accurate set can be assembled from the pieces.”" ;
    :material-note "Walrus ivory, Whales’ teeth" ;
    :in-modern-country-note "Scotland" ;
    :representative-latlong-point (58.185987 -7.021909) ;
@@ -5649,6 +5796,7 @@
    :earliest-date 1181 ;
    :latest-date 1218 ;
    :material-note "Sandstone" ;
+   :note "From the English version of the musée Guimet website: “The king is represented at a mature age, his face slightly chubby in a posture of humble meditation with lowered eyes. His lips showcase the serene smile famously associated with Angkor. This sculpture is in the Bayon style, (late 12th century - early 13th century) a departure from the somewhat impersonal ideal standard of youth and beauty previously in favour. Bayon sculptors adopted a more naturalistic and human-like approach, modelling more sensitive faces sometimes inspired by the King and his contemporaries. These works are very expressive, even while showing great restraint, and reflect the serenity of the soul and of the royal grandeur through devotion.”" ;
    :in-modern-country-note "Cambodia" ;
    :art-historical-culture-or-tradition :khmer-empire ;
    :representative-latlong-point (13.4125 103.866667) ; # Angkhor as contemporary capital
@@ -5669,6 +5817,7 @@
    :earliest-date 1200 ;
    :latest-date 1300 ;
    :material-note "Terracotta" ;
+   :note "From the Northwestern University Website: “This terracotta figure of a seated man was found at Natamatao, Mali, alongside skeletons of horses and humans. It was part of a widespread local terracotta sculpture tradition that stretched from the tenth to the fifteenth century. The Niger River’s fertile inland delta supported a thriving urbanism in the Middle Ages that included more than sixty interdependent communities.”" ;
    :in-modern-country-note "Mali" ;
    :representative-latlong-point (14.466646 -5.000955) ; 
    :thumbnail-image <https://caravans.library.northwestern.edu/img/works/15/15_640x.jpg> .
@@ -5694,7 +5843,7 @@
       <https://archive.org/details/antiquitiesoften00thru> ;
    :earliest-date 1250 ;
    :latest-date 1350 ;
-   :note "Mapped point is approximate. Also known as the “Thruston Tablet”." ;
+   :note "Mapped point is approximate. Also known as the “Thruston Tablet”. From the Tennessee State Museum Website: “This prehistoric pictoglyph depicts images of people, their clothing, jewelry, and other ornamentation in a variety of scenes. It is a palimpsest, a piece of writing material that has been reused but still has traces of its earlier writings. It is also a storyboard. A recent study by a group of scholars revealed that three distinct layers of imagery could be identified. When examined separately, it was determined that the layers may represent a mythic story rather than a historical event, as was originally thought by those who first found the pictoglyph. The imagery depicted on the tablet is like that found on other forms of Mississippian Cultural Period art.”" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (36.344856 -86.261173) ;
    :thumbnail-image <https://assets.speakcdn.com/assets/2588/4197_web.png> .
