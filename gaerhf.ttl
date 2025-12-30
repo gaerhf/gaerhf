@@ -1260,6 +1260,18 @@
    :representative-latlong-point (36.32045 42.3675) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Painted_vessel_figurine_of_a_nude_woman_from_Yarim_Tepe_II_settlement,_Iraq._Halaf_culture,_5th_millennium_BCE._Iraq_Museum.jpg> .
 
+:male-figure-bir-es-safadi a :human-figure ;
+   rdfs:label "Male figure in Ivory from Bir es Safadi" ;
+   :described-by <https://collections.louvre.fr/en/ark:/53355/cl010146119> ,
+      <https://link.springer.com/article/10.1007/s10963-024-09187-9> ;
+   :earliest-date -5000 ;
+   :latest-date -4000 ;
+   :material-note "Hippopotamus Ivory" ;
+   :note "From Louvre website: “Hauteur : 24,8 cm ; Longueur : 4,7 cm ; Epaisseur : 4,2 cm”" ;
+   :modern-country-note "Israel" ;
+   :representative-latlong-point (31.244865 34.840366) ;
+   :thumbnail-image <https://collections.louvre.fr/media/cache/small/0000000021/0000146119/0000218347_OG.JPG> .
+
 :anthropomorphic-design-ceramic-banpo a :human-figure ;
    rdfs:label "Anthropomorphic Design on Ceramic Vessel from Banpo" ;
    :described-by <https://en.wikipedia.org/wiki/Banpo#Pottery_innovations> ;
@@ -1300,6 +1312,16 @@
    :in-modern-country-note "Philippines" ;
    :representative-latlong-point (14.532872 121.18679) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Angono_Petroglyphs1.jpg> .
+
+:skiers-reindeer-petroglyph a :group-of-human-figures ;
+   rdfs:label "Skiers and Reindeer Petroglyph (Belomorsky District)" ;
+   :described-by <https://en.wikipedia.org/wiki/Petroglyphs_of_Lake_Onega_and_the_White_Sea> ;
+   :earliest-date -5000 ;
+   :latest-date -2000 ;
+   :note "From Wikipedia: “ ...  cluster at the White Sea (Belomorsky District) has 11 sites with over 3400 figures, and according to the Permanent Delegation of the Russian Federation to UNESCO, they are clearly aligned towards hunting ...”" ;
+   :in-modern-country-note "Russia" ;
+   :representative-latlong-point (61.799916 35.893820) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Belomorsk_petroglyphs18.jpg> .
 
 :rock-art-of-sierra-de-san-francisco a :group-of-human-figures ;
    rdfs:label "Rock Art of Sierra de San Francisco" ;
@@ -1687,6 +1709,16 @@
    :in-modern-country-note "China" ;
    :representative-latlong-point (41.322015 119.51319) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG> .
+
+:pre-dynastic-jar-figures a :group-of-human-figures ;
+   rdfs:label "Pre-dynastic Jar with Figures" ;
+   :described-by <https://smarthistory.org/decorated-jar-predynastic/> ;
+   :approximate-date -3500 ;
+   :material-note "Ceramic" ;
+   :note "From Smarthistory Website: “A boat is drawn on each side of this pot. Above them are stylized human figures: a dancing woman with her hands raised over her head, and two men holding clappers or casinets. The woman is perhaps a goddess or priestess, and the scenes on this pot can be understood as episodes in a ritual or ceremony. On one side, the woman is called forth from the boat by the playing of one man, while the other man helps to raise her up. On the other side, both men beat out the tune, as she dances for them, conferring her blessings on them. The feathers worn in the hair of one man represents victory.”" ;
+   :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (26.142143 31.985322) ;
+   :thumbnail-image <https://smarthistory.org/wp-content/uploads/2021/05/detail-predyn-2048x1178.png> .
 
 :predynastic-figurine-nubt a :human-figure ;
    rdfs:label "Predynastic Female Figurines, possibly from Naqada" ;
@@ -2280,6 +2312,18 @@
    :in-modern-country-note "Pakistan" ;
    :representative-latlong-point (30.628889 72.863889) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Harappa_13_grey_stone_male_dancer_statuette.jpg> .
+
+:seated-figure-axe a :human-figure ;
+   rdfs:label "Seated Figure on Axe" ;
+   :described-by <https://www.academia.edu/39046307/Idols_The_Power_of_Images> ,
+      <https://www.artribune.com/arti-visive/archeologia-arte-antica/2018/09/intervista-inti-ligabue-mostra-venezia/> ;
+   :earliest-date -2200 ;
+   :latest-date -1800 ;
+   :material-note "Copper alloy, silver incrustations" ;
+   :note "Mapped location very approxmiate. Object in Ligabue collection, which seems to not provide discrete landing page. From the catalog for Idols; The Power of Images (p. 247, no. 92): “... male figure wearing a long narrow mantel that covers his left arm, leaving his right arm free to rest on his thighs, is seated on a small mat. His face, with short cut beard and bushy eyebrows, looks wise and peaceful, lightened by a kind smile. The short hair is massed on the forehead and framed by two thin dreadlocks that spring in high relief from his temples”" ;
+   :in-modern-country-note "Iran (eastern)?" ;
+   :representative-latlong-point (36.250913 60.769207) ;
+   :thumbnail-image <https://www.artribune.com/wp-content/uploads/2018/09/ASCIAC1.jpg> .
 
 :bmac-seated-female a :human-figure ;
    rdfs:label "BMAC Seated Female" ;
@@ -3672,6 +3716,18 @@
 
 # -300 -- https://commons.wikimedia.org/wiki/File:Majiayuan_tomb_figurines.jpg
 
+:bow-case-melitopol a :group-of-human-figures ;
+   rdfs:label "Bow Case from Melitopol Kurgan" ;
+   :described-by <https://en.wikipedia.org/wiki/Melitopol_kurgan> ,
+    <https://en.wikipedia.org/wiki/Gorytos> ;
+   :earliest-date -350 ;
+   :latest-date -320 ;
+   :material-note "Gold, leather" ;
+   :note "From Wikipedia: “... repoussé gold-coated gorytos with scenes from the myth of Achilles ..." ;
+   :in-modern-country-note "Ukraine" ;
+   :representative-latlong-point (46.86701 35.353108) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Melitopol_kurgan_gorytos_(corrected_for_perspective).jpg> .
+
 :scultpures-tel-abrak a :group-of-human-figures ;
    rdfs:label "Parthian(?) Sculptures from Tel Abrak" ;
    :described-by <https://en.wikipedia.org/wiki/Tell_Abraq#Archaeology> ,
@@ -4319,6 +4375,18 @@
    :in-modern-country-note "Sudan" ;
    :representative-latlong-point (16.269444 33.275) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Aegyptisches_Museum_Berlin_InvNrKA_20080313_Goettin_Isis_aus_Naga.jpg> .
+
+:seated-emaciated-man a :human-figure ;
+   rdfs:label "Seated Emaciated Man (ΠΕΡΔΙΚ)" ;
+   :described-by <https://www.doaks.org/resources/online-exhibits/ancient-art-at-dumbarton-oaks/ancient-myths/emaciated-man> ,
+      <https://museum.doaks.org/objects-1/info/27025> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :materia-note "Bronze" ;
+   :note "From Dumbarton Oaks website: “On the drapery around his lower body, two names are inscribed in punched letters: Eudamidas appears from knee to knee and may be the name of the person who commissioned the statuette. The name along the hem of the drapery, Perdik, has two literary associations, each of which casts the statuette in a slightly different light. It may refer to Perdix, a certain Athenian peddler, who had a club foot, and whose name had become synonymous with ailments of the foot. This explanation would correspond with the original function of such a small-scale bronze statuette--in ancient Greece, they were commissioned often as dedications to gods, offered at shrines either in gratitude for blessings received or as supplication by worshipers for divine favors, such as an athletic victory or healing. Eudamidas may have commissioned this piece as an offering to Asklepios, the Greek god of healing, for assistance with a foot problem. / On the other hand, Perdik may be an abbreviated form of Perdikkas, a young man who had neglected to sacrifice to Aphrodite while studying in Athens. As retribution, the vengeful goddess cursed him with a love for his own mother which caused him to waste away—a story that explains the combination of adolescence with the emaciated body.”" ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (49.378702 3.335629) ;
+   :thumbnail-image <https://www.doaks.org/resources/online-exhibits/ancient-art-at-dumbarton-oaks/ancient-myths/emaciated-man/@@images/image/preview> .
 
 :corleck-head a :human-figure ;
    rdfs:label "Corleck Head" ;
@@ -6147,6 +6215,16 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "United States" ;
    :representative-latlong-point (33.346944 -106.011667) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Three_Rivers_Petroglyph_Site_12.jpeg> .
+
+:gold-mask-princess-chen-state a :human-figure ;
+   rdfs:label "Gold funerary mask of “Princess of Chen State”" ;
+   :described-by <https://en.wikipedia.org/wiki/Tomb_of_Princess_of_Chen_State> ;
+   :approximate-date 1018 ;
+   :material-note "Gold" ;
+   :note "From Wikipedia: ”The entombed princess was found with “a gold funerary mask, a silver mesh suit, jade ornaments, and precious glass, ceramic, and metal vessels”, among other objects showing diverse origins and influences. Around her neck she wore two amber bead necklaces of different sizes, made using material from the Baltic Sea region, bearing the name of the Liao dynasty and bird, fish, and flower carvings - Chinese motifs symbolizing luck and wards against evil.”" ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (42.390995 121.037075) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Golden_Mask_of_Princess_of_Chen_State.jpg> .
 
 :chaco-clay-figurines a :group-of-human-figures ;
    rdfs:label "Chaco Clay Figurines" ;
