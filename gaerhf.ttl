@@ -1157,6 +1157,17 @@
    :art-historical-culture-or-tradition :neolithic-greece ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Pottery_woman_torso_neolothic,_NAMA_Nama830.jpg> .
 
+:house-chimney-human a :human-figure ;
+   rdfs:label "House Model with Chimney in form of Human Head" ;
+   :described-by <https://muzejbitola.mk/en/altar/> ;
+   :earliest-date -5800 ;
+   :latest-date -5200 ;
+   :material-note "Ceramic" ;
+   :note "From museum website: “... anthropomorphic model of a house with a rectangular base, with inverted T-shaped openings on four sides. The roof is set in two sides topped with chimney. The chimney is presented in the form of a head with a realistic presentation of the eyes, nose and mouth ...”" ;
+   :in-modern-country-note "Northern Macedonia" ;
+   :representative-latlong-point (40.937159 21.373550) ;
+   :thumbnail-image <https://i0.wp.com/muzejbitola.mk/wp-content/uploads/2019/01/zrtvenik.jpg?w=1809&ssl=1> .
+
 :halaf-culture-seated-female-figurine a :human-figure ;
    rdfs:label "Halaf Culture Seated Female Figurine" ;
    :described-by <https://www.metmuseum.org/art/collection/search/327066> ;
@@ -3585,6 +3596,16 @@
    :representative-latlong-point (36.5359 -6.29755) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sarcófago_femenino_(21887254049).jpg> .
 
+:articulated-female a :human-figure ;
+   rdfs:label "Articulated Female Figure attached to Working Surface" ;
+   :described-by <https://www.britishmuseum.org/collection/object/G_1864-1007-136> ;
+   :approximate-date -450 ;
+   :material-note "Ceramic" ;
+   :note "From BM website: “Terracotta figure (perhaps a toy) in the form of a woman, perhaps preparing food, articulated at waist and shoulders, resting on a rectangular panel, traces of white slip and black and red colour survive; the one wooden element (a rolling-pin) is a modern replacement.”" ;
+   :in-modern-country-note "Greece" ;
+   :representative-latlong-point (36.336403 27.922378) ;
+   :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2016_6/16_10/d24db0b7_5bc1_454f_a966_a62700a91b7e/mid_GAA46748.jpg> .
+
 :heidelberg-head a :human-figure ;
    rdfs:label "Heidelberg Head" ;
    :described-by <https://de.wikipedia.org/wiki/Heidelberger_Kopf> ;
@@ -3962,6 +3983,7 @@
    :described-by <https://en.wikipedia.org/wiki/Laocoön_and_His_Sons> ;
    :earliest-date -100 ;
    :latest-date 75 ;
+   :note "From Wikipedia: “The figures are nearly life-sized, with the entire group measuring just over 2 m (6 ft 7 in) in height. The sculpture depicts the Trojan priest Laocoön and his sons Antiphantes and Thymbraeus being attacked by sea serpents.”" ;
    :in-modern-country-note "Italy" ;
    :art-historical-culture-or-tradition :late-hellenistic ;
    :representative-latlong-point (41.895393 12.495459) ; # between the Colosseum and Santa Maria Maggiore
@@ -4032,7 +4054,7 @@
    :latest-date -100 ;
    :in-modern-country-note "China" ;
    :representative-latlong-point (34.6197 112.4539) ; # Luoyang
-   :note "No specific findspot known." ;
+   :note "No specific findspot known. From Met website: “This figure vividly captures the moment when, with one long sleeve thrown back and the other trailing down, a dancer gently stoops and flexes her knees as she lifts one heel to advance her step, performing a dance described in Han dynasty poetry...”" ;
    :art-historical-culture-or-tradition :han-dynasty ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/42178/151378/main-image> .
 
@@ -4388,6 +4410,30 @@
    :representative-latlong-point (49.378702 3.335629) ;
    :thumbnail-image <https://www.doaks.org/resources/online-exhibits/ancient-art-at-dumbarton-oaks/ancient-myths/emaciated-man/@@images/image/preview> .
 
+:statuette-poseidon-brahmapuri a :human-figure ;
+   rdfs:label "Statuette of Poseidon from Brahmapuri Hoard" ;
+   :described-by <https://www.metmuseum.org/exhibitions/tree-and-serpent/exhibition-objects> ,
+      <https://www.academia.edu/108589508/The_Brahmapuri_Bronzes> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :material-note "Bronze" ;
+   :note "The Met website doesn't provide an individual page, click on image instead for catalog entry: “The bronze Poseidon is one of many miniature copies after the lost original by the Greek sculptor Lysippos, images of which were issued on coins as early as 290 BCE”" ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (16.704802 74.216880 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/773152/1924892/restricted> .
+
+:emblama-perseus-andromeda-brahmapuri a :human-figure ;
+   rdfs:label "Emblama depicting Persues and Andromeda from Brahmapuri Hoard" ;
+   :described-by <https://www.metmuseum.org/exhibitions/tree-and-serpent/exhibition-objects> ,
+      <https://www.academia.edu/108589508/The_Brahmapuri_Bronzes> ;
+   :earliest-date 1 ;
+   :latest-date 100 ;
+   :material-note "Bronze" ;
+   :note "The Met website doesn't provide an individual page. The catalog entry for this piece does not describe it specifically." ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (16.704802 74.216880 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/815792/1924900/restricted> .
+
 :corleck-head a :human-figure ;
    rdfs:label "Corleck Head" ;
    :described-by <https://en.wikipedia.org/wiki/Corleck_Head> ;
@@ -4528,6 +4574,41 @@
    :note "Approximate findspot." ;
    :representative-latlong-point (40.728078 31.601947) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bolu_museum_Cult_statue_head_june_2019_2979.jpg> .
+
+:elephant-riders-brahmapuri a :group-of-human-figures ;
+   rdfs:label "Elephant with Riders from Bramhapuri Hoard" ;
+   :described-by <https://www.metmuseum.org/exhibitions/tree-and-serpent/exhibition-objects> ,
+      <https://www.academia.edu/108589508/The_Brahmapuri_Bronzes> ;
+   :earliest-date 100 ;
+   :latest-date 200 ;
+   :material-note "Bronze" ;
+   :note "The Met website doesn't provide an individual page, click on image instead for catalog entry: “group of locally produced miniature bronzes, including the toy cart and elephant with riders, points to an indigenous market for luxury novelties in metal.‘" ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (16.704802 74.216880 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/776938/1924685/restricted> .
+
+:ring-figures-human-head a :group-of-human-figures ;
+   rdfs:label "Ring with protomes including Human Head" ;
+   :described-by <https://www.metmuseum.org/exhibitions/tree-and-serpent/exhibition-objects> ,
+      <https://www.academia.edu/108589508/The_Brahmapuri_Bronzes> ;
+   :earliest-date 100 ;
+   :latest-date 200 ;
+   :material-note "Bronze" ;
+   :note "The Met website doesn't provide an individual page, click on image instead for catalog entry. The entry for this piece make no observatoins specific to it." ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (16.704802 74.216880 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/815794/1924771/restricted> .
+
+:textile-doll-roman-egypt a :human-figure ;
+   rdfs:label "Textile Doll from Roman Egypt" ;
+   :described-by <https://recherche.smb.museum/detail/771625> ;
+   :earliest-date 100 ;
+   :latest-date 200 ;
+   :material-note "Fabric" ;
+   :note "Specific findsport note known, mapped to arbitrary point. Translated from Staatliche Museen zu Berlin website: “The doll's torso is made of flexible stuffing covered with linen, while its head is framed by an elaborate turban-like hairstyle made of real hair. ... The jewelry is exceptional. The earrings are made of real gold leaf, and the rings around the neck, ankles, and wrists are made of leather with a gold leaf overlay.”" ;
+   :in-modern-country-note "Egypt" ;
+   :representative-latlong-point (27.807431 30.873016) ;
+   :thumbnail-image <https://recherche.smb.museum/images/18/1891949_1000x600.jpg> .
 
 :fugoppe-cave-petroglyphs a :group-of-human-figures ;
    rdfs:label "Fugoppe Cave Petroglyphs" ;
@@ -5279,14 +5360,15 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (32.825 21.858056) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Apollo_Kitharoidos_BM_1380.jpg> . 
 
-:buddha-disciples-miran a :group-of-human-figures ;
-   rdfs:label "Buddha with Disciples from Miran" ;
-   :described-by <https://en.wikipedia.org/wiki/Miran_(Xinjiang)#History> ;
+:female-applique-deccan a :human-figure ;
+   rdfs:label "Female Appliqué from the Deccan" ;
+   :described-by <https://doi.org/10.2307/4422976> ;
    :earliest-date 200 ;
-   :latest-date 400 ;
-   :in-modern-country-note "China" ;
-   :representative-latlong-point (39.234167 88.939444) ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Buddha_with_Six_Disciples.png> .
+   :latest-date 300 ;
+   :material-note "Bronze" ;
+   :note "Specific findspot not known. Image after Barrett 1967. From article: “The figure,s apart from the arms, is hollow cast, presumably by the cire perdu method. The arms, or the wax models for them, were presumably made in two-piece moulds. Possibly they were pre-cast, and inserted into the mould for the body when the latter was cast. The upper part of the head and crown has certainly been cast on, apparently around two iron pins, both of which are visible as patches of rust on the crown and one of which can clearly be seen inside the back of the head. The union between the two parts has been filled by four fragments of cast bronze hammered into an enlarged cavity along the line of junction. All three parts of the figure appear to have been made of similar metal which has corroded in a similar manner and to a similar depth”." ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (16.691667 74.233333) .
 
 :kushan-plaque-with-two-figures a :group-of-human-figures ;
    rdfs:label "Kushan Plaque with Two Figures" ;
@@ -5299,6 +5381,15 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :note "Met Museum page suggests Balkh as possible findspot. Mapped point is proxy for Northern Afghanistan generally." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/327830/711829/main-image> .
 
+:buddha-disciples-miran a :group-of-human-figures ;
+   rdfs:label "Buddha with Disciples from Miran" ;
+   :described-by <https://en.wikipedia.org/wiki/Miran_(Xinjiang)#History> ;
+   :earliest-date 200 ;
+   :latest-date 400 ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (39.234167 88.939444) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Buddha_with_Six_Disciples.png> .
+
 :balalyk-tepe-murals a :group-of-human-figures ;
    rdfs:label "Balalyk Tepe Murals" ;
    :described-by <https://en.wikipedia.org/wiki/Balalyk_Tepe> ;
@@ -5308,6 +5399,18 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :art-historical-culture-or-tradition :kushan-empire ;
    :representative-latlong-point (37.535384 67.115405) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Balalyk_Tepe_mural.jpg> .
+
+:female-pins-roman-egypt a :human-figure ;
+   rdfs:label "Female Figure Pierced by Copper Pins" ;
+   :described-by <https://collections.louvre.fr/en/ark:/53355/cl010011467> ,
+      <https://collections.louvre.fr/en/ark:/53355/cl010044394> ;
+   :earliest-date 200 ;
+   :latest-date 400 ;
+   :material-note "Ceramic, copper alloy" ;
+   :note "Specific findspot not known." ;
+   :in-modern-country "Egypt" ;
+   :representative-latlong-point (27.807431 30.873016) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Voodoo_doll_Louvre_E27145a.jpg> .
 
 :fasting-buddha a :human-figure ;
    rdfs:label "Fasting Buddha" ;
@@ -6376,6 +6479,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (13.4125 103.866667) ; # Angkhor as contemporary capital
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:JayavarmanVII.jpg> .
 
+:emmons-rattle-mask a :human-figure ;
+   rdfs:label "So-called Emmons Rattle Mask" ;
+   :defined-by <https://en.wikipedia.org/wiki/Emmons_Cemetery_Site#Emmons_mask> ,
+      <https://www.museum.state.il.us/muslink/behind/htmls/cr_an_col2.html> ;
+   :approximate-date 1200 ;
+   :material-note "Coniferous wood, copper" ;
+   :note "From Wikipedia: “... carved red cedar believed to have been deposited in the grave sometime between 1200–1400 CE. The piece measures 11.9 centimetres (4.7 in) by 9.9 centimetres (3.9 in) by 5.5 centimetres (2.2 in) and was once adorned with sheet copper and paint made from galena, a lead ore.”" ;
+   :in-modern-country-note "United States" ;
+   :representative-latlong-point (40.2146 -90.209981) ;
+   :thumbnail-image <https://www.museum.state.il.us/muslink/behind/images/cr_an_col2.jpg> .
+
 :anthropomorphic-helmet-visor a :human-figure ;
    rdfs:label "Anthropomorphic Helmet Visor" ;
    :described-by <https://nav.shm.ru/en/exhibits/1442/> ;
@@ -6446,6 +6560,18 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :art-historical-culture-or-tradition :mississippian ;
    :representative-latlong-point (34.125131 -84.807664) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .
+
+:chincha-burial-post a :human-figure ;
+   rdfs:label "Chinca Culture Burial Post" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/312640> ,
+      <https://en.wikipedia.org/wiki/Chincha_culture> ;
+   :earliest-date 1400 ;
+   :latest-date 1535 ;
+   :material-note "Wood" ;
+   :note "Specific findspot not known. From Met Museum website: “”" ;
+   :in-modern-country-note "Peru" ;
+   :representative-latlong-point (-13.451387 -76.170803 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312640/2085962/main-image> .
 
 :poka-i-bay-petroglyphs a :group-of-human-figures ;
    rdfs:label "Pōkaʻī Bay Petroglyphs" ;
