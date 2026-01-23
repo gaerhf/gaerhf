@@ -3241,6 +3241,18 @@
    :representative-latlong-point (37.743056 -2.551389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dama_de_Galera_(M.A.N._Madrid)_01.jpg> .
 
+:macmillan aryballos a :group-of-human-figures ;
+   rdfs:label "Macmillan Aryballos" ;
+   :described-by <https://en.wikipedia.org/wiki/Macmillan_aryballos> ,
+   <https://www.britishmuseum.org/collection/object/G_1889-0418-1> ;
+   :approximate-date -640 ;
+   :in-modern-country-note "Greece" ;
+   :note "Three bands of decoration (2cm to 4mm only in height) show hoplite soldiers in battle, a horse race and hare coursing. The exact findspot is unknown but a story is told that it was purchased by Macmillan on the platform at Corinth station in 1899." ;
+   :material-note "pottery" ;
+   :representative-latlong-point (37.938611, 22.927222) ;
+   :art-historical-culture-or-tradition :Corinthian ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Macmillan_aryballos.jpg> .
+
 :pomeranian-face-urn a :human-figure ;
    rdfs:label "Pomeranian Face Urn" ;
    :described-by <https://en.wikipedia.org/wiki/Pomeranian_culture> ,
