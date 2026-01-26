@@ -6604,3 +6604,14 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
 
+:hagia-triada-sarcophagus a :group-of-human-figures ;
+   rdfs:label "Hagia Triada Sarcophagus" ;
+   :described-by <https://en.wikipedia.org/wiki/Hagia_Triada_Sarcophagus>,
+   <https://heraklionmuseum.gr/en/exhibit/the-hagia-triada-sarcophagus/> ;
+   :earliest-date -1370 ;
+   :lastest-date -1320 ;
+   :note "From Wikipedia: All four faces of the sarcophagus are fully painted in several colours, using the fresco technique otherwise only found in Minoan paintings on walls, and sometimes floors and ceilings. Each of the long sides has a long section with a narrative figure scene of a religious ritual.”" ;
+   :material-note "Plastered Limestone" ;
+   :in-modern-country-note "Greece" ;
+   :representative-latlong-point (35.058889, 24.7925) ; 
+   :wikimedia-commons-image-page <http://commons.wikimedia.org/wiki/User:Jebulon" title="User:Jebulon">Jebulon</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40380234">Link</a> .
