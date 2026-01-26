@@ -57,6 +57,10 @@
 
 # cultures
 
+:ancient-arabia a :culture ;
+   rdfs:label "Ancient Arabia" ;
+   :described-by <https://en.wikipedia.org/wiki/Pre-Islamic_Arabia> .
+
 :arctic-first-peoples a :culture ;
    rdfs:label "Arctic First Peoples" ;
    :region :arctic ;
@@ -145,6 +149,11 @@
    :region :japan ;
    :described-by <https://en.wikipedia.org/wiki/Kofun_period> .
 
+:indus-valley-civilization a :culture ;
+   rdfs:label "Indus Valley Civilization" ;
+   :region :indian-subcontinent ;
+   :described-by <https://en.wikipedia.org/wiki/Indus_Valley_Civilisation> .
+
 :lapita-culture a :culture ;
    rdfs:label "Lapita Culture" ;
    :region :oceania ;
@@ -197,10 +206,6 @@
    :region :central-america ;
    :described-by <https://en.wikipedia.org/wiki/Olmecs> .
 
-:ancient-arabia a :culture ;
-   rdfs:label "Ancient Arabia" ;
-   :described-by <https://en.wikipedia.org/wiki/Pre-Islamic_Arabia> .
-
 :predynastic-egypt a :culture ;
    rdfs:label "Predynastic Egypt" ;
    :region :egypt ;
@@ -218,11 +223,6 @@
    :region :egypt ;
    :described-by <https://en.wikipedia.org/wiki/Roman_Egypt> ,
    <https://www.metmuseum.org/essays/roman-egypt> .
-
-:indus-valley-civilization a :culture ;
-   rdfs:label "Indus Valley Civilization" ;
-   :region :indian-subcontinent ;
-   :described-by <https://en.wikipedia.org/wiki/Indus_Valley_Civilisation> .
 
 :saharan-rock-art a :culture ;
    rdfs:label "Saharan Rock Art" ;
@@ -6622,7 +6622,7 @@ rdfs:label "Staff Finial" ;
 :earliest-date -1000 ;
 :latest-date -700 ;
 :in-modern-country-note "Indonesia" ;
-:note "Knob for stick in the shape of a human face" ;
+:note "Knob for stick in the shape of a human face gifted by Robert J. Holmgren and Anita E. Spertus to Yale University Art Gallery in 2017" ;
 :material-note "bronze" ; 
 :art-historical-culture-or-tradition :Indo-Pacif Art, Timor;
 :representative-latlong-point (-6.268369, 106.049645) ;
