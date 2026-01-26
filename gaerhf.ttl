@@ -6616,6 +6616,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
 
+:shalmaneser-iii-military-campaign a :group-of-human-figures ;
+   rdfs:label "Fragments of Bands from a Gate" ;
+   :described-by <https://art.thewalters.org/object/54.2335/> ;
+   :earliest-date -859 ;
+   :latest-date -824 ;
+   :in-modern-country-note "United States" ;
+   :note "From the Neo-Assyrian period, these fragments come from a 21 foot high wooden gate of a temple at Balawat, depicitng the military campaigns of King Shalmaneser III. In one fragment, Assyrian soldiers carry logs as they march through a hilly, forested landscape. A separate scene to the right depcits three Assyrian officials, clasping thier hands in respect. In the other, Syrian porters in long robes and conical hates carry tribute to the Assyrian camp, bringing items for which Syria was famous: wine, trays (possibly bearing ivory tusks) and heavy rolls of wool (probably dyed purple). The inscription at the top labels these as gifts from the coastal Phoenician cities of Tyre and Sidon." ;
+   :material-note "bronze" ;
+   :representative-latlong-point (36.1564207 42.1761315)
+   :thumbnail-image <https://art.thewalters.org/images/art/PS1_54.2335A_Fnt_DD_T14.jpg>
+
 :dolní-věstonice-portrait-head a :human figure ;
   rdfs:label "Dolní Věstonice Portrait Head" ;
   :described-by <https://www.livescience.com/archaeology/dolni-vestonice-portrait-head-the-oldest-known-human-portrait-in-the-world> ;
