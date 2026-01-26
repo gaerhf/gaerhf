@@ -6604,3 +6604,14 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
 
+:dolní-věstonice-portrait-head a :human figure ;
+rdfs:label "Dolní Věstonice Portrait Head" ;
+:described-by <https://www.livescience.com/archaeology/dolni-vestonice-portrait-head-the-oldest-known-human-portrait-in-the-world> ;
+:earliest-date -29000-BC ;
+:latest-date -24000-BC ;
+:in-modern-country-note "Czech Republic" ;
+:note "Carved from mammoth ivory with stone tools, the small head measures just 4.8 centimetres high and 2.4 centimetres wide. It depicts a woman’s face with incised eyes, a dimpled chin, and raised nose and mouth, possibly framed by an updo or headdress. This carving appears individualised and is often considered the earliest known portrait of a specific person." ;
+:material-note "Mammoth ivory" ;
+:art-historical-culture-or-tradition :Gravettian ;
+:representative-latlong-point (48.877778 16.652222) ;
+:wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mammoth_ivory_female_head.jpg>
