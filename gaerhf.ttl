@@ -6615,3 +6615,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Greece" ;
    :representative-latlong-point (35.058889, 24.7925) ; 
    :wikimedia-commons-image-page <http://commons.wikimedia.org/wiki/User:Jebulon" title="User:Jebulon">Jebulon</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40380234">Link</a> .
+
+:Staff Finial a :human-figure ;
+rdfs:label "Staff Finial" ;
+:described-by <https://artgallery.yale.edu/collections/objects/214609> ;
+:earliest-date -1000 ;
+:latest-date -700 ;
+:in-modern-country-note "Indonesia" ;
+:note "Knob for stick in the shape of a human face" ;
+:material-note "bronze" ; 
+:art-historical-culture-or-tradition :Indo-Pacif Art, Timor;
+:representative-latlong-point (-6.268369, 106.049645) ;
+:thumbnail-image <https://media.collections.yale.edu/thumbnail/yuag/obj/214609> ;
+:wikidata-uri <https://artgallery.yale.edu/collections/objects/214609#technical-metadata> .
+
