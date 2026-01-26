@@ -201,6 +201,11 @@
    rdfs:label "Nuragic Culture" ;
    :described-by <https://en.wikipedia.org/wiki/Nuragic_civilization> .
 
+:oceania-art a :culture ;
+   rdfs:label "Oceanian Art" ;
+   :region :oceania ;
+   :described-by <https://en.wikipedia.org/wiki/Oceanian_art> .
+
 :olmec a :culture ;
    rdfs:label "Olmec" ;
    :region :central-america ;
