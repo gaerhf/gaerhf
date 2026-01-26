@@ -6625,5 +6625,5 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :note "From Wikipedia: All four faces of the sarcophagus are fully painted in several colours, using the fresco technique otherwise only found in Minoan paintings on walls, and sometimes floors and ceilings. Each of the long sides has a long section with a narrative figure scene of a religious ritual.”" ;
    :material-note "Plastered Limestone" ;
    :in-modern-country-note "Greece" ;
-   :representative-latlong-point (35.058889, 24.7925) ; 
-   :wikimedia-commons-image-page <http://commons.wikimedia.org/wiki/User:Jebulon" title="User:Jebulon">Jebulon</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40380234">Link</a> .
+   :representative-latlong-point (35.058889 24.7925) ; 
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Painting_on_limestone_sarcophagus_of_religious_rituals_from_Hagia_Triada_-_Heraklion_AM_-_01_(cropped).jpg> .
