@@ -3099,13 +3099,25 @@
    :representative-latlong-point (37.004566 45.45825) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Hasanlu-gold-cup.jpg> .
 
+:wooden-mask-guerrero a :human-figure ;
+   rdfs:label "Wooden Mask possibly from the Guerrero Region" ;
+   :described-by <https://lbry-web-007.amnh.org/digital/index.php/items/show/60450> ,
+      <https://smarthistory.org/olmec-masks-masquerade/> ;
+   :approximat-date -800 ;
+   :material-note "Wood, jade inlay" ;
+   :note "From Smarthistory website: “... wooden mask recovered in 1931 from the Cañón de la Mano in the state of Guerrero, now located in the American Museum of Natural History. The wood of the mask is remarkably preserved. Its smoothly polished surfaces were incised with curvilinear designs and inlaid with pieces of blue-green jade.”";
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (18.410882 -99.524567);
+   :thumbnail-image <https://lbry-web-007.amnh.org/digital/files/thumbnails/0f2904fe1cb5e4e5cc14072ecf6c9d3b.jpg> .
+
+
 :statue-panamuwa a :human-figure ;
    rdfs:label "Statue of King Panamuwa I" ;
    :described-by <https://en.wikipedia.org/wiki/Hadad_Statue> ,
       <https://en.wikipedia.org/wiki/Samʾal> ;
    :earliest-date -800 ;
    :latest-date -700 ;
-   :material-nte "Basalt" ;
+   :material-note "Basalt" ;
    :in-modern-country-note "Turkey" ;
    :representative-latlong-point (37.103611 36.678611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_Weather_God_Haddad.jpg> .
@@ -6609,6 +6621,40 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
 
+:dying-gaul a :individual-figure
+ rdfs:label "Dying Gaul (The Dying Galatian)" ;
+ :described-by <https://www.museicapitolini.org/it/collezioni/percorsi_per_sale/palazzo_nuovo/sala_del_gladiatore/statua_del_galata_capitolino> ;
+ :earliest-date -60 ;
+ :latest-date -40 ;
+ :material-note "White marble" ;
+ :note "From the Capitoline Museums: “The Celtic warrier lies naked, half-reclining on his shield, the firue is ethnically characterised by his moustache, his hair disheveled in long, shaggy locks and the torques are a typical Gaulish ornament..." ;
+ :in-modern-country-note "Rome" ;
+ :representative-latlong-point ( 41.5335 -12.2858 ) ;
+ :thumbnail-image <https://commons.wikimedia.org/wiki/File:Dying_gaul.jpg> .
+
+:shalmaneser-iii-military-campaign a :group-of-human-figures ;
+   rdfs:label "Fragments of Bands from a Gate" ;
+   :described-by <https://art.thewalters.org/object/54.2335/> ;
+   :earliest-date -859 ;
+   :latest-date -824 ;
+   :in-modern-country-note "United States" ;
+   :note "From the Neo-Assyrian period, these fragments come from a 21 foot high wooden gate of a temple at Balawat, depicitng the military campaigns of King Shalmaneser III. In one fragment, Assyrian soldiers carry logs as they march through a hilly, forested landscape. A separate scene to the right depcits three Assyrian officials, clasping thier hands in respect. In the other, Syrian porters in long robes and conical hates carry tribute to the Assyrian camp, bringing items for which Syria was famous: wine, trays (possibly bearing ivory tusks) and heavy rolls of wool (probably dyed purple). The inscription at the top labels these as gifts from the coastal Phoenician cities of Tyre and Sidon." ;
+   :material-note "bronze" ;
+   :representative-latlong-point (36.1564207 42.1761315)
+   :thumbnail-image <https://art.thewalters.org/images/art/PS1_54.2335A_Fnt_DD_T14.jpg>
+
+:dolní-věstonice-portrait-head a :human figure ;
+  rdfs:label "Dolní Věstonice Portrait Head" ;
+  :described-by <https://www.livescience.com/archaeology/dolni-vestonice-portrait-head-the-oldest-known-human-portrait-in-the-world> ;
+  :earliest-date -29000-BC ;
+  :latest-date -24000-BC ;
+  :in-modern-country-note "Czech Republic" ;
+  :note "Carved from mammoth ivory with stone tools, the small head measures just 4.8 centimetres high and 2.4 centimetres wide. It depicts a woman’s face with incised eyes, a dimpled chin, and raised nose and mouth, possibly framed by an updo or headdress. This carving appears individualised and is often considered the earliest known portrait of a specific person." ;
+  :material-note "Mammoth ivory" ;
+  :art-historical-culture-or-tradition :Gravettian ;
+  :representative-latlong-point (48.877778 16.652222) ;
+  :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mammoth_ivory_female_head.jpg>
+
 :hagia-triada-sarcophagus a :group-of-human-figures ;
    rdfs:label "Hagia Triada Sarcophagus" ;
    :described-by <https://en.wikipedia.org/wiki/Hagia_Triada_Sarcophagus>,
@@ -6618,8 +6664,8 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :note "From Wikipedia: All four faces of the sarcophagus are fully painted in several colours, using the fresco technique otherwise only found in Minoan paintings on walls, and sometimes floors and ceilings. Each of the long sides has a long section with a narrative figure scene of a religious ritual.”" ;
    :material-note "Plastered Limestone" ;
    :in-modern-country-note "Greece" ;
-   :representative-latlong-point (35.058889, 24.7925) ; 
-   :wikimedia-commons-image-page <http://commons.wikimedia.org/wiki/User:Jebulon" title="User:Jebulon">Jebulon</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40380234">Link</a> .
+   :representative-latlong-point (35.058889 24.7925) ; 
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Painting_on_limestone_sarcophagus_of_religious_rituals_from_Hagia_Triada_-_Heraklion_AM_-_01_(cropped).jpg> .
 
 :staff-finial a :human-figure ;
    rdfs:label "Staff Finial" ;
@@ -6633,4 +6679,3 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (-6.268369, 106.049645) ;
    :thumbnail-image <https://media.collections.yale.edu/thumbnail/yuag/obj/214609> ;
    :wikidata-uri <https://www.wikidata.org/wiki/Q137902649> .
-
