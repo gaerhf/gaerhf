@@ -6661,3 +6661,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Greece" ;
    :representative-latlong-point (35.058889 24.7925) ; 
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Painting_on_limestone_sarcophagus_of_religious_rituals_from_Hagia_Triada_-_Heraklion_AM_-_01_(cropped).jpg> .
+
+:tianlongshan-c21-bodhisattva-head-met-42-25-12 a :human-figure ;
+  rdfs:label "Head of a Bodhisattva (Tianlongshan Cave 21)" ;
+  :described-by
+    <https://www.metmuseum.org/art/collection/search/39640> ,
+    <https://commons.wikimedia.org/wiki/File:%E5%94%90_%E5%A4%A9%E9%BE%8D%E5%B1%B1%E7%AC%AC21%E7%AA%9F_%E5%BD%A9%E7%B9%AA%E7%9F%B3%E9%9B%95%E8%8F%A9%E8%96%A9%E9%A0%AD%E5%83%8F%EF%BC%88%E7%A0%82%E5%B2%A9%EF%BC%89-Head_of_a_Bodhisattva_MET_DP170147.jpg> ,
+    <https://en.wikipedia.org/wiki/Tianlongshan_Grottoes> ;
+  :earliest-date 700 ;
+  :latest-date 720 ;
+  :in-modern-country-note "China (Shanxi, Taiyuan)" ;
+  :note "This anthropomorphic sculpture (Buddhist statue) originates from Cave 21 of the Tianlongshan Grottoes in Taiyuan, Shanxi Province, China, and dates approximately to the early 8th century (Tang Dynasty). Having been dispersed overseas, it is now housed in the Metropolitan Museum of Art in the United States." ;
+  :material-note "Sandstone with pigment" ;
+  :representative-latlong-point (37.736 112.377) ;
+  :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:%E5%94%90_%E5%A4%A9%E9%BE%8D%E5%B1%B1%E7%AC%AC21%E7%AA%9F_%E5%BD%A9%E7%B9%AA%E7%9F%B3%E9%9B%95%E8%8F%A9%E8%96%A9%E9%A0%AD%E5%83%8F%EF%BC%88%E7%A0%82%E5%B2%A9%EF%BC%89-Head_of_a_Bodhisattva_MET_DP170147.jpg> .
