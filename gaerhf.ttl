@@ -6675,7 +6675,7 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Indonesia" ;
    :note "Knob for stick in the shape of a human face gifted by Robert J. Holmgren and Anita E. Spertus to Yale University Art Gallery in 2017" ;
    :material-note "bronze" ; 
-   :art-historical-culture-or-tradition :Oceania Art ;
+   :art-historical-culture-or-tradition :Oceania-Art ;
    :representative-latlong-point (-6.268369 106.049645) ;
    :thumbnail-image <https://media.collections.yale.edu/thumbnail/yuag/obj/214609> ;
    :wikidata-uri <https://www.wikidata.org/wiki/Q137902649> .
