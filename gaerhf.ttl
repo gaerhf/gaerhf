@@ -3635,6 +3635,15 @@
    :representative-latlong-point (51.342968 54.116974 ) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Filippovka_kurgan_dagger.jpg> .
 
+:demeter-with-pig a :human-figure ;
+rdfs: label "Demeter with pig figure" ;
+:described-by <https://www.clevelandart.org/art/1926.521> ;
+:earliest-date -400 ;
+:latest-date -300 ;
+:in-modern-country-note "Greece" ;
+:representative-latlong-point (37.9715 23.7257) ;
+:thumbnail-image <https://www.clevelandart.org/art/1926.521> .
+
 :female-figure-guardamar a :human-figure ;
    rdfs:label "Female Figure from Guardamar" ;
    :described-by <https://en.wikipedia.org/wiki/Lady_of_Guardamar> ;
@@ -3673,7 +3682,7 @@
    :representative-latlong-point (13.833882 -88.720227) ;
    :thumbnail-image <https://cdn.mos.cms.futurecdn.net/X3h5mJYSR8usRL3D76Yu28-1200-80.jpg.webp> .
 
-:seated-femaale-figure-baza a :human-figure ;
+:seated-female-figure-baza a :human-figure ;
    rdfs:label "Seated Female Figure from Baza" ;
    :described-by <https://en.wikipedia.org/wiki/Lady_of_Baza> ;
    :earliest-date -400 ;
