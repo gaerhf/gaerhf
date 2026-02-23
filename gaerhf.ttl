@@ -2549,7 +2549,8 @@
 :famine-frieze-vichama a :group-of-human-figures ;
    rdfs:label "Famine Frieze at Vichama" ;
    :described-by <https://doi.org/10.1016/j.jasrep.2025.105473> ,
-   <https://www.theguardian.com/science/2025/nov/05/archaeologists-discover-how-oldest-american-civilisation-survived-a-climate-catastrophe> ;
+   <https://www.theguardian.com/science/2025/nov/05/archaeologists-discover-how-oldest-american-civilisation-survived-a-climate-catastrophe> ,
+   <https://en.wikipedia.org/wiki/Caral–Supe_civilization> ;
    :approximate-date -1800 ;
    :note "The image is figure 1 in the JAS article. From the Guardian article: ”One such set of images was discovered at Vichama on the walls of a temple on top of a raised platform in the desert. It is formed of three-dimensional mural reliefs that depict emaciated corpses with sunken bellies and protruding ribs; on a second wall above and set back there are pregnant women, ritual dancers and a pair of large fish. / Above both, on a higher wall, is an almost cartoonish design which shows the face of a toad emerging with human hands being struck in the head by a lightning bolt.”" ;
    :in-modern-country-note "Peru" ;
@@ -3214,7 +3215,7 @@
    rdfs:label "Wooden Mask possibly from the Guerrero Region" ;
    :described-by <https://lbry-web-007.amnh.org/digital/index.php/items/show/60450> ,
       <https://smarthistory.org/olmec-masks-masquerade/> ;
-   :approximat-date -800 ;
+   :approximate-date -800 ;
    :material-note "Wood, jade inlay" ;
    :note "From Smarthistory website: “... wooden mask recovered in 1931 from the Cañón de la Mano in the state of Guerrero, now located in the American Museum of Natural History. The wood of the mask is remarkably preserved. Its smoothly polished surfaces were incised with curvilinear designs and inlaid with pieces of blue-green jade.”";
    :in-modern-country-note "Mexico" ;
@@ -3566,6 +3567,7 @@
    :described-by <https://en.wikipedia.org/wiki/Tomb_of_the_Diver> ;
    :earliest-date -500 ;
    :latest-date -475 ;
+   :note "From Wikipedia: “ ... grave made of five local limestone slabs forming the four lateral walls and the roof, the floor being excavated in the natural bedrock. The five slabs, carefully bonded with plaster, formed a chamber about 215 × 100 × 80 cm (7.1 × 3.3 × 2.6 ft) in size. All five slabs forming the monument were painted on the interior sides using a true fresco technique.[2] The paintings on the four walls depict a symposium scene, while the cover slab shows the famous scene which gives the tomb its name: a young man diving into a curling and waving stream of water. ”" ;
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (40.422222 15.005278) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:PaestumTaucher.jpg> .
@@ -5230,23 +5232,26 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "India" ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:MauryanStatuette2ndCenturyBCE.jpg> .
 
-:okvik-figurine a :human-figure ;
-   rdfs:label "Okvik Figurine" ;
-   :described-by <https://www.metmuseum.org/art/collection/search/717575> ;
-   :earliest-date -200 ;
-   :latest-date 100 ;
-   :in-modern-country-note "United States" ;
-   :representative-latlong-point (65.639361 -167.05) ;
-   :note "Specific findspot not known." ;
-   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/717575/1591782/restricted> .
+# no longer at this page on met website
+# :okvik-figurine a :human-figure ;
+#    rdfs:label "Okvik Figurine" ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/717575> ;
+#    :earliest-date -200 ;
+#    :latest-date 100 ;
+#    :in-modern-country-note "United States" ;
+#    :representative-latlong-point (65.639361 -167.05) ;
+#    :note "Specific findspot not known." ;
+#    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/717575/1591782/restricted> .
 
 :old-bering-sea-standing-figure a :human-figure ;
    rdfs:label "Old Bering Sea Standing Figure" ;
+   :described-by <https://www.metmuseum.org/art/collection/search/316642> ;
    :earliest-date -200 ;
    :latest-date 100 ;
+   :material-note "Walrus ivoery" ;
+   :note "Specific findspot not known. From Met Museum webstie: “Also carved of walrus ivory were human figures, most frequently female. The purpose to which the enigmatic but equally elegant figures were put is unclear. Some authorities call them dolls-originally, they may have been dressed-while others call them ceremonial objects.”" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (65.65 -167.5) ;
-   :note "Specific findspot not known." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/316642/678217/main-image> .
 
 :old-bering-sea-figure a :human-figure ;
@@ -5255,15 +5260,16 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :earliest-date -150 ;
    :latest-date 100 ;
    :material-note "Walrus ivory" ;
+   :note "Specific findspot not known. From Met Museum website: “The ivory half-figures or torsos made during the late centuries of the first millennium BCE were often rendered with such a minimum of detail that they remain enigmatic to the most insightful of viewers. Armless and legless, with faces reduced to essential elements, the figures are part of a larger group of works that have been called dolls by some, ceremonial or shamanistic objects by others.”" ;
    :in-modern-country-note "United States" ;
    :representative-latlong-point (63.362222 -170.267222) ;
-   :note "Specific findspot not known." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312882/666902/main-image> .
 
 :hercules-behistun a :human-figure ;
    rdfs:label "Hercules in High Relief at Behistun" ;
    :described-by <https://en.wikipedia.org/wiki/Statue_of_Hercules_in_Behistun> ;
    :approximate-date -148 ;
+   :note "Dated by inscription. From Wikipedia: “ ... lying on a 2 m-long (6.6 ft) platform and holds a bowl in his left hand. His right hand rests on his leg. The statue is 1.47 m long and is attached to the mountain.“" ;
    :in-modern-country-note "Iran" ;
    :representative-latlong-point (34.3833 47.4333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bistoon_Kermanshah.jpg> .
@@ -6486,6 +6492,7 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :approximate-date 1000 ;
    :material-note "Guaiacum wood, Shell" ;
    :in-modern-country-note "Dominican Republic" ;
+   :note "From Met Museum website: “A ground up hallucinogenic powder or paste would be placed on the top of the stand, and ceremonial participants would inhale the cohoba through snuff tubes. The effects of such ritual acts are visible in the zemí itself: the emaciated look of the figure may represent someone who had been fasting, and watering eyes would have accompanied the inhalation of such substances. The exceptional preservation of this zemí suggests that it was carefully housed and revered, perhaps passed down for centuries. Without evidence of burial, it is likely that the caretakers of this zemí eventually deposited this special figure in a cave; many of the surviving Taíno wooden sculptures have been recovered from cave contexts.”" ;
    :representative-latlong-point (19 -70.666667) ;
    :note "Findspot unknown" ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312602/1899468/main-image> .
