@@ -3047,6 +3047,19 @@
    :representative-latlong-point (33.048286 35.102234) ;
    :thumbnail-image <https://www.antiquities.org.il/t/images/125/1142282.jpg> .
 
+:senor-de-las-limas a :human-figures ;
+   rdfs:label "So-called Señor de Las Limas" ;
+   :described-by <https://en.wikipedia.org/wiki/Las_Limas_Monument_1> ,
+      <https://en.wikipedia.org/wiki/Las_Limas_Monument_1> ;
+   :earliest-date -1000 ;
+   :latest-date -600 ;
+   :material-note "Serpentine" ;
+   :note "From Wikipedia: “55 centimetres (22 in) greenstone figure of a youth holding a limp were-jaguar baby. Found in the State of Veracruz, Mexico...”" ;
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (17.434444 -95.026667) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Señor_de_Las_Limas_(cropped).jpg> .
+
+
 # https://collections.louvre.fr/en/ark:/53355/cl010132589
 
 :jinsha-figurine a :human-figure ;
