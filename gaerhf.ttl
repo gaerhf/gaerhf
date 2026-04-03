@@ -2746,6 +2746,8 @@
       <https://en.wikipedia.org/wiki/Rinaghju> ,
       <https://www.megalithic.co.uk/article.php?sid=9519> ,
        <https://medium.com/the-bronze-age/the-mysterious-horned-warrior-torreans-of-the-isle-of-corsica-853b5e98c677> ;
+   :earliest-date -1500 ;
+   :latest-date -1000 ;
    :material-note "Stone" ;
    :note "From page on medium.com (itself a transcribed article): “Almost all the Megalithic monuments on the plateau of Cuaria about 35 miles south of Ajaccio i.e. the dolmens  and the two most important alignments, Rinaiu consisting of 45 menhirs, and I Stantare consisting of 20 menhirs, have been very well known for a long time..”" ;
    :in-modern-country-note "France" ;
@@ -3047,7 +3049,7 @@
    :representative-latlong-point (33.048286 35.102234) ;
    :thumbnail-image <https://www.antiquities.org.il/t/images/125/1142282.jpg> .
 
-:senor-de-las-limas a :human-figures ;
+:senor-de-las-limas a :human-figure ;
    rdfs:label "So-called Señor de Las Limas" ;
    :described-by <https://en.wikipedia.org/wiki/Las_Limas_Monument_1> ,
       <https://en.wikipedia.org/wiki/Las_Limas_Monument_1> ;
@@ -6373,6 +6375,16 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (20.064156 -99.340803) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Telamones_Tula.jpg> .
 
+:bell-king-seongdeok a :group-of-human-figures ;
+   rdfs:label "Bell of King Seongdeok" ;
+   :described-by <https://en.wikipedia.org/wiki/Bell_of_King_Seongdeok> ;
+   :approximate-date 771 ;
+   :material-note "Bronze" ;
+   :note "From Wikipedia: “There are many relief patterns on the bell, including flower patterns along the rim and shoulder. There are also reliefs of lotus flowers, grass, and a pair of two apsaras (heavenly maidens). The striking point of the bell (dangjwa) is also in the shape of a lotus and sits between two of the apsara reliefs. The bottom of the bell is in a rhombic shape, designed to augment the sound reverberation.”" ;
+   :in-modern-country-note "Korea" ;
+   :representative-latlong-point ( 35.829575 129.227928 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Apsara_relief._Bell_of_King_Seongdeok.National_Museum_of_Gyeongju.Korea.2018.P1410600.jpg> .
+
 :musician-bomampak-murals a :group-of-human-figures ;
    rdfs:label "Procession from the Bonampak Murals" ;
    :described-by <https://en.wikipedia.org/wiki/Bonampak#Temple_of_the_Murals> ;
@@ -6496,6 +6508,18 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Poland" ;
    :representative-latlong-point (53.916667 14.5) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Swietowit_wolinski.jpg> .
+
+:white-island-figures a :group-of-human-figures ;
+   rdfs:label "White Island Stone Figures" ;
+   :described-by <https://en.wikipedia.org/wiki/White_Island,_County_Fermanagh> ,
+      <https://theramblingwombat.com/2017/03/25/white-island-carvings-and-church/> ;
+   :earliest-date 800 ;
+   :latest-date 1000 ;
+   :material-note "Stone" ;
+   :note "From wikipedia: “The ruined church on the island has a reconstructed plain Romanesque doorway. Secured to the north side of the south wall are eight carvings (seven figures and one head) built into the masonry of the church.[4] Most of the figures were carved wearing the long tunics of churchmen. They are all carved in quartzite and were probably constructed between 800 and 1000 AD, and were later used as building stones in the church before being uncovered in recent centuries.”" ;
+   :in-modern-country-note "United Kingdom" ;
+   :representative-latlong-point ( 54.48879 -7.73618 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:White_Island,Lower_Lough_Erne._(cropped).JPG> .
 
 :cub-creek-petroglyph-panel a :group-of-human-figures ;
    rdfs:label "Cub Creek Petroglyph Panel" ;
@@ -6692,6 +6716,19 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Norway" ;
    :representative-latlong-point (59.785901 10.478906) ;
    :thumbnail-image <https://archaeology.org/wp-content/uploads/2025/09/ND25-Artifact-Norway-Viking-Chess-Piece-1.jpg> .
+
+:harbaville-triptych a :group-of-human-figures ;
+   rdfs:label "So-called Harbaville Triptych" ;
+   :described-by <https://en.wikipedia.org/wiki/Harbaville_Triptych> ,
+   <https://smarthistory.org/a-byzantine-vision-of-paradise-the-harbaville-triptych/> ,
+   <https://collections.louvre.fr/en/ark:/53355/cl010112515> ;
+   :earliest-date 950 ;
+   :latest-date 1000 ;
+   :material-note "Ivory" ;
+   :note "From Louvre Website: “... comporte deux volets qui se referment sur la partie centrale. Lorsqu'il est ouvert, la partie centrale, sculptée en très fort relief, offre deux registres superposés, séparés par un bandeau à décor de palmettes et de fleurons alternés. Au registre supérieur, le Christ trône entre la Vierge et saint Jean-Baptiste, tous deux debout de chaque côté, et tournés vers lui pour former la traditionnelle Déisis, la prière d'intercession pour le salut de l'Humanité. Au dessus du trône, deux anges en buste s'inscrivent dans des couronnes végétales rehaussées d'étoiles. Ils sont anonymes à la différence de tous les autres personnages du triptyque, identifiés par les inscriptions gravées. En dessous de la Déisis prennent place cinq apôtres : Pierre au centre, Paul et André à sa gauche, et, à sa droite Jean l'Evangéliste et Jacques. Deux bandeaux enferment la partie centrale. Sur celui du haut, trois petits médaillons contiennent chacun un buste : il s'agit de trois prophètes, Elie, placé au-dessus du Christ, Jérémie, à gauche, et Isaïe, à droite. Les volets se divisent en trois registres : des saints en pied, aux registres supérieur et inférieur, et des saints en buste, inscrits dans des médaillons, au registre médian.”" ;
+   :modern-country-note "Turkey" ;
+   :representative-latlong-point ( 41.008333 28.98 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Triptych_Harbaville_Louvre_OA3247_recto.jpg> .
 
 :great-hunt-panel-nine-mile-canyon a :group-of-human-figures ;
    rdfs:label "Great Hunt Panel at Nine Mile Canyon" ;
@@ -6973,6 +7010,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (49.2744 0.7003) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Odo_bayeux_tapestry.png> .
 
+:descent-cross-erill-la-vall a :human-figure ;
+   rdfs:label "Descent from the Cross at Erill la Vall" ;
+   :described-by <https://en.wikipedia.org/wiki/Erill_la_Vall_Descent_from_the_Cross> ;
+   :earliest-datae 1150 ;
+   :latest-date 1200 ;
+   :material-note "Wood" ;
+   :note "From Wikipedia: “In the centre was the figure of Jesus Christ held by Joseph of Arimathea and unnailed by Nicodemus, flanked by the Virgin Mary and Saint John the Evangelist on either side, with the penitent and impenitent thieves, Dismas and Gestas, at the ends, respectively.”" ;
+   :in-modern-country-note "Spain" ;
+   :representative-latlong-point ( 42.524778 0.825641 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Davallament_figures_MEV.jpg> .
+
 :luohan-laundering-silk a :group-of-human-figures ;
    rdfs:label "Luohan laundering 羅漢洗濯圖" ;
    :described-by <https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1902.224/> ,
@@ -7090,6 +7138,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (34.125131 -84.807664) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .
 
+:saint-catherine-karlstejn-castle a :human-figure ;
+   rdfs:label "Saint Catherine from Karlštejn Castle" ;
+   :described-by <https://en.wikipedia.org/wiki/Saint_Catherine_of_Alexandria_(Master_Theodoric)> ;
+   :earliest-date 1360 ;
+   :latest-date 1365 ;
+   :material-note "Tempura on beach wood" ;
+   :note "From Wikipedia: “The painting has the dimensions of 115 x 86.9 cm. The frame, decorated with the same printed decoration as the background of the painting, is original. The painting was restored in 1968 (R. Slánský) and in the 1980s (K. Veselý). Saint Catherine is holding the usual attributes - in her left hand a torture wheel with metal spikes, in her right hand a sword with which, according to legend, she was beheaded.”" ;
+   :in-modern-country-note "Czech Republic" ;
+   :representative-latlong-point (49.939444 14.188056) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mistr_Theodorik,_Sv._Kateřina,_Národní_galerie_v_Praze.jpg> .
+
 :chincha-burial-post a :human-figure ;
    rdfs:label "Chinca Culture Burial Post" ;
    :described-by <https://www.metmuseum.org/art/collection/search/312640> ,
@@ -7101,6 +7160,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "Peru" ;
    :representative-latlong-point (-13.451387 -76.170803 ) ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312640/2085962/main-image> .
+
+:david-donatello a :human-figure ;
+   rdfs:label "Bronze David by Donatello" ;
+   :described-by <https://en.wikipedia.org/wiki/David_(Donatello,_bronze)> ;
+   :earliest-date 1440 ;
+   :latest-date 1450 ;
+   :material-note "Bronze" ;
+   :note "From Wikipedia: “ ... depicts David with an enigmatic smile, posed with his foot on Goliath's severed head just after defeating the giant. The youth is completely naked, apart from a laurel-topped hat and boots, and holds Goliath's sword.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point ( 43.775278 11.255989 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Donatello_-_David_-_Florença.jpg> .
 
 :poka-i-bay-petroglyphs a :group-of-human-figures ;
    rdfs:label "Pōkaʻī Bay Petroglyphs" ;
