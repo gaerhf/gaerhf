@@ -1853,15 +1853,15 @@
    :representative-latlong-point (9.780911 44.443642) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Laas_Geel_cow_and_human.jpg> .
 
-:hongshan-pregnant-woman a :human-figure;
-   rdfs:label "Hongshan Pregnant Female Figurine";
-   :descibed-by <https://commons.wikimedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG>;
-   :approximate-date -3500 ;
-   :material-note "Terracotta";
-   :note "From Wikipedia: “Neolithic pottery pregnant woman, 3500 BC, Hongshan Culture (4100-3000), Liaoning”";
-   :in-modern-country-note "China";
-   :representative-latlong-point ( 41.32314 119.4029693 );
-   :thumbnail-image <https://en.wikipedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG>.
+# :hongshan-pregnant-woman a :human-figure;
+#    rdfs:label "Hongshan Pregnant Female Figurine";
+#    :described-by <https://commons.wikimedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG>;
+#    :approximate-date -3500 ;
+#    :material-note "Terracotta";
+#    :note "From Wikipedia: “Neolithic pottery pregnant woman, 3500 BC, Hongshan Culture (4100-3000), Liaoning”";
+#    :in-modern-country-note "China";
+#    :representative-latlong-point ( 41.32314 119.4029693 );
+#    :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Neolithic_pottery_pregnant_woman,_Hongshan_Culture,_Liaoning,_1982.JPG>.
 
 
 :statue-min-koptos a :human-figure ;
@@ -2782,25 +2782,26 @@
 
 :prince-of-lilies-knossos a :human-figure;
    rdfs:label "The Prince of Lilies Fresco";
-   :descibed-by <https://heraklionmuseum.gr/en/exhibit/the-prince-of-the-lilies-fresco/>;
+   :described-by <https://heraklionmuseum.gr/en/exhibit/the-prince-of-the-lilies-fresco/>;
    :earliest-date -1600;
    :latest-date -1450;
    :material-note "Plaster";
-   :note "From Heraklion Archaeological Museum: “It depicts a young man in high relief against a red ground. The life-size male figure, comprised of three non-joining pieces, is wearing a colourful loincloth and belt, and a majestic crown of waz-lilies and peacock feathers.”";
+   :note "From Heraklion Archaeological Museum website: “It depicts a young man in high relief against a red ground. The life-size male figure, comprised of three non-joining pieces, is wearing a colourful loincloth and belt, and a majestic crown of waz-lilies and peacock feathers.”";
    :in-modern-country-note "Greece";
    :representative-latlong-point (35.2980 25.16279);
-   :thumbnail-image <https://heraklionmuseum.gr/wp-content/uploads/2022/04/45_T_7_a.jpg>.
+   :thumbnail-image <https://commons.wikimedia.org/wiki/File:Knossos_—_Prince_of_the_Lilies.jpg> ,
+      <https://commons.wikimedia.org/wiki/Category:Prince_of_the_Lilies_(Knossos,_main_palace)#/media/File:Wall_painting_of_the_Priest-King_from_Knossos_(North-South_Corridor)_-_Heraklion_AM_(TORSO_cropped).jpg> .
 
-:bull-leaping-figurine-knossos a :human-figure;
-   rdfs:label "Ivory bull-leaper figurine";
-   :descibed-by <https://heraklionmuseum.gr/en/collections/#collections>;
-   :earliest-date -1600 ;
-   :latest-date -1400 ;
-   :material-note "Ivory" ;
-   :note "From Wikipedia: “Ivory figurine of a man executing an acrobatic leap in the air. It is part of the only three-dimensional depiction of bull-leaping from the palace of Knossos known to date. It was found together with at pieces of least two other ivory figurines and a faience bull’s head.”";
-   :in-modern-country-note "Greece";
-   :representative-latlong-point (35.29851 25.16248);
-   :thumbnail-image <https://heraklionmuseum.gr/wp-content/uploads/2022/04/17_O_E_3.jpg>.
+# :bull-leaping-figurine-knossos a :human-figure;
+#    rdfs:label "Ivory bull-leaper figurine";
+#    :descibed-by <https://heraklionmuseum.gr/en/collections/#collections>;
+#    :earliest-date -1600 ;
+#    :latest-date -1400 ;
+#    :material-note "Ivory" ;
+#    :note "From Wikipedia: “Ivory figurine of a man executing an acrobatic leap in the air. It is part of the only three-dimensional depiction of bull-leaping from the palace of Knossos known to date. It was found together with at pieces of least two other ivory figurines and a faience bull’s head.”";
+#    :in-modern-country-note "Greece";
+#    :representative-latlong-point (35.29851 25.16248);
+#    :thumbnail-image <https://heraklionmuseum.gr/wp-content/uploads/2022/04/17_O_E_3.jpg>.
 
 :funerary-mask-grave-circle-a-mycenae a :human-figure ;
    rdfs:label "Mycenaean Gold Mask from Grave Circle A at Mycenae";
@@ -2964,16 +2965,16 @@
    :representative-latlong-point (19.5 -99.25) ; # Tlatilco, Mexico
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Acróbata_de_Tlatilco.JPG> .
 
-:phi-tau-figures a :human-figure ;
-   rdfs:label "Phi and Tau Type Female Figures" ; 
-   :descibed-by <https://www.metmuseum.org/art/collection/search/698244> ; 
-   :earliest-date -1300; 
-   :latest-date -1400;
-   :material-note "Terracotta";
-   :note "From MET website: “These terracotta female figurines are referred to as phi (35.11.17-.18), tau (35.11.16), or psi figurines, for their resemblance in shape to those Greek letters. They generally wear a long, enveloping garment, perhaps a kind of robe. Their long hair is usually drawn back in a plait or “ponytail,” with some loose locks over the forehead. Often, they are adorned with a polos, a tall headdress associated with divinities, and a necklace.”";
-   :in-modern-country-note "Greece";
-   :representative-latlong-point ( 37.78752 22.7308 ) ;
-   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/698244/1505178/main-image>.
+# :phi-tau-figures a :human-figure ;
+#    rdfs:label "Phi and Tau Type Female Figures" ; 
+#    :descibed-by <https://www.metmuseum.org/art/collection/search/698244> ; 
+#    :earliest-date -1300; 
+#    :latest-date -1400;
+#    :material-note "Terracotta";
+#    :note "From MET website: “These terracotta female figurines are referred to as phi (35.11.17-.18), tau (35.11.16), or psi figurines, for their resemblance in shape to those Greek letters. They generally wear a long, enveloping garment, perhaps a kind of robe. Their long hair is usually drawn back in a plait or “ponytail,” with some loose locks over the forehead. Often, they are adorned with a polos, a tall headdress associated with divinities, and a necklace.”";
+#    :in-modern-country-note "Greece";
+#    :representative-latlong-point ( 37.78752 22.7308 ) ;
+#    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/698244/1505178/main-image>.
 
 :akhenaten-nefertiti a :group-of-human-figures ;
    rdfs:label "Statue of Akhenaten and Nefertiti" ;
@@ -7139,9 +7140,9 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (33.800278 -114.538333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Blythe_Intaglios_-_Human_Figure_1.jpg> .
 
-:tutu-fella-stela a :human-figure ;
+:tutu-fella-stelae a :grou-of-human-figures ;
    rdfs:label "Stelae of Tutu Fella" ;
-   :descibed-by <https://www.britishmuseum.org/collection/object/E_2013-2034-16206> ;
+   :described-by <https://www.britishmuseum.org/collection/object/E_2013-2034-16206> ;
    :earliest-date 900;
    :latest-date 1200;
    :material-note "Stone" ;
