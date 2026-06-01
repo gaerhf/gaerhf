@@ -1880,6 +1880,7 @@
    :latest-date -3000 ;
    :material-note "Marble" ;
    :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (31.324167 45.637222) ;
    :art-historical-culture-or-tradition :sumerian ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Warka_mask_(cropped).jpg> .
 
@@ -2392,7 +2393,9 @@
    :earliest-date -2250 ;
    :latest-date -2200 ;
    :material-note "Sandstone" ;
+   :note "From Wikipedia: “The stele shows a narrative scene of the king crossing the steep slopes into enemy territory; on the left are the ordered imperial forces keeping in rank while marching over the disordered defenders that lie broken and defeated. Naram-Sin is shown as by far the most important figure, towering over his enemy and troops and all eyes gaze up toward him. The weak and chaotic opposing forces are shown being thrown from atop the mountainside, impaled by spears, fleeing and begging Naram-Sin for mercy as well as being trampled underfoot by Naram-Sin himself.”" ;
    :in-modern-country-note "Iraq" ;
+   :representative-latlong-point (32.194722 48.2475) ;
    :art-historical-culture-or-tradition :akkadian-empire ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Victory_stele_of_Naram-Suen_(31064823690)_(cropped).jpg> .
 
@@ -2790,7 +2793,7 @@
    :in-modern-country-note "Greece";
    :representative-latlong-point (35.2980 25.16279);
    :thumbnail-image <https://commons.wikimedia.org/wiki/File:Knossos_—_Prince_of_the_Lilies.jpg> ,
-      <https://commons.wikimedia.org/wiki/Category:Prince_of_the_Lilies_(Knossos,_main_palace)#/media/File:Wall_painting_of_the_Priest-King_from_Knossos_(North-South_Corridor)_-_Heraklion_AM_(TORSO_cropped).jpg> .
+      <https://commons.wikimedia.org/wiki/File:Wall_painting_of_the_Priest-King_from_Knossos_(North-South_Corridor)_-_Heraklion_AM_(TORSO_cropped).jpg> .
 
 # :bull-leaping-figurine-knossos a :human-figure;
 #    rdfs:label "Ivory bull-leaper figurine";
@@ -3277,14 +3280,38 @@
    :art-historical-culture-or-tradition :jinsha-culture ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:金沙遺址博物館_Jinsha_Site_Museum_-_51131523226.jpg> .
 
-:jomon-doju-statuette a :human-figure ;
-   rdfs:label "Jōmon Dogū Statuette" ;
-   :described-by <https://en.wikipedia.org/wiki/Dogū#Shakōkidogū> ;
+:whalebone-mask-hot-springs a :human-figure ;
+   rdfs:label "Whalebone Mask from Hot Springs Village, Alaska" ;
+   :described-by <https://lbry-web-007.amnh.org/digital/index.php/items/show/56029> ,
+       <https://aa.uwpress.org/content/48/1/66> ;
    :earliest-date -1000 ;
-   :latest-date -400 ;
-   :in-modern-country-note "Japan" ;
-   :art-historical-culture-or-tradition :jomon ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_statue,_late_Jomon_period.JPG> .
+   :latest-date -500 ;
+   :in-modern-country-note "United States" ;
+   :material-note "Whalebone" ;
+   :note "From Arctic Archaeology article: “Two ‘ceremonial’ bone masks were excavated at the Hot Springs Village site (near Port Moller) in 1928 by the Stoll-McCracken Arctic Expedition of the American Museum of Natural History (Weyer 1930). The masks measure approximately 16 cm high by 12 cm wide. Weyer assumed that both masks were made from whale mandibles. One (60.01–5833) is round, with fl aring nostrils and a grimacing mouth (Fig. 6)”" ;
+   :representative-latlong-point (55.99 -160.57) ;
+   :thumbnail-image <https://lbry-web-007.amnh.org/digital/files/original/f017f472c46c2ec08b03883e9191e6bc.jpg> .
+
+:whalebone-mask-hot-springs-teeth a :human-figure ;
+   rdfs:label "Whalebone Mask with Inset Teeth from Hot Springs Village, Alaska" ;
+   :described-by <https://lbry-web-007.amnh.org/digital/index.php/items/show/56037> ,
+       <https://aa.uwpress.org/content/48/1/66> ;
+   :earliest-date -1000 ;
+   :latest-date -500 ;
+   :in-modern-country-note "United States" ;
+   :material-note "Whalebone" ;
+   :note "From Arctic Archaeology article: “The second mask (60.1–5834) is oval with a pointed head, large round eyes, and an open mouth with carved lips and tongue. The mouth has human teeth inset in both the upper and lower jaws (Fig. 7).  ... ”" ;
+   :representative-latlong-point (55.99 -160.57) ;
+   :thumbnail-image <https://lbry-web-007.amnh.org/digital/files/original/1d69028b072c27e87f6c6cbb006bcdc4.jpg> .
+
+# :jomon-doju-statuette a :human-figure ;
+#    rdfs:label "Jōmon Dogū Statuette" ;
+#    :described-by <https://en.wikipedia.org/wiki/Dogū#Shakōkidogū> ;
+#    :earliest-date -1000 ;
+#    :latest-date -400 ;
+#    :in-modern-country-note "Japan" ;
+#    :art-historical-culture-or-tradition :jomon ;
+#    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stone_statue,_late_Jomon_period.JPG> .
 
 :chorrera-standing-figure a :human-figure ;
    rdfs:label "Chorrera Standing Figure" ;
@@ -5268,14 +5295,14 @@
    :representative-latlong-point (23.908611 35.4725) ;
    :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Berenike_Buddha.jpg/500px-Berenike_Buddha.jpg> .
 
-:gift-of-anathapindada-relief a :human-figure ;
-   rdfs:label "Gift of Anathapindada Relief" ;
-   :described-by <https://www.metmuseum.org/art/collection/search/38207> ;
-   :earliest-date 100 ;
-   :latest-date 300 ;
-   :in-modern-country-note "Pakistan" ;
-   :art-historical-culture-or-tradition :gandhara ;
-   :thumbnail-image <https://images.metmuseum.org/CRDImages/as/original/DT8660.jpg> .
+# :gift-of-anathapindada-relief a :human-figure ;
+#    rdfs:label "Gift of Anathapindada Relief" ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/38207> ;
+#    :earliest-date 100 ;
+#    :latest-date 300 ;
+#    :in-modern-country-note "Pakistan" ;
+#    :art-historical-culture-or-tradition :gandhara ;
+#    :thumbnail-image <https://images.metmuseum.org/CRDImages/as/original/DT8660.jpg> .
 
 :paired-male-female-figures-takht-i-bahi a :group-of-human-figures ;
    rdfs:label "Paired Male and Female Figures from Takht-i-Bahi" ;
@@ -5691,12 +5718,26 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (59.067 78.067) ; # Sredny Vasyugan, Kargasoksky District, Tomsk Oblast (approximate, find spot is ~3 km away on the Varen-Igay River)
    :thumbnail-image <https://objet.art/api/file/articles/zm0RCpyF_nXWultIxOJvx.jpg> .
 
+:small-plaque-molds-bjohnhovda a :group-of-human-figures ;
+   rdfs:label "Small molds for decorative Plaques from Björnhovda" ;
+   :described-by <https://samlingar.shm.se/object/32C77A31-D658-4BB5-9DEA-D6D58EDCD0D4> ,
+   <https://sv.wikipedia.org/wiki/Torslundaplåtarna> ,
+      <https://www.wikidata.org/wiki/Q24761074> ;
+   :earliest-date 500 ;
+   :latest-date 800 ;
+   :material-note "Bronze" ;
+   :note "Translated automatically from SHM website: “For the production of press plate decorations on helmets. With two men walking in the same direction, dressed alike in long, knee-length shirts, which are decorated with a wide brim at the bottom and have short sleeves. On the head a helmet, topped with a wild boar. In the right hand a spear with the tip facing downwards. In the left a sword in its sheath.”" ;
+   :in-modern-country-note "Sweden" ;
+   :representative-latlong-point ( 56.650207 16.502379 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Torslundaplåtarna_-_Historiska_museet_-_323552.jpg> .
+
 :bamiyan-buddhas a :group-of-human-figures ;
    rdfs:label "Bamiyan Buddhas" ;
    :described-by <https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan> ;
    :earliest-date 570 ;
    :latest-date 625 ;
    :material-note "Sandstone" ;
+   :note "From Wikipedia: “... the smaller 38 m (125 ft) ‘Eastern Buddha’ was built around 570 CE, and the larger 55 m (180 ft) ‘Western Buddha’ was built around 618 CE, which would date both to the time when the Hephthalites ruled the region. / In March 2001, both structures were destroyed by the Taliban following an order given on February 26, 2001, by Taliban leader Mullah Muhammad Omar”" ;
    :in-modern-country-note "Afghanistan" ;
    :representative-latlong-point (34.832 67.8267) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Buddha_of_Bamiyan.jpg> .
@@ -5964,23 +6005,23 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (53.813 -2.532) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ribchester_Helmet_c.jpg> .
 
-:roman-period-egyptian-funerary-portrait a :human-figure ;
-   rdfs:label "Roman Period Egyptian Funerary Portrait" ;
-   :described-by <https://www.metmuseum.org/art/collection/search/547951> ;
-   :earliest-date 100 ;
-   :latest-date 150 ;
-   :in-modern-country-note "Egypt" ;
-   :art-historical-culture-or-tradition :roman-egypt ;
-   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/547951/2174855/main-image> .
+# :roman-period-egyptian-funerary-portrait a :human-figure ;
+#    rdfs:label "Roman Period Egyptian Funerary Portrait" ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/547951> ;
+#    :earliest-date 100 ;
+#    :latest-date 150 ;
+#    :in-modern-country-note "Egypt" ;
+#    :art-historical-culture-or-tradition :roman-egypt ;
+#    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/547951/2174855/main-image> .
 
-:gandharan-standing-buddha a :human-figure ;
-   rdfs:label "Gandharan Standing Buddha" ;
-   :described-by <https://en.wikipedia.org/wiki/Standing_Buddha_from_Gandhara_(Tokyo)> ;
-   :earliest-date 100 ;
-   :latest-date 200 ;
-   :art-historical-culture-or-tradition :gandhara ;
-   :in-modern-country-note "Pakistan" ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gandhara_Buddha_(tnm).jpeg> .
+# :gandharan-standing-buddha a :human-figure ;
+#    rdfs:label "Gandharan Standing Buddha" ;
+#    :described-by <https://en.wikipedia.org/wiki/Standing_Buddha_from_Gandhara_(Tokyo)> ;
+#    :earliest-date 100 ;
+#    :latest-date 200 ;
+#    :art-historical-culture-or-tradition :gandhara ;
+#    :in-modern-country-note "Pakistan" ;
+#    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gandhara_Buddha_(tnm).jpeg> .
 
 :paired-figures-funerary-relief-tylos a :group-of-human-figures ;
    rdfs:label "Paired Figures from Funerary Relief of Tylos" ;
@@ -6449,25 +6490,25 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (58.856747 -2.891810) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:%27Peedie_Pict%27_Pictish_carved_figure_on_ox_bone_from_Bu_Sands,_Burray,_Orkney.jpg> .
 
-:moche-head-shaped-vessel a :human-figure ;
-   rdfs:label "Moche Head-shaped Vessel" ;
-   :described-by <https://www.metmuseum.org/art/collection/search/308528> ;
-   :earliest-date 500 ;
-   :latest-date 800 ;
-   :material-note "Ceramic" ;
-   :in-modern-country-note "Peru" ;
-   :art-historical-culture-or-tradition :moche-culture ;
-   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/308528/2084843/main-image> .
+# :moche-head-shaped-vessel a :human-figure ;
+#    rdfs:label "Moche Head-shaped Vessel" ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/308528> ;
+#    :earliest-date 500 ;
+#    :latest-date 800 ;
+#    :material-note "Ceramic" ;
+#    :in-modern-country-note "Peru" ;
+#    :art-historical-culture-or-tradition :moche-culture ;
+#    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/308528/2084843/main-image> .
 
-:wari-tray-with-figures a :group-of-human-figures ;
-   rdfs:label "Wari Tray with Figures" ;
-   :described-by <https://www.metmuseum.org/art/collection/search/316330> ;
-   :earliest-date 500 ;
-   :latest-date 1000 ;
-   :material-note "Wood, copper allou" ;
-   :in-modern-country-note "Peru" ;
-   :art-historical-culture-or-tradition :wari-culture ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Snuff_Tray_MET_DT1273_(cropped).jpg> .
+# :wari-tray-with-figures a :group-of-human-figures ;
+#    rdfs:label "Wari Tray with Figures" ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/316330> ;
+#    :earliest-date 500 ;
+#    :latest-date 1000 ;
+#    :material-note "Wood, copper allou" ;
+#    :in-modern-country-note "Peru" ;
+#    :art-historical-culture-or-tradition :wari-culture ;
+#    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Snuff_Tray_MET_DT1273_(cropped).jpg> .
 
 :so-called-bennet-monolith a :human-figure ;
    rdfs:label "So-called Bennet Monolith" ;
@@ -6572,6 +6613,39 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "India" ;
    :representative-latlong-point (12.6175 80.198889) ; # Mahabalipuram, India
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Descent_of_the_Ganges_01.jpg> .
+
+:niederdollendorf-stone a :group-of-human-figures ;
+   rdfs:label "Niederdollendorf Stone" ;
+   :described-by <https://en.wikipedia.org/wiki/Niederdollendorf_stone> ;
+   :earliest-date 600 ;
+   :latest-date 700 ;
+   :material-note "Limestone" ;
+   :note "From Wikipedia: “The stone measures 42.5 cm by 22–25 cm by 16–19 cm (17” by 8–9” by 6–7”) and was carved from Lorraine limestone. It was made in the 7th century and reused later (around the 8th century) as a gravestone. The original purpose is unknown, so the common reference to it as a ‘gravestone’ is slightly misleading. / On one broad side, a spear-wielding man is shown standing on an interlace pattern. Rays extend from his head and he has a circle on his torso. Incised lines extend out from the chest and feet.”" ;
+   :representative-latlong-point (50.707315 7.196520 ) ;
+   :wikimedia-commons-image-page <https://en.wikipedia.org/wiki/File:Grabstein_von_Niederdollendorf,_Rückseite._Cropped.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:2018_Rheinisches_Landesmuseum_Bonn,_Grabstein_aus_Niederdollendorf.jpg> .
+
+:hornhausen-rider-stone a :human-figure ;
+   rdfs:label "Hornhausen Rider Stone" ;
+   :described-by <https://en.wikipedia.org/wiki/Hornhausen_stones> ;
+   :earliest-date 600 ;
+   :latest-date 700 ;
+   :material-note "Sandstone" ;
+   :note "From Wikipedia: “Stone 1 was once divided into three registers, two of which survive clearly to this day. The central register is that of a rider on his steed. The lower register is that of a serpent-like animal. The zigzagging band which frame the figures suggests there was once a register above the rider. The poorly-preserved marks above the central register are probably feet turned to the right.”" ;
+   :in-modern-country-note "Germany" ;
+   :representative-latlong-point ( 52.050278 11.176944 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Halle_(Saale),_Landesmuseum_für_Vorgeschichte,_das_Monument_von_Hornhausen.jpg> .
+
+:pliezhausen-brooch a :group-of-human-figures ;
+   rdfs:label "Pliezhausen brooch" ;
+   :described-by <https://en.wikipedia.org/wiki/Pliezhausen_brooch> ;
+   :earliest-date 600 ;
+   :latest-date 700 ;
+   :material-note "Gold" ;
+   :note "From Wikipedia: “The brooch depicts a central spear-wielding rider trampling an enemy armed with a sword, behind the rider is a smaller figure, who also wields a spear; both rider and smaller carry round shields; two facing animals are above.”" ;
+   :in-modern-country-note "Germany" ;
+   :representative-latlong-point ( 48.558611 9.205833 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:06XX_Goldscheibe_mit_Reiterdarstellung_anagoria.JPG> .
 
 :battle-scene-aberlemno-2 a :group-of-human-figures ;
    rdfs:label "Battle Scene on Stone Aberlemno 2" ;
@@ -6796,6 +6870,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point ( 47.556667 102.831389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Turkic_Head_of_Koltegin_Statue_(35324303410).jpg> .
 
+:kildalton-cross a :group-of-human-figures ;
+   rdfs:label "Kildalton Cross" ;
+   :described-by <https://en.wikipedia.org/wiki/Kildalton_Cross> ;
+   :earliest-date 750 ;
+   :latest-date 800 ;
+   :material-note "Stone" ;
+   :note "From wikipedia: “The Kildalton Cross features an iconic image of the Virgin and Child, which is closely related to similar Virgin and Child iconography found on St. Martin's Cross and St. Oran's Cross at Iona.”" ;
+   :in-modern-country-note "Scotland" ;
+   :representative-latlong-point (55.683889 -6.044444) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kildalton_Cross_20120411_east_side.jpg> .
+
 :panel-borobudu-hidden-foot a :group-of-human-figures ;
    rdfs:label "Panel from from Borobudur ‘Hidden Foot’" ;
    :described-by <https://en.wikipedia.org/wiki/Borobudur#Reliefs> ;
@@ -6949,6 +7034,7 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :earliest-date 800 ;
    :latest-date 1000 ;
    :material-note "Sandstone" ;
+   :note "From Wikipedia: “The cross measures about 19 feet (5.8 m) high; including the base, which measures 2 feet 3 inches (0.69 m). The cross is made of sandstone which is yellow in colour. The main shaft of the cross is carved from a single block of sandstone; the base and the capstone on the top are carved from separate stones. ... Every piece of the cross is divided into panels which are decorated with carvings. The carvings are remarkably well preserved, however, they certainly would have originally had much finer detail. Even so, certain details about clothing, weapons, and other things, can still be clearly made out. Biblical themes dominate the carved panels; though there are pieces which feature certain geometric shapes and interlace ornaments.”" ;
    :in-modern-country-note "Ireland" ;
    :representative-latlong-point (53.7775 -6.4175) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Monasterboice_(52358533944).jpg> .
@@ -7140,7 +7226,7 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (33.800278 -114.538333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Blythe_Intaglios_-_Human_Figure_1.jpg> .
 
-:tutu-fella-stelae a :grou-of-human-figures ;
+:tutu-fella-stelae a :group-of-human-figures ;
    rdfs:label "Stelae of Tutu Fella" ;
    :described-by <https://www.britishmuseum.org/collection/object/E_2013-2034-16206> ;
    :earliest-date 900;
@@ -7659,6 +7745,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (49.939444 14.188056) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Mistr_Theodorik,_Sv._Kateřina,_Národní_galerie_v_Praze.jpg> .
 
+:wilton-diptych a :group-of-human-figures ;
+   rdfs:label "Wilton Diptych" ;
+   :described-by <https://en.wikipedia.org/wiki/Wilton_Diptych> ;
+   :earliest-date 1390 ;
+   :latest-date 1399 ;
+   :material-note "Tempura, gold leaf" ;
+   :note "From Wikipedia: “... a small portable diptych of two hinged panels, painted on both sides, now in the National Gallery, London. It is an extremely rare survival of a late medieval religious panel painting from England. The diptych was painted for King Richard II of England, who is depicted kneeling before the Virgin and Child in what is known as a donor portrait. He is presented to them by (left to right) the English saints King Edmund the Martyr, King Edward the Confessor and patron saint, John the Baptist”" ;
+   :in-modern-country-note "United Kingdom" ;
+   :representative-latlong-point ( 51.499167 -0.124722 ) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Anonimo_inglese_o_francese,_dittico_wilton,_1395-99_ca._01.jpg> .
+
 :chincha-burial-post a :human-figure ;
    rdfs:label "Chinca Culture Burial Post" ;
    :described-by <https://www.metmuseum.org/art/collection/search/312640> ,
@@ -7666,7 +7763,7 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :earliest-date 1400 ;
    :latest-date 1535 ;
    :material-note "Wood" ;
-   :note "Specific findspot not known. From Met Museum website: “”" ;
+   :note "Specific findspot not known. From Met Museum website: “This post was reportedly used as a burial marker on the Peruvian South Coast before the Inca conquest of the region. Most of the post would have been underground when in situ, and it still bears the marks of the rough cutting tools used to shape the sculpture. The head, which would have been above ground, features a stylized face, suggesting a generic ancestor rather than a specific individual.”" ;
    :in-modern-country-note "Peru" ;
    :representative-latlong-point (-13.451387 -76.170803 ) ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312640/2085962/main-image> .
