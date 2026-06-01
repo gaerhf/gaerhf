@@ -7799,3 +7799,14 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :in-modern-country-note "United States" ;
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
+
+:phi-tau-figures a :human-figure ;
+   rdfs:label "Phi and Tau Type Female Figures" ; 
+   :descibed-by <https://www.metmuseum.org/art/collection/search/698244> ; 
+   :earliest-date -1300; 
+   :latest-date -1400;
+   :material-note "Terracotta";
+   :note "From MET website: “These terracotta female figurines are referred to as phi (35.11.17-.18), tau (35.11.16), or psi figurines, for their resemblance in shape to those Greek letters. They generally wear a long, enveloping garment, perhaps a kind of robe. Their long hair is usually drawn back in a plait or “ponytail,” with some loose locks over the forehead. Often, they are adorned with a polos, a tall headdress associated with divinities, and a necklace.”";
+   :in-modern-country-note "Greece";
+   :representative-latlong-point ( 37.7312 22.7558 ) ;
+   :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/698244/1505178/main-image>.
