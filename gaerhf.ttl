@@ -13,7 +13,18 @@
 :group-of-human-figures a rdfs:Class ;
    rdfs:label "Group of human figures" .
 
+:male a :gender .
+
+:female a :gender .
+
+:unclear a :gender .
+
 # properties
+
+
+:apparent-gender a rdf:property ;
+   rdfs:label "Apparent gender" .
+
 :described-by a rdf:Property ;
    rdfs:label "described by" .
 
@@ -903,6 +914,19 @@
    :in-modern-country-note "Turkey" ;
    :representative-latlong-point (37.518233 38.605656) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Nevalı_Çori_portrait,_Neolithic_age_(8400-8100_BCE),_Urfa_Museum.jpg> .
+
+:gobekli-tepe-incised-female a :human-figure ;
+   rdfs:label "Incised Female Figure from the “Lion Pillar Building”, Göbekli Tepe" ;
+   :described-by <https://doi.org/10.1515/pz-2025-2049> ,
+      <https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe> ;
+   :earliest-date -8200 ;
+   :latest-date -7800 ;
+   :material-note "Limestone" ;
+   :apparent-gender :female ;
+   :note "From Zimmermann, “The Raging Male”, Praehistorische Zeitschrift 2025, n. 34: “This observation includes eventually also the rather popular engraving on a stone slab of an alleged naked ‘female’ from the ‘Lion Pillar Building’ (Schmidt 2007, 290 Fig. 104) (Fig. 6), spreading her legs either for being in labour (Bodet 2021, 147–149), or being forcefully penetrated by a penis belonging to an otherwise invisible male (Hodder/Meskell 2011, 239). Çiğdem Atakuman (Middle East Technical University, Ankara) alerted me of an entirely different possible reading of this figure, since neither the slim ‘breasts’ nor the rather slender torso appears to belong to a (pregnant) woman. The ‘breasts’ could therefore depict the arms of another (real or imagined) individual acting from behind, changing the narrative altogether (personal communication).”" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.223333 38.922500) ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Urfa_museum_Woman_figure_Göbekli_Tepe_-_Neolithic_age_4750.jpg> .
 
 :tell-mureybet-female-figurine a :human-figure ;
    rdfs:label "Tell Mureybit Female Figurine" ;
@@ -2496,6 +2520,16 @@
    :representative-latlong-point (37.3028 64.153) ;
    :art-historical-culture-or-tradition :bactria-margiana-archaeological-complex ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Monstrous_male_figure_MET_dp22227.jpg> .
+
+:mangguan-petroglyphs a :group-of-human-figures ;
+   rdfs:label "Mangguan Petroglyphs" ;
+   :described-by <https://doi.org/10.1073/pnas.2520385123> ;
+   :earliest-date -2200 ;
+   :latest-date -1800 ;
+   :apparent-gender :unclear ;
+   :in-modern-country-note "China" ;
+   :note "From JAS:Reports abstract: “The oldest age, obtained from a human figure, is 4240 ±19 yr BP, indicating that figurative rock art was present at this site by at least the early Late Holocene (Meghalayan Stage)”" ;
+   :representative-latlong-point ( 23.415243 99.621962 ) .
 
 :seated-statue-of-gudea-of-lagash a :human-figure ;
    rdfs:label "Seated Statue of Gudea of Lagash" ;
@@ -4334,7 +4368,7 @@
    :latest-date -200 ;
    :in-modern-country-note "France" ;
    :representative-latlong-point (43.5328 5.2715) ;
-   :wikimedia-commons-image-page <4https://commons.wikimedia.org/wiki/File:Seated_warrior_8270_from_Roquepertuse_-_front_(Marseille,_Mus_d%27arch_med).jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Seated_warrior_8270_from_Roquepertuse_-_front_(Marseille,_Mus_d%27arch_med).jpg> .
 
 # -300 -- https://commons.wikimedia.org/wiki/File:Majiayuan_tomb_figurines.jpg
 
@@ -7050,6 +7084,17 @@ of the Maharaja, the glorious Kumaragupta; (in) the month Jyeshtha; (on) the day
    :representative-latlong-point (-7.608 110.204) ; # Borobudur, Indonesia
    :art-historical-culture-or-tradition :sailendra-dynasty ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Reliëf_O_89_op_de_verborgen_voet_van_de_Borobudur_TMnr_10015826.jpg> . # https://www.bbc.co.uk/ahistoryoftheworld/objects/CPbWMMoFSnmUlSHF3dkf5A
+
+:figurines-pithouse123-ironwood a :group-of-human-figures ;
+   rdfs:label "Figurines from Pithouse 123 at the Ironwood Site (Arizona)" ;
+   :described-by <https://aac.wildapricot.org/resources/Documents/JAZA/JAzArch%209_2/JAzArch_V9N2_2023_Full.pdf> ;
+   :earliest-date 750 ;
+   :latest-date 850 ;
+   :apparent-gender :female , :unclear ;
+   :material-note "Ceramic" ;
+   :in-modern-country-note "United States" ;
+   :note "The group and the two figurines illustrated here are described in the article “Death Of A Leader, Death Of A Hohokam Village: Origins, Development, And Abandonment Of Ironwood Village” (Pages 113-150). The illustration here is figure 7 in the article. The caption reads: “Two human ceramic figurines from Pithouse 123. Figurine on left is 6.8 cm in height and has breasts indicat- ing it represents a female, one of five female figurines from Pithouse 123. Figurine on right has two applique “coffee bean” eyes and one eyebrow, the only figurine from Pithouse 123 to have these distinguishing characteristics. The sex of this figurine is unknown, but around its neck is an appliqué necklace. Both figurines were hard fired.”" ;
+   :representative-latlong-point ( 32.376177 -111.094793 ) .
 
 :colossal-toltec-warriors a :group-of-human-figures ;
    rdfs:label "Colossal Toltec Warriors" ;
