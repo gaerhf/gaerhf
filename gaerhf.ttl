@@ -8167,7 +8167,7 @@
    :representative-latlong-point ( 21.447081 -158.191729 ) ;
    :thumbnail-image <https://npr.brightspotcdn.com/dims4/default/06f2fb1/2147483647/strip/true/crop/3000x2000+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F01%2F90be35714bffa6f90ef1e9abb926%2Fap25204741938927.jpg> .
 
-:colossus-of-constantine a :human-figure ;
+:colossus-constantine a :human-figure ;
    rdfs:label "Colossus of Constantine" ;
    :described-by <https://en.wikipedia.org/wiki/Colossus_of_Constantine> ;
    :earliest-date 312 ;
@@ -8178,7 +8178,13 @@
    :apparent-gender :male ;
    :note "From Wikipedia: “The great head, arms and legs of the Colossus were carved from white marble, while the rest of the body consisted of a brick core and wooden framework, possibly covered with gilded bronze. ... The statue’s right hand is said by Eusebius to have held ‘a trophy of the Saviour’s passion with the saving sign of the Cross’, possibly therefore in the form of a staff with the Chi Rho affixed to it.” ... “a monumental acrolithic statue depicting Constantine the Great ... that occupied the apse of the Basilica of Maxentius in the early 4th century.”" ;
    :representative-latlong-point (41.8918 12.4883) ; # Basilica of Maxentius (Wikipedia coord)
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statua_colossale_di_Costantino_I.jpg> .
+   :wikimedia-commons-image-page 
+      <https://commons.wikimedia.org/wiki/File:Colossal_statue_of_Constantine_-_Palazzo_dei_Conservatori_-_Musei_Capitolini_-_Rome_2016.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Roman_Nose_lower_side.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Braccio_del_colosso_di_Costantino_I_ai_Musei_Capitolini.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Colossal_hand,_Roman_-_Musei_Capitolini_-_Rome,_Italy_-_DSC06255.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Colossal_statue_of_Constantine_-_Palazzo_dei_Conservatori_-_Musei_Capitolini_-_Rome_2016.JPG_(3).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Statua_colossale_di_Costantino_I.jpg> .
 
 :missorium-of-theodosius-i a :group-of-human-figures ;
    rdfs:label "Missorium of Theodosius I" ;
@@ -8254,3 +8260,66 @@
    :note "Translated from Italian Wikipedia: “The two statues in shelly limestone, datable to the first decades of the 7th century BC, were found reused on the covering of tomb C ... Both lack the lower part of the legs, since they were fitted with long tenons that allowed them to be fixed in the ground. The standing figures wear a triangular loincloth incised with geometric motifs and a wide belt; ... statue B (85 cm) has a short tail on the shoulders, the left hand lowered to the belly and the right drawn to the chest, and preserves a fragment of the right eye, worked in black stone and inset in the eye socket. ... The different hairstyles led Friedrich-Wilhelm von Hase to suggest that statue B depicts a man and statue A a woman, a hypothesis Maggiani judged suggestive but not adequately demonstrated.”" ;
    :representative-latlong-point (43.2975 10.616667) ; # Casale Marittimo; necropolis just outside the town
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Figure_da_necropoli_di_casa_nocera,_casale_marittimo,_700-680_a.c._circa,_statua_B.JPG> .
+
+:orans-of-kyiv a :human-figure ;
+   rdfs:label "Orans of Kyiv" ;
+   :described-by <https://en.wikipedia.org/wiki/Orans_of_Kyiv> ,
+      <https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral,_Kyiv> ;
+   :earliest-date 1011 ;
+   :latest-date 1037 ;
+   :in-modern-country-note "Ukraine" ;
+   :material-note "Mosaic" ;
+   :height 6 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Virgin Orans, Oranta (The Great Panagia) is a well-known Orthodox Christian depiction of the Virgin Mary in prayer with extended arms. The 6-meter-high mosaic is located in the vault of the chancel of Saint Sophia Cathedral in Kyiv in Ukraine. The icon has been present in the cathedral since its foundation by Yaroslav I the Wise in the 11th century. The Virgin's solemn and static posture, the characteristic folds of her garments, and her pensive expression indicate the design was strongly influenced by Byzantine art.”" ;
+   :representative-latlong-point (50.4528 30.5144) ; # Saint Sophia Cathedral, Kyiv
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Oranta-Kyiv.jpg> .
+
+:virgin-hodegetria-torcello a :group-of-human-figures ;
+   rdfs:label "Virgin Hodegetria Apse Mosaic, Torcello Cathedral" ;
+   :described-by <https://en.wikipedia.org/wiki/Torcello_Cathedral> ;
+   :earliest-date 1075 ;
+   :latest-date 1200 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Mosaic" ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The main apse has an 11th-century mosaic of famous beauty of the standing Virgin Hodegetria, isolated against a huge gold background, above a register of standing saints. These seem originally late 11th-century, by a team of Byzantine mosaicists, but the main figure was reworked a century later after an earthquake, while the saints remain from the first period of work.”" ;
+   :representative-latlong-point (45.4982 12.4193) ; # Torcello Cathedral
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Torcello_-_Santa_Maria_Assunta_-_mosaics_of_the_choir.JPG> .
+
+:virgin-child-apse-mosaic-gelati a :group-of-human-figures ;
+   rdfs:label "Virgin and Child Apse Mosaic, Gelati Monastery" ;
+   :described-by <https://en.wikipedia.org/wiki/Gelati_Monastery> ;
+   :earliest-date 1106 ;
+   :latest-date 1200 ;
+   :in-modern-country-note "Georgia" ;
+   :material-note "Mosaic" ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The interiors of the monastery hold mosaics in classic Byzantine style illustrating aspects of Christian belief. The largest, a 12th-century masterpiece depicting the Virgin Mary holding the baby Jesus, dominates the apse of the main church, and is an artwork of cultural importance in Georgia.”" ;
+   :representative-latlong-point (42.294722 42.768056) ; # Gelati Monastery
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sanctuary_apse_mosaics_(12th_century)_and_murals_(16th_century)._Gelati_Monastery.jpg> .
+
+:golden-madonna-essen a :group-of-human-figures ;
+   rdfs:label "Golden Madonna of Essen" ;
+   :described-by <https://en.wikipedia.org/wiki/Golden_Madonna_of_Essen> ;
+   :approximate-date 980 ;
+   :in-modern-country-note "Germany" ;
+   :material-note "Wood (probably poplar) covered with gold leaf; cloisonné enamel eyes" ;
+   :height 0.74 ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The image is a wooden core covered with sheets of thin gold leaf and is part of the treasury of Essen Cathedral in Germany. ... Dated around the year 980 A.D., it is both the oldest known sculpture of the Madonna and the oldest free-standing medieval sculpture north of the Alps ... Mary is depicted sitting on a stool, with a slightly oversized Christ child figure sitting on her lap.”" ;
+   :representative-latlong-point (51.455833 7.013611) ; # Essen Cathedral (former abbey church)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Goldene-Madonna-Essen.jpg> .
+
+:hadrian-tel-shalem a :group-of-human-figures ;
+   rdfs:label "Bronze Statue of Hadrian from Tel Shalem" ;
+   :described-by <https://www.judaism-and-rome.org/bronze-statue-hadrian-tel-shalem-135-137-ce> ,
+      <https://followinghadrian.com/2014/10/28/bronze-statue-of-hadrian-from-the-legionary-camp-at-tel-shalem-judaea-israel-museum/> ;
+   :earliest-date 132 ;
+   :latest-date 137 ;
+   :in-modern-country-note "Israel" ;
+   :material-note "Bronze" ;
+   :apparent-gender :male ;
+   :note "From Following Hadrian: “The statue likely portrays Hadrian in the pose of the supreme military commander greeting his troops (adlocutio) or as a conqueror stepping on a defeated enemy (a head of a youth was found next to the statue). However, it is uncertain whether the head and the armour originally belonged together.” ... From Judaism and Rome: “The head and arm are attached to a cuirassed torso, which is decorated with a relief depicting a battle scene with a group of three pairs of soldiers who fight in duels.”" ;
+   :representative-latlong-point (32.399263 35.526037) ; # Tel Shalem
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_Hadrian_from_Tel_Shalem.jpg> .
