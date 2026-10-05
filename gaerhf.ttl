@@ -7084,7 +7084,8 @@
 :qajartalik-petroglyphs a :group-of-human-figures ;
    rdfs:label "Qajartalik Petroglyphs" ;
    :described-by <https://www.historymuseum.ca/blog/qajartalik-2022-collaborative-community-based-archaeological-fieldwork-in-nunavik>,
-      <https://en.wikipedia.org/wiki/Qajartalik> ;
+      <https://en.wikipedia.org/wiki/Qajartalik> ,
+      <https://thecanadianencyclopedia.ca/en/article/qajartalik> ;
    :earliest-date 500 ;
    :latest-date 1250 ;
    :note "From Wikipedia: “Qajartalik (Inuktitut for “where there is a kayak”) is a petroglyph site located on the Qajartalik peninsula of Qikertaaluk Island, Nunavut, approximately 40 km southeast of Kangiqsujuaq, Quebec. The site consists of over 150 carvings of faces in soapstone. It was created by the Dorset people, the culture who inhabited the Canadian eastern Arctic and Greenland beginning approximately 2,200 years ago before disappearing approximately 1,000 years ago, and who inhabited the region prior to the Thule Inuit who arrived approximately 800 years ago. It is believed to be the northernmost rock art site in North America…”." ;
