@@ -2948,6 +2948,18 @@
    :representative-latlong-point (40.512278 141.488389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Late_Jomon_clay_statue_Kazahari_I_Aomoriken_1500BCE_-_1000BCE.jpg> .
 
+:masked-goddess-dogu a :human-figure ;
+   rdfs:label "Masked Goddess (Dogū)" ;
+   :described-by <https://en.wikipedia.org/wiki/Masked_Goddess> ;
+   :approximate-date -1500 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Ceramic" ;
+   :height 0.34 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Masked Goddess (仮面の女神, Kamen no Megami) is a relatively large Japanese dogū or clay figurine of the late Jōmon period (c. 2000–1000 BC). Excavated from the Nakappara Site in Chino, Nagano Prefecture, it is exhibited at the nearby Togariishi Museum of Jōmon Archaeology. ... it is one of five dogū that have been designated National Treasures. ... The hollow figurine takes its name from the tilted, triangular mask that covers the face, with lines on top resembling the string with which such a mask might be tied on—or her eyebrows.”" ;
+   :representative-latlong-point (36.0304936 138.2110416) ; # TO CONFIRM: source unknown (Nakappara Site, Chino; no Wikipedia coord)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:%E4%BB%AE%E9%9D%A2%E3%81%AE%E5%A5%B3%E7%A5%9E.jpg> .
+
 :idrimi-statue a :human-figure ;
    rdfs:label "Statue of King Idrimi" ;
    :described-by <https://en.wikipedia.org/wiki/Statue_of_Idrimi> ,
@@ -3726,6 +3738,19 @@
    :representative-latlong-point (39.355928 -83.009061) ; # Adena mound
    :thumbnail-image <https://www.clevelandart.org/_next/image?url=https%3A%2F%2Fweb-drupal-cms-prod.clevelandart.org%2F%2Fsites%2Fdefault%2Ffiles%2FJuly-August2016_AdenaPipe_A.jpg&w=1920&q=75> .
 
+:relief-matar-doorway-gordion a :human-figure ;
+   rdfs:label "Relief of Matar in a Doorway from Gordion" ;
+   :described-by <https://www.penn.museum/sites/gordion/history/iron-age-gordion/> ;
+   :earliest-date -800 ;
+   :latest-date -546 ;
+   :apparent-gender :female ;
+   :material-note "Stone" ;
+   :note "From Penn Museum Gordion website: “It is during the life of the Middle Phrygian New Citadel that we have at Gordion our most plentiful evidence for Phrygian writing and religion. ... Statuettes in stone of a figure usually holding a cup and sometimes a bird no doubt represent the Phrygian mother goddess Matar. A stone relief shows her in a doorway, presumably that of her temple.” ... From Gordion Museum label (via Wikimedia Commons): “Fragmented relief of Matar was found in a doorway from the vicinity of Gordion.”" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (39.650356 31.978243) ; # ll for Gordion site, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Turkey-1457_-_Matar_(16425931698).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Gordion_Museum_Relief_of_Matar_0814.jpg> .
+
 # :orim-dong-megalith-petroglyph a :human-figure ;
 #    :described-by <https://en.m.wikipedia.org/wiki/File:Orim-dongmegalithpetroglyph.jpg> ;
 #    :period-note "Middle Mumun Pottery Period (Korea)" ;
@@ -3856,6 +3881,18 @@
    :representative-latlong-point (54.29 18.15) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:MuseumGrudziadzA5149.JPG> .
 
+:nikandre-kore a :human-figure ;
+   rdfs:label "Nikandre Kore" ;
+   :described-by <https://en.wikipedia.org/wiki/Dedication_of_Nikandre> ;
+   :approximate-date -650 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Naxian marble" ;
+   :height 1.80 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Dedication of Nikandre is a Greek marble sculpture, made approximately around 650 BCE, held in the National Archaeological Museum, Athens, Greece (Inv. 1). Nikandre, a woman from the island of Naxos, dedicated the statue in the temple of Artemis at Delos, the birthplace of Apollo and Artemis. The statue, which was found during archaeological excavation in the 19th century, is one of the earliest surviving korai, or statues of women, and displays one of the oldest inscriptions of Ancient Greek in stone. ... On the left side of the statue is the dedicatory inscription, one of the earliest surviving inscriptions of Greek in stone.”" ;
+   :representative-latlong-point (37.3993075 25.268868) ; # TO CONFIRM: source unknown (Wikipedia's Delos coord is 37.39333333 25.27111111)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_Nikandre.jpg> .
+
 :macmillan-aryballos a :group-of-human-figures ;
    rdfs:label "Macmillan Aryballos" ;
    :described-by <https://en.wikipedia.org/wiki/Macmillan_aryballos> ,
@@ -3881,6 +3918,21 @@
 # -600 - -500 https://en.wikipedia.org/wiki/Kouros_of_Samos
 
 # -600 - -400 https://en.wikipedia.org/wiki/Dar%27a
+
+:kleobis-biton-delphi a :group-of-human-figures ;
+   rdfs:label "Kleobis and Biton" ;
+   :described-by <https://en.wikipedia.org/wiki/Kleobis_and_Biton> ,
+      <https://www.delphimuseum.gr/2025/03/the-twins-of-argos.html> ,
+      <https://www.perseus.tufts.edu/hopper/artifact?name=Delphi,+Kleobis+and+Biton&object=Sculpture> ;
+   :earliest-date -610 ;
+   :latest-date -580 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble" ;
+   :height 2.16 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The statues are made of Parian marble and stand side by side on a shared base. A partial inscription states that the kouroi were made by the sculptor Polymedes of Argos and dedicated to Apollo by the citizens of Argos. Depicted as nude youths, each figure advances one leg forward with arms slightly bent and fists clenched. ... The earliest attestation of their legend appears later, in Herodotus's Histories of c. 440 BCE. The brothers were venerated in Argos for their extraordinary physical strength, filial devotion, and religious piety.”" ;
+   :representative-latlong-point (38.4823 22.5013) ; # Delphi (find-spot, near the Athenian Treasury), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kouroi2.jpg> .
 
 :monument-3-danzante a :human-figure ;
    rdfs:label "Monument 3 (“Danzante”)" ;
@@ -3969,6 +4021,18 @@
    :representative-latlong-point (48.639167 9.010833) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_of_Holzgerlingen,_Googles_Arts_%26_Culture_(cropped).png> .
 
+:sounion-kouros a :human-figure ;
+   rdfs:label "Sounion Kouros" ;
+   :described-by <https://en.wikipedia.org/wiki/Sounion_Kouros> ;
+   :approximate-date -600 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Naxian marble" ;
+   :height 3.05 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Sounion Kouros is an early archaic Greek statue of a naked young man or kouros carved in marble from the island of Naxos around 600 BCE. It is one of the earliest examples that scholars have of the kouros-type which functioned as votive offerings to gods or demi-gods, and were dedicated to heroes. Found near the Temple of Poseidon at Cape Sounion, this kouros was found badly damaged and heavily weathered. It was restored to its original height of 3.05 meters (10.0 ft) returning it to its larger than life size.”" ;
+   :representative-latlong-point (37.6502 24.02455) ; # Temple of Poseidon, Sounion (find-spot), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statua_di_kouros,_dall'esterno_del_tempio_di_poseidone_a_sounion,_600_ac_ca.,_n._2720,_01.jpg> .
+
 :gorgon-pediment-corfu a :group-of-human-figures ;
    rdfs:label "Gorgon Pediment, Temple of Artemis, Corfu" ;
    :described-by <https://en.wikipedia.org/wiki/Temple_of_Artemis,_Corfu#Pediment_details> ;
@@ -3991,6 +4055,19 @@
    :representative-latlong-point (29.871111 31.216389) ;
    :thumbnail-image <https://media.getty.edu/iiif/image/afdc1e79-9284-4756-958d-2e3f61377f07/full/400,/0/default.jpg> .
 
+:kouros-tenea a :human-figure ;
+   rdfs:label "Kouros of Tenea" ;
+   :described-by <https://en.wikipedia.org/wiki/Kouros_of_Tenea> ;
+   :earliest-date -560 ;
+   :latest-date -550 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble" ;
+   :height 1.53 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The grave statue of a youth from Tenea known as the Kouros of Tenea (formerly Apollo of Tenea) is now located in the Glyptothek in Munich, Germany. The archaic Kouros was created in North-East Peloponnese about 560 BC. The Parian marble statue was discovered in an ancient cemetery in 1846, approximately twenty kilometers South of Ancient Corinth at the site of ancient Tenea.”" ;
+   :representative-latlong-point (37.8 22.866667) ; # Tenea (find-spot), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kouros_of_Tenea_560-550_BC,_Glyptothek_Munich_168_120287.jpg> .
+
 :capestrano-warrior a :human-figure ;
    rdfs:label "Capestrano Warrior" ;
    :described-by <https://en.wikipedia.org/wiki/Warrior_of_Capestrano> ;
@@ -4012,6 +4089,44 @@
    :note "Mapped location is general for Glauberg, not specific for this figure." ;
    :thumbnail-image <https://www.worldhistory.org/img/r/p/1500x1500/9799.jpg.webp?v=1618560049>  .
 
+:male-torso-portonaccio-veii a :human-figure ;
+   rdfs:label "Male Torso, Possibly Hercules, Portonaccio Sanctuary, Veii" ;
+   :described-by <https://en.wikipedia.org/wiki/Portonaccio> ,
+      <https://elearning.uniroma1.it/pluginfile.php/1375455/mod_resource/content/1/AnnFaina%20XXI%202014%20Carlucci-Michetti%20Portonaccio.pdf> ;
+   :approximate-date -550 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Terracotta" ;
+   :apparent-gender :male ;
+   :note "Translated from article (Carlucci and Michetti, Annali Faina XXI, 2014, p. 509): “In this phase, in the sacred area, still limited to the eastern sector, the large male torso is dedicated, an exceptional votive offering, perhaps depicting Hercules (Fig. 25), the first of the rich gallery of terracotta sculptures ... which to date represents the largest number of original terracotta works recovered from an Etruscan sanctuary between the Archaic and Classical periods. It is the first example of a votive statue on a larger-than-life scale ...” The article dates the statue to the mid-6th century BCE." ;
+   :representative-latlong-point (42.021111 12.390833) ; # Portonaccio sanctuary, Veii, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Male_torso_Veii.jpg> .
+
+:phrasikleia-kore a :human-figure ;
+   rdfs:label "Phrasikleia Kore" ;
+   :described-by <https://en.wikipedia.org/wiki/Phrasikleia_Kore> ;
+   :earliest-date -550 ;
+   :latest-date -540 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble" ;
+   :height 1.79 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Phrasikleia Kore is an Archaic Greek funerary statue by the artist Aristion of Paros, created between 550 and 540 BCE. It was found carefully buried in the ancient city of Myrrhinous (modern Merenta) in Attica and excavated in 1972. The exceptional preservation of the statue and the intact nature of the polychromy elements makes the Phrasikleia Kore one of the most important works of Archaic art. ... The statue is made of Parian marble, and stands 179 centimeters (6.92 ft) high; it rises on a pedestal that gives a total height of 211 centimeters (7 ft) high.”" ;
+   :representative-latlong-point (37.8549039025 23.9483773191) ; # TO CONFIRM: source unknown (Wikipedia's Myrrhinus coord is 37.872812 23.9678945)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Aristone_di_paros,_kore_per_la_tomba_di_phrasikleia,_da_merenda_(myrrhinous)_in_attica,_550-540_ac_ca._01,_n._4889.jpg> .
+
+:kore-lyons a :human-figure ;
+   rdfs:label "Kore of Lyons" ;
+   :described-by <https://en.wikipedia.org/wiki/Kore_of_Lyons> ;
+   :earliest-date -550 ;
+   :latest-date -540 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Pentelic marble" ;
+   :height 0.64 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Kore of Lyons is a Greek statue of Pentelic marble depicting a bust of a young girl of the kore type, conserved at the musée des beaux-arts de Lyon, France. Deriving from the Athenian Acropolis, it is generally dated to the 540s BC. ... It was one of the numerous Korai of the Acropolis of Athens discovered during the construction of the old Acropolis Museum in the Perserschutt, a layer of destruction from the Persian Wars, containing material from the 570s BC down to the end of the sixth century BC. It represents the first example of the Ionian influence which entered Attic sculpture in the second half of the century and first use of Ionian costume in Attica.”" ;
+   :representative-latlong-point (37.97166667 23.72611111) ; # Acropolis of Athens, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Lyons_Kore_MBA_Lyon_H1993.jpg> .
+
 :kroisos-kouros a :human-figure ;
    rdfs:label "Kroisos Kouros" ;
    :described-by <https://en.wikipedia.org/wiki/Kroisos_Kouros> ;
@@ -4024,6 +4139,36 @@
    :note "From Wikipedia: “The Kroisos Kouros is a marble kouros from Anavyssos in Attica which functioned as a grave marker for a fallen young warrior named Kroisos. ... The sculpture is dated to the Late Archaic Period c. 540–515 BC.” The base inscription reads: “Stop and show pity beside the marker of Kroisos, dead, whom, when he was in the front ranks, raging Ares destroyed.” Illegally excavated at Anavyssos, identified in Paris in 1937, and now in the National Archaeological Museum, Athens (inv. 3851)." ;
    :representative-latlong-point (37.733333 23.95) ; # ll for Anavyssos, from Wikipedia
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kouros_anavissos.jpg> .
+
+:merenda-kouros a :human-figure ;
+   rdfs:label "Merenda Kouros" ;
+   :described-by <https://en.wikipedia.org/wiki/Merenda_Kouros> ;
+   :earliest-date -540 ;
+   :latest-date -530 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble" ;
+   :height 1.89 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Merenda Kouros (NAMA 4890) is a Late Archaic Greek Kouros, created approximately 540-530 B.C., measuring 1.89 meters tall and made of Parian marble. ... Extremely well preserved, and maintaining some traces of pigment. It was discovered alongside the Phrasikleia Kore in present-day Merenda, Greece in 1972, 25 miles Southeast of Athens. The area was once a part of the necropolis of the Attic Deme of Myrrhinus.”" ;
+   :representative-latlong-point (37.8549039025 23.9483773191) ; # TO CONFIRM: source unknown (Wikipedia's Myrrhinus coord is 37.872812 23.9678945)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kouros,_da_merernda_(myrrhinous)_in_attica,_540-530_ac_ca._01,_n._4890.jpg> .
+
+:peplos-kore a :human-figure ;
+   rdfs:label "Peplos Kore" ;
+   :described-by <https://en.wikipedia.org/wiki/Peplos_Kore> ,
+      <https://www.theacropolismuseum.gr/en/statue-kore-peplos-kore> ;
+   :approximate-date -530 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble" ;
+   :height 1.18 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The Peplos Kore is an ancient sculpture from the Acropolis of Athens. ... Although this statue is one of the most famous examples of a kore, it is actually not considered a typical one. The statue is not completely straight, her face is leaned slightly to the side, and she is standing with her weight shifted to one leg. The other part of the statue's name, peplos, is based on the popular archaic Greek gown for women. ... The Peplos Kore is ascribed to the Rampin Master, who is named for another head, very similar in style, which was in the Rampin Collection and is now on display in the Louvre.”" ;
+   :representative-latlong-point (37.97166667 23.72611111) ; # Acropolis of Athens (find-spot, north-west of the Erechtheion), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:ACMA_679_Kore_1.JPG> ;
+   :thumbnail-image <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7782_1.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7782_2.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7782_3.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7782_5.jpg> .
 
 :pozo-moro-mausoleum a :group-of-human-figures ;
    rdfs:label "Friezes on Mausoleum of Pozo Moro" ;
@@ -4046,6 +4191,24 @@
    :in-modern-country-note "China" ;
    :representative-latlong-point (31.3 120.619444) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Yue_statue.jpg> .
+
+:antenor-kore a :human-figure ;
+   rdfs:label "Antenor Kore" ;
+   :described-by <https://en.wikipedia.org/wiki/Antenor_Kore> ,
+      <https://www.theacropolismuseum.gr/en/statue-kore-its-base-antenor-kore> ;
+   :earliest-date -525 ;
+   :latest-date -500 ;
+   :in-modern-country-note "Greece" ;
+   :material-note "Parian marble (statue), Pentelic marble (base)" ;
+   :height 2.05 ;
+   :apparent-gender :female ;
+   :note "From Wikipedia: “The statue was found in several fragments during excavations on the Athenian Acropolis in the so-called Perserschutt. The lower part and the left arm were dug up east of the Parthenon in 1882 and the upper part was discovered west of the Erechtheion in 1886. Parts of the calf followed. The face is damaged, especially the nose, and the lower right arm is missing, as is the front of the feet on the plinth. The kore was originally located in the Athena sanctuary on the acropolis and is now kept in the Acropolis Museum. The statue is 201 cm high, excluding the plinth. ... The Kore has chest-length hair, which only partially survives. The hair at the front is gathered into tight curls, while the rest of the hair falls in locks, fanning out over the shoulders and back. She wears a crown in her hair. Like all archaic korai, the sculpture has a clear axis and stares directly at the viewer. She wears a chiton and himation. The latter seems to be tied over the left arm, pinned at the top with a fibula and falling below in omega-folds. With the left hand the image gathers the chiton, causing the characteristic drapery. The conspicuously empty eye-holes must have been inlaid with another material, likely glass - a rather rare feature in marble statues of this period.”" ;
+   :representative-latlong-point (37.97166667 23.72611111) ; # Acropolis of Athens (find-spot, east of the Parthenon and west of the Erechtheion), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:ACMA_681_Kore_Antenor_1.JPG> ;
+   :thumbnail-image <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7784_1.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7784_2.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7784_5.jpg> ,
+      <https://www.theacropolismuseum.gr/sites/default/files/exhibits_images/7784_6.jpg> .
 
 :behistun-relief-darius-i a :group-of-human-figures ;
    rdfs:label "Behistun Relief of Darius I" ;
@@ -5675,6 +5838,18 @@
    :note "The bust is sometimes identified as Antoninus Pius." ;
    :thumbnail-image <https://www.getty.edu/art/exhibitions/aurelius/images/6_gm_391470EX10.jpg> .
 
+:commodus-hercules a :group-of-human-figures ;
+   rdfs:label "Commodus as Hercules" ;
+   :described-by <https://en.wikipedia.org/wiki/Commodus_as_Hercules> ;
+   :approximate-date 192 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Marble" ;
+   :height 1.33 ;
+   :apparent-gender :male , :female ;
+   :note "From Wikipedia: “Commodus as Hercules, also known as The Bust of Commodus as Hercules, is a marble portrait sculpture created sometime in early 192 AD. It is housed in the Capitoline Museums in Rome, Italy. Originally discovered in 1874 in the underground chambers of Horti Lamiani ... Here, the Roman Emperor has taken on the guise of the mythological hero, Hercules. He has been given the attributes of the hero: the skin of the Nemean lion placed over his head and his left arm, the club in his right hand, and the three golden apples of the Hesperides in his left hand. ... Further decoration can be found surrounding the globe, from the kneeling Amazons to either side (one of whom has been lost) ... this idea is furthered by the inclusion of two Tritons, which are believed to represent his apotheosis.”" ;
+   :representative-latlong-point (41.8945 12.5047) ; # Horti Lamiani (find-spot), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Commodo_vestito_da_Ercole_ai_Musei_Capitolini.jpg> .
+
 :gold-bust-septimius-severus a :human-figure ;
    rdfs:label "Gold Bust of Septimius Severus" ;
    :described-by <https://en.wikipedia.org/wiki/Golden_Bust_of_Septimius_Severus> ;
@@ -5915,6 +6090,21 @@
    :note "No specific findspot known" ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312492/1291998/main-image> .
 
+:suda-hachiman-shrine-mirror a :group-of-human-figures ;
+   rdfs:label "Suda Hachiman Shrine Mirror" ;
+   :described-by <https://en.wikipedia.org/wiki/Suda_Hachiman_Shrine_Mirror> ,
+      <https://laits.utexas.edu/~mr56267/HIST_341K/Ancient_pages/Kofun_era_mirror.html> ,
+      <https://ja.wikipedia.org/wiki/%E9%9A%85%E7%94%B0%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%E4%BA%BA%E7%89%A9%E7%94%BB%E5%83%8F%E9%8F%A1> ;
+   :earliest-date 443 ;
+   :latest-date 503 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Bronze" ;
+   :height 0.199 ;
+   :apparent-gender :male , :female ;
+   :note "From UT Austin course page: “This mirror, from Suda Hachiman shrine in Wakayama, includes one of the oldest examples of writing in Japan. The inscription along the edge says that the mirror was made for a king Oshisaka no miya on the tenth day of the eight month of either 443 or 503 (the sixty year zodaical cycle makes this unclear).” ... Translated from Japanese Wikipedia: “Bronze, 19.9 cm in diameter. ... In the inner zone are nine human figures, including Dong Wanggong and Xi Wangmu, legendary figures of ancient China.”" ;
+   :representative-latlong-point (34.33319444 135.64555556) ; # Suda Hachiman Shrine, Hashimoto, from Japanese Wikipedia (exact find-spot unknown)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Sumida_Hatiman_Mirror.JPG> .
+
 :mankuwar-buddha a :human-figure ;
    rdfs:label "Mankuwar Buddha" ;
    :described-by <https://en.wikipedia.org/wiki/Gupta_art#Sarnath_school> ;
@@ -6109,15 +6299,15 @@
    :representative-latlong-point (38.9072 1.42951) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dama_de_Ibiza_(M.A.N._Madrid)_01.jpg> .
 
-:maurya-standing-male-figure a :human-figure ;
-   :described-by <https://www.metmuseum.org/art/collection/search/38075> ;
-   :period-note "Mauryan Empire (India)" ;
-   :earliest-date -300 ;
-   :latest-date -100 ;
-   :material-note "Ceramic" ;
-   :art-historical-culture-or-tradition :mauryan-empire ;
-   :in-modern-country-note "India" ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:MauryanStatuette2ndCenturyBCE.jpg> .
+# :maurya-standing-male-figure a :human-figure ;
+#    :described-by <https://www.metmuseum.org/art/collection/search/38075> ;
+#    :period-note "Mauryan Empire (India)" ;
+#    :earliest-date -300 ;
+#    :latest-date -100 ;
+#    :material-note "Ceramic" ;
+#    :art-historical-culture-or-tradition :mauryan-empire ;
+#    :in-modern-country-note "India" ;
+#    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:MauryanStatuette2ndCenturyBCE.jpg> .
 
 # no longer at this page on met website
 # :okvik-figurine a :human-figure ;
@@ -6462,7 +6652,7 @@
       <https://collections.nmnh.si.edu/search/anth/?ark=ark:/65665/3d509babb24e74e989f371e4e9da45ee6> ;
    :date 162 ;
    :in-modern-country-note "Mexico" ;
-   :note "See Smithsonian page for findspot." ;
+   :note "See Smithsonian page for findspot. From Wikipedia “The Tuxtla Statuette is a small rounded nephrite figurine about 6.5” high, and carved to resemble a squat, bullet-shaped human with a duck-like bill and wings. It is incised with glyphs of the Epi-Olmec or Isthmian script, two columns in the front and two in the back, one of the few extant examples of this very early Mesoamerican writing system. The front of the statuette is somewhat defaced and the glyphs there are only partially readable.”" ;
    :representative-latlong-point (18.466667 -95.433333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Estatuilla_de_Tuxtla.jpg> .
 
@@ -6661,6 +6851,18 @@
 
 # 200 - 600 ???? https://commons.wikimedia.org/wiki/File:Naked_prisoners_being_led_by_warrior_at_El_Brujo.JPG
 
+:four-tetrarchs-venice a :group-of-human-figures ;
+   rdfs:label "Portrait of the Four Tetrarchs" ;
+   :described-by <https://en.wikipedia.org/wiki/Portrait_of_the_Four_Tetrarchs> ;
+   :approximate-date 300 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Porphyry" ;
+   :height 1.30 ;
+   :apparent-gender :male ;
+   :note "Adapted from Wikipedia: “... a porphyry sculpture group of four Roman emperors dating from around 300 CE. The sculptural group has been fixed to a corner of the façade of St Mark's Basilica in Venice, Italy since the Middle Ages. It probably formed part of the decorations of the Philadelphion in Constantinople, and was removed to Venice in 1204 or soon after.”" ;
+   :representative-latlong-point (45.434167 12.339722) ; # St Mark's Basilica, Venice (current location; probably originally the Philadelphion, Constantinople), from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:(Venice)_Statue_of_the_four_tetrarchs_St._Mark%27s_Basilica.jpg> .
+
 :cheng-han-figurine a :human-figure ;
    rdfs:label "Cheng-Han Figurine" ;
    :described-by <https://en.wikipedia.org/wiki/Cheng-Han#Cheng_(304–338)> ;
@@ -6670,6 +6872,18 @@
    :in-modern-country-note "China" ;
    :representative-latlong-point (30.66 104.063333) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Cheng-Han_Human_Figurine.png> .
+
+:head-constantine-york a :human-figure ;
+   rdfs:label "Head of Constantine the Great, York" ;
+   :described-by <https://en.wikipedia.org/wiki/Head_of_Constantine_the_Great,_York> ;
+   :approximate-date 306 ;
+   :in-modern-country-note "United Kingdom" ;
+   :material-note "Marble" ;
+   :height 0.42 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Head of Constantine the Great, York is the only surviving fragment of larger, marble statue of the Roman Emperor Constantine the Great. It was found in Stonegate, York, before 1823, and is now in the Yorkshire Museum. ... The face is clean shaven and he wears a corona civica. The axis of the neck suggests that the face had originally been turned slightly to the left and down towards an audience below. ... A 2018 paper argues that the bust was remodelled from a statue of an earlier, deified emperor, probably Hadrian. It argues ... that this recarving occurred after AD 312 and not, as widely believed, at the moment of Constantine's proclamation as emperor in York in AD 306.”" ;
+   :representative-latlong-point (53.961 -1.083) ; # Stonegate, York (find-spot)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bust_of_Constantine_I_from_York_YORYM_1998_23_(4x5_cropped).jpg> .
 
 :dong-shu-funerary-portrait a :human-figure ;
    rdfs:label "Dong Shu Funerary Portrait" ;
@@ -6878,6 +7092,28 @@
    :representative-latlong-point (61.331574 -71.499644) ;
    :thumbnail-image <https://www.historymuseum.ca/wp-content/uploads/2022/09/Blog-KRyan-09-2022_Fig567-1024x512.png>  .
 
+:justinian-retinue-san-vitale a :group-of-human-figures ;
+   rdfs:label "Justinian and His Retinue, San Vitale" ;
+   :described-by <https://en.wikipedia.org/wiki/Basilica_of_San_Vitale#Justinian_and_Theodora_panels> ;
+   :approximate-date 547 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Mosaic" ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “At the foot of the apse side walls are two famous mosaic panels, completed in 547. On viewer left (but privileged right side from perspective of Christ in apse) is a mosaic depicting the East Roman Emperor Justinian I, clad in Tyrian purple with a golden halo, standing next to court officials, generals Belisarius and Narses, Bishop Maximian, palatinae guards, and deacons. ... Justinian himself stands in the middle, with soldiers on his right and clergy on his left, emphasising that Justinian is the leader of both church and state of his empire.”" ;
+   :representative-latlong-point (44.4206 12.1964) ; # Basilica of San Vitale, Ravenna
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Justinian_mosaic,_San_Vitale,_consecrated_547,_Ravenna,_Italy.jpg> .
+
+:theodora-attendants-san-vitale a :group-of-human-figures ;
+   rdfs:label "Theodora and Her Attendants, San Vitale" ;
+   :described-by <https://en.wikipedia.org/wiki/Basilica_of_San_Vitale#Justinian_and_Theodora_panels> ;
+   :approximate-date 547 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Mosaic" ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “At the foot of the apse side walls are two famous mosaic panels, completed in 547. ... On the opposite wall, the more elaborate panel shows Empress Theodora solemn and formal, with a golden halo, crown and jewels, and a group of court women as well as eunuchs. The two women standing beside Theodora are traditionally identified as Antonina, the wife of Belisarius, and their daughter Ioannina. The Empress holds the Eucharistic vessel for the Precious Blood, and her panel differs from that of Justinian in having a more complex background, with a fountain, cupola, and lavish hangings.”" ;
+   :representative-latlong-point (44.4206 12.1964) ; # Basilica of San Vitale, Ravenna
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:San_Vitale_Empress_Theodora_%26_Attendants.jpg> .
+
 :anyang-funerary-bed a :group-of-human-figures ;
    rdfs:label "Anyang Funerary Bed" ;
    :described-by <https://en.wikipedia.org/wiki/Anyang_funerary_bed> ;
@@ -6889,6 +7125,19 @@
    :representative-latlong-point (36.099 114.392) ;
    :note "Dispersed on art market after discovery. Said to be from Anyang." ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Anyang_funerary_bed,_Museum_of_Fine_Arts,_Boston,_1.jpg> .
+
+:tashiroota-tomb-wall-painting a :group-of-human-figures ;
+   rdfs:label "Tashiroōta Tomb Wall Painting" ;
+   :described-by <https://doi.org/10.15184/aqy.2026.10377> ,
+      <https://en.wikipedia.org/wiki/Tashiro%C5%8Dta_Kofun> ;
+   :earliest-date 550 ;
+   :latest-date 600 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Red, black and green pigment on granite" ;
+   :apparent-gender :unclear ;
+   :note "From article: “Figure 4. Visual synthesis of core findings: ... b) strategic positioning within specific architectural elements here on the rear wall of Tashiroōta tomb (adapted from the original work by Kusaka Hakkō; © courtesy of the National Museum of Japanese History) ...” ... From Wikipedia: “The 2.3 meter wide and 1.1 meter high waist stone on the back wall of the burial chamber and the wall on the right side of the middle chamber are decorated with continuous triangular patterns, using the three colors of red, black, and green on the granite rock surface. The drawings also depict people, ships, shields, takatsuki (tall cups), bracken (warabi) patterns, concentric circles, and flowers. ... it is estimated that the tumulus was built in the latter half of the 6th century.”" ;
+   :representative-latlong-point (33.394806 130.515167) ; # Tashiroōta Kofun, from Wikipedia
+   :thumbnail-image <https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20260916130530288-0360:S0003598X26103779:S0003598X26103779_fig4.png> .
 
 :attendant-wounded-horse a :human-figure ;
    rdfs:label "Emperor and Wounded House from Zhao Mausoleum" ;
@@ -7287,6 +7536,19 @@
    :thumbnail-image <https://wisconsinfirstnations.org/wp-content/uploads/2018/10/ManMound.jpg> ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Man_Mound.jpg> .
 
+:shaka-birth-todaiji a :group-of-human-figures ;
+   rdfs:label "Shaka at Birth (Tōdai-ji)" ;
+   :described-by <https://en.wikipedia.org/wiki/Shaka_at_Birth_(T%C5%8Ddai-ji)> ;
+   :earliest-date 750 ;
+   :latest-date 759 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Gilt bronze" ;
+   :height 0.475 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The statue and its basin date to the Nara period (710–794) ... This example at Tōdai-ji is generally dated to the 750s. ... Evoking the legend of his birth, the statue of the infant Buddha has its right arm raised, pointing to heaven, and left arm pendant, pointing to the earth; he is bare chested and wears a skirt. ... The exterior has incised images of human figures, animals real and imaginary, birds, and butterflies, set against a landscape of flowers, grasses, shrubs, trees, mountain peaks, clouds, and pagodas.”" ;
+   :representative-latlong-point (34.68916667 135.83972222) ; # Tōdai-ji, Nara, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Shaka_at_birth_basin.JPG> .
+
 :bell-king-seongdeok a :group-of-human-figures ;
    rdfs:label "Bell of King Seongdeok" ;
    :described-by <https://en.wikipedia.org/wiki/Bell_of_King_Seongdeok> ;
@@ -7296,6 +7558,20 @@
    :in-modern-country-note "Korea" ;
    :representative-latlong-point ( 35.829575 129.227928 ) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Apsara_relief._Bell_of_King_Seongdeok.National_Museum_of_Gyeongju.Korea.2018.P1410600.jpg> .
+
+:yakushi-nyorai-jingoji a :human-figure ;
+   rdfs:label "Yakushi Nyorai (Jingo-ji)" ;
+   :described-by <https://en.wikipedia.org/wiki/Statue_of_Yakushi_Nyorai_(Jingo-ji)> ;
+   :earliest-date 775 ;
+   :latest-date 825 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Hinoki (Japanese cypress), light pigment" ;
+   :height 1.697 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Statue of Yakushi Nyorai (Japanese: 木造薬師如来立像, Hepburn: Mokuzō Yakushi Nyorai Ritsuzō) is a late 8th to early 9th-century Japanese Buddhist sculpture dating to the early Heian period depicting the standing figure of Bhaisajyaguru, or the Medicine Buddha. Designated a National Treasure of Japan, the Yakushi Nyorai serves as the principal figure of worship at Jingo-ji, Ukyō-ku, Kyoto. It is deemed a significant masterpiece of early Heian art, as well as a major icon of Shingon Buddhist history. ... The Yakushi Nyorai statue is 169.7 centimetres (5 ft 7 in) tall and is carved from a single block of hinoki cypress wood.”" ;
+   :representative-latlong-point (35.05501667 135.67086667) ; # Jingo-ji, Kyoto, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Domon_Ken_-_Yakushi_Nyorai_(Bhaisajyaguru)_Jingo-ji.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Yakushi_Nyorai_Jingoji2.JPG> .
 
 :musician-bomampak-murals a :group-of-human-figures ;
    rdfs:label "Procession from the Bonampak Murals" ;
@@ -7967,6 +8243,19 @@
    :representative-latlong-point (11.366424 -7.470627) ;
    :thumbnail-image <https://www.artic.edu/iiif/2/3afb386b-1dfd-2264-8646-6d5cbb6f6b38/full/1686,/0/default.jpg> .
 
+:usuki-stone-buddhas a :group-of-human-figures ;
+   rdfs:label "Usuki Stone Buddhas" ;
+   :described-by <https://en.wikipedia.org/wiki/Usuki_Stone_Buddhas> ;
+   :earliest-date 1100 ;
+   :latest-date 1333 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Tuff (carved in bas-relief into the cliff face)" ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Usuki Stone Buddhas is a group of 61 religious statues in four groups carved in bas-relief into a tuff cliff in the city of Usuki, Ōita Prefecture on the island of Kyushu, Japan. ... There are no historical materials remaining that testify to the period or circumstances surrounding the construction of these statues. ... However, based on the style, it is estimated that most of the statues were made in the late Heian period, and some in the Kamakura period.”" ;
+   :representative-latlong-point (33.0905 131.762639) ; # Usuki Stone Buddhas, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Usuki_Stone_Buddhas.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Usuki_Stone_Buddhas_.jpg> .
+
 :bayeux-tapestry a :group-of-human-figures ;
    rdfs:label "Bayeaux Tapestry" ;
    :described-by <https://en.wikipedia.org/wiki/Bayeux_Tapestry> ;
@@ -8019,6 +8308,32 @@
    :in-modern-country-note "France" ;
    :representative-latlong-point (45.333333 3) ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/463795/953347/main-image> .
+
+:dainichi-nyorai-enjoji a :human-figure ;
+   rdfs:label "Dainichi Nyorai (Enjō-ji)" ;
+   :described-by <https://en.wikipedia.org/wiki/Dainichi_Nyorai_(Enj%C5%8D-ji)> ;
+   :earliest-date 1175 ;
+   :latest-date 1176 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Hinoki (Japanese cypress), lacquer, gold leaf, rock-crystal eyes, gilt bronze" ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The seated wooden statue of Dainichi Nyorai at the Shingon temple of Enjō-ji in Nara is the earliest and best-substantiated work by Japanese master sculptor Unkei. An inscription on the pedestal records that he began work on the piece in 1175 and brought it to completion the following year. ... In this image Dainichi is bare-chested, with flowing draperies hanging from the left shoulder; the head is crowned, the arms, wrists, neck, chest, and legs bejewelled; the topknot is high, with long hair resting on the right shoulder.”" ;
+   :representative-latlong-point (34.69583333 135.91527778) ; # Enjō-ji, Nara, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dainichi_Nyorai_Unkei_Enjoji_1.jpg> .
+
+:virgin-montserrat a :group-of-human-figures ;
+   rdfs:label "Virgin of Montserrat" ;
+   :described-by <https://en.wikipedia.org/wiki/Virgin_of_Montserrat> ,
+      <https://www.montserratvisita.com/en/spirituality/our-lady-of-montserrat> ;
+   :earliest-date 1175 ;
+   :latest-date 1200 ;
+   :in-modern-country-note "Spain" ;
+   :material-note "Wood, polychrome" ;
+   :height 0.95 ;
+   :apparent-gender :female , :male ;
+   :note "From Montserrat website: “Artistically, the image imitates a popular model, that of Our Lady in Majesty, with a wholly frontal attitude and Baby Jesus on Her lap in the centre. Both Mother and Child are wearing crowns. The figure of Our Lady stretches out Her right hand, which holds the globe, symbolising the cosmos. Our Lady nearly rests Her left hand on the Child’s shoulder, indicating that this omnipotent king is Her Son. With His right hand, the Child gives a blessing, whilst His left hand holds a pinecone, symbol of fertility and everlasting life.” ... From Wikipedia: “The Romanesque sculpture is crafted in wood from the late 12th century.”" ;
+   :representative-latlong-point (41.59320556 1.83713889) ; # Santa Maria de Montserrat Abbey, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:A_Virgem_de_Mont_Serrat.jpg> .
 
 :bust-of-jayavarman-vii a :human-figure ;
    rdfs:label "Bust of Jayavarman VII" ;
@@ -8105,6 +8420,30 @@
 
 # 1221 https://en.wikipedia.org/wiki/Emperor_Go-Toba
 
+:todaiji-hachiman a :human-figure ;
+   rdfs:label "Tōdai-ji Hachiman" ;
+   :described-by <https://en.wikipedia.org/wiki/T%C5%8Ddai-ji_Hachiman> ;
+   :approximate-date 1201 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Wood and polychromy" ;
+   :height 0.871 ;
+   :apparent-gender :male ;
+   :note "From Wikipedia: “The Tōdai-ji Hachiman is a syncretic Shinto-Buddhist sculpture of the kami Hachiman carved in 1201 by Buddhist sculptor Kaikei. ... Kaikei's sculpture is a solitary image of Hachiman as a monk. ... the deity is seen legs crossed, left hand on the lap, right hand held at chest level, staff in hand. He wears a grey undergarment, ochre robe, and is painted with a tōyama pattern, wisps of reds (shades of lacquer and cinnabar), greens and blues.”" ;
+   :representative-latlong-point (34.68916667 135.83972222) ; # Tōdai-ji, Nara, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Todaiji_Monastery_Hachiman_by_Kaikei_(420).jpg> .
+
+:ryutoki-kofukuji a :human-figure ;
+   rdfs:label "Ryūtōki: Demon with Dragon and Lantern (Kōfuku-ji)" ;
+   :described-by <https://www.nippon.com/en/japan-topics/b10919/> ;
+   :approximate-date 1215 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Hinoki (Japanese cypress), crystal-inlaid eyes, quartz, copper" ;
+   :height 0.778 ;
+   :apparent-gender :male ;
+   :note "From Nippon.com: “While Tentōki (Demon Holding a Lantern Aloft), which forms a pair with this piece, balances a lantern on his shoulder, this sculpture balances his lantern on top of his head, displaying an almost miraculous sense of balance to prevent it from falling. The dragon wrapped around the figure’s neck peeps out from above his shoulder, like a mischievous accomplice. ... An inscription inside the statue reveals that it was created in 1215 by Kōben, the third son of Unkei, the most revered of all Kamakura period Buddhist sculptors.”" ;
+   :representative-latlong-point (34.68325 135.83117) ; # Kōfuku-ji, Nara, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ryutoki_Kofukuji.jpg> .
+
 :river-creek-tennessee-tablet a :group-of-human-figures ;
    rdfs:label "River Creek Tennessee Tablet" ;
    :described-by <https://tnmuseum.org/tn225/artifacts/001> ,
@@ -8129,6 +8468,44 @@
    :art-historical-culture-or-tradition :mississippian ;
    :representative-latlong-point (34.125131 -84.807664) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Etowah_statues_HRoe_2007.jpg> .
+
+:madonna-bordone a :group-of-human-figures ;
+   rdfs:label "Madonna del Bordone" ;
+   :described-by <https://en.wikipedia.org/wiki/Madonna_del_Bordone> ;
+   :approximate-date 1261 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Tempera on panel" ;
+   :height 2.25 ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The Madonna del Bordone (‘The Madonna of the pilgrim's staff’) is a panel painting by the Italian painter Coppo di Marcovaldo, in the church of Santa Maria dei Servi in Siena, Italy. Signed and dated 1261, the work is the only certain attribution to the Florentine painter. ... It portrays the Madonna enthroned with a halo and two small angels on her sides. She is enthroned, and supports the blessing Child, who is holding the Book of the Law in his left hand and has a halo surrounded by a jewelled cross.”" ;
+   :representative-latlong-point (43.315327 11.338174) ; # Santa Maria dei Servi, Siena, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Coppo_di_marcovaldo,_madonna_del_bordone,_siena,_chiesa_dei_servi,_1261_tavola,.jpg> .
+
+:coronation-virgin-santa-maria-maggiore a :group-of-human-figures ;
+   rdfs:label "Coronation of the Virgin, Apse Mosaic, Santa Maria Maggiore" ;
+   :described-by <https://en.wikipedia.org/wiki/Santa_Maria_Maggiore> ,
+      <https://www.visualmuseum.gallery/gallery/coronation-of-the-virgin-closeup/> ;
+   :approximate-date 1295 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Mosaic" ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The apse mosaic, the Coronation of the Virgin, is from 1295, signed by the Franciscan friar, Jacopo Torriti.” ... From Visual Museum website: “The pair are dressed in gold, sitting upon a throne in the heavenlies (stars, sun, and moon against dark blue background). Jesus places crown upon Mary; in his left hand a book. Mary's hands are raised in prayer. Throngs of angels on either side with Peter, Paul, and Francis on the left, John the Baptist, John the Evangelist, and Anthony on the right.”" ;
+   :representative-latlong-point (41.8975 12.49861111) ; # Santa Maria Maggiore, Rome, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jacopo_torriti,_coronation_of_the_virgin,_santa_maria_maggiore,_rome.jpg> .
+
+:life-virgin-cycle-scrovegni a :group-of-human-figures ;
+   rdfs:label "Life of the Virgin Cycle, Scrovegni Chapel" ;
+   :described-by <https://en.wikipedia.org/wiki/Scrovegni_Chapel> ,
+      <https://en.wikipedia.org/wiki/Life_of_the_Virgin> ;
+   :earliest-date 1303 ;
+   :latest-date 1305 ;
+   :in-modern-country-note "Italy" ;
+   :material-note "Fresco" ;
+   :apparent-gender :female , :male ;
+   :note "From Wikipedia: “The church was dedicated to Santa Maria della Carità at the Feast of the Annunciation, 1303, and consecrated in 1305. Much of Giotto's fresco cycle focuses on the life of the Virgin Mary and celebrates her role in human salvation.”" ;
+   :representative-latlong-point (45.41184 11.87952) ; # Scrovegni Chapel, Padua, from Wikipedia
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-11-_-_Marriage_of_the_Virgin.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_Scenes_with_decorative_bands_-_WGA09284.jpg> .
 
 :saint-catherine-karlstejn-castle a :human-figure ;
    rdfs:label "Saint Catherine from Karlštejn Castle" ;
