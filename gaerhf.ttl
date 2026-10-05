@@ -4536,6 +4536,16 @@
    :representative-latlong-point (38.089722 -0.655) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Dama_de_Guardamar,_MARQ.JPG> .
 
+:lady-with-dragon-and-phoenix a :human-figure ;
+   rdfs:label "Lady with dragon and phoenix" ;
+   :described-by <https://zh.wikipedia.org/wiki/%E4%BA%BA%E7%89%A9%E9%BE%99%E5%87%A4%E5%B8%9B%E7%94%BB> ;
+   :earliest-date -400 ;
+   :latest-date -221 ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point(35.3572, 106.2354)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Silk_Painting_of_a_Lady,_Phoenix_and_Dragon.jpg>
+
+
 :kingsteignton-figure a :human-figure ;
    rdfs:label "Kingsteignton Figure" ;
    :described-by <https://www.devonheritage.org/Places/Kingsteignton/TheKingsteigntonIdolbyRichardHarris.htm> ;
