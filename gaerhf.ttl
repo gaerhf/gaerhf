@@ -38,7 +38,7 @@
 
 # properties
 
-:apparent-gender a rdf:roperty ;
+:apparent-gender a rdf:Property ;
    rdfs:label "Apparent gender" .
 
 :described-by a rdf:Property ;
@@ -1979,7 +1979,7 @@
 
 :idol-garrovillas a :human-figure ;
    rdfs:label "So-called Idol of Garrovillas" ;
-   :described-by <https://es.m.wikipedia.org/wiki/Ídolo_de_Garrovillas> ;
+   :described-by <https://es.wikipedia.org/wiki/Ídolo_de_Garrovillas> ;
    :earliest-date -3200 ;
    :latest-date -2200 ;
    :material-note "Stone" ;
@@ -2698,7 +2698,7 @@
 
 :idol-ciudad-rodrigo a :human-figure ;
    rdfs:label "So-called Idol of Ciudad Rodrigo" ;
-   :described-by <https://es.m.wikipedia.org/wiki/Ídolo_de_Ciudad_Rodrigo> ;
+   :described-by <https://es.wikipedia.org/wiki/Ídolo_de_Ciudad_Rodrigo> ;
    :earliest-date -2000 ;
    :latest-date -1500 ;
    :in-modern-country-note "Spain" ;
@@ -2743,7 +2743,7 @@
    :earliest-date -2000 ;
    :latest-date -500 ;
    :note "Very approximate location." ;
-   :in-modern-country-note "Mauretania" ;
+   :in-modern-country-note "Mauritania" ;
    :representative-latlong-point (18.455944 -9.417171) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Homme_muni_d’un_bâton,_et_vaches_à_robe_marquée_du_village_v.72.jpg> .
 
@@ -2896,7 +2896,7 @@
    :note "From Heraklion Archaeological Museum website: “It depicts a young man in high relief against a red ground. The life-size male figure, comprised of three non-joining pieces, is wearing a colourful loincloth and belt, and a majestic crown of waz-lilies and peacock feathers.”";
    :in-modern-country-note "Greece";
    :representative-latlong-point (35.2980 25.16279);
-   :thumbnail-image <https://commons.wikimedia.org/wiki/File:Knossos_—_Prince_of_the_Lilies.jpg> ,
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Knossos_—_Prince_of_the_Lilies.jpg> ,
       <https://commons.wikimedia.org/wiki/File:Wall_painting_of_the_Priest-King_from_Knossos_(North-South_Corridor)_-_Heraklion_AM_(TORSO_cropped).jpg> .
 
 # :bull-leaping-figurine-knossos a :human-figure;
@@ -3833,6 +3833,20 @@
    :representative-latlong-point (38.5 22.5) ; # ll for Thebes, Greece
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Ancient_Collection_MfA_Boston_0198-2.jpg> .
 
+:melqart-statuette-sancti-petri a :human-figure ;
+   rdfs:label "Melqart statuette (Sancti Petri)" ;
+   :described-by <https://ceres.mcu.es/pages/Main?idt=122184&inventary=CE17004&table=FMUS&museum=MCA> ;
+   :earliest-date -675 ;
+   :latest-date -601 ;
+   :apparent-gender :male ;
+   :height 0.365 ;
+   :material-note "Bronze (lost-wax cast)" ;
+   :note "Translated from CER.es: “Bronze statuette representing an upright male figure, standing, striding forward, dressed only in a kilt that covers him to the knee, with an opening at the front. He wears the Osirian crown (Atef, the crown of Upper Egypt flanked by feathers), topped by a circular thickening. … These bronze figurines (Inv. CE17004 to CE17008) appeared in the waters surrounding the islet of Sancti Petri, which has traditionally been interpreted as the site of the temple of Melkart of Gadir.”" ;
+   :in-modern-country-note "Spain" ;
+   :representative-latlong-point (36.3801277403 -6.22002993097) ; # islet of Sancti Petri
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Melkart,_Museo_de_C%C3%A1diz.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Museo_de_C%C3%A1diz_(36111125594).jpg> .
+
 :victory-stele-esarhaddon a :group-of-human-figures ;
    rdfs:label "Victory stele of Esarhaddon" ;
    :described-by <https://en.wikipedia.org/wiki/Victory_stele_of_Esarhaddon> ;
@@ -4607,6 +4621,19 @@
    :note "Specific findspot not known." ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/708743/1696927/main-image> .
 
+:silk-painting-lady-dragon-phoenix a :human-figure ;
+   rdfs:label "Silk painting of a lady with dragon and phoenix" ;
+   :described-by <https://zh.wikipedia.org/wiki/人物龙凤帛画> ;
+   :earliest-date -400 ;
+   :latest-date -221 ;
+   :apparent-gender :female ;
+   :height 0.312 ;
+   :material-note "Ink and white pigment on silk" ;
+   :note "Translated from Chinese Wikipedia: “In the lower part of the painting is a woman standing in profile, her hands pressed together in an attitude of prayer. She faces to the left, her long hair coiled into a hanging bun; she wears a long, wide-sleeved robe with cloud patterns, slender at the waist and bound with a broad white sash, and a long skirt that trails the ground, its hem turned upward.”" ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (28.228 112.939) ; # Changsha; found at Chenjiadashan, SE outskirts
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Silk_Painting_of_a_Lady,_Phoenix_and_Dragon.jpg> .
+
 :hermes-infant-dionysos a :group-of-human-figures ;
    rdfs:label "Hermes with Infant Dionysos" ;
    :described-by <https://en.wikipedia.org/wiki/Hermes_and_the_Infant_Dionysus> ;
@@ -4859,6 +4886,25 @@
    :in-modern-country-note "Russia" ;
    :representative-latlong-point (66.025833 -170.073333) . # Ekven Burial Ground, ~30 km south of Uelen on Cape Dezhnev; coordinates from UNESCO tentative-list dossier
 
+:dotaku-kagawa a :group-of-human-figures ;
+   rdfs:label "Dōtaku bell (reportedly from Kagawa)" ;
+   :described-by <https://colbase.nich.go.jp/collection_items/tnm/J-37433?locale=en> ,
+      <https://www.tnm.jp/modules/r_collection/index.php?controller=dtl&colid=J37433&t=now> ,
+      <https://emuseum.nich.go.jp/detail?langId=ja&webView=&content_base_id=100201&content_part_id=0&content_pict_id=0> ;
+   :earliest-date -200 ;
+   :latest-date -1 ;
+   :apparent-gender :male, :female ;
+   :height 0.427 ;
+   :material-note "Bronze" ;
+   :note "From Tokyo National Museum: “Around 60 of these are decorated with pictorial representations. This dotaku is particularly renowned for its decorativeness and it was the first dotaku to be designated a national treasure. Motifs include men hunting deer and wild boar, for instance, or women pounding a mortar with a pestle. These offer unique insights into life at the time. … Note also how the heads of the human figures are depicted in shapes of circles and triangles. The former shape represents men and the latter women.”" ;
+   :in-modern-country-note "Japan" ;
+   :representative-latlong-point (34.266667 133.95) ; # Kagawa Prefecture (Wikipedia); find-spot only "reportedly Kagawa"
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:J-37433_E0102666.jpg> , # two women pounding a mortar
+      <https://commons.wikimedia.org/wiki/File:J-37433_E0102652.jpg> , # whole bell
+      <https://commons.wikimedia.org/wiki/File:J-37433_E0102670.jpg> , # archer shooting a deer
+      <https://commons.wikimedia.org/wiki/File:J-37433_E0102665.jpg> , # archer, animals
+      <https://commons.wikimedia.org/wiki/File:J-37433_E0102667.jpg> . # figure holding I-shaped tool
+
 :lakshmi-stupa-2-sanchi a :human-figure ;
    rdfs:label "Lakshmi from Stupa 2 at Sanchi" ;
    :described-by <https://en.wikipedia.org/wiki/Sanchi_Stupa_No._2#Early_period_(circa_115_BCE)> ;
@@ -4926,7 +4972,7 @@
    rdfs:label "Subsidiary Bust of the “Oso de Porcuna”" ;
    :described-by <https://es.wikipedia.org/wiki/Oso_de_Porcuna> ;
    :earliest-date -100 ;
-   :latest-date 0 ;
+   :latest-date 1 ;
    :material-note "Limestone" ;
    :note "Summarized from Spanish Wikipedia: free-standing sculpture (79 × 70 × 32 cm) of a seated bear with its left forepaw raised and resting on a human head treated as a herm in the classical sense (a pillar surmounted by a human head. Found at Porcuna in 1926; held at the Museo Arqueológico Nacional, Madrid (MAN inv. 33195). Late Iberian / early Roman-period funerary sculpture." ;
    :in-modern-country-note "Spain" ;
@@ -5054,7 +5100,7 @@
    :earliest-date -200 ;
    :latest-date 100 ;
    :note "The figure has been dated both earlier and later than the range given here." ;
-   :in-modern-country-note "Northen Ireland" ;
+   :in-modern-country-note "Northern Ireland" ;
    :representative-latlong-point (54.3478 -6.6562) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Armagh_St._Patrick%27s_Cathedral_of_the_Church_of_Ireland_North_Aisle_“Tandragee_Man“_2019_09_09_(cropped).jpg> .
 
@@ -5598,6 +5644,20 @@
    :representative-latlong-point (34.73 36.697778) ;
    :thumbnail-image <https://upload.wikimedia.org/wikipedia/en/a/a5/Emesa_helmet.png?20180213011333> .
 
+:head-claudius-nero-rendham a :human-figure ;
+   rdfs:label "Head of Claudius or Nero (Rendham)" ;
+   :described-by <https://www.britishmuseum.org/collection/object/H_1965-1201-1> ,
+      <https://ancientrome.ru/art/artworken/img.htm?id=720> ;
+   :earliest-date 41 ;
+   :latest-date 68 ;
+   :apparent-gender :male ;
+   :height 0.315 ;
+   :material-note "Copper alloy" ;
+   :note "From British Museum (with identification as Nero): “Copper alloy head of the emperor Nero from a life-size statue. The face is heart-shaped, with a strong chin and nose, large, slightly slanting eyes and prominent low-set ears. The hair is combed forward in a thick strands from a flattish crown; it forms a heavy fringe which divides just over the right eye (CSIR I, 8).” CSIR = Corpus Signorum Imperii Romani" ;
+   :in-modern-country-note "United Kingdom" ;
+   :representative-latlong-point (52.229 1.437) ; # Rendham, Suffolk; found in the River Alde, 1907
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Bronze_head_of_the_Emperor_Claudius,_found_at_the_River_Alde_at_Rendham,_near_Saxmundham,_Suffolk,_British_Museum_(16250274110).jpg> .
+
 :couple-from-pompeii a :group-of-human-figures ;
    rdfs:label "Couple from Pompeii" ;
    :described-by <https://en.wikipedia.org/wiki/Portrait_of_Terentius_Neo> ,
@@ -5908,6 +5968,18 @@
 #    :period-note "Gandhara Region (Pakistan)" ;
 #    :earliest-date 300 ;
 #    :latest-date 400 .
+
+:medallion-constantius-galerius-beaurains a :group-of-human-figures ;
+   rdfs:label "Gold medallion of Constantius I and Galerius (Beaurains Treasure)" ;
+   :described-by <https://numismatics.org/collection/1944.100.63131> ,
+      <https://en.wikipedia.org/wiki/Beaurains_Treasure> ;
+   :approximate-date 293 ;
+   :apparent-gender :male ;
+   :material-note "Gold" ;
+   :note "From ANS: “D D N N CONSTANTIO ET MAXIMIANO NOBB CAESS - Busts of Constantius I and Galerius confronted in consular robes; Constantius holds globus, Galerius sceptre in r. (obverse) PRINCIPVM IVVENTVTIS - Two princes sacrificing over altar; behind, military standards (reverse)”" ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (50.2639 2.7894) ; # Beaurains (Wikipedia); hoard found 1922
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Medallion_of_Constantius_and_Galerius.png> .
 
 :female-athletes-casale a :group-of-human-figures ;
    rdfs:label "Female Athletes Mosaic, Villa Romana del Casale" ;
@@ -6476,7 +6548,7 @@
    rdfs:label "Portrait of Cato from Volubulis" ;
    :described-by <https://en.wikipedia.org/wiki/Volubilis#Houses_and_palaces> ;
    :approximate-date 50 ;
-   :in-modern-country-note "Morrocco" ;
+   :in-modern-country-note "Morocco" ;
    :representative-latlong-point (34.071111 -5.553611) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Cato_Volubilis_bronze_bust.jpg> .
 
@@ -7479,6 +7551,23 @@
    :in-modern-country-note "Mongolia" ;
    :representative-latlong-point ( 47.556667 102.831389) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Turkic_Head_of_Koltegin_Statue_(35324303410).jpg> .
+
+:eight-mythological-beings-kohfukuji a :group-of-human-figures ;
+   rdfs:label "The Eight Kinds of Mythological Beings (Kōfuku-ji)" ;
+   :described-by <https://www.kohfukuji.com/english/e010/> ,
+      <https://en.wikipedia.org/wiki/Kōfuku-ji> ;
+   :approximate-date 734 ;
+   :in-modern-country-note "Japan" ;
+   :material-note "Dry lacquer (lacquer-impregnated cloth over a hollow core)" ;
+   :apparent-gender :male, :unclear ;
+   :note "From Kōfuku-ji website: “In this role, Ashura are usually depicted as armored, muscular beings with bright red, scowling faces, tusk-like fangs, and hair that stands on end to symbolize their rage. One of the reasons for the fame of the Kohfukuji Ashura, therefore, is that it does not look the way it ought to. The slender figure is clothed in a flowing, realistic-looking sash and trouser-like skirt, and wears wooden sandals on its feet.”" ;
+   :representative-latlong-point (34.68325 135.83117) ; # Kōfuku-ji, Nara
+   :thumbnail-image <https://www.kohfukuji.com/english/e010/img/section01_pic.jpg> , # Ashura
+      <https://www.kohfukuji.com/english/e010/img/section02_pic.jpg> , # Gobujō
+      <https://www.kohfukuji.com/english/e010/img/section03_pic.jpg> , # Sakara
+      <https://www.kohfukuji.com/english/e010/img/section06_pic.jpg> , # Kendatsuba
+      <https://www.kohfukuji.com/english/e010/img/section08_pic.jpg> ; # Hibakara
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statues_of_Tianlong_babu.jpg> .
 
 :kildalton-cross a :group-of-human-figures ;
    rdfs:label "Kildalton Cross" ;
