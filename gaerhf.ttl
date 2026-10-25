@@ -4548,6 +4548,7 @@
    :described-by <https://en.wikipedia.org/wiki/Euphronios_Krater> , 
       <https://smarthistory.org/euphronios-krater/> ;
    :approximate-date -520 ;
+   :note "From Wikipedia: “The Euphronios Krater stands 45.7 centimetres (18.0 in) in height and has a diameter of 55.1 centimetres (21.7 in). It can hold about 45 litres (9.9 imp gal; 12 US gal). The style of the vase is red-figure pottery, in which figure outlines, details, and the background are painted with an opaque black slip while the figures themselves are left in the color of the unpainted terracotta ceramic clay. / The krater is decorated with two scenes. An episode from the Trojan War is shown on the obverse; this illustration depicts the death of Sarpedon, son of Zeus and Laodamia. The reverse of the krater shows a contemporary scene of Athenian youths from the sixth century BC arming themselves before battle. In the scene of Sarpedon's death, the god Hermes directs the personifications of Sleep (Hypnos) and Death (Thanatos) to carry the fallen away to his homeland for burial. While the subject of Sarpedon's death might normally be depicted as a stylized tableau, the figures in this scene are painted in naturalistic poses and with schematic but accurate anatomy. This style is emblematic of the Pioneer Group of late Archaic painters, of whom Euphronios is considered the most accomplished. / The scene of the anonymous Greek youths on the reverse shares this naturalistic style, using all the Pioneer Group's characteristic techniques of anatomical accuracy, natural poses, foreshortening, and spatial illusion." ;
    :in-modern-country-note "Made in Greece, found in Italy" ;
    :representative-latlong-point (42.007416 12.103943) ; # Cerveteri
    :art-historical-culture-or-tradition :archaic-greece ;
@@ -5169,6 +5170,21 @@
    :in-modern-country-note "Tajikistan" ;
    :representative-latlong-point (37.098889 68.285) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Head_of_Bactrian_ruler_(Satrap),_Temple_of_the_Oxus,_Takht-i-Sangin,_3rd-2nd_century_BC.jpg> .
+
+:ombra-san-gimignano a :human-figure ;
+   rdfs:label "Ombra di San Gimignano (Hinthial)" ;
+   :described-by <https://it.wikipedia.org/wiki/Ombra_di_San_Gimignano> ,
+      <https://artepiu.info/bronzetto-votivo-etrusco-san-gimignano/> ;
+   :earliest-date -300 ;
+   :latest-date -250 ;
+   :apparent-gender :male ;
+   :height 0.646 ;
+   :material-note "Bronze, cast" ;
+   :identifier-note "Inv. SGTC.1 (Museo archeologico, San Gimignano)" ;
+   :note "Translated from Italian Wikipedia: “The Ombra di San Gimignano is an Etruscan votive statuette in bronze, found in the votive deposit of the Torraccia di Chiusi, in the territory of San Gimignano … It belongs to the class of elongated bronzes, of which it is the tallest known example, and for this reason it has been compared to the Ombra della sera of Volterra … The male figure is standing. Under the toga he wears no tunic, so that the right shoulder and arm and much of the chest remain bare … In his right hand he holds a patera ombelicata.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (43.434665 11.063792) ; # Torraccia di Chiusi, San Gimignano (OpenStreetMap); votive deposit, found 2010
+   :thumbnail-image <https://italics.art/wp-content/uploads/2022/01/Hinthial-6_Low-683x1024.jpg> .
 
 :lohanipur-torso a :human-figure ;
    rdfs:label "Lohanipur Torso" ;
@@ -6115,6 +6131,20 @@
    :in-modern-country-note "India" ;
    :representative-latlong-point (26.394639 83.838056) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Kakandi.jpg> .
+
+:saptarishi-tila-female-statue a :human-figure ;
+   rdfs:label "Saptarishi Tila Statue" ;
+   :described-by <https://en.wikipedia.org/wiki/Saptarishi_Tila_statue> ;
+   :earliest-date 1 ;
+   :latest-date 200 ;
+   :apparent-gender :female ;
+   :material-note "Blue schist" ;
+   :identifier-note "Acc. no. F-42 (Government Museum, Mathura)" ;
+   :note "From Wikipedia: “The Saptarishi Tila statue, also called the Kambojika statue, is a statue of a woman found in the Saptarishi mound (‘Saptarishi Tila’) in Mathura. The statue is life-size … The statue wears a sleeved blouse, a full skirt, and a torque and necklace like those of the Kamboj Bodhisattvas. … The statue is an example of the Greco-Buddhist art of Gandhara.”" ;
+   :in-modern-country-note "India" ;
+   :representative-latlong-point (27.4925 77.673611) ; # Mathura; Saptarishi mound, findspot of the Mathura lion capital (Wikipedia gives only 27°36′N 77°39′E)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Female_Statue_Probably_Representing_Kambojika_the_Chief_Queen_of_Mahakshatrapa_Rajula_-_Saptarishi_Mound_-_Circa_1st_Century_CE_-_ACCN_F-42_-_Government_Museum_-_Mathura_2013-02-24_5956.JPG> ,
+      <https://commons.wikimedia.org/wiki/File:Lady_back_Mathura_Museum.jpg> .
 
 :figurine-temple-foret-halatte-belly a :human-figure ;
    rdfs:label "Figurine from Temple of forêt d’Halatte with Prominent Belly" ;
