@@ -296,7 +296,7 @@
    :region :china ;
    :described-by <https://en.wikipedia.org/wiki/Tang_dynasty> .
 
-:tlatico-culture a :culture ;
+:tlatilco-culture a :culture ;
    rdfs:label "Tlatilco" ;
    :region :central-america ;
    :described-by <https://en.wikipedia.org/wiki/Tlatilco_culture> .
@@ -778,6 +778,20 @@
    :representative-latlong-point (43.727778 22.582778) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Magura_-_drawings.jpg> .
 
+:northern-running-figures-red-lily-lagoon a :group-of-human-figures ;
+   rdfs:label "Northern Running Figures, Red Lily Lagoon (Red Lily 32B, Panel 6)" ;
+   :described-by <https://doi.org/10.1016/j.jasrep.2016.11.016> ,
+      <https://researchportalplus.anu.edu.au/en/publications/radiocarbon-age-constraints-for-a-pleistoceneholocene-transition-/> ,
+      <https://www.sci.news/archaeology/radiocarbon-dates-australian-aboriginal-rock-art-04464.html> ;
+   :earliest-date -10000 ;
+   :latest-date -7100 ;
+   :apparent-gender :male ;
+   :material-note "Pigment (red, orange, white, yellow) on sandstone; dated by calcium-oxalate mineral crust overlying the paint" ;
+   :note "From Jones et al. 2017: “NRF styled art predominately depicts human figures. The motifs are usually shown in exaggerated movement, and are typified by elongated s-shaped bodies with legs commonly spread wide, as if running. While female gendered motifs do exist, male gender dominates the human depictions. … The results firmly place the NRF art style in the early Holocene, with a minimum age for the art style of c. 9400 years ago.”" ;
+   :in-modern-country-note "Australia" ;
+   :representative-latlong-point (-12.3978 132.9961) ; # Red Lily Lagoon, c. 5 km NE of Cahills Crossing (Jones et al. 2017); Wikidata Q137212986
+   :thumbnail-image <https://cdn.sci.news/images/2016/12/image_4464-Northern-Running-Figures.jpg> .
+
 # -10000?? https://en.wikipedia.org/wiki/El_Abra
 
 :gilgal-figurine a :human-figure ;
@@ -1081,6 +1095,7 @@
    :described-by <https://www.britishmuseum.org/collection/object/E_2013-2034-4191> ;
    :earliest-date -7500 ;
    :latest-date -4000 ;
+   :note "From British Museum website: “Known as the ‘The Archers Of Tin Aboteka’ this image is 1.8 metres high.”" ;
    :in-modern-country-note "Algeria" ;
    :representative-latlong-point (24.684509 9.693714) ;
    :art-historical-culture-or-tradition :saharan-rock-art ;
@@ -2641,6 +2656,19 @@
    :representative-latlong-point (31.562028 46.177583) ; # ll for Girsu, Iraq
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Gudea_of_Lagash_Girsu.jpg> .
 
+:statue-iddi-ilum a :human-figure ;
+   rdfs:label "Statue of Iddi-Ilum" ;
+   :described-by <https://en.wikipedia.org/wiki/Statue_of_Iddi-Ilum> ;
+   :approximate-date -2090 ;
+   :apparent-gender :male ;
+   :height 0.415 ;
+   :material-note "Soapstone" ;
+   :identifier-note "AO 19486 (Louvre)" ;
+   :note "From Wikipedia: “The soapstone statue depicts a standing figure in a traditional prayer posture with hands clasped against the chest. The figure's head is lost, but his beard is still visible. The beard is sculpted in eight symmetrical braids that are curled at the end. The statue's right arm and elbow are also lost. / The bottom of the robe bears a cuneiform inscription in Akkadian stating the name and position of the figure, and the deity the statue was dedicated to. The goddess has been interpreted as either Ishtar, or a Sumerian equivalent, Inanna. The inscription, engraved in ten columns, reads: ‘Iddi-Ilum, shakkanakku of Mari, has dedicated his statue to Inanna. Whosoever erases this inscription will have his line wiped out by Inanna.’”" ;
+   :in-modern-country-note "Syria" ;
+   :representative-latlong-point (34.551399 40.888473) ; # Royal Palace of Mari (Tell Hariri), courtyard 148; excavated 1936–37 (Wikipedia)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Idi-ilum_Louvre_AO_19486_n01.jpg> .
+
 :bowl-figures-bellapais-vounous a :group-of-human-figures ;
    rdfs:label "Bowl with Figures from Bellapais Vounous" ;
    :described-by <https://www.livescience.com/archaeology/vounous-bowl-a-4-000-year-old-basin-holding-4-miniature-cows-and-18-people-that-was-buried-for-mysterious-reasons-in-a-bronze-age-tomb-in-cyprus> ,
@@ -3150,14 +3178,14 @@
    :note "Findspot unknown." ;
    :thumbnail-image <https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/b034bae1_724a_4131_855b_a3b700668aa8/mid_00030758_001.jpg> .
 
-:tlatico-so-called-acrobat a :human-figure ;
+:tlatilco-so-called-acrobat a :human-figure ;
    rdfs:label "Tlatilco Acrobat" ;
    :described-by <https://en.wikipedia.org/wiki/Tlatilco_acrobat> ;
    :earliest-date -1300 ;
    :latest-date -800 ;
    :in-modern-country-note "Mexico" ;
    :note "From Wikipedia: “The sculpture depicts a man turning his body in an almost perfect circle so that his feet are placed on either side of his head. His hands also curl upward just below his feet. The face of this acrobat is expressive, with a long, hooked nose, almond-shaped eyes, slightly half-open mouth and droopy ears.”" ;
-   :art-historical-culture-or-tradition :tlatico-culture ;
+   :art-historical-culture-or-tradition :tlatilco-culture ;
    :representative-latlong-point (19.5 -99.25) ; # Tlatilco, Mexico
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Acróbata_de_Tlatilco.JPG> .
 
@@ -3497,13 +3525,13 @@
    :representative-latlong-point (-11 166.25) ; # for santa cruz islands
    :thumbnail-image <https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg> .
 
-:tlatico-figurines a :group-of-human-figures ;
+:tlatilco-figurines a :group-of-human-figures ;
    rdfs:label "Tlatilco Figurines" ;
    :described-by <https://en.wikipedia.org/wiki/Tlatilco_culture> ;
    :earliest-date -1000 ;
    :latest-date -800 ;
    :in-modern-country-note "Mexico" ;
-   :art-historical-culture-or-tradition :tlatico-culture ;
+   :art-historical-culture-or-tradition :tlatilco-culture ;
    :representative-latlong-point (19.5 -99.25) ; # Tlatilco
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tlatilco_culture_figurines.jpg> .
 
@@ -3715,6 +3743,21 @@
    :note "From Wikipedia: “Tres Zapotes Monument A (also known as Tres Zapotes Colossal Head 1) was the first colossal head to be found, discovered by accident in the middle of the 19th century, 1 kilometre (0.62 mi) to the north of the modern village of Tres Zapotes. After its discovery it remained half-buried until it was excavated by Matthew Stirling in 1939. … Monument A stands 1.47 metres (4.8 ft) tall; it measures 1.5 metres (4.9 ft) wide by 1.45 metres (4.8 ft) deep, and is estimated to weigh 7.8 tons. The head is sculpted with a simple headdress with a wide band that is otherwise unadorned, and wears rectangular ear ornaments that project forwards onto the cheeks.”" ;
    :representative-latlong-point (18.4700 -95.4431) ; # Tres Zapotes archaeological site, Veracruz
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tres_Zapotes_Monument_A.jpg> .
+
+:olmec-portrait-mask-arroyo-pesquero a :human-figure ;
+   rdfs:label "Olmec Portrait Mask" ;
+   :described-by <https://collections.mfa.org/objects/36451/portrait-mask> ;
+   :earliest-date -900 ;
+   :latest-date -600 ;
+   :apparent-gender :male ;
+   :height 0.216 ;
+   :material-note "Jadeite with black inclusions" ;
+   :identifier-note "Accession no. 1991.968" ;
+   :note "From Museum of Fine Arts, Boston: “This life-sized jadeite mask is the portrait of an important Olmec figure, perhaps that of a ruler. It may have been a symbol of state authority, and perhaps served as a funerary mask tied to a burial bundle. Originally, the mask was green, but it turned gray when put into a fire as part of a ritual. It is one of twenty-seven life-sized masks found in a freshwater spring in the Río Pesquero where it meets the Gulf of Mexico in southern Veracruz. The spring contained hundreds of greenstone artifacts, many of which had been ritually burned prior to depositing in the water.”" ;
+   :in-modern-country-note "Mexico" ;
+   :representative-latlong-point (18.0401 -94.1526) ; # Arroyo (Río) Pesquero, Las Choapas area, Veracruz (MFA: "Object Place")
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jade_Olmec_mask-1991.968-IMG_4984.JPG> ,
+      <https://commons.wikimedia.org/wiki/File:Jade_Olmec_mask-1991.968-IMG_4982-white.jpg> .
 
 # :olmec-standing-figure a :human-figure ;
 #    rdfs:label "Jadeite Standing Figure" ;
@@ -4575,6 +4618,21 @@
    # :art-historical-culture-or-tradition :archaic-greece ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Panorama_of_the_west_pediment_of_the_temple_of_Aphaia_in_the_Glyptothek_Munich_n1.jpg> .
 
+:kore-head-vulci a :human-figure ;
+   rdfs:label "Marble Kore Head from Vulci" ;
+   :described-by <https://archaeologymag.com/2025/12/greek-marble-kore-head-unearthed-in-vulci/> ,
+      <https://www.finestresullarte.info/archeologia/importante-scoperta-a-vulci-testa-di-kore-in-marmo-greco> ,
+      <https://cultura.gov.it/comunicato/28422> ;
+   :earliest-date -500 ;
+   :latest-date -475 ;
+   :apparent-gender :female ;
+   :material-note "Marble, traces of polychromy" ;
+   :note "From Archaeology News Online Magazine: “Stylistic study indicates that the piece belongs to an Attic workshop and dates from the early 5th century BCE. Comparable examples are known from the Athenian Acropolis, making the Vulci kore a striking outlier geographically. The sculpture depicts a young woman with a detailed hairstyle and a very finely carved diadem, and shows traces of original paint, which offer rare evidence of ancient polychromy on marble sculpture.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (42.418889 11.631667) ; # Vulci (Wikidata Q931172); found 2025 by the Vulci Cityscape project (Freiburg/Mainz) at the new temple discovered in 2021, near the Tempio Grande
+   :thumbnail-image <https://archaeologymag.com/wp-content/uploads/marble-kore-head-vulci-2.jpg> ,
+      <https://archaeologymag.com/wp-content/uploads/marble-kore-head-vulci-1.jpg> .
+
 :tomb-diver a :group-of-human-figures ;
    rdfs:label "Tomb of the Diver" ;
    :described-by <https://en.wikipedia.org/wiki/Tomb_of_the_Diver> ;
@@ -5124,6 +5182,22 @@
    :in-modern-country-note "Italy" ;
    :representative-latlong-point (42.0155 11.9627) ; # Pyrgi (Santa Severa), Temple A; Wikidata Q1724661 gives 42.015226 11.963414
    :thumbnail-image <https://www.museoetru.it/files/opera/2019/244702.jpg> .
+
+:boxer-at-rest a :human-figure ;
+   rdfs:label "Boxer at Rest (Terme Boxer)" ;
+   :described-by <https://en.wikipedia.org/wiki/Boxer_at_Rest> ,
+      <https://www.metmuseum.org/perspectives/the-boxer> ;
+   :earliest-date -330 ;
+   :latest-date -50 ;
+   :apparent-gender :male ;
+   :height 1.28 ;
+   :material-note "Bronze with copper inlays" ;
+   :identifier-note "Inv. 1055 (Museo Nazionale Romano – Palazzo Massimo alle Terme)" ;
+   :note "From Wikipedia: “The statue is a masterpiece of Hellenistic athletic professionalism, with a top-heavy over-muscled torso and scarred and bruised face, penis bound by a kynodesme, cauliflower ears, broken nose, Morton's toe and a mouth suggesting broken teeth. The boxer was also depicted as bearded, which would have been a typical characteristic of ancient boxers.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.901111 12.488333) ; # Quirinal Hill, Rome, near the Baths of Constantine (Wikidata Q588204: 41.89843 12.4879); found 1885
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Boxer_of_Quirinal_(Mys_from_Taranto)_-_Lateral_View.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Thermae_boxer_Massimo_Inv1055_n7.jpg> .
 
 :scultpures-tel-abrak a :group-of-human-figures ;
    rdfs:label "Parthian(?) Sculptures from Tel Abrak" ;
@@ -6570,6 +6644,7 @@
    rdfs:label "Seated Buddha from Mathura of 132 CE" ;
    :described-by <https://smarthistory.org/buddha-mathura/> ;
    :date 132 ;
+   :note "From SmartHistory: “Smiling, the Buddha sits cross-legged and rests a closed fist on his left knee. Layers of cloth gathered on his left arm and shoulder fall gracefully down his back, while the curved indentation across his chest and across his calves suggests the lightness of his robe. The Buddha holds his right hand up in abhaya mudra—a gesture of protection and reassurance. Wheels (marked on the palm of his hand and on his feet) and lotuses on his feet announce the Buddha’s divinity. ... / ... The relief panel is framed by two lines of text in Sanskrit. [1] Inscriptions such as these record donors’ gifts for posterity and include the date of the donation. These dates followed the regnal years of the king who was in power at that time. The inscription on the Seated Buddha mentions the dedication of the image during the fourth year of the Kushan dynasty (c. 2nd century B.C.E.—3rd century C.E.) king Kanishka. Although scholars continue to refine the year in which Kanishka ascended the throne, the current consensus suggests that the image would have been dedicated in c. 132 C.E. Seated Buddha is one of only a few Buddha images that has been dated with an inscription to this early period in the common era. Having this frame of reference is invaluable because it helps scholars date stylistically similar images to this period.”" ;
    :in-modern-country-note "India" ;
    :representative-latlong-point (27.4925 77.673611) ;
    :thumbnail-image <https://smarthistory.org/wp-content/uploads/2020/04/No-BG-Kimbell-Buddha-GA-1.jpg> .
@@ -8352,6 +8427,18 @@
    :representative-latlong-point (34.574444 108.214167) ; # Qianling Mausoleum (Wikipedia); Princess Yongtai's tomb is a satellite tomb within the complex
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Court_Ladies_of_the_Tang.jpg> .
 
+:painting-six-kings-qusayr-amra a :group-of-human-figures ;
+   rdfs:label "Painting of the Six Kings" ;
+   :described-by <https://en.wikipedia.org/wiki/Painting_of_the_Six_Kings> ;
+   :earliest-date 710 ;
+   :latest-date 750 ;
+   :apparent-gender :male ;
+   :material-note "Fresco" ;
+   :note "From Wikipedia: “The Painting of the Six Kings is a fresco found on the wall of Qasr Amra, a desert castle of the Umayyad Caliphate located in modern-day Jordan. It depicts six rulers standing in two rows of three. Four of the six have inscriptions in Arabic and Greek identifying them as the Byzantine emperor, King Roderic of Spain, the Sasanian emperor, and the King of Aksum.”" ;
+   :in-modern-country-note "Jordan" ;
+   :representative-latlong-point (31.801935 36.57663) ; # Qasr Amra, in situ (Wikipedia infobox)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Qusayr_Amra_six_kings_DSCF4936.jpg> .
+
 :leshan-giant-buddha a :human-figure ;
    rdfs:label "Leshan Giant Buddha" ;
    :described-by <https://en.wikipedia.org/wiki/Leshan_Giant_Buddha> ;
@@ -8889,6 +8976,21 @@
    :in-modern-country-note "Canada" ;
    :representative-latlong-point (44.615225 -78.04076) ;
    :thumbnail-image <https://www.pc.gc.ca/apps/dfhd/Resources/Images/Image.aspx?id=92664> .
+
+:manichaean-wall-painting-mik-iii-6918 a :group-of-human-figures ;
+   rdfs:label "Fragment of Manichaean Wall Painting ‘MIK III 6918’" ;
+   :described-by <https://en.wikipedia.org/wiki/Manichaean_wall_painting_MIK_III_6918> ;
+   :earliest-date 901 ;
+   :latest-date 1000 ;
+   :apparent-gender :male , :female ;
+   :height 0.88 ;
+   :material-note "Wall painting" ;
+   :identifier-note "MIK III 6918 (Museum für Asiatische Kunst, Berlin)" ;
+   :note "From Wikipedia: “This mural depicts the worship rituals of the ancient Gaochang Uyghur Manichae community. The leftmost portrait is the largest in the entire painting. It should be the bishop of the local church, that is, the ‘Oriental Bishop’ (Mozhak [Bishop] of the East) … He wears a gorgeously decorated high crown, the most special thing is that the headlight behind his head shows a crescent shape, which looks like a crescent moon and sun wheel pattern as a whole. Behind him are many Manichaean elect and lay believers, both men, and women.”" ;
+   :in-modern-country-note "China" ;
+   :representative-latlong-point (42.852778 89.529167) ; # Gaochang (Khocho), Turpan, Xinjiang; found by the German Turfan expeditions
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Manichaean_wall_painting_from_Chotcho.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Fragment_of_a_Turpan_Manichaen_Wall_Painting_(MIK_III_6918).jpg> .
 
 :viking-gaming-piece a :human-figure ;
    rdfs:label "Viking Gaming Piece" ;
@@ -9629,6 +9731,19 @@
    :representative-latlong-point (41.8975 12.49861111) ; # Santa Maria Maggiore, Rome, from Wikipedia
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Jacopo_torriti,_coronation_of_the_virgin,_santa_maria_maggiore,_rome.jpg> .
 
+:strakonice-madonna a :group-of-human-figures ;
+   rdfs:label "Strakonice Madonna" ;
+   :described-by <https://en.wikipedia.org/wiki/Strakonice_Madonna> ;
+   :earliest-date 1300 ;
+   :latest-date 1330 ;
+   :apparent-gender :female , :male ;
+   :height 1.84 ;
+   :material-note "Fir wood; head and hand of the Child limewood; remnants of polychromy" ;
+   :note "From Wikipedia: “It is a fully plastic sculpture made of fir wood, hollowed on the backside, with small remnants of polychromy. … The compositional type of the Madonna with an open cloak is derived from French cathedral sculpture (the cathedral portal in Rheims, 1230-1233), from where it spread through the Rhineland and Germany to central Europe. This connection with cathedral sculpture is the basis for the Strakonice Madonna’s clearly arranged and perfectly balanced composition, for the purity and sophistication of its forms as well as for the refinement and cultivated character of its physical gestures. With the compactness of its mass, simplicity and abstract plasticity, the Strakonice Madonna anticipates a new conception of sculpture in the 14th century.”" ;
+   :in-modern-country-note "Czechia" ;
+   :representative-latlong-point (49.261389 13.9025) ; # Strakonice, Johannite commandery (Wikipedia: "comes from the Johannite Commandry in Strakonice")
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Madona_s_d%C4%9Bckem_Strakonick%C3%A1,_Anonym_-_%C4%8Cechy_(kolem_1300-1320),_N%C3%A1rodn%C3%AD_galerie_v_Praze,_inv._%C4%8D._P_677.jpg> .
+
 :life-virgin-cycle-scrovegni a :group-of-human-figures ;
    rdfs:label "Life of the Virgin Cycle, Scrovegni Chapel" ;
    :described-by <https://en.wikipedia.org/wiki/Scrovegni_Chapel> ,
@@ -9705,6 +9820,18 @@
    :in-modern-country-note "Peru" ;
    :representative-latlong-point (-13.451387 -76.170803 ) ;
    :thumbnail-image <https://collectionapi.metmuseum.org/api/collection/v1/iiif/312640/2085962/main-image> .
+
+:zuccone-donatello a :human-figure ;
+   rdfs:label "Zuccone (Prophet Habakkuk) by Donatello" ;
+   :described-by <https://en.wikipedia.org/wiki/Zuccone> ;
+   :earliest-date 1423 ;
+   :latest-date 1425 ;
+   :apparent-gender :male ;
+   :material-note "Marble" ;
+   :note "From Wikipedia: “It was commissioned for the bell tower of the Cathedral of Florence, Italy and completed between 1423 and 1425. It is also known as the Statue of the Prophet Habakkuk … as many believe it depicts the Old Testament prophet Habakkuk, though Vasari says that it is a portrait (in Biblical garb) of Giovanni di Barduccio Cherichini.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (43.772806 11.255806) ; # Giotto's Campanile, Florence (Wikidata Q1140023), for which it was made; now in the Museo dell'Opera del Duomo
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Zuccone_Donatello_OPA_Florence.jpg> .
 
 :david-donatello a :human-figure ;
    rdfs:label "Bronze David by Donatello" ;
