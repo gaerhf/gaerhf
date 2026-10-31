@@ -1992,9 +1992,10 @@
    :earliest-date -3500 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 73" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “Recovered during an excavation conducted by the Archaeological Superintendence in 2003 in the area of Quartareccia, near the Pieve of Sorano.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “Recovered during an excavation … in 2003 in the area of Quartareccia, near the Pieve of Sorano. It belongs to the Copper Age …”" ;
    :representative-latlong-point (44.329556 9.935286) ; # Pieve di Santo Stefano di Sorano, Filattiera
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_A,_maschile_con_pugnale,_Sorano_VII_(n.73).jpg> .
 
@@ -2004,9 +2005,10 @@
    :earliest-date -3500 ;
    :latest-date -2000 ;
    :apparent-gender :unclear ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 82" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “Discovered in March 2012 ... while uprooting a vineyard in Monti di Licciana, in the area of Castagnolo.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “Discovered in March 2012 … while uprooting a vineyard in Monti di Licciana, in the area of Castagnolo. Copper Age (mid-4th to 3rd millennium BC).”" ;
    :representative-latlong-point (44.244143 10.001929) ; # Via Castagnolo, Monti, Licciana Nardi
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_Venelia_V_(Moriti-Licciana).JPG> .
 
@@ -2016,9 +2018,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 38" ;
    :in-modern-country-note "Italy" ;
-   :note "Adapted from museum: “The body has a rectangular shape and the head is semicircular.”" ;
+   :note "Adapted from the Museo delle Statue Stele Lunigianesi: “Discovered in 1964 … at Nibbiara, between Casola Lunigiana and Vigneta … It belongs to group A and could therefore date to the eneolithic age (between 3400/3300 and 2300/2000 b.C.).”" ;
    :representative-latlong-point (44.21137 10.18469) ; # Vigneta, Casola in Lunigiana (find spot at Nibbiara, between Casola and Vigneta)
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_A,_maschile_con_pugnale,_Casola_n.38.jpg> .
 
@@ -2028,9 +2031,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 17" ;
    :in-modern-country-note "Italy" ;
-   :note "Adapted from museum: “The concave face is U-shaped and the nose and button-shaped eyes are in relief. ... The arms are lightly bent at the elbows and the round breasts are in relief.”" ;
+   :note "Adapted from the Museo delle Statue Stele Lunigianesi: “discovered … around 1910 in the Piana di Monciglioli (Fivizzano, MS) … it therefore probably dates to the Eneolithic Age (between 3400/3300 and 2300/2000 b.C.).”" ;
    :representative-latlong-point (44.21962 10.08442) ; # Moncigoli, Fivizzano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_A,_femminile,_Moncigoli_I_(n.17).jpg> .
 
@@ -2040,9 +2044,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 18" ;
    :in-modern-country-note "Italy" ;
-   :note "Adapted from museum: “The concave face is U-shaped and the rectangular nose is in relief.”" ;
+   :note "Adapted from the Museo delle Statue Stele Lunigianesi: “found in the Piana di Monciglioli in 1910. … It belongs to the Eneolithic Age (between 3400/3300 and 2300/2000).”" ;
    :representative-latlong-point (44.21962 10.08442) ; # Moncigoli, Fivizzano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_A,_femminile,_Moncigoli_II_(n.18).jpg> .
 
@@ -2055,7 +2060,7 @@
    :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 44" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “Under the hands, there is a horizontally placed dagger with a handle featuring a semilunar pommel and a blade inserted in a rectangular sheath.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in the ‘al Monte’ locality (Mulazzo, MS), near the Canossa cemetery, in 1972. It belongs to group B … and dates back to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.28183 9.92718) ; # Canossa, Mulazzo
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_canossa_(mulazzo).JPG> .
 
@@ -2068,7 +2073,7 @@
    :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 32" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The head has a semi-elliptical shape, with the lower part slightly broken, and it is delimited by a ribbon-like circle.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found around 1950 during the clearing works of the forest in Filetto (Villafranca in Lunigiana, MS). It belongs to Group B and dates back to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.301269 9.960711) ; # Filetto, Villafranca in Lunigiana
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_filetto_VIII.JPG> .
 
@@ -2078,9 +2083,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 47" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “It has a quadrangular shape with a lightly raised clavicular band, slightly bent upper limbs at the elbows, and small, close-set, and raised breasts.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in 1957 in the locality of ‘Casa Madonna’ in Filetto (Villafranca in Lunigiana, MS). It belongs to Group B, indicating a dating to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.301269 9.960711) ; # Filetto, Villafranca in Lunigiana
    :thumbnail-image <https://statuestele.org/wp-content/uploads/2015/11/N47_Filetto_X_part_0021.jpg> .
 
@@ -2090,9 +2096,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 58" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The clavicular band is narrow and raised, and the only remaining breast is depicted in relief and has a hemispherical shape.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “discovered in 1981 during agricultural work at Casa Agosti in Malgrate (Villafranca in Lunigiana, MS). It belongs to Group B and can therefore be dated back to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.3145 9.97097) ; # Malgrate, Villafranca in Lunigiana
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_malgrate_VI_(Villafranca_in_Lunigiana).JPG> .
 
@@ -2102,9 +2109,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 37" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “On the chest, vertically positioned, there is a depiction of an axe with a long handle and a rectangular blade.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “unearthed … in 1964 during excavation work … to open the access road to the Sanctuary of Madonna del Soccorso, near Minucciano … It belongs to Group B and can be dated to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.174702 10.206516) ; # Santuario della Madonna del Soccorso, Minucciano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_minucciano_I.JPG> .
 
@@ -2117,7 +2125,7 @@
    :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 40" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “A dagger with an elliptical blade and a semicircular pommel is depicted horizontally below the arms.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found … in 1965 near the Sanctuary of Madonna del Soccorso in Minucciano (LU). … It belongs to Group B and can therefore be dated to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.174702 10.206516) ; # Santuario della Madonna del Soccorso, Minucciano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_Minucciano_II.JPG> .
 
@@ -2127,9 +2135,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
-   :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 42" ;
+   :material-note "Sandstone" ;
+   :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 442" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The face is defined by a narrow, circular band that descends in the upper part to indicate the nose.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in 1968 … at the Sanctuary of Madonna del Soccorso in Minucciano … during the construction of a parking lot. … based on the results of stratigraphic excavation, it has been dated to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.174702 10.206516) ; # Santuario della Madonna del Soccorso, Minucciano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_minucciano_III.JPG> .
 
@@ -2139,9 +2148,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :unclear ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 52" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “It is a head with a neck and traces of the shoulder attachment. The face, in a “U” shape, was partially damaged at the time of its discovery.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “likely found in the Canova area in the Piano di Mocrone (Villafranca in Lunigiana, MS) in 1978 … It belongs to Group B and can therefore be traced back to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.31395 9.96075) ; # Mocrone, Villafranca in Lunigiana
    :thumbnail-image <https://statuestele.org/wp-content/uploads/2015/11/N52_Mocrone_part_002.jpg> .
 
@@ -2150,10 +2160,11 @@
    :described-by <https://statuestele.org/statua-stele/san-cristoforo-di-gordana/?lang=en> ;
    :earliest-date -3400 ;
    :latest-date -2000 ;
-   :apparent-gender :female ;
+   :apparent-gender :likely-female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 31" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The body is rectangular with the upper limbs in relief and slightly bent at the elbows; the hands are depicted with parallel lines.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “Statue, possibly female … found in 1948 … near the village of S. Cristoforo di Gordana (Pontremoli, MS). … it can possibly be attributed to Group B and thus assigned to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.359056 9.864861) ; # San Cristoforo (di Gordana), Pontremoli
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_san_cristoforo_di_gordana_01.JPG> .
 
@@ -2163,9 +2174,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 41" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “A dagger, positioned below the arms, is depicted horizontally. Only the triangular blade and part of the rectangular handle are visible.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “came to light in two stages in 1966-67 during the restoration works of the apse and cemetery of the ancient Pieve di Sorano (Filattiera, MS). It belongs to Group B … and can be dated to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.329556 9.935286) ; # Pieve di Santo Stefano di Sorano, Filattiera
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_sorano_III_(Filattiera).jpg> .
 
@@ -2175,9 +2187,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 49" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “A dagger, depicted beneath the hands in a slightly upward angle, features a wide triangular blade with a central rib and a handle with a semicircular pommel.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in 1975 in the locality of ‘Cavallino’ in Taponecco (Licciana, MS) during road expansion works. It belongs to Group B and can therefore be attributed to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.31361 10.07484) ; # Taponecco, Licciana Nardi
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_taponecco_(licciana)_01.JPG> .
 
@@ -2187,9 +2200,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :female ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 43" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The breasts are protruding and show a hint of nipples. A collar made of overlapping rings occupies the entire neck.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “came to light in 1969 during the works for the arrangement of the cemetery in Treschietto (Bagnone, MS). It belongs to Group B and is dated to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.337778 10.010556) ; # Treschietto, Bagnone
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_treschietto_(Bagnone).JPG> .
 
@@ -2199,9 +2213,10 @@
    :earliest-date -3400 ;
    :latest-date -2000 ;
    :apparent-gender :unclear ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 30" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “Two cup marks, located on the sides of the face, represent the ears or earrings.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “discovered in 1936 … in the area of Groppolungo, between the cemetery of Monti di Licciana and the Taverone River (Licciana Nardi, MS) … It belongs to Group B and can therefore be attributed to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.24864 10.00854) ; # Monti, Licciana Nardi
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_stele_di_Venelia_I_(Moriti-Licciana).JPG> .
 
@@ -2214,7 +2229,7 @@
    :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 59" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “Below the hands, in a horizontal position, a dagger is depicted in slight relief by lowering the background plane.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “brought to light in 1984 during agricultural work in ‘San Martino Basso,’ in the locality of ‘Monti’ (Licciana Nardi, MS). It belongs to Group B and can therefore be attributed to the Eneolithic period (between 3400/3300 and 2300/2000 BC).”" ;
    :representative-latlong-point (44.24864 10.00854) ; # Monti, Licciana Nardi
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_B,_Stele_di_Venelia_II_(Moriti-Licciana).JPG> .
 
@@ -2293,16 +2308,144 @@
    :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:La_statue-menhir_dite_%22La_Dame_de_Saint-Sernin%22.jpg> .
 
-:stone-relief-figure-of-maurels a :human-figure ;
-   rdfs:label "Stone Relief Figure of Maurels" ;
-   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_des_Maurels> ;
+:rouergat-statue-menhir-maurels a :human-figure ;
+   rdfs:label "Statue-menhir des Maurels" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_des_Maurels> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
    :earliest-date -3200 ;
    :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 2.09 ;
    :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1880 by M. Fabre at the place called Les Maurels … It is a male statue, complete … with all the anthropomorphic features (face, arms, hands, legs, feet, shoulder-hooks) and all the male warrior attributes: baldric, ‘the object’, a bow and an arrow.” Now in the Musée Fenaille, Rodez." ;
    :in-modern-country-note "France" ;
-   :representative-latlong-point (43.961082 2.739499) ;
+   :representative-latlong-point (43.961027 2.739362) ; # Les Maurels, Calmels-et-le-Viala, Aveyron (French Wikipedia)
    :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
-   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statua_stele_di_figura_maschile_da_les_maurels,_3100-2900_ac._(musée_fenaille,_rodez)_01.jpg> .
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_des_Maurels.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Statua_stele_di_figura_maschile_da_les_maurels,_3100-2900_ac._(mus%C3%A9e_fenaille,_rodez)_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Statua_stele_di_figura_maschile_da_les_maurels,_3100-2900_ac._(mus%C3%A9e_fenaille,_rodez)_02.jpg> .
+
+:rouergat-statue-menhir-la-prade a :human-figure ;
+   rdfs:label "Statue-menhir de la Prade" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_la_Prade> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 0.49 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1900 near the hamlet of La Prade. It is the upper fragment of a larger statue. … Originally it is a male statue with a face, both arms and hands, a baldric and ‘the object’. At a second stage … ‘the object’ was erased and the right strap of the baldric was modified to represent a three-strand necklace …” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.952463 2.602133) ; # La Prade, Coupiac, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue-menhir_de_La_Prade_au_Mus%C3%A9e_Fenaille_(inv._938.12.2).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_de_Coupiac.jpg> .
+
+:rouergat-statue-menhir-la-verriere a :human-figure ;
+   rdfs:label "Statue-menhir de la Verrière" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_la_Verri%C3%A8re> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 0.99 ;
+   :material-note "Sandstone (Triassic)" ;
+   :note "Translated from French Wikipedia: “discovered in 1925 by M. Arnal near the farm of la Verrière … It is a male statue, extremely stylised, belonging to the group of ‘heretics’ because it does not match the traditional Rouergat canon.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.852197 3.003644) ; # La Verrière, Montagnol, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_de_La_Verri%C3%A8re.jpg> .
+
+:rouergat-statue-menhir-nicoules a :human-figure ;
+   rdfs:label "Statue-menhir de Nicoules" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_Nicoules> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 1.31 ;
+   :material-note "Schist" ;
+   :note "Translated from French Wikipedia: “discovered by M. Matet in 1976 at the place called Nicoules on the south-east slopes of the Puech de Roqueferral. … It is a male statue. It has all the anthropomorphic features: face (nose, eyes, tattoos), arms, hands, feet and toes.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.767071 2.67062) ; # Nicoules, Saint-Sever-du-Moustier, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_de_Saint-Sever-du-Moustier.jpg> .
+
+:rouergat-statue-menhir-la-raffinie a :human-figure ;
+   rdfs:label "Statue-menhir de La Raffinié" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_La_Raffini%C3%A9> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :female ;
+   :height 0.55 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “only the upper part remains, which is blackened because it served as a hearth stone in a fireplace before being discovered by Joseph Alvernhe in 1880 … It is a female statue. … On the front, it has a five-strand necklace and breasts.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.939444 2.62) ; # Martrin, Aveyron (French Wikipedia, commune); exact findspot not given
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_de_Martrin_recto.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Rodez_-_Mus%C3%A9e_Fenaille-_Statue-menhir_de_Martrin_verso.jpg> .
+
+:rouergat-statue-menhir-cenomes a :human-figure ;
+   rdfs:label "Statue-menhir de Cénomes" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_C%C3%A9nomes> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 0.72 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1940 by Dr Brunel in the Nuéjouls stream. … the upper fragment of a larger statue that was broken. … The statue is decorated only with an engraved representation of ‘the object’, so it is a male statue.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.80248 3.01902) ; # Nuéjouls stream, Cénomes, Montagnol, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_Menhir_de_C%C3%A9nomes.jpg> . # photo of the in-situ copy, not the original
+
+:rouergat-statue-menhir-saint-leonce a :human-figure ;
+   rdfs:label "Statue-menhir de Saint-Léonce" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_Saint-L%C3%A9once> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male ;
+   :height 0.9 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1937 by M. Bernat in the hamlet of Saint-Léonce. … The statue is practically complete: the head and left shoulder are missing. It is a male statue.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.857799 2.672762) ; # Saint-Léonce, Combret, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_Menhir_de_Sainte_L%C3%A9once.jpg> . # photo of the in-situ copy, not the original
+
+:rouergat-statue-menhir-tauriac a :human-figure ;
+   rdfs:label "Statue-menhir de Tauriac" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_Tauriac> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :female ;
+   :height 0.99 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1940 by Dr Brunel near Tauriac. … the upper fragment of a larger statue. … It is a female statue. Its particularly stylised carving led Jean Arnal to class it as ‘heretical’.” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.784511 3.033115) ; # Tauriac-de-Camarès, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Statue_Menhir_de_Tauriac.jpg> . # photo of the in-situ copy, not the original
+
+:rouergat-statue-menhir-borie-des-paulets a :human-figure ;
+   rdfs:label "Statue-menhir de la Borie des Paulets" ;
+   :described-by <https://fr.wikipedia.org/wiki/Statue-menhir_de_la_Borie_des_Paulets> ,
+      <https://fr.wikipedia.org/wiki/Statues-menhirs_du_groupe_rouergat> ;
+   :earliest-date -3200 ;
+   :latest-date -2800 ;
+   :apparent-gender :male , :female ;
+   :height 1.43 ;
+   :material-note "Sandstone" ;
+   :note "Translated from French Wikipedia: “discovered in 1948 by M. Bru, near the farm of la Borie des Paulets … At a first stage it was a male statue-menhir … At a second stage it was feminised by the engraving of breasts … a four-strand necklace, the erasing of ‘the object’ …” Now in the Musée Fenaille, Rodez." ;
+   :in-modern-country-note "France" ;
+   :representative-latlong-point (43.974672 2.625785) ; # La Borie des Paulets, Brasc, Aveyron (French Wikipedia)
+   :art-historical-culture-or-tradition :european-neolithic-standing-stones ;
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Brasc_paulets_02.jpg> . # photo of the in-situ copy, not the original
 
 :thinite-female-figurine a :human-figure ;
    rdfs:label "Thinite Female Figurine" ;
@@ -2474,6 +2617,142 @@
    :representative-latlong-point (26.177870 56.217970) ;
    :thumbnail-image <https://www.megalithic.co.uk/a558/a312/gallery/Eastern_Europe/Romania/Tawi_petroglyphs_IMG_5520_.jpg> .
 
+:arco-statue-stele-i a :human-figure ;
+   rdfs:label "Arco I Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae#Arco_I> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :male ;
+   :height 2.15 ;
+   :material-note "Limestone (local stone)" ;
+   :note "From Wikipedia: “Arco I, discovered in 1989, is 2.15 meter high limestone stela. It depicts a heavily armed, apparently male figure with seven daggers, three axes, three halberds, and an ornamental necklace.” Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_I,_Statua_stele_maschile_in_calcarenite_calcirudite,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_I,_Statua_stele_maschile_in_calcarenite_calcirudite,_MAG,_retro.jpg> .
+
+:arco-statue-stele-ii a :human-figure ;
+   rdfs:label "Arco II Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :male ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_II,_Statua_stele_maschile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_II,_Statua_stele_maschile_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-iii a :human-figure ;
+   rdfs:label "Arco III Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :female ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_III,_Statua_stele_femminile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_III,_Statua_stele_femminile_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-iv a :human-figure ;
+   rdfs:label "Arco IV Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :female ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_IV,_Statua_stele_femminile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_IV,_Statua_stele_femminile_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-v a :human-figure ;
+   rdfs:label "Arco V Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :female ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_V,_Statua_stele_femminile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_V,_Statua_stele_femminile_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-vi a :human-figure ;
+   rdfs:label "Arco VI Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :unclear ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.” The group includes “a figure lacking distinctive features, of small size, which probably represents a non-adult subject.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_VI,_Statua_stele_asessuata_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_VI,_Statua_stele_asessuata_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-vii a :human-figure ;
+   rdfs:label "Arco VII Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :female ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_VII,_Statua_stele_femminile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_VII,_Statua_stele_femminile_in_marmo,_MAG,_retro.jpg> .
+
+:arco-statue-stele-viii a :human-figure ;
+   rdfs:label "Arco VIII Statue-Stele" ;
+   :described-by <https://en.wikipedia.org/wiki/Arco_stelae> ,
+      <https://www.ufficiostampa.provincia.tn.it/content/view/pdf/279560> ;
+   :earliest-date -3000 ;
+   :latest-date -2500 ;
+   :apparent-gender :male ;
+   :material-note "Marble (Lasa, Val Venosta)" ;
+   :note "Translated from Provincia autonoma di Trento press release (2025): “Eight of them were discovered at Arco between 1989 and 1990 during excavations for the construction of the new hospital. … triangular daggers … allow the stele statues to be dated to the full Copper Age, in the first half of the third millennium BC.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.9196663 10.8753987) ; # Ospedale di Arco, Viale dei Capitelli (OpenStreetMap); findspot given only as the site of the new hospital, 1989–90
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Arco_VIII,_Statua_stele_maschile_in_marmo,_MAG,_fronte.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Arco_VIII,_Statua_stele_maschile_in_marmo,_MAG,_retro.jpg> .
+
+:saint-martin-de-corleans-stelae a :group-of-human-figures ;
+   rdfs:label "Anthropomorphic Stelae of Saint-Martin-de-Corléans, Aosta" ;
+   :described-by <https://en.wikipedia.org/wiki/Saint-Martin-de-Corl%C3%A9ans_Megalithic_Area> ,
+      <https://it.wikipedia.org/wiki/MegaMuseo> ;
+   :earliest-date -3000 ;
+   :latest-date -2200 ;
+   :apparent-gender :unclear ;
+   :material-note "Stone" ;
+   :note "Translated from Italian Wikipedia: “… oriented alignments of wooden posts … and of anthropomorphic stelae, dolmen and cist burials. … The site took on a funerary function only in the last centuries of the 3rd millennium BC … with monumental tombs of various types, some of which were built reusing the stelae. At the beginning of the Bronze Age, around 2200 BC … the site progressively lost its cultic function …”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (45.7354 7.2975) ; # Saint-Martin-de-Corléans Megalithic Area, Aosta (Wikipedia)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Saint-Martin-de-Corl%C3%A9ans_27082016-018_(27103950849).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Saint-Martin-de-Corl%C3%A9ans_27082016-019_(38165134554).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Saint-Martin-de-Corl%C3%A9ans_27082016-020_(25009270058).jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc19.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc20_stele_3.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc22_dett_stele.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc23_steli.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc24_sala_delle_steli.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc25_stele.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc26_stele.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:St-Martin-de-Corl%C3%A9ans_2018_abc27_stele.jpg> .
+
 :skara-brae-buddo a :human-figure ;
    rdfs:label "Skara Brae Buddo" ;
    :described-by <https://www.stromnessmuseum.org.uk/collections/objects/axxx> ,
@@ -2497,6 +2776,28 @@
    :in-modern-country-note "Iraq" ;
    :representative-latlong-point (33.484167 44.728333 ) ;
    :thumbnail-image <https://smarthistory.org/wp-content/uploads/2023/07/Votive-figs4-1.jpg> .
+
+:petit-chasseur-stelae a :group-of-human-figures ;
+   rdfs:label "Anthropomorphic Stelae of Le Petit-Chasseur, Sion" ;
+   :described-by <https://en.wikipedia.org/wiki/Le_Petit-Chasseur> ,
+      <https://fr.wikipedia.org/wiki/Petit-Chasseur> ;
+   :earliest-date -2900 ;
+   :latest-date -2200 ;
+   :apparent-gender :male , :unclear ;
+   :material-note "Stone" ;
+   :note "From Wikipedia: “Discovered in 1960 or 1961, it consists of three dolmens, dated to between 2900 and 2200 BC. … The largest of the stones assumed to be a male figure wearing geometrically decorated clothes with a sun-like motif around his face is about two tonnes.” Translated from French Wikipedia: “… the finds from the excavations, mainly anthropomorphic stelae … Most of the tombs were built with material from earlier, recut Neolithic funerary stelae.”" ;
+   :in-modern-country-note "Switzerland" ;
+   :representative-latlong-point (46.2318 7.3514) ; # Le Petit-Chasseur, Sion (Wikipedia)
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Anthropomorphic_stele_no_1,_Sion,_Petit-Chasseur_necropolis_08.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Anthropomorphic_stele_no_2,_Sion,_Petit-Chasseur_necropolis_15.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Anthropomorphic_stele_no_25,_Sion,_Petit-Chasseur_necropolis_13.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Anthropomorphic_stele_no_5,_Sion,_Petit-Chasseur_necropolis_09.JPG> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_1.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Steles_of_the_Mus%C3%A9e_d'Histoire_du_Valais_07.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stone_rubbing_of_anthropomorphic_stele_no_10,_Sion,_Petit-Chasseur_necropolis_14.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stone_rubbing_of_anthropomorphic_stele_no_15,_Sion,_Petit-Chasseur-_necropolis_10.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stone_rubbing_of_anthropomorphic_stele_no_18,_Sion,_Petit-Chasseur-_necropolis_11.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stone_rubbing_of_anthropomorphic_stele_no_20,_Sion,_Petit-Chasseur_necropolis_12.jpg> .
 
 # -2800 - -2300 https://en.wikipedia.org/wiki/Jiroft_culture#/media/File:Chloritgefäße_aus_Iran,_Dschiroft,_2800-2300_v.C._(2).jpg
 
@@ -3340,6 +3641,34 @@
    :note "From Wikipedia: “solar deities (sun-heads), disguised personages, archers with wolf masks, worshippers, armed warriors”" ;
    :representative-latlong-point (43.803333 75.535000) ;
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tamgaly_Sacred_Site.JPG> .
+
+:hakkari-stelae a :group-of-human-figures ;
+   rdfs:label "Hakkari Stelae" ;
+   :described-by <https://en.wikipedia.org/wiki/Kurgan_stelae#Hakkari_Stelae> ;
+   :earliest-date -1500 ;
+   :latest-date -1000 ;
+   :apparent-gender :male , :female ;
+   :height 3.1 ;
+   :material-note "Stone" ;
+   :note "From Wikipedia: “Thirteen stone stelae … were found in 1998 in their original location at the centre of Hakkâri … and are now on display in the Van Museum. The stelae were carved on upright flagstone-like slabs measuring between 0.7 m to 3.10 m in height. … Eleven of the stelae depict naked warriors with daggers, spears, and axes … Two stelae contain female figures without arms. … They date from the 15th to the 11th century BC …”" ;
+   :in-modern-country-note "Turkey" ;
+   :representative-latlong-point (37.577 43.739) ; # Hakkâri city (Wikipedia); findspot at the city centre
+   :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_donna_00.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_a_cappuccio,_cinturone,_borsa,_pugnale,_ascia_e_lancia.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_cinturone,_pugnale,_ascia,_lancia_e_bambino.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_pugnale,_ascia_e_lingotti_di_metallo.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_cinturone,_pugnale,_lancia,_lingotti,_coltello_a_serramanico_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_cinturone,_pugnale,_bastoni,_accetta,_lingotto,_tenda,_capre_di_montagna.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_cinturone,_pugnale,_lancia,_accetta,_ascia,_lingotto,_bambino_e_capra_di_montagna.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo_tipo_keffiyah,_cinturone,_pugnale,_lancia,_bastone,_ascia,_bambino,_capra_di_montagna_e_un_nemico_sconfitto_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_cappello,_cinturone,_pugnale,_lancia,_bastone,_ascia,_bambino,_capre_di_montagna_e_un_cervo_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_cappello,_cinturone,_pugnale,_lancia,_bastone,_ascia,_bastone_ricurvo,_lingotto,_bambino_e_anumali_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo,_cinturone,_pugnale,_lancia,_accetta,_lingotto,_tenda,_figurette_umane_e_capra_di_montagna.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Stele_hakkari,_1500_ac_ca.,_figura_di_guerriero_con_copricapo,_cinturone,_pugnale,_lancia,_bastone,_mazza,_accetta,_donna_con_oranti,_cavaliere,_pantera_contro_serpente_01.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Hakkari_Stelae1.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Hakkari_Stelae2.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Hakkari_Stelae3.jpg> ,
+      <https://commons.wikimedia.org/wiki/File:Hakkari_Stelae4.jpg> .
 
 :gold-mummy-mask-louvre-n2731 a :human-figure ;
    rdfs:label "Gold Mummy Mask, Louvre N 2731" ;
@@ -4274,7 +4603,7 @@
       <https://www.hittitemonuments.com/arslantas2/arslan-tas23.jpg> .
 
 :lunigiana-statue-stele-filetto-ii-bocconi a :human-figure ;
-   rdfs:label "Filetto II Statue-Stele (“Bocconi”)" ;
+   rdfs:label "Filetto II Statue-Stele (‘Bocconi’)" ;
    :described-by <https://statuestele.org/statua-stele/filetto-ii-calco-da-toccare/?lang=en> ,
       <https://lexlep.univie.ac.at/wiki/MS%C2%B72_Villafranca_in_Lunigiana> ;
    :earliest-date -800 ;
@@ -4284,7 +4613,7 @@
    :height 1.29 ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 15" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The left hand holds an axe with a quadrangular blade and a slightly curved long handle. Two javelins rest on the right hand.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “recovered around 1870 in the Selva di Filetto (Villafranca in Lunigiana, MS). It belongs to Group C and can be dated to the Iron Age (around the 8th-6th century BCE). … It is currently preserved in the portico of Palazzo Bocconi in Pontremoli, while casts can be found at the Museum of Pontremoli …”" ;
    :representative-latlong-point (44.301844 9.960806) ; # Filetto; coordinates from Lexicon Leponticum MS·2
    :thumbnail-image <https://statuestele.org/wp-content/uploads/2015/11/N15_Filetto_II_002.jpg> .
 
@@ -4294,9 +4623,10 @@
    :earliest-date -800 ;
    :latest-date -500 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 54" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The face, barely visible and in a concave shape, forms a “U.” ... On the chest, an axe with a square blade can be glimpsed.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in the Torsana di Soliera locality (Fivizzano, MS) in 1979. It belongs to Group C and dates back to the Iron Age, between the 8th and 6th centuries BC.”" ;
    :representative-latlong-point (44.20891 10.07) ; # Soliera Apuana, Fivizzano
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_C,_stele_di_soliera_(fivizzano)_01.JPG> .
 
@@ -4365,6 +4695,126 @@
    :in-modern-country-note "Germany" ;
    :representative-latlong-point ( 54.024095 13.296299 ) ;
    :thumbnail-image <https://archaeology.org/wp-content/uploads/2022/08/SO22-Artifact-Germany-Bronze-Figurine.jpg> .
+
+:daunian-stele-m065 a :human-figure ;
+   rdfs:label "Daunian Stele M065" ;
+   :described-by <https://dig.ucla.edu/daunia/node/512> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :male ;
+   :height 0.9 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 0945-9; Norman M065; Nava 1980a no. 0736" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Hunting, Joust”; “hare on hind legs between jousters … deer hunt on back.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/M65.jpg> .
+
+:daunian-stele-m067 a :human-figure ;
+   rdfs:label "Daunian Stele M067 (‘Rizzoli’ stele)" ;
+   :described-by <https://dig.ucla.edu/daunia/node/515> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :male ;
+   :height 1.15 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 0972-974; Norman M067; Nava 1980a no. 0748" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): “The ‘Rizzoli’ stele”; scenes “Weaving, Joust, Procession, Mythological, Pastoral, Martial, Production.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/M67.jpg> .
+
+:daunian-stele-m145 a :human-figure ;
+   rdfs:label "Daunian Stele M145" ;
+   :described-by <https://dig.ucla.edu/daunia/node/1747> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :male ;
+   :height 0.93 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia; Norman M145" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scene “Hunting”; “from clandestine excavation between Foggia & Manfredonia.” Returned to Manfredonia from Padova in 2014." ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy; findspot only “between Foggia & Manfredonia”
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/M145.jpg> .
+
+:daunian-stele-f133 a :human-figure ;
+   rdfs:label "Daunian Stele F133" ;
+   :described-by <https://dig.ucla.edu/daunia/node/427> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :female ;
+   :height 1.13 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 0235; Norman F133; Nava 1980a no. 0222" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Female couple, Procession.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/F133.jpg> .
+
+:daunian-stele-f297 a :human-figure ;
+   rdfs:label "Daunian Stele F297" ;
+   :described-by <https://dig.ucla.edu/daunia/node/471> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :female ;
+   :height 0.95 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 0699-700, 891; Norman F297; Nava 1980a nos. 0585, 0688" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Weaving, Procession, Female couple.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/F297.jpg> .
+
+:daunian-stele-f298 a :human-figure ;
+   rdfs:label "Daunian Stele F298" ;
+   :described-by <https://dig.ucla.edu/daunia/node/472> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :female ;
+   :height 0.8 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 0701-0709; Norman F298; Nava 1980a no. 0586" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Ritual / cultic, Tripod cauldron, Pastoral.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/F298.jpg> .
+
+:daunian-stele-f459 a :human-figure ;
+   rdfs:label "Daunian Stele F459" ;
+   :described-by <https://dig.ucla.edu/daunia/node/549> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :female ;
+   :height 0.99 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 1207, 1395; Norman F459; Nava 1980a no. 0949" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Procession, Farewell.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/F459.jpg> .
+
+:daunian-stele-f540 a :human-figure ;
+   rdfs:label "Daunian Stele F540" ;
+   :described-by <https://dig.ucla.edu/daunia/node/577> ,
+      <https://en.wikipedia.org/wiki/Daunian_stele> ;
+   :earliest-date -725 ;
+   :latest-date -500 ;
+   :apparent-gender :female ;
+   :height 0.59 ;
+   :material-note "Limestone" ;
+   :identifier-note "Museo Nazionale Archeologico di Manfredonia, Inv. 1430; Norman F540; Nava 1980a no. 1114" ;
+   :note "From Wikipedia: “Daunian stelae were made from the end of the 8th century BC to the 6th century BC.” From the People of Ancient Daunia stelae database (Norman 2024): scenes “Weaving, Procession.”" ;
+   :in-modern-country-note "Italy" ;
+   :representative-latlong-point (41.606944 15.895833) ; # Siponto (Wikipedia), proxy: most Manfredonia stelae come from the Siponto plain; exact findspot unknown
+   :thumbnail-image <https://dig.ucla.edu/daunia/sites/default/files/styles/max_650x650/public/2024-06/F540.jpg> .
 
 :figurine-xanab-chak a :human-figure ;
    rdfs:label "Figurine from Xanab Chak" ;
@@ -4639,10 +5089,11 @@
    :earliest-date -600 ;
    :latest-date -500 ;
    :apparent-gender :male ;
+   :material-note "Sandstone" ;
    :height 0.94 ;
    :identifier-note "Museo delle Statue Stele Lunigianesi Nr. 48" ;
    :in-modern-country-note "Italy" ;
-   :note "From museum: “The face is depicted in a rather realistic manner with raised eyes and eyebrows, and a small incised line represents the mouth.”" ;
+   :note "From the Museo delle Statue Stele Lunigianesi: “found in 1975 in the Belvedere ‘ai falò’ area (Aulla, MS) while cultivating a field. It belongs to group C and is dated to the 6th century BC, based on the presence of an inscription.”" ;
    :representative-latlong-point (44.233875 10.050622) ; # Bigliolo, Aulla; coordinates from Lexicon Leponticum MS·1
    :wikimedia-commons-image-page <https://commons.wikimedia.org/wiki/File:Tipo_C,_stele_di_bigliolo_(aulla)_00.JPG> .
 
